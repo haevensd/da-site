@@ -71,7 +71,7 @@
   .dd_container {
     padding-bottom: 367px;
   }
-  @media (max-width: 500px) {
+  @media (max-width: 800px) {
     .dd_container {
       padding-bottom: 567px;
     }
