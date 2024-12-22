@@ -68,11 +68,11 @@
     }
   }
 
-  .dd-container {
+  .dd_container {
     padding-bottom: 367px;
   }
-  @media (max-width: 767px) {
-    .dd-container {
+  @media (max-width: 500px) {
+    .dd_container {
       padding-bottom: 567px;
     }
   }
