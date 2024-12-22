@@ -45,7 +45,7 @@ export default function Home() {
               <h2>Join the Journey to Greatness</h2>
               <button className={styles.getInTouchBtn}>
                 <a target="_blank" href="https://www.messenger.com/t/1977363389210514/?messaging_source=source%3Apages%3Amessage_shortlink&source_id=1441792&recurring_notification=0">
-                  <p>Get in touch</p>
+                  <p style={{padding: '20px'}}>Get in touch</p>
                 </a>
               </button>
             </div>
@@ -78,7 +78,7 @@ export default function Home() {
               <h2>Join the Journey to Greatness</h2>
               <button className={styles.getInTouchBtn}>
                 <a target="_blank" href="https://www.messenger.com/t/1977363389210514/?messaging_source=source%3Apages%3Amessage_shortlink&source_id=1441792&recurring_notification=0">
-                  <p>Get in touch</p>
+                  <p style={{padding: '20px'}}>Get in touch</p>
                 </a>
               </button>
             </div>
