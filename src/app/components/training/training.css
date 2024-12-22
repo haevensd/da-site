@@ -1,0 +1,66 @@
+.training-section {
+    text-align: center;
+    padding: 100px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 25px;
+  }
+  
+  .training-section h2 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    color: black;
+    font-family: 'STONE HARBOUR';
+  }
+  
+  .training-section p {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 14px;
+  }
+  
+  .video-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .video-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: calc(33.333% - 20px); /* Adjust width to fit 3 videos per row with gap */
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease;
+  }
+  
+  .video-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .video-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .video-item p {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .video-item {
+      width: 100%; /* Stack vertically on mobile */
+      margin-bottom: 20px;
+    }
+  
+    .video-grid {
+      gap: 10px;
+    }
+  }
+  

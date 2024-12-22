@@ -1,0 +1,197 @@
+.hexagon {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 590px;
+  max-width: 800px;
+  margin: 30px auto;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+
+.hexagon.loaded {
+  opacity: 1;
+}
+
+.hexagon-item {
+  position: absolute;
+  width: 50%; /* Each item takes up half of the row */
+  padding-bottom: 43.3%; /* Adjust for the height of an equilateral triangle */
+  background-size: cover;
+  background-position: center;
+  overflow: visible; /* Allow triangles to extend beyond their boundaries */
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%); /* Default upright triangle */
+}
+
+.hexagon-item:nth-child(2n) {
+  clip-path: polygon(50% 100%, 0% 0%, 100% 0%); /* Inverted triangle */
+}
+.hexagon-item:nth-child(2n) .hexagon-description {
+  position: absolute;
+  top: 20%;
+  clip-path: polygon(50% 100%, 0% 0%, 100% 0%); /* Inverted triangle */
+}
+
+.hexagon-item:hover {
+  transform: scale(1.15);
+  z-index: 10;
+}
+
+/* Specific positions for each triangle */
+.hexagon-item:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+.hexagon-item:nth-child(1)  .hexagon-description {
+  position: absolute;
+  top: 70%;
+}
+
+
+.hexagon-item:nth-child(2) {
+  top: 0;
+  left: 25%;
+}
+
+.hexagon-item:nth-child(3) {
+  top: 0;
+  left: 50%;
+}
+
+.hexagon-item:nth-child(3)  .hexagon-description {
+  position: absolute;
+  top: 70%;
+}
+
+.hexagon-item:nth-child(4) {
+  top: 50%;
+  left: 0;
+}
+
+.hexagon-item:nth-child(5) {
+  top: 50%;
+  left: 25%;
+  transform: rotate(180deg);
+  clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+}
+
+.hexagon-item:nth-child(4)  .hexagon-description {
+  position: absolute;
+  top: 20%;
+}
+
+.hexagon-item:nth-child(6) {
+  top: 50%;
+  left: 50%;
+}
+
+.hexagon-item:nth-child(6)  .hexagon-description {
+  position: absolute;
+  top: 40%;
+}
+
+/* Text inside the triangles */
+.hexagon-description {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 2;
+  min-width: 200px;
+}
+.hexagon-item:nth-child(5) .hexagon-description {
+  transform: translate(-50%, 50%) rotate(180deg);
+
+}
+.hexagon-item:hover .hexagon-description {
+  opacity: 1;
+}
+
+.hexagon-description a {
+  display: block;
+  margin-top: 10px;
+  background-color: #f15a23;
+  padding: 8px 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hexagon-description a:hover {
+  background-color: #d04e1f;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 767px) {
+  .hexagon {
+    /* min-height: 2000px; */
+    height: 473px;
+  }
+  .hexagon-item {
+    width: 66.66666666666667%; /* Full width for stacking on mobile */
+    padding-bottom: 42.8%;
+  }
+
+  .hexagon-item:nth-child(2n) {
+    clip-path: polygon(50% 100%, 0% 0%, 100% 0%); /* Ensure inverted on mobile */
+  }
+  .hexagon-item:nth-child(1) {
+    top: 0;
+    left: 0;
+  }
+  .hexagon-item:nth-child(1)  .hexagon-description {
+    position: absolute;
+    top: 70%;
+  }
+  
+  
+  .hexagon-item:nth-child(2) {
+    top: 0;
+    left: 33.33333333333333%;
+  }
+  
+  .hexagon-item:nth-child(3) {
+    top: 33.33333333333333%;
+    left: 33.33333333333333%;
+  }
+  
+  .hexagon-item:nth-child(3)  .hexagon-description {
+    top: 33.33333333333333%;
+    left: 0;
+  }
+  
+  .hexagon-item:nth-child(4) {
+    top: 66.66666666666667%;
+    left: 33.33333333333333%;
+  }
+  
+  .hexagon-item:nth-child(5) {
+    top: 66.66666666666667%;
+    left: 0%;
+    transform: rotate(180deg);
+    clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+  }
+  
+  .hexagon-item:nth-child(4)  .hexagon-description {
+    position: absolute;
+    top: 20%;
+  }
+  
+  .hexagon-item:nth-child(6) {
+    top: 33.33333333333333%;
+    left: 0%;
+  }
+  
+  .hexagon-item:nth-child(6)  .hexagon-description {
+    position: absolute;
+    top: 40%;
+  }
+}

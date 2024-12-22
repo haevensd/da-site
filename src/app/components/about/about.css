@@ -1,0 +1,262 @@
+.story-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url('http://darikalexander.com/wp-content/uploads/2020/03/You-arent-stupid-though-you-also-know-that-_one-day-isnt-a-day-on-the-calendar_.png');
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    height: 100%;
+    min-height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5rem;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+
+  }
+
+  
+  .story-inner-container {
+    max-width: 800px;
+    height: 700px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 25px;
+
+  }
+  @media (min-width: 768px) { 
+    .story-container img {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) { 
+    .story-container {
+      background-image: none;
+      flex-direction: column;
+      padding: 0;
+      min-height: 1000px;
+      justify-content: space-between;
+      border-radius: 0px;
+      margin-top: 0px;
+    }
+    
+    .story-inner-container {
+      border-radius: 0px;
+      max-width: 100%;
+      height: auto;
+      margin-top: 0px;
+    }
+  }
+  
+  .story-header h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #333;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .story-content {
+    line-height: 1.6;
+  }
+  
+  .story-intro {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .story-quote {
+    font-size: 20px;
+    font-weight: bold;
+    color: #c0392b;
+    margin: 20px 0;
+    border-left: 4px solid #c0392b;
+    padding-left: 15px;
+  }
+  
+  .story-paragraph {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .story-button {
+    display: block;
+    background-color: #e67e22;
+    color: #fff;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .story-button:hover {
+    background-color: #d35400;
+  }
+  
+
+  .story-container {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .story-inner-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .story-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .story-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Keyframes for animations */
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-in {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Initial hidden state */
+/* Initial hidden state */
+.story-intro,
+.story-paragraph,
+.story-quote,
+.story-header h1 {
+
+  color: black;
+  transform: translateY(20px); /* For fade-up effect */
+  transition: all 0.8s ease-in-out;
+}
+.story-intro,
+.story-paragraph,
+.story-quote {
+  opacity: 0;
+}
+
+/* Sliding effect for the quote */
+.story-quote {
+  transform: translateX(-50px); /* Slide in from the left */
+}
+
+/* Visible state when in the viewport */
+.visible {
+  opacity: 1;
+  transform: translateY(0); /* Or translateX(0) for the quote */
+}
+
+/* Specific visible effect for the quote */
+.story-quote.visible {
+  transform: translateX(0); /* Reset slide-in */
+}
+
+.story-container {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.story-inner-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.story-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.story-header h1 {
+  font-size: 36px;
+  color: #333;
+
+  transform: translateY(0px);
+  transition: all 0.8s ease-in-out;
+}
+
+.story-intro,
+.story-paragraph {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease-in-out;
+}
+
+.story-quote {
+  font-size: 18px;
+  font-style: italic;
+  color: #d32f2f;
+  border-left: 4px solid #d32f2f;
+  padding-left: 10px;
+  margin: 20px 0;
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 0.8s ease-in-out;
+}
+
+.story-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.story-button:hover {
+  background-color: #0056b3;
+}
+
+/* When elements are in view */
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.story-quote.visible {
+  transform: translateX(0);
+}

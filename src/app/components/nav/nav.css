@@ -1,0 +1,17 @@
+.navbar {
+    transition: all 0.2s ease-in-out;
+      display: flex;
+      justify-content: center;
+      background-color: #1d1d1d;
+      color: white;
+  
+      /* padding: 1rem; */
+      position: fixed;
+      width: 100%;
+      z-index: 10000;
+    }
+    .navbar.opaque {
+    transition: all 0.2s ease-in;
+     opacity: 0.9;
+    }
+    

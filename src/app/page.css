@@ -1,0 +1,69 @@
+
+.elementor-heading-title {
+    color: white;
+    
+    font-family: "Gotham Book", Sans-serif;
+    font-size: 4.125vw;
+    font-weight: 500;
+    line-height: 1.4em;
+  }
+  .elementor-heading-title {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+  }
+  .stoneharbour-text-sec6 {
+    
+    font-size: 4vw;
+    font-weight: 400 !important;
+    /* letter-spacing: 10px; */
+  }
+  .bold-gotham {
+    font-family: "Gotham", Sans-serif;
+    font-weight: 700;
+    
+  }
+
+  .hexagon-section-wrapper {
+    position: relative;
+    margin-bottom: 50px; /* Space below the section */
+  }
+  
+  .hexagon-gradient {
+    position: absolute;
+    top: 95%; /* Place directly below the hexagon section */
+    left: 0;
+    width: 100%;
+    height: 150px; /* Adjust height of the gradient */
+    background: linear-gradient(to bottom, black, white);
+    z-index: -1; /* Place behind other content */
+  }
+  
+  .hexagon-gradient-white {
+    position: absolute;
+    top: 95%; /* Place directly below the hexagon section */
+    left: 0;
+    width: 100%;
+    height: 150px; /* Adjust height of the gradient */
+    background: linear-gradient(to bottom, black, white);
+    z-index: -1; /* Place behind other content */
+  }
+  
+  .vault-content {
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+  .hexagon-container {
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    background-image: url('/sec-bg3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  @media (max-width: 767px) {
+    .hexagon-container {
+      min-height: 800px;
+    }
+  }

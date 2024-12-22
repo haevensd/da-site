@@ -1,0 +1,119 @@
+
+.login-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  margin-top: 2vh;
+  background-color: #fff;
+  min-height: 800px;
+}
+
+.login-container h2 {
+  font-size: 24px;
+  margin-bottom: 5vh;
+  color: #333;
+}
+
+.login-form {
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-form .form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.login-form label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-align: left;
+  margin-left: 5px;
+  color: #333;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background: #ccc;
+}
+
+.login-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.course-table-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.course-table {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+.course-table-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.react-data-table {
+  font-family: Arial, sans-serif;
+}
+
+.react-data-table__header {
+  background-color: #f79c26;
+  color: white;
+}
+
+.mark-fulfilled-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mark-fulfilled-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.mark-fulfilled-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
