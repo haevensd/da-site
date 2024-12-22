@@ -67,3 +67,12 @@
       min-height: 800px;
     }
   }
+
+  .dd-container {
+    padding-bottom: 367px;
+  }
+  @media (max-width: 767px) {
+    .dd-container {
+      padding-bottom: 567px;
+    }
+  }

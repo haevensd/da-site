@@ -18,7 +18,7 @@ export default function Home() {
   }, []);
 
   return (
-<div style={{paddingBottom: '367px'}}>
+<div className="dd_container">
       <section className={styles.banner}>
         <div className={styles.bannerOverlay}>
             <h1>It's Time to Make the Transition</h1>
