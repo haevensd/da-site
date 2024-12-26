@@ -27,5 +27,6 @@
   @media (max-width: 1000px) {
     .featuredContainer {
       flex-direction: column;
+      padding-bottom: 3rem;
     }
   }
