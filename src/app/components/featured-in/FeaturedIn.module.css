@@ -1,0 +1,31 @@
+.featuredContainer {
+    text-align: center;
+    background-color: black; /* Match the background color */
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .featuredHeading {
+    color: white;
+    font-size: 1.5rem;
+    min-width: 200px;
+    text-transform: uppercase;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* Adjust spacing between logos */
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 1000px) {
+    .featuredContainer {
+      flex-direction: column;
+    }
+  }

@@ -10,6 +10,8 @@ import './page.css'
 import bgImage from '../../public/sec-bg.png'
 import Footer from './components/footer/footer';
 import BookForm from './components/get-book/book';
+import FeaturedIn from './components/featured-in/featured-in';
+import AutoplayCarousel from "./components/ImageGrid/ImageGrid";
 export default function Home() {
   const [animateText, setAnimateText] = useState(false);
 
@@ -21,10 +23,26 @@ export default function Home() {
 <div className="dd_container">
       <section className={styles.banner}>
         <div className={styles.bannerOverlay}>
-            <h1>It's Time to Make the Transition</h1>
-            <p>Your path to success starts here</p>
+          <div className="content">
+
+          <video autoPlay={true} width={'100%'} height={'100%'} src="http://darikalexander.com/wp-content/uploads/2017/06/website-loop-darik-1.m4v" loop="loop"  muted={true} id="mejs_376381418949159_html5"  >
+        
+          </video>
           </div>
-          <iframe className={styles.video} width="960" height="815" src="https://www.youtube.com/embed/9Vd4VZYE43M?si=ZxJnDWMzmNHIFqlO" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          
+          <div className="contact">
+            <div style={{textAlign: 'left', width: '700px'}}>
+              <h1 >It's Time to Make the Transition</h1>
+              <p>Your path to success starts here— join the mailing list ↓</p>
+              <div style={{display: 'flex', flexDirection: 'column', textAlign: 'left', gap: '20px', width: '700px',marginTop: '20px'}}>
+                <input type="email" placeholder="Enter your email" required />
+                <input type="text" placeholder="Enter your first name" required />
+              </div>
+            </div>
+          </div>
+          </div>
+          {/* <iframe className={styles.video} width="960" height="815" src="https://www.youtube.com/embed/9Vd4VZYE43M?si=ZxJnDWMzmNHIFqlO" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe> */}
+
           {/* <video
             autoPlay
             muted
@@ -33,8 +51,13 @@ export default function Home() {
             
             >
             </video> */}
+          </section>
           <div className={styles.topPageTestimonial}>
+            
+            <FeaturedIn></FeaturedIn>
             <Testimonial></Testimonial>
+
+            <AutoplayCarousel></AutoplayCarousel>
           </div>
           <section className={styles.animatedSection}>
             <div
@@ -42,14 +65,13 @@ export default function Home() {
                 animateText ? styles.slideIn : ''
               }`}
               >
-              <h2>Join the Journey to Greatness</h2>
+              <h2 className='site-text'>Join the Journey to Greatness</h2>
               <button className={styles.getInTouchBtn}>
                 <a target="_blank" href="https://www.messenger.com/t/1977363389210514/?messaging_source=source%3Apages%3Amessage_shortlink&source_id=1441792&recurring_notification=0">
-                  <p style={{padding: '20px'}}>Get in touch</p>
+                  <p className='site-text' style={{padding: '20px'}}>Get in touch</p>
                 </a>
               </button>
             </div>
-          </section>
       </section>
           <About></About>
           <div className='hexagon-container'>
@@ -75,10 +97,10 @@ export default function Home() {
                 animateText ? styles.slideIn : ''
               }`}
               >
-              <h2>Join the Journey to Greatness</h2>
+              <h2 className='site-text'>Join the Journey to Greatness</h2>
               <button className={styles.getInTouchBtn}>
                 <a target="_blank" href="https://www.messenger.com/t/1977363389210514/?messaging_source=source%3Apages%3Amessage_shortlink&source_id=1441792&recurring_notification=0">
-                  <p style={{padding: '20px'}}>Get in touch</p>
+                  <p className='site-text' style={{padding: '20px'}}>Get in touch</p>
                 </a>
               </button>
             </div>

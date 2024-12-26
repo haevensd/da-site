@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en" >
       <body className={`${geistSans.variable} ${geistMono.variable}`} style={{minHeight: '100vh', position: 'relative'}}>
       <Nav></Nav>
-      <div style={{paddingTop: '60px', minHeight: '100%', position: 'relative'}} >
+      <div style={{paddingTop: '40px', minHeight: '100%', position: 'relative'}} >
         {children}
       </div>
         <Footer></Footer>

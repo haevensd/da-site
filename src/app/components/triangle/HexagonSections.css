@@ -16,8 +16,9 @@
 .hexagon-item {
   position: absolute;
   width: 50%; /* Each item takes up half of the row */
-  padding-bottom: 43.3%; /* Adjust for the height of an equilateral triangle */
+  padding-bottom:23vh; /* Adjust for the height of an equilateral triangle */
   background-size: cover;
+  
   background-position: center;
   overflow: visible; /* Allow triangles to extend beyond their boundaries */
   transition: transform 0.3s ease-in-out;
@@ -28,10 +29,25 @@
 .hexagon-item:nth-child(2n) {
   clip-path: polygon(50% 100%, 0% 0%, 100% 0%); /* Inverted triangle */
 }
+.hexagon-item:nth-child(1n) p {
+  /* top: 200px; */
+  color: white;
+  font-weight: bold;
+
+  /* position: absolute; */
+}
+.hexagon-item:nth-child(2n) p {
+  /* position: absolute; */
+  top: 100px;
+
+  color: white;
+  font-weight: bold;
+  left: 50px;
+}
 .hexagon-item:nth-child(2n) .hexagon-description {
   position: absolute;
-  top: 20%;
-  clip-path: polygon(50% 100%, 0% 0%, 100% 0%); /* Inverted triangle */
+  top: 40%;
+  /* clip-path: polygon(50% 100%, 0% 0%, 100% 0%); */
 }
 
 .hexagon-item:hover {
@@ -79,7 +95,7 @@
 
 .hexagon-item:nth-child(4)  .hexagon-description {
   position: absolute;
-  top: 20%;
+  top: 30%;
 }
 
 .hexagon-item:nth-child(6) {
@@ -89,7 +105,7 @@
 
 .hexagon-item:nth-child(6)  .hexagon-description {
   position: absolute;
-  top: 40%;
+  top: 30%;
 }
 
 /* Text inside the triangles */
@@ -97,16 +113,17 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
   color: white;
   text-align: center;
-  font-size: 14px;
-  opacity: 0;
+  font-size: 20px;
+
   transition: opacity 0.3s ease-in-out;
   z-index: 2;
   min-width: 200px;
 }
 .hexagon-item:nth-child(5) .hexagon-description {
-  transform: translate(-50%, 50%) rotate(180deg);
+  transform: translate(-50%, 500%) rotate(180deg);
 
 }
 .hexagon-item:hover .hexagon-description {
@@ -133,11 +150,11 @@
 @media (max-width: 767px) {
   .hexagon {
     /* min-height: 2000px; */
-    height: 473px;
+    height: 873px;
   }
   .hexagon-item {
     width: 66.66666666666667%; /* Full width for stacking on mobile */
-    padding-bottom: 42.8%;
+    padding-bottom: 22vh;
   }
 
   .hexagon-item:nth-child(2n) {

@@ -1,41 +1,64 @@
-'use client';
-import styles from "./nav.module.css";
-import { useEffect, useState } from "react";
-import './nav.css'
-export default function Nav() {
-  const [isTopPage, setIsTopPage] = useState(true);
+'use client'
+import React, { useState, useEffect } from 'react';
+import './nav.css'; // Add appropriate styles for the sidebar and hamburger
 
+const Navbar = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY === 0) {
-        setIsTopPage(true);
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 0) {
+        navbar.classList.add('scrolled');
       } else {
-        setIsTopPage(false);
+        navbar.classList.remove('scrolled');
       }
     };
-
-    // Add scroll event listener
-    window.addEventListener("scroll", handleScroll);
-
-    // Cleanup function to remove the event listener
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+  
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
   return (
-    <nav className={`navbar ${!isTopPage && 'opaque'}`}>
-      <div className={styles.navbarContent}>
-        <a className={styles.logoContainer} href="/">
-          <div className={styles.logo}>
-            <img src='/Logo-da-footer.png' alt="Logo" width={'100%'} />
-          </div>
-        </a>
-        <div className={styles.links}>
-          <a href="/book">Free Book</a>
-          <a href="/course">Free Course</a>
-        </div>
+    <nav className="navbar">
+      <div className="navbar-logo">
+        <img src='/Logo-da-footer.png' width={'160px'} height={'80px'} style={{marginTop: '20px', marginLeft: '10px'}}/>
       </div>
+
+      {/* Hamburger Menu */}
+      <div className="hamburger-menu" onClick={toggleSidebar}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </div>
+
+      {/* Sidebar */}
+      <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
+        <ul className="sidebar-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#companies">Companies</a></li>
+          <li><a href="#speaking">Speaking</a></li>
+          <li><a href="#free-book">Free Book</a></li>
+          <li><a href="#free-course">Free Course</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      {/* Desktop Links */}
+      <ul className="navbar-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#companies">Companies</a></li>
+        <li><a href="#speaking">Speaking</a></li>
+        <li><a href="#free-book">Free Book</a></li>
+        <li><a href="#free-course">Free Course</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
   );
-}
+};
+
+export default Navbar;

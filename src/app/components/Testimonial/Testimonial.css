@@ -4,7 +4,7 @@
     background-color: #33333399;
 
     color: #fff;
-    padding: 5rem 1.5rem;
+    padding: 3rem 1.5rem;
     border-radius: 8px;
     max-width: 1000px;
     margin: auto;
@@ -12,11 +12,12 @@
   }
   
   .testimonial-portrait {
-    width: 650px;
-    height: 290px;
+    width: 1050px;
+    height: 390px;
     border-radius: 50%;
-    background-size: cover;
+    background-size: contain ;
     background-position: center;
+    background-repeat: no-repeat;
     margin-right: 1.5rem;
   }
 
@@ -51,7 +52,7 @@
 
 .testimonial-meta {
     font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
-    font-style: italic;
+
     font-size: 21px;
     margin-top: 70px;
 

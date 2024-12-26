@@ -1,0 +1,8 @@
+.logo {
+    max-height: 50px;
+  }
+.logo.invert {
+    max-height: 50px;
+    filter: brightness(0) invert(1); /* Ensures logos are white on a dark background */
+  }
+  

@@ -1,7 +1,7 @@
 .story-container {
     background-color: #f9f9f9;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
     max-width: 100%;
     margin: 0 auto;
     background-image: url('http://darikalexander.com/wp-content/uploads/2020/03/You-arent-stupid-though-you-also-know-that-_one-day-isnt-a-day-on-the-calendar_.png');
@@ -23,7 +23,8 @@
     height: 700px;
     background-color: white;
     padding: 1rem;
-    border-radius: 25px;
+    border-radius: 15px;
+    padding-top: 3rem;
 
   }
   @media (min-width: 768px) { 
@@ -98,7 +99,7 @@
   }
   
   .story-button:hover {
-    background-color: #d35400;
+    background-color: #d35400 !important;
   }
   
 
