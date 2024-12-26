@@ -26,7 +26,7 @@ const Footer = () => {
             <h3>Connect with me</h3>
             <div className="social-icons">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/darik.alexander"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon"
@@ -37,7 +37,7 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/user/darikalexander"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon"
@@ -48,7 +48,7 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/darik.alexander/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon"
@@ -59,7 +59,7 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://twitter.com/darikalexander"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon"
