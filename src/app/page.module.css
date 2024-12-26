@@ -73,7 +73,7 @@
   opacity: 0;
   transform: translateX(-100%);
   transition: all 0.8s ease-in-out;
-  margin-bottom: 1rem;
+
 } 
 
 .textContainer h2 {
@@ -107,7 +107,7 @@
 
 .getInTouchBtn {
   transition: background-color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-    margin-top: 15px;
+    margin-top: 35px;
     color: inherit;
     border: 1px #000 solid;
     border-radius: 10px;
@@ -115,6 +115,7 @@
     cursor: pointer;
     outline: inherit;
     background-color: white;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
 
 }
 .getInTouchBtn:hover {

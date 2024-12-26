@@ -4,12 +4,12 @@ import './featured-in.css'
 
 const FeaturedIn = () => {
   const logos = [
-    { src: '/yahoo.svg', alt: 'Yahoo Finance', height: 50, width: 150 },
-    { src: '/disrupt-logo.png', alt: 'Disrupt', height: 25, width: 150 },
-    { src: '/newsmax_logo_new.png', alt: 'Newsmax', height: 30, width: 150 },
-    { src: '/accesswire.png', alt: 'Accesswire', height: 30, width: 150 },
-    { src: '/logo-white.png', alt: 'Daily Caller', height: 150, width: 150 },
-    { src: '/new-future-sharks-logo.png', alt: 'Future Sharks', height: 150, width: 150 },
+    { src: '/yahoo.svg', alt: 'Yahoo Finance', height: 50, width: 130 },
+    { src: '/disrupt-logo.png', alt: 'Disrupt', height: 25, width: 130 },
+    { src: '/newsmax_logo_new.png', alt: 'Newsmax', height: 30, width: 130 },
+    { src: '/accesswire.png', alt: 'Accesswire', height: 30, width: 130 },
+    { src: '/logo-white.png', alt: 'Daily Caller', height: 150, width: 130 },
+    { src: '/new-future-sharks-logo.png', alt: 'Future Sharks', height: 150, width: 130 },
     { src: '/adp-logo.png', alt: 'ADP', height: 50, width: 260, dontInvert: true },
   ];
 
