@@ -195,9 +195,9 @@
     left: 33.33333333333333%;
   }
   
-  .hexagon-item:nth-child(3)  .hexagon-description {
+  .hexagon-item:nth-child(3) .hexagon-description {
     top: 40.33333333333333%;
-    left: 15.33%;
+    left: 48.33%;
   }
   .hexagon-item:nth-child(4) {
     top: 66.66666666666667%;
@@ -230,5 +230,19 @@
 @media (min-width: 767px) and (min-height: 1000px) {
   .hexagon-item {
     padding-bottom:38%;
+  }
+}
+@media (max-width: 417px) {
+  .hexagon-item:nth-child(3) .hexagon-description {
+    top: 58.33333333333333%;
+    left:50.33%;
+  }
+  .hexagon-item:nth-child(5) .hexagon-description {
+    transform: translate(-50%,175%) rotate(180deg);
+  }
+  .hexagon-item:nth-child(4) .hexagon-description {
+    max-width: 167px !important;
+    transform: translate(-50%,-25%) !important;
+    min-width: 167px;
   }
 }
