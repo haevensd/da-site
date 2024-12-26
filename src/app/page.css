@@ -132,3 +132,16 @@
       max-width: 300px;
     }
   }
+  
+  @media (max-width: 417px) {
+    .contact > div > p > img{
+      top: 30px !important;
+    }
+    .contact > div {
+      padding: 1rem;
+    }
+    .contact > div >div {
+      min-width: 100%;
+    }
+  }
+  
