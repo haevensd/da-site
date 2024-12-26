@@ -31,7 +31,7 @@ export default function Home() {
           </div>
           
           <div className="contact">
-            <div style={{textAlign: 'left', width: '700px'}}>
+            <div style={{textAlign: 'left'}}>
               <h1 >It's Time to Make the Transition</h1>
               <p style={{position: 'relative'}}>Your path to success starts here— join my mailing list <img style={{width: '12.5px', height: '15px', top: '7px', position: 'absolute', marginLeft: '10px', transform: 'scale(-1, 1)'}} src="/hand-pointing-down.png" /></p>
               <div style={{display: 'flex', flexDirection: 'column', textAlign: 'left', gap: '20px', width: '700px',marginTop: '20px'}}>

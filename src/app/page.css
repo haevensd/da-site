@@ -72,6 +72,7 @@
     padding-bottom: 367px;
   }
   @media (max-width: 800px) {
+
     .dd_container {
       padding-bottom: 567px;
     }
@@ -88,6 +89,7 @@
     
   }
   .contact > div {
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25%;
@@ -117,4 +119,16 @@
   }
   .site-text {
     font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+  }
+  @media (max-width: 800px) {
+    .contact {
+      min-height: 800px;
+    }
+    .contact > div {
+      min-height: 500px;
+      width: 500px;
+    }
+    .contact > div >div {
+      max-width: 300px;
+    }
   }
