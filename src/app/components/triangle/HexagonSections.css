@@ -169,7 +169,7 @@
   }
   .hexagon-item {
     width: 66.66666666666667%; /* Full width for stacking on mobile */
-    padding-bottom: 22vh;
+    padding-bottom: 59.9999%;
   }
 
   .hexagon-item:nth-child(2n) {
