@@ -37,6 +37,7 @@
 @media (max-width: 800px) {
   .bannerOverlay {
     min-height: 400px;
+    padding-bottom: 1rem;
   }
 }
 /* .content {
@@ -104,6 +105,11 @@
   flex-direction: column;
 }
 
+@media (min-width: 768px) {
+  .bannerOverlay h1 {
+    margin-bottom: 1.5rem;
+  }
+}
 @media (max-width: 768px) {
   .topPageTestimonial {
     margin-top: 0;
