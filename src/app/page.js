@@ -33,10 +33,12 @@ export default function Home() {
           <div className="contact">
             <div style={{textAlign: 'left'}}>
               <h1 >It's Time to Make the Transition</h1>
-              <p style={{position: 'relative'}}>Your path to success starts here— join my mailing list <img style={{width: '12.5px', height: '15px', top: '7px', position: 'absolute', marginLeft: '10px', transform: 'scale(-1, 1)'}} src="/hand-pointing-down.png" /></p>
-              <div style={{display: 'flex', flexDirection: 'column', textAlign: 'left', gap: '1rem', width: '700px',marginTop: '20px'}}>
+              <p style={{position: 'relative'}}>Your path to success starts here— jump on my mailing list <img style={{width: '12.5px', height: '15px', top: '7px', position: 'absolute', marginLeft: '10px', transform: 'scale(-1, 1)'}} src="/hand-pointing-down.png" /></p>
+              <div style={{display: 'flex', flexDirection: 'column', textAlign: 'left', gap: '1rem', width: '100%',marginTop: '20px'}}>
                 <input type="email" placeholder="Enter your email" required />
                 <input type="text" placeholder="Enter your first name" required />
+                <div class="terms-and-conditions"><input id="terms_and_conditions_9rbq2dj9bto" value="terms_and_conditions" name="terms_and_conditions" type="checkbox" data-q="terms_and_conditions" data-required="true" /><span style={{fontFamily:'Roboto',marginLeft:'10px'}} htmlFor="terms_and_conditions_9rbq2dj9bto"><span style={{color: '#FFFFFFFF'}}><p>I agree to receive communications and agree to the <a style={{color: '#9BCAF6FF', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer nofollow" href="https://bradlea.com/terms-of-use/">terms</a> and <a style={{color: '#9BCAF6FF', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer nofollow" href="https://bradlea.com/privacy-policy/">privacy policy</a> </p></span></span></div>
+                <button className="mail-button">Jump on my list</button>
               </div>
             </div>
           </div>

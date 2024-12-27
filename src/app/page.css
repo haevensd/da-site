@@ -89,10 +89,10 @@
   
 }
 .contact > div {
-  width: 700px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30%;
+  margin-top:25vh;
 }
 
 .contact video {
@@ -106,6 +106,7 @@
   padding-left: 15px;
   font-size: 12px;
   border-radius: 5px;
+  max-width: 300px;
 }
 .video-overlay {
   height: 100%;
@@ -130,7 +131,7 @@
     padding: 1rem; 
   }
   .contact > div >div {
-    max-width: 300px;
+    max-width: 100%;
   }
 }
 
@@ -139,7 +140,7 @@
     top: 30px !important;
   }
   .contact > div > p{
-    max-width: 300px;
+    max-width: 100%;
 }
   .contact > div {
     /* padding: 1rem; */
@@ -147,9 +148,50 @@
   .contact > div >div {
     min-width: 100%;
   }
-
+  .contact input {
+    max-width: 300px;
+  }
 }
 .content video {
   min-height: 1243px;
   object-fit: cover;
+}
+
+.terms-and-conditions input{
+  background-color: white;
+}
+.terms-and-conditions {
+  align-items: flex-start;
+  display: flex;
+  line-height: 1.25rem;
+  word-break: break-word;
+  margin-top: 5px;
+}
+
+.terms-and-conditions p {
+  margin: 0!important;
+  font-size: 12px;  
+}
+
+.mail-button {
+  float: left;
+}
+
+.mail-button {
+  display: block;
+  border: 2px solid #e67e22;
+  background-color: transparent;
+  /* background-color: #e67e22; */
+  color: #fff;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 7px;
+  margin: 5px auto 0 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mail-button:hover {
+  background-color: #d35400 !important;
 }
