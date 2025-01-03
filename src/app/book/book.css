@@ -2,9 +2,10 @@
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 40px;
-    margin-top: 3rem;
+    margin-top: 4rem;
     min-height: 800px;
     background-color: #fff;
+    padding-bottom: 700px;
   }
   
   .vault-title {
@@ -60,6 +61,7 @@
     margin-bottom:21px;
     border: 1px solid #aaa;
     border-radius: 5px;
+    color: black !important;
     font-size: 14px;
     background: #ccc;
   }
@@ -109,3 +111,21 @@
     }
   }
   
+  .address-group {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .card-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }

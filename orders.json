@@ -4,6 +4,9 @@
     "firstName": "John",
     "lastName": "Doe",
     "email": "john.doe@example.com",
+    "address1": "",
+    "city": "",
+    "state": "",
     "fulfilled": true
   },
   {
@@ -11,6 +14,21 @@
     "firstName": "Jane",
     "lastName": "Smith",
     "email": "jane.smith@example.com",
+    "address1": "",
+    "city": "",
+    "state": "",
     "fulfilled": true
+  },
+  {
+    "id": "1735918884037",
+    "email": "haevenshane@gmail.com",
+    "firstName": "Haeven",
+    "lastName": "Dickerson",
+    "address": "835 West Homer Street",
+    "city": "Freeport",
+    "state": "IL",
+    "zipCode": "61032",
+    "orderDate": "2025-01-03T15:41:23.787Z",
+    "status": "pending"
   }
 ]
