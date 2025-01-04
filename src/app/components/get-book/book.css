@@ -57,6 +57,7 @@
   .vault-form input,
   .vault-form textarea {
     width: 100%;
+    color: black;
     padding: 10px;
     margin-bottom:12px;
     border: 1px solid #aaa;
@@ -110,3 +111,21 @@
     }
   }
   
+  .address-group {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .card-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }

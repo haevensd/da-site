@@ -1,6 +1,63 @@
 import fs from "fs";
 import path from "path";
 import { NextResponse } from "next/server";
+import nodemailer from "nodemailer";
+import crypto from "crypto";
+
+// Configure email transporter
+const transporter = nodemailer.createTransport({
+  // Add your email service configuration here
+  host: "smtp.example.com",
+  port: 587,
+  secure: false,
+  auth: {
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASSWORD,
+  },
+});
+
+export async function POST(req) {
+  try {
+    const { email, firstName, lastName } = await req.json();
+    
+    // Generate temporary password
+    const password = crypto.randomBytes(8).toString('hex');
+    
+    // Email content
+    const mailOptions = {
+      from: process.env.EMAIL_USER,
+      to: email,
+      subject: "Welcome to Unlocking the Path to Excellence",
+      html: `
+        <h1>Welcome ${firstName}!</h1>
+        <p>Thank you for joining our course. Here are your access details:</p>
+        <p><strong>Course URL:</strong> <a href="https://darikalexander.com/access">https://darikalexander.com/access</a></p>
+        <p><strong>Login Credentials:</strong></p>
+        <ul>
+          <li>Email: ${email}</li>
+          <li>Password: ${password}</li>
+        </ul>
+        <p>Please change your password after your first login.</p>
+      `,
+    };
+
+    // Send email
+    await transporter.sendMail(mailOptions);
+    
+    // Save user data (implement your database logic here)
+    
+    return NextResponse.json({ 
+      message: "Registration successful",
+      status: 200 
+    });
+  } catch (error) {
+    console.error("Registration error:", error);
+    return NextResponse.json({ 
+      error: "Registration failed", 
+      status: 500 
+    });
+  }
+}
 
 const ordersFilePath = path.join(process.cwd(), "orders.json");
 

@@ -28,6 +28,10 @@ const BookForm = ({showImage=true}) => {
     e.preventDefault();
     setStep(2);
   };
+  const handleBackButton = (e) => {
+    e.preventDefault();
+    setStep(1);
+  };
 
   const handleSubmitStep2 = async (e) => {
     e.preventDefault();
@@ -190,7 +194,7 @@ const BookForm = ({showImage=true}) => {
               </div>
               
               <div className="button-container">
-                <button type="button" onClick={() => setStep(1)}>Back</button>
+                <button type="button" onClick={handleBackButton}>Back</button>
                 <button type="submit">Complete Order</button>
               </div>
             </form>
@@ -217,7 +221,7 @@ const BookForm = ({showImage=true}) => {
       {showImage && (
         <div className="vault-image">
           <img
-            src="/api/placeholder/400/320"
+            src="http://darikalexander.com/wp-content/uploads/2017/07/11816979_10153647685917494_6933033594485994486_n.jpg"
             alt="Free Book"
           />
         </div>

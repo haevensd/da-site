@@ -84,6 +84,26 @@ const OrdersDashboard = () => {
       sortable: true,
     },
     {
+      name: "Address",
+      selector: (row) => row.address,
+    },
+    {
+      name: "City",
+      selector: (row) => row.city,
+    },
+    {
+      name: "State",
+      selector: (row) => row.state,
+    },
+    {
+      name: "Zip Code",
+      selector: (row) => row.zipCode,
+    },
+    {
+      name: "Order Date",
+      selector: (row) => row.orderDate,
+    },
+    {
       name: "Actions",
       cell: (row) => (
         <button

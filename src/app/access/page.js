@@ -9,44 +9,73 @@ const CoursePlayer = () => {
   const [expandedSections, setExpandedSections] = useState({});
   const [selectedVideo, setSelectedVideo] = useState(null);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [mobileSidebarClosed, setMobileSidebarClosed] = useState(true);
   const [loginData, setLoginData] = useState({ email: "", password: "" });
 
   const courseModules = [
     {
-      title: "Getting Started",
+      title: "Modules",
       videos: [
-        { id: 1, title: "01. The Introduction", url: "video1.mp4" },
-        { id: 2, title: "Lesson Auto Updated", url: "video2.mp4" },
-        { id: 3, title: "02. My Story", url: "video3.mp4" },
-        { id: 4, title: "03. What to Expect", url: "video4.mp4" },
+        { id: 1, title: "Module 0.1", url: "1043045724" },
+        { id: 2, title: "Module 0.2", url: "1043054078" },
+        { id: 3, title: "Module 0.3", url: "1043055777" },
+        { id: 4, title: "Module 1.1", url: "1043056365" },
+        { id: 5, title: "Module 1.2", url: "1043057221" },
+        { id: 6, title: "Module 1.3", url: "1043061081" },
+        { id: 7, title: "Module 1.4", url: "1043062026" },
+        { id: 8, title: "Module 2.1", url: "1043065331" },
+        { id: 9, title: "Module 2.2", url: "1043066467" },
+        { id: 10, title: "Module 3.1", url: "1043069547" },
+        { id: 11, title: "Module 3.2", url: "1043070190" },
+        { id: 12, title: "Module 3.3", url: "1043071800" },
+        { id: 13, title: "Module 3.4", url: "1043072546" },
+        { id: 14, title: "Module 3.5", url: "1043072915" },
+        { id: 15, title: "Module 4.1", url: "1043073572" },
+        { id: 16, title: "Module 4.2", url: "1043074860" },
+        { id: 17, title: "Module 4.3", url: "1043075608" },
+        { id: 18, title: "Module 4.4", url: "1043076130" },
+        { id: 19, title: "Module 4.5", url: "1043077415" },
+        { id: 20, title: "Module 5.1", url: "1043077885" },
+        { id: 21, title: "Module 5.2", url: "1043079337" },
+        { id: 22, title: "Module 5.3", url: "1043080207" },
+        { id: 23, title: "Module 6.1", url: "1043085201" },
+        { id: 24, title: "Module 6.2", url: "1043087466" },
+        { id: 25, title: "Module 6.3", url: "1043088790" },
+        { id: 26, title: "Module 6.4", url: "1043089722" },
+        { id: 27, title: "Module 6.5", url: "1043090002" },
+        { id: 28, title: "Module 7.1", url: "1043090283" },
+        { id: 29, title: "Module 7.2", url: "1043091256" },
+        { id: 30, title: "Module 7.3", url: "1043091804" },
+        { id: 31, title: "Module 7.4", url: "1043092387" },
+        { id: 32, title: "Module 8.1", url: "1043092926" },
+        { id: 33, title: "Module 8.2", url: "1043094216" },
+        { id: 34, title: "Module 9.1", url: "1043095187" },
+        { id: 35, title: "Module 9.2", url: "1043096082" },
+        
       ],
     },
     {
-      title: "Module 1",
+      title: "Module Interviews",
       videos: [
-        { id: 5, title: "1.1 Discernment - The Hidden Agenda", url: "video5.mp4" },
-        { id: 6, title: "1.2 The Myths - What Your Upline Didn’t Tell You", url: "video6.mp4" },
-        { id: 7, title: "1.3 The Turn - Why Most People Will Never Win", url: "video7.mp4" },
-        { id: 8, title: "1.4 Ascension - Sound Like an Expert", url: "video8.mp4" },
+        { id: 36, title: "Ray interview", url: "1043097307" },
+        { id: 37, title: "Fraser Brooks interview", url: "1043099466" },
+        { id: 38, title: "Kai Lo interview", url: "1043101089" },
+        { id: 39, title: "Tanya Aliza interview", url: "1043100169" },
+        { id: 40, title: "Cliff Braun interview ", url: "1043100763" },
+        { id: 41, title: "Todd Fastbrake interview", url: "1043141296" },
+        { id: 42, title: "John & Nadya Melton interview", url: "1043142506" },
       ],
     },
-    {
-      title: "Module 2",
-      videos: [
-        { id: 9, title: "2.1 Defining Your Demeanor - The Commitment Checklist", url: "video9.mp4" },
-        { id: 10, title: "2.2 The Self Image Shifter", url: "video10.mp4" },
-        { id: 11, title: "2.3 7 Figure Mindset Mastery with Clift Braun", url: "video11.mp4" },
-      ],
-    },
+    
   ];
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (loginForm.email === "test@example.com" && loginForm.password === "password") {
+    if (loginData.email === "course@darikalexander.com" && loginData.password === "freecourse1") {
       setIsLoggedIn(true);
-      setError("");
+      // setError("");
     } else {
-      setError("Invalid email or password. Please try again.");
+      // setError("Invalid email or password. Please try again.");
     }
   };
 
@@ -62,7 +91,7 @@ const CoursePlayer = () => {
   };
 
   const handleInputChange = (e) => {
-    setLoginForm({ ...loginForm, [e.target.name]: e.target.value });
+    setLoginData({ ...loginData, [e.target.name]: e.target.value });
   };
 
   if (!isLoggedIn) {
@@ -98,7 +127,9 @@ const CoursePlayer = () => {
 
   return (
     <div className="course-player-container">
-      <div className="course-sidebar">
+      {!mobileSidebarClosed && <img className="arrow" onClick={() => setMobileSidebarClosed(!mobileSidebarClosed)} style={{position:'absolute', top: '30px',zIndex: 1000, left: '20px', marginBottom: '1rem', transform: 'rotate(180deg)'}} width={20} height={30} src="/chevron-left.png"></img>}
+      <div className={`course-sidebar ${!mobileSidebarClosed && 'is-mobile'}`}>
+      {mobileSidebarClosed && <img className="arrow" onClick={() => setMobileSidebarClosed(!mobileSidebarClosed)} style={{position:'absolute', top: '20px', right: '20px', marginBottom: '1rem', marginLeft: 'auto'}} width={20} height={30} src="/chevron-left.png"></img>}
         {courseModules.map((module, moduleIndex) => (
           <div key={moduleIndex} className="module-section">
             <div style={{backgroundColor: '#f79c26', padding: '5px', paddingBottom: '1px', borderTopLeftRadius: '5px', borderTopRightRadius: '5px'}}>
@@ -118,7 +149,7 @@ const CoursePlayer = () => {
                   <li
                     key={video.id}
                     className="video-item"
-                    onClick={() => handleVideoClick(video.url)}
+                    onClick={() => handleVideoClick(video)}
                   >
                     {video.title}
                   </li>
@@ -129,13 +160,11 @@ const CoursePlayer = () => {
         ))}
       </div>
       <div className="video-container">
+
         {selectedVideo ? (
-          <video
-            controls
-            autoPlay
-            src={selectedVideo}
-            className="video-player"
-          />
+          <div style={{padding:'56.25% 0 0 0',position:'relative', width: '100%'  }}>
+            <iframe src={`https://player.vimeo.com/video/${selectedVideo.url}?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479`}  allow={"autoplay; fullscreen; picture-in-picture; clipboard-write"}
+            style={{position:'absolute',top:'0',left:'0',width:'100%',height:'100%'}} title={selectedVideo.title}></iframe><script src="https://player.vimeo.com/api/player.js"></script></div>
         ) : (
           <div className="video-placeholder">
             <p>Select a video to begin watching.</p>
