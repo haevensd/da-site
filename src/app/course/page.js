@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from "react";
+import './course.css';
 
 const FreeCourseForm = () => {
   const [formData, setFormData] = useState({
