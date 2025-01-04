@@ -221,4 +221,7 @@ cursor: pointer;
     margin-right:-30px !important;
 
   }
+  .module-section {
+    margin-right: 0;
+  }
 }
