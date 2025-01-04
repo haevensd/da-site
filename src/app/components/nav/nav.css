@@ -36,7 +36,7 @@
 }
 
 .navbar-links li {
-  margin: 0 10px;
+  padding: 0 10px;
   font-size: 1.2rem;
   font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
 }
@@ -82,7 +82,7 @@
 }
 
 .sidebar-links li {
-  margin: 20px 0;
+  padding: 15px 0;
 }
 
 .sidebar-links a {
@@ -161,9 +161,9 @@
   padding: 0;
 }
 
-.sidebar-links li {
+/* .sidebar-links li {
   margin: 20px 0;
-}
+} */
 
 .sidebar-links a {
   color: white;
