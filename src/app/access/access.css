@@ -153,6 +153,9 @@
 }
 
 @media (max-width: 600px) {
+  .video-container {
+    height: 25%;
+  }
   .arrow {
    display: inline; 
   }
