@@ -132,10 +132,10 @@ const CoursePlayer = () => {
       {mobileSidebarClosed && <img className="arrow" onClick={() => setMobileSidebarClosed(!mobileSidebarClosed)} style={{position:'absolute', top: '20px', right: '20px', marginBottom: '1rem', marginLeft: 'auto'}} width={15} height={20} src="/chevron-left.png"></img>}
         {courseModules.map((module, moduleIndex) => (
           <div key={moduleIndex} className="module-section">
-            <div style={{backgroundColor: '#f79c26', padding: '5px', paddingBottom: '1px', borderTopLeftRadius: '5px', borderTopRightRadius: '5px', borderBottomLeftRadius: '2px', borderBottomRightRadius: '2px'}}>
+            <div onClick={() => toggleSection(moduleIndex)} style={{backgroundColor: '#f79c26', padding: '5px', paddingBottom: '1px', borderTopLeftRadius: '5px', borderTopRightRadius: '5px', borderBottomLeftRadius: '2px', borderBottomRightRadius: '2px'}}>
                 <h3
                 className="module-title"
-                onClick={() => toggleSection(moduleIndex)}
+                
                 >
                 {module.title}
                 
@@ -148,7 +148,7 @@ const CoursePlayer = () => {
                 {module.videos.map((video) => (
                   <li
                     key={video.id}
-                    className="video-item"
+                    className={`video-item ${selectedVideo && video.url === selectedVideo.url && 'active'}`}
                     onClick={() => handleVideoClick(video)}
                   >
                     {video.title}

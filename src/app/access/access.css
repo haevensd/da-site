@@ -3,8 +3,8 @@
   display: flex;
   height: 200vh;
   /* position: fixed; */
-  background-color: #0b1224; /* Dark background */
-  margin-top: 4rem;
+  background-color: #000; /* Dark background */
+  margin-top: 3.5rem;
   margin-bottom: 400px;
   color: white;
 }
@@ -45,13 +45,17 @@
   transition: background-color 0.3s;
 }
 
+.video-item.active {
+  background-color: #101c37;
+}
+
 .video-item:hover {
   background-color: #1e2a45; /* Hover effect */
 }
 
 .video-container {
   width: 100%;
-  height: 50%;
+  height: 35%;
   background-color: #000;
   display: flex;
   align-items: center;
