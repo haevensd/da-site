@@ -217,8 +217,8 @@ cursor: pointer;
 
   }
   .course-sidebar span{
-    margin-right: auto;
-    margin-left: 0 !important;
+    /* /* margin-keft: auto; */
+    margin-right:-30px !important;
 
   }
 }
