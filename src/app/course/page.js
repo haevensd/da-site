@@ -24,8 +24,8 @@ const FreeCourseForm = () => {
     setError('');
 
     try {
-      const response = await fetch('/api/course-registration', {
-        method: 'POST',
+      const response = await fetch('/api/orders', {
+        method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
         },
