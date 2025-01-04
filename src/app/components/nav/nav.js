@@ -54,7 +54,7 @@ const Navbar = () => {
   }, []);
   return (
     <nav className="navbar" onClick={toggleSidebar}>
-      <div className="navbar-logo">
+      <div className="navbar-logo" onClick={(e) => e.preventDefault()}>
         <Link href={'/'}>
         <img src='/Logo-da-footer.png' width={'160px'} height={'80px'} style={{marginTop: '20px', marginLeft: '10px'}}/>
         </Link>
@@ -70,6 +70,7 @@ const Navbar = () => {
       {/* Sidebar */}
       <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
         <ul className="sidebar-links">
+          <Link style={{cursor: 'pointer'}} href="#home"><li>Home</li></Link>
           <Link style={{cursor: 'pointer'}} href="#about"><li>About</li></Link>
           <Link style={{cursor: 'pointer'}} href="#companies"><li>Companies</li></Link>
           <Link style={{cursor: 'pointer'}} href="#speaking"><li>Speaking</li></Link>
@@ -82,6 +83,7 @@ const Navbar = () => {
 
       {/* Desktop Links */}
       <ul className="navbar-links">
+
         <Link style={{cursor: 'pointer'}} href="#about"><li>About</li></Link>
         <Link style={{cursor: 'pointer'}} href="#companies"><li>Companies</li></Link>
         <Link style={{cursor: 'pointer'}} href="#speaking"><li>Speaking</li></Link>
