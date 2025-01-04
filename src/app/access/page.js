@@ -84,10 +84,12 @@ const CoursePlayer = () => {
       ...prev,
       [index]: !prev[index],
     }));
+    
   };
 
   const handleVideoClick = (url) => {
     setSelectedVideo(url);
+    setMobileSidebarClosed(false)
   };
 
   const handleInputChange = (e) => {
@@ -126,8 +128,8 @@ const CoursePlayer = () => {
   }
 
   return (
-    <div className="course-player-container">
-      {!mobileSidebarClosed && <span onClick={() => setMobileSidebarClosed(!mobileSidebarClosed)} ><img className="arrow" style={{ top: '20px',zIndex: 1000, left: '20px', marginBottom: '1rem', transform: 'rotate(180deg)'}} width={10} height={15} src="/chevron-left.png"></img></span>}
+    <div className={`course-player-container ${!mobileSidebarClosed && 'is-mobile'}`}>
+      {!mobileSidebarClosed && <span className="arrow"  onClick={() => setMobileSidebarClosed(!mobileSidebarClosed)} ><img style={{ top: '20px',zIndex: 1000, left: '20px', marginBottom: '1rem', transform: 'rotate(180deg)'}} width={10} height={15} src="/chevron-left.png"></img></span>}
       <div className={`course-sidebar ${!mobileSidebarClosed && 'is-mobile'}`}>
       {mobileSidebarClosed && <span className="arrow" onClick={() => setMobileSidebarClosed(!mobileSidebarClosed)}><img style={{ top: '20px', right: '20px', marginBottom: '1rem', marginLeft: 'auto'}} width={10} height={15} src="/chevron-left.png"></img></span>}
         {courseModules.map((module, moduleIndex) => (
@@ -159,7 +161,7 @@ const CoursePlayer = () => {
           </div>
         ))}
       </div>
-      <div className="video-container">
+      <div className={`video-container ${!mobileSidebarClosed && 'is-mobile'}`}>
 
         {selectedVideo ? (
           <div style={{padding:'56.25% 0 0 0',position:'relative', width: '100%'  }}>
