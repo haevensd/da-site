@@ -10,7 +10,7 @@ const FeaturedIn = () => {
     { src: '/accesswire.png', alt: 'Accesswire', height: 30, width: 130 },
     { src: '/logo-white.png', alt: 'Daily Caller', height: 150, width: 130 },
     { src: '/new-future-sharks-logo.png', alt: 'Future Sharks', height: 150, width: 130 },
-    { src: '/adp-logo.png', alt: 'ADP', height: 50, width: 260, dontInvert: true },
+    { src: '/adt.png', alt: 'ADP', height: 50, width: 260, dontInvert: true },
   ];
 
   return (
