@@ -74,7 +74,7 @@ const Navbar = () => {
           <Link style={{cursor: 'pointer'}} href="#about"><li>About</li></Link>
           <Link style={{cursor: 'pointer'}} href="#companies"><li>Companies</li></Link>
           <Link style={{cursor: 'pointer'}} href="#speaking"><li>Speaking</li></Link>
-          <Link style={{cursor: 'pointer'}} href="/book"><li>Free Book</li></Link>
+          <Link style={{cursor: 'pointer'}} href=""><li>Free Book</li></Link>
           <Link style={{cursor: 'pointer'}} href="/course"><li>Free Course</li></Link>
           <Link style={{cursor: 'pointer'}} href="#blog"><li>Blog</li></Link>
           <Link style={{cursor: 'pointer'}} href="#contact"><li>Contact</li></Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
         <Link style={{cursor: 'pointer'}} href="#about"><li>About</li></Link>
         <Link style={{cursor: 'pointer'}} href="#companies"><li>Companies</li></Link>
         <Link style={{cursor: 'pointer'}} href="#speaking"><li>Speaking</li></Link>
-        <Link style={{cursor: 'pointer'}} href="/book"><li>Free Book</li></Link>
+        <Link style={{cursor: 'pointer'}} href=""><li>Free Book</li></Link>
         <Link style={{cursor: 'pointer'}} href="/course"><li>Free Course</li></Link>
         <Link style={{cursor: 'pointer'}} href="#blog"><li>Blog</li></Link>
         <Link style={{cursor: 'pointer'}} href="#contact"><li>Contact</li></Link>

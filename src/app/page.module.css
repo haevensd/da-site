@@ -119,22 +119,29 @@
 .getInTouchBtn {
   transition: background-color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
     margin-top: 35px;
-    color: inherit;
-    border: 1px #000 solid;
+
+    border: 1px #fff solid;
     border-radius: 10px;
     font: inherit;
     cursor: pointer;
+    color: black;
     outline: inherit;
+    /* background-color: #333232; */
     background-color: white;
+
     font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
 
 }
 .getInTouchBtn:hover {
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-    background-color: black;
     color: white;
+    /* color: black; */
     cursor: pointer;
-
+    background-color: #333232;
+  }
+  .getInTouchBtn:hover a p {
+  color: white !important;
+  /* color: black; */
 }
 .bold-gotham {
   font-family: "Gotham", Sans-serif;

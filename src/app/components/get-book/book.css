@@ -6,6 +6,7 @@
     background-color: #fff;
   }
   
+  
   .vault-title {
     font-size: 24px;
     margin-bottom: 5vh;
@@ -19,11 +20,13 @@
     gap: 20px;
     max-width: 800px;
     margin: 0 auto;
+    padding-top: 100px;
   }
   
   .vault-form {
     padding: 63px;
-    background-color: #e8e8e8;
+    background-color: #2a2a2a;
+    color: white;
     padding-top: 50px;
     border-radius: 10px;
     width: 50%;
@@ -36,12 +39,12 @@
     font-size: 18px;
     margin-bottom: 10px;
     text-align: center;
-    color: #333;
+    color: white;
   }
   
   .vault-form p {
     font-size: 14px;
-    color: #555;
+    color: white;
     margin-bottom: 20px;
   }
   
@@ -51,7 +54,7 @@
     font-size: 14px;
     margin-bottom: 3px;
     margin-left: 5px;
-    color: #333;
+    color: white;
   }
   
   .vault-form input,
@@ -63,7 +66,7 @@
     border: 1px solid #aaa;
     border-radius: 5px;
     font-size: 14px;
-    background: #ccc;
+    background: #c4c4c4;
   }
   
   .vault-form textarea {
@@ -72,9 +75,10 @@
   }
   
   .vault-form button {
-    background-color: #f5a623;
-    color: #fff;
-    border: none;
+    background-color: transparent;
+    color: white;
+    
+    border: 1px #f5a623 solid;
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 14px;
@@ -85,7 +89,7 @@
   
   .vault-form button:hover {
     background-color: #d4881f;
-    
+    color: #2a2a2a;
   }
   
   .vault-image {

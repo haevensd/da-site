@@ -59,8 +59,9 @@ export default function Home() {
             <FeaturedIn></FeaturedIn>
             
             <Testimonial></Testimonial>
-            <section className={styles.animatedSection}>
+            <section style={{backgroundColor: '#2a2a2a'}} className={styles.animatedSection}>
             <div
+              
               className={`${styles.textContainer} ${
                 animateText ? styles.slideIn : ''
               }`}
@@ -68,7 +69,7 @@ export default function Home() {
               <h2 className='site-text'>Join the Journey to Greatness</h2>
               <button className={styles.getInTouchBtn}>
                 <a target="_blank" href="https://www.messenger.com/t/1977363389210514/?messaging_source=source%3Apages%3Amessage_shortlink&source_id=1441792&recurring_notification=0">
-                  <p className='site-text' style={{padding: '20px'}}>Get in touch</p>
+                  <p className='site-text' style={{padding: '20px',color: '#333232'}}>Get in touch</p>
                 </a>
               </button>
             </div>
@@ -77,9 +78,9 @@ export default function Home() {
           </div>
           
           <About></About>
-          <div className='hexagon-container'>
+          <div className='hexagon-container' style={{paddingTop: '15vh', height: '1290px'}}>
             
-          <h2 className="elementor-heading-title elementor-size-default">
+          <h2 className="elementor-heading-title elementor-size-default" style={{lineHeight:1.35, }}>
                 Join the Movement to  <span className="stoneharbour-text-sec6">
                 Become The Person</span><br></br>
 
@@ -89,13 +90,16 @@ export default function Home() {
           <div className="hexagon-gradient"></div>
           <div className="hexagon-gradient-white"></div>
           </div>
-          <div style={{position: 'relative',marginTop: '100px'}}>
+          <div style={{position: 'relative',}}>
 
           <TrainingSection></TrainingSection>
+<section style={{backgroundColor: '#edeaea', paddingBottom: '100px', }}>
 
           <BookForm showImage={false}></BookForm>
-          <section className={styles.animatedSection} style={{marginTop: '100px'}}>
+</section>
+          <section style={{backgroundColor: '#2a2a2a'}} className={styles.animatedSection} >
             <div
+              
               className={`${styles.textContainer} ${
                 animateText ? styles.slideIn : ''
               }`}
@@ -104,7 +108,7 @@ export default function Home() {
               <h2 className='site-text'>Join the Journey to Greatness</h2>
               <button className={styles.getInTouchBtn} >
                 <a target="_blank" href="https://www.messenger.com/t/1977363389210514/?messaging_source=source%3Apages%3Amessage_shortlink&source_id=1441792&recurring_notification=0">
-                  <p className='site-text' style={{padding: '20px'}}>Get in touch</p>
+                  <p className='site-text' style={{padding: '20px',color: '#333232'}}>Get in touch</p>
                 </a>
               </button>
             </div>

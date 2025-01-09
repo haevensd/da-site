@@ -38,7 +38,7 @@ const DarikStory = () => {
       />
       <div className="story-inner-container">
         <div className="story-header">
-          <h1>DARIK'S STORY</h1>
+          <h1>MY STORY</h1>
         </div>
         <div className="story-content">
           <p className="story-intro">
