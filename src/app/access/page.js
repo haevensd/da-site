@@ -14,44 +14,98 @@ const CoursePlayer = () => {
 
   const courseModules = [
     {
-      title: "Modules",
+      title: "Module Zero",
       videos: [
         { id: 1, title: "Module 0.1", url: "1043045724" },
         { id: 2, title: "Module 0.2", url: "1043054078" },
         { id: 3, title: "Module 0.3", url: "1043055777" },
+        
+        
+      ],
+    },
+    {
+      title: "Module 1",
+      videos: [
         { id: 4, title: "Module 1.1", url: "1043056365" },
         { id: 5, title: "Module 1.2", url: "1043057221" },
         { id: 6, title: "Module 1.3", url: "1043061081" },
         { id: 7, title: "Module 1.4", url: "1043062026" },
+      ],
+    },
+    {
+      title: "Module 2",
+      videos: [
+
         { id: 8, title: "Module 2.1", url: "1043065331" },
         { id: 9, title: "Module 2.2", url: "1043066467" },
+      ],
+    },
+    {
+      title: "Module 3",
+      videos: [
+
         { id: 10, title: "Module 3.1", url: "1043069547" },
         { id: 11, title: "Module 3.2", url: "1043070190" },
         { id: 12, title: "Module 3.3", url: "1043071800" },
         { id: 13, title: "Module 3.4", url: "1043072546" },
         { id: 14, title: "Module 3.5", url: "1043072915" },
+      ],
+    },
+    {
+      title: "Module 4",
+      videos: [
+
         { id: 15, title: "Module 4.1", url: "1043073572" },
         { id: 16, title: "Module 4.2", url: "1043074860" },
         { id: 17, title: "Module 4.3", url: "1043075608" },
         { id: 18, title: "Module 4.4", url: "1043076130" },
         { id: 19, title: "Module 4.5", url: "1043077415" },
+      ],
+    },
+    {
+      title: "Module 5",
+      videos: [
+
         { id: 20, title: "Module 5.1", url: "1043077885" },
         { id: 21, title: "Module 5.2", url: "1043079337" },
         { id: 22, title: "Module 5.3", url: "1043080207" },
+      ],
+    },
+    {
+      title: "Module 6",
+      videos: [
+
         { id: 23, title: "Module 6.1", url: "1043085201" },
         { id: 24, title: "Module 6.2", url: "1043087466" },
         { id: 25, title: "Module 6.3", url: "1043088790" },
         { id: 26, title: "Module 6.4", url: "1043089722" },
         { id: 27, title: "Module 6.5", url: "1043090002" },
+      ],
+    },
+    {
+      title: "Module 7",
+      videos: [
+
         { id: 28, title: "Module 7.1", url: "1043090283" },
         { id: 29, title: "Module 7.2", url: "1043091256" },
         { id: 30, title: "Module 7.3", url: "1043091804" },
         { id: 31, title: "Module 7.4", url: "1043092387" },
+      ],
+    },
+    {
+      title: "Module 8",
+      videos: [
+
         { id: 32, title: "Module 8.1", url: "1043092926" },
         { id: 33, title: "Module 8.2", url: "1043094216" },
+      ],
+    },
+    {
+      title: "Module 9",
+      videos: [
+
         { id: 34, title: "Module 9.1", url: "1043095187" },
         { id: 35, title: "Module 9.2", url: "1043096082" },
-        
       ],
     },
     {
@@ -129,19 +183,19 @@ const CoursePlayer = () => {
 
   return (
     <div className={`course-player-container ${!mobileSidebarClosed && 'is-mobile'}`}>
-      {!mobileSidebarClosed && <span className="arrow"  onClick={() => setMobileSidebarClosed(!mobileSidebarClosed)} ><img style={{ top: '20px',zIndex: 1000, left: '20px', marginBottom: '1rem', transform: 'rotate(180deg)'}} width={10} height={15} src="/chevron-left.png"></img></span>}
+      
       <div className={`course-sidebar ${!mobileSidebarClosed && 'is-mobile'}`}>
-      {mobileSidebarClosed && <span className="arrow" onClick={() => setMobileSidebarClosed(!mobileSidebarClosed)}><img style={{ top: '20px', right: '20px', marginBottom: '1rem', marginLeft: 'auto'}} width={10} height={15} src="/chevron-left.png"></img></span>}
+      
         {courseModules.map((module, moduleIndex) => (
           <div key={moduleIndex} className="module-section">
-            <div onClick={() => toggleSection(moduleIndex)} style={{backgroundColor: '#f79c26', padding: '5px', paddingBottom: '1px', borderTopLeftRadius: '5px', borderTopRightRadius: '5px', borderBottomLeftRadius: '2px', borderBottomRightRadius: '2px'}}>
+            <div onClick={() => toggleSection(moduleIndex)} style={{border: '3px solid #000', backgroundColor: '#d32f2f', padding: '15px', paddingLeft: '30px', paddingBottom: '10px', borderTopLeftRadius: '0px', borderTopRightRadius: '15px', borderBottomLeftRadius: '0px', borderBottomRightRadius: '15px'}}>
                 <h3
                 className="module-title"
                 
                 >
                 {module.title}
                 
-                {expandedSections[moduleIndex] ? <Icon icon={arrowUp} style={{ marginLeft: '5px', fontSize: '20px' }} />
+                {expandedSections[moduleIndex] ? <Icon icon={arrowUp} style={{ marginLeft: '5px', fontSize: '24px' }} />
                 :<Icon icon={arrowDown} style={{ marginLeft: '5px', fontSize: '20px' }} />}
                 </h3>
             </div>
@@ -161,12 +215,13 @@ const CoursePlayer = () => {
           </div>
         ))}
       </div>
+      {!mobileSidebarClosed && <span className="arrow"  onClick={() => setMobileSidebarClosed(!mobileSidebarClosed)} ><img style={{ top: '20px',zIndex: 1000, left: '20px', marginBottom: '1rem', transform: 'rotate(180deg)',}} width={10} height={15} src="/chevron-left.png"></img></span>}
+      {mobileSidebarClosed && <span className="arrow" onClick={() => setMobileSidebarClosed(!mobileSidebarClosed)}><img style={{ top: '20px', right: '20px', marginBottom: '1rem', marginLeft: 'auto',}} width={10} height={15} src="/chevron-left.png"></img></span>}
       <div className={`video-container ${!mobileSidebarClosed && 'is-mobile'}`}>
-
         {selectedVideo ? (
-          <div style={{padding:'56.25% 0 0 0',position:'relative', width: '100%'  }}>
+          <div style={{padding:'56.25% 0 0 0',backgroundColor: 'black',position:'relative', width: '100%'  }}>
             <iframe src={`https://player.vimeo.com/video/${selectedVideo.url}?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479`}  allow={"autoplay; fullscreen; picture-in-picture; clipboard-write"}
-            style={{position:'absolute',top:'0',left:'0',width:'100%',height:'100%'}} title={selectedVideo.title}></iframe><script src="https://player.vimeo.com/api/player.js"></script></div>
+            style={{backgroundColor: 'black',position:'absolute',top:'0',left:'0',width:'50%',height:'50%'}} title={selectedVideo.title}></iframe><script src="https://player.vimeo.com/api/player.js"></script></div>
         ) : (
           <div className="video-placeholder">
             <p>Select a video to begin watching.</p>
