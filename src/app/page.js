@@ -109,7 +109,7 @@ export default function Home() {
               className={`${styles.textContainer} ${
                 animateText ? styles.slideIn : ''
               }`}
-              style={{}}
+
               >
               <h2 className='site-text'>START YOUR JOURNEY TO GREATNESS</h2>
               <button className={styles.getInTouchBtn} >
