@@ -85,7 +85,7 @@ export default function Home() {
       <AutoplayCarousel></AutoplayCarousel>
           <div className='hexagon-container' style={{height: '1130px', marginTop: '100px'}}>
             
-          <h2 className="elementor-heading-title elementor-size-default" >
+          <h2 className="elementor-heading-title elementor-size-default">
                 JOIN THE MOVEMENT TO <span className="stoneharbour-text-sec6">
                 BECOME THE PERSON</span><br></br>
 
