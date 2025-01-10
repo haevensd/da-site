@@ -226,7 +226,7 @@ const Contact = () => {
           </div> */}
 
           {/* Social Media Section */}
-          <div style={[styles.column, {paddingTop: '50px'}]}>
+          <div style={styles.column}>
             <h2 style={styles.sectionTitle}>INSPIRE YOUR NEWSFEED</h2>
             
             {/* <div style={styles.profileCard}>
