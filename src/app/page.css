@@ -1,27 +1,31 @@
 
 .elementor-heading-title {
-  color: white;
-  
+  color: black;
+  /* font-family: 'Roboto'; */
   font-family: "Gotham Book", Sans-serif;
-  font-size: 4.125vw;
+  font-size: 3.795vw;
   font-weight: 500;
-  line-height: 1.4em;
+  min-width: 100%;
+  line-height: 1.35em;
 }
 .elementor-heading-title {
   padding: 0;
   margin: 0;
-  line-height: 1;
+  margin-top: -15vh;
+  margin-bottom: 55px;
+  line-height: 1.35em;
 }
 .stoneharbour-text-sec6 {
   
-  font-size: 4vw;
-  font-weight: 400 !important;
+  font-size: 3.795vw;
+  font-weight: 700 !important;
   /* letter-spacing: 10px; */
 }
 .bold-gotham {
-  font-family: "Gotham", Sans-serif;
-  font-weight: 700;
-  
+  font-family: "Permanent Marker", Sans-serif;
+  font-weight: 200;
+  font-size: 4.795vw;
+  line-height: 1.35em;
 }
 
 .hexagon-section-wrapper {
@@ -50,14 +54,14 @@
 }
 
 .vault-content {
-  padding-right: 5vw;
-  padding-left: 5vw;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .hexagon-container {
   text-align: center;
-  padding: 50px;
+  padding-top: 10px;
   position: relative;
-  background-image: url('/sec-bg4.png');
+  background-image: url('/sec-bg6.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -69,12 +73,13 @@
 }
 
 .dd_container {
-  padding-bottom: 367px;
+  padding-bottom: 500px;
+  
 }
 @media (max-width: 800px) {
 
   .dd_container {
-    padding-bottom: 567px;
+    padding-bottom: 500px;
   }
 }
 
@@ -105,6 +110,7 @@
   padding: 12px;
   padding-left: 15px;
   font-size: 12px;
+  font-family: Gotham Book;
   border-radius: 5px;
   max-width: 300px;
 }
@@ -120,7 +126,9 @@
 }
 .site-text {
   color: white;
-  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+  /* font-family: Roboto; */
+  font-weight: 800;
+  font-family: 'GOTHAM BOOK Bold';
 }
 @media (max-width: 800px) {
   .contact {
@@ -172,6 +180,7 @@
 .terms-and-conditions p {
   margin: 0!important;
   font-size: 12px;  
+  font-family: Gotham Book;
 }
 
 .mail-button {
@@ -180,9 +189,9 @@
 
 .mail-button {
   display: block;
-  border: 2px solid #e67e22;
+  border: 2px solid #fff;
   background-color: transparent;
-  /* background-color: #e67e22; */
+  /* background-color: #000; */
   color: #fff;
   padding: 12px 24px;
   text-transform: uppercase;
@@ -191,8 +200,11 @@
   margin: 5px auto 0 0;
   cursor: pointer;
   transition: background-color 0.3s;
+
+  font-family: Gotham Book Bold;
 }
 
 .mail-button:hover {
-  background-color: #d35400 !important;
+  background-color: #d32f2f !important;
+  border-color: #d32f2f;
 }

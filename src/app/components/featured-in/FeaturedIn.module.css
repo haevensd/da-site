@@ -6,6 +6,7 @@
     align-items: center;
     vertical-align: center;
     justify-content: center;
+    gap: 30px;
     flex-direction: row;
   }
   
@@ -14,19 +15,20 @@
     font-size: 1.5rem;
     min-width: 200px;
     text-transform: uppercase;
+    font-family: Gotham Book Bold;
   }
   
   .logoContainer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px; /* Adjust spacing between logos */
+    gap: 10px; /* Adjust spacing between logos */
     flex-wrap: wrap;
   }
   
   @media (max-width: 1000px) {
     .featuredContainer {
       flex-direction: column;
-      padding-bottom: 3rem;
+      padding-bottom: 10px;
     }
   }

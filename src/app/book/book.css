@@ -1,11 +1,11 @@
 .vault-container {
-    font-family: Arial, sans-serif;
+    font-family: 'Gotham Book';
     text-align: center;
     padding: 40px;
     margin-top: 4rem;
     min-height: 800px;
     background-color: #fff;
-    padding-bottom: 700px;
+    padding-bottom: 550px !important;
   }
   
   .vault-title {
@@ -72,19 +72,19 @@
   }
   
   .vault-form button {
-    background-color: #f5a623;
+    background-color: #d32f2f;
     color: #fff;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 14px;
     cursor: pointer;
-    margin-top: 10px;
+
     transition: background-color 0.3s ease;
   }
   
   .vault-form button:hover {
-    background-color: #d4881f;
+    background-color: #982424;
     
   }
   
@@ -126,6 +126,6 @@
   .button-container {
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 20px;
   }

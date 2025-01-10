@@ -408,8 +408,11 @@ const cardDetails2 = {
 const AutoplayCarousel = () => {
   const [hover, setHover] = useState(false);
   return (
-    <div style={{paddingTop: '5rem', paddingBottom: '6rem'}}>
-    <h2 style={{textAlign: 'center',color: 'white',fontSize: '3rem', marginBottom: '4rem', fontFamily: "'Open Sans',Helvetica,Arial,Lucida,sans-serif", }}>Take the next step to greatness</h2>
+    <div style={{backgroundColor: 'white',paddingTop: '55px', paddingBottom: '70px'}}>
+      <div style={{ width: '100%'}}>
+
+    <h2 style={{textAlign: 'center',color: 'black',fontSize: '3rem', marginBottom: '55px', fontFamily: "GOTHAM BOOK", }}>TAKE THE NEXT STEP </h2>
+      </div>
     <div style={{height: '500px', display: 'flex'}}>
     <div className="carousel-container" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}> 
       <div className="carousel-track" style={{animationPlayState: hover ? 'paused' : ''}}>

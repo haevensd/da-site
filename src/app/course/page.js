@@ -51,13 +51,11 @@ const FreeCourseForm = () => {
       <div className="vault-content">
         {!submitted ? (
           <div className="vault-form">
-            <h3>Step Into Greatness</h3>
+            <h3>LAUNCH INTO GREATNESS</h3>
             <p>
-              Are you ready to unlock the potential you’ve always known was
-              within you? Our exclusive course, <strong>“Unlocking the Path to Excellence,”</strong> 
-              is your gateway to mastering the art of success, leadership, and 
-              living life with purpose. Fill out the form below and gain access to 
-              life-changing insights from world-class mentors.
+              This exclusive network marketing course, <strong>Ascension, </strong> 
+              is your gateway to mastering network marketing as well as the art of success, leadership, and 
+              living life with purpose. <br />
             </p>
             <form onSubmit={handleSubmit}>
               <label>Email Address</label>

@@ -30,7 +30,7 @@
   width: 100%;
   height: 100%;
   z-index: 2;
-  font-family: 'STONE HARBOUR';
+  font-family: Roboto;
   margin-bottom: 10px;
   
 }
@@ -50,7 +50,7 @@
 
   width: 100%;
   position: absolute;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   top: 0;
   right: 0;
@@ -69,7 +69,8 @@
 /* Sliding Text Section */
 .animatedSection {
   background-color: #f8f8f8;
-  padding: 5rem 1rem;
+  /* border: 7px #fff solid; */
+  padding: 80px 1rem;
   text-align: center;
   width: 100%;
   color: black;
@@ -88,7 +89,7 @@
 }
 
 .textContainer p {
-  font-size: 1rem;
+  font-size: 12px;
 }
 
 .slideIn {
@@ -101,7 +102,7 @@
   width: 100%;
   justify-content: center;
 
-  background-color: #333;
+  background-color: #000;
   flex-direction: column;
 }
 
@@ -118,32 +119,34 @@
 
 .getInTouchBtn {
   transition: background-color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-    margin-top: 35px;
+    margin-top: 28px;
 
-    border: 1px #fff solid;
-    border-radius: 10px;
+    
+    border-radius: 8px;
     font: inherit;
     cursor: pointer;
     color: black;
     outline: inherit;
     /* background-color: #333232; */
     background-color: white;
-
-    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    border: 3px solid #fff;
+    transition: all 0.3s ease-in;
 
 }
 .getInTouchBtn:hover {
-    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  border: 3px #d32f2f solid;
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    
     color: white;
     /* color: black; */
     cursor: pointer;
-    background-color: #333232;
+    background-color: transparent;
   }
   .getInTouchBtn:hover a p {
   color: white !important;
   /* color: black; */
 }
 .bold-gotham {
-  font-family: "Gotham", Sans-serif;
+  font-family: "Permanent Marker", Sans-serif;
     font-weight: 700;
 }

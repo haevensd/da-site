@@ -1,9 +1,9 @@
 .training-section {
     text-align: center;
-    padding: 100px 20px;
+    padding: 20px 20px;
     margin: 0 auto;
-    max-width: 1200px;
-    padding-top: 125px;
+
+
     background-color: white;
   }
   
@@ -11,11 +11,13 @@
     font-size: 3.5rem;
     margin-bottom: 10px;
     color: black;
-    font-family: 'STONE HARBOUR';
+    font-family: 'Gotham Book';
   }
   
   .training-section p {
     font-size: 1.25rem;
+    font-family: 'Gotham Book Light';
+    font-weight:800;
     color: #666;
     margin-bottom: 2rem;
   }
@@ -50,7 +52,8 @@
   
   .video-item p {
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 600;
+
   }
   
   /* Responsive Design */

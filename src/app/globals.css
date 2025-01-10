@@ -10,6 +10,37 @@
   }
 }
 
+@font-face {
+  font-family: 'stone harbour';
+  src: url('/fonts/STONE-HARBOUR-Regular.woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('/fonts/Gotham-Book.woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham Book Light';
+  src: url('/fonts/Gotham-ExtraLight.woff2');
+
+}
+@font-face {
+  font-family: 'Gotham Book Bold';
+  src: url('/fonts/Gilroy-ExtraBold.woff2');
+
+}
+@font-face {
+  font-family: 'Permanent Marker';
+  src: url('/fonts/PermanentMarker-Regular.ttf');
+
+}
+
 html,
 body {
   max-width: 100vw;

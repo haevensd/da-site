@@ -1,6 +1,6 @@
 
 .login-container {
-  font-family: Arial, sans-serif;
+  font-family: 'Gotham Book';
   text-align: center;
   padding: 40px;
   margin-top: 4rem;
@@ -52,7 +52,7 @@
 }
 
 .login-form button {
-  background-color: #e67e22;
+  background-color: #000;
   color: #fff;
   border: none;
   padding: 10px 15px;
@@ -85,7 +85,7 @@
   margin: 20px auto;
   border-collapse: collapse;
   text-align: left;
-  font-family: Arial, sans-serif;
+  font-family: 'Gotham Book';
 }
 .course-table-container {
   text-align: center;
@@ -93,7 +93,7 @@
 }
 
 .react-data-table {
-  font-family: Arial, sans-serif;
+  font-family: 'Gotham Book';
 }
 
 .react-data-table__header {

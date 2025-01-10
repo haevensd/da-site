@@ -1,8 +1,9 @@
 .vault-container {
-    font-family: Arial, sans-serif;
+    font-family: 'Gotham Book';
     text-align: center;
     padding: 40px;
     margin-top: 1vh;
+    padding-bottom: 500px;
     background-color: #fff;
   }
   
@@ -20,32 +21,38 @@
     gap: 20px;
     max-width: 800px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 20px;
   }
   
   .vault-form {
     padding: 63px;
-    background-color: #2a2a2a;
+    background-color: #000;
     color: white;
     padding-top: 50px;
     border-radius: 10px;
+    /* border: 3px white solid; */
+    font-family: 'Gotham Book';
+    font-weight: 800;
     width: 50%;
-    padding-bottom: 50px;
+    padding-bottom: 45px;
     flex: 1;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
   .vault-form h3 {
+    font-family: 'Gotham Book Bold';
     font-size: 18px;
     margin-bottom: 10px;
     text-align: center;
-    color: white;
+    color: #ede3e3;
   }
   
   .vault-form p {
     font-size: 14px;
-    color: white;
-    margin-bottom: 20px;
+    color: #d0cccc;
+    margin-bottom: 30px;
+    font-family: 'Gotham Book Light';
+    font-weight: 300;
   }
   
   .vault-form label {
@@ -55,6 +62,7 @@
     margin-bottom: 3px;
     margin-left: 5px;
     color: white;
+    font-family: 'Gotham Book Light';
   }
   
   .vault-form input,
@@ -62,11 +70,13 @@
     width: 100%;
     color: black;
     padding: 10px;
-    margin-bottom:12px;
+    margin-bottom:23px;
     border: 1px solid #aaa;
     border-radius: 5px;
-    font-size: 14px;
-    background: #c4c4c4;
+    font-size: 10px;
+    padding-left: 12.5px;
+    background: #ede3e3;
+    font-family: 'Gotham Book';
   }
   
   .vault-form textarea {
@@ -75,21 +85,22 @@
   }
   
   .vault-form button {
-    background-color: transparent;
-    color: white;
-    
-    border: 1px #f5a623 solid;
-    padding: 10px 15px;
+    background-color:  #d32f2f;
+    color: #ede3e3;
+
+    border: 3px #d32f2f solid;
+    padding: 15px 25px;
     border-radius: 5px;
     font-size: 14px;
     cursor: pointer;
-    margin-top: 10px;
-    transition: background-color 0.3s ease;
+
+    transition: all 300ms ease-in-out;
   }
   
   .vault-form button:hover {
-    background-color: #d4881f;
-    color: #2a2a2a;
+    background-color: transparent;
+    border-color: #a42727;
+    color: #fff;
   }
   
   .vault-image {
@@ -130,6 +141,11 @@
   .button-container {
     display: flex;
     gap: 10px;
-    justify-content: center;
-    margin-top: 20px;
+    justify-content: flex-start;
+    /* margin-top: 20px; */
+  }
+  .button-container button {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-left: 3px;
   }

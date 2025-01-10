@@ -42,12 +42,12 @@ const DarikStory = () => {
         </div>
         <div className="story-content">
           <p className="story-intro">
-            It’s Oct. 11, 2001 and Darik is in his tiny college dorm, staring at
-            the mountain of bills on his desk. $50,000 in debt, while working
+            It’s Oct. 11, 2001 and I'm stting in my tiny college dorm, staring at
+            the mountain of bills on my desk. $50,000 in debt, while working
             concession stands for $9 an hour, and running on nothing but coffee
             and sheer determination. Life felt like an endless loop of struggle.
             But it was one moment that he made a decision—a decision to rewrite
-            his story.
+            my story.
           </p>
           <blockquote className="story-quote">
             “The 80-cent raise after six months of being the top call center
@@ -55,13 +55,13 @@ const DarikStory = () => {
             be trapped in this forever.”
           </blockquote>
           <p className="story-paragraph">
-            That moment was the turning point. Darik poured everything he had
+            That moment was the turning point. I poured everything he had
             into learning the ropes of entrepreneurship. Days blurred into
             nights as he taught himself marketing strategies, crafted offers,
             and built connections.
           </p>
           <p className="story-paragraph">
-            Fast forward, Darik is now the CEO of Ignite Programs, a multiple
+            Fast forward, I am now the CEO of Ignite Programs, a multiple
             six-figure earner by the age of 20, and a sought-after trainer who’s
             worked with world-renowned entrepreneurs like Gary Vaynerchuk,
             Darren Hardy, and Les Brown. He’s helped thousands attract leads and
@@ -69,7 +69,7 @@ const DarikStory = () => {
             businesses—they change lives.
           </p>
           <p className="story-paragraph">
-            From broke to thriving, Darik proves that the right mindset, hard
+            From broke to thriving, proving that the right mindset, hard
             work, and a heart-driven mission can spark a transformation for
             anyone willing to take the leap.
           </p>

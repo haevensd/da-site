@@ -1,14 +1,14 @@
 .testimonial {
     display: flex;
     align-items: center;
-    background-color: #33333399;
+    background-color: #000;
 
     color: #fff;
-    padding: 3rem 1.5rem;
+    padding: 0rem 1.5rem;
     border-radius: 8px;
     max-width: 100vw;
     margin: auto;
-
+  margin-bottom: 100px;
   }
 
 
@@ -41,28 +41,35 @@
   
   .testimonial-quote {
     font-size: 21px;
-    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-family: "Gotham Book Light";
+
     font-style: italic;
+    font-weight: 100;
     color: #ccc;
     margin-bottom: 1rem;
+    line-height: 31px;
+
   }
   
   .testimonial-author {
-    font-weight: 700;
+    font-weight: 800;
     display: block;
     float: right;
-    font-size: 21px;
+    font-size: 22px;
+    font-family: "Gotham Book Bold";
+    
     text-align: right;
     line-height: 1.8em;
-    margin-top: 0.5rem;
+    margin-top: 0;
 }
 
 .testimonial-meta {
-    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
-
+  font-family: "Gotham Book";
+  text-align: center;
     font-size: 21px;
-    margin-top: 70px;
-
+    margin-top: 30px;
+  font-weight: 700;
+  padding-right: 140px;
     color: #ddd;
   }
   

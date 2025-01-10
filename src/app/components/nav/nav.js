@@ -56,7 +56,7 @@ const Navbar = () => {
     <nav className="navbar" onClick={toggleSidebar}>
       <div className="navbar-logo" onClick={(e) => e.preventDefault()}>
         <Link href={'/'}>
-        <img src='/Logo-da-footer.png' width={'160px'} height={'80px'} style={{marginTop: '20px', marginLeft: '10px'}}/>
+        <img src='/Logo-da-footer.png' width={'140px'} height={'70px'} style={{marginTop: '20px', marginLeft: '10px'}}/>
         </Link>
       </div>
 
@@ -70,11 +70,11 @@ const Navbar = () => {
       {/* Sidebar */}
       <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
         <ul className="sidebar-links">
-          <Link style={{cursor: 'pointer'}} href="#home"><li>Home</li></Link>
+          <Link style={{cursor: 'pointer'}} href="/"><li>Home</li></Link>
           <Link style={{cursor: 'pointer'}} href="#about"><li>About</li></Link>
           <Link style={{cursor: 'pointer'}} href="#companies"><li>Companies</li></Link>
           <Link style={{cursor: 'pointer'}} href="#speaking"><li>Speaking</li></Link>
-          <Link style={{cursor: 'pointer'}} href=""><li>Free Book</li></Link>
+          <Link style={{cursor: 'pointer'}} href="/book"><li>Free Book</li></Link>
           <Link style={{cursor: 'pointer'}} href="/course"><li>Free Course</li></Link>
           <Link style={{cursor: 'pointer'}} href="#blog"><li>Blog</li></Link>
           <Link style={{cursor: 'pointer'}} href="#contact"><li>Contact</li></Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
         <Link style={{cursor: 'pointer'}} href="#about"><li>About</li></Link>
         <Link style={{cursor: 'pointer'}} href="#companies"><li>Companies</li></Link>
         <Link style={{cursor: 'pointer'}} href="#speaking"><li>Speaking</li></Link>
-        <Link style={{cursor: 'pointer'}} href=""><li>Free Book</li></Link>
+        <Link style={{cursor: 'pointer'}} href="/book"><li>Free Book</li></Link>
         <Link style={{cursor: 'pointer'}} href="/course"><li>Free Course</li></Link>
         <Link style={{cursor: 'pointer'}} href="#blog"><li>Blog</li></Link>
         <Link style={{cursor: 'pointer'}} href="#contact"><li>Contact</li></Link>

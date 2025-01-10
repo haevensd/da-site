@@ -3,7 +3,8 @@
     background-color: #000; /* Matches black background */
     color: #fff; /* White text */
     padding: 100px 40px; /* Adds spacing around the content */
-    font-family: Arial, sans-serif;
+    font-family: 'Gotham Book';
+    height: 500px;
     flex-direction: column;
     width: 100%;
     display: flex;
