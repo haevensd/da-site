@@ -5,3 +5,17 @@ div *, div * * {
 .bold {
     font-family: 'Gotham Book Bold';
 }
+
+/* .cover:after {
+    content: '';
+    height: 100%;
+  z-index: 0;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }  */

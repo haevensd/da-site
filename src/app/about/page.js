@@ -85,42 +85,42 @@ const AboutPage = () => {
   return (
     <div style={styles.container}>
       {/* Hero Section */}
-        <div style={{padding: '50px',paddingTop: '170px',backgroundImage: "url('/about_kid.jpg')", minHeight: '779px', width: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+        <div className='cover' style={{padding: '50px',paddingTop: '170px',backgroundImage: "url('/about_kid.jpg')", minHeight: '779px', width: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
 
         <div style={{backgroundColor: '',paddingLeft: '20px',paddingRight: '20px', maxWidth: '275px', }}>
 
-        <h1 style={{fontSize: '48px', fontWeight: 'bold', color: 'white',marginBottom: '16px'}}>As a kid...</h1>
+        <h1 style={{fontSize: '48px', fontWeight: 'bold', color: 'white',marginBottom: '50px'}}>As a kid...</h1>
         </div>
         {/* <h2 style={styles.heroSubtitle}>
           HOW AN AWKWARD BOY FROM OHIO BECAME A TIMES BEST SELLING AUTHOR...
           </h2> */}
-          <Card style={{border: 'none',backgroundColor: '#00000039',boxShadow: '0 2px 5px #0000001a',maxWidth: '1000px', padding: '25px'}}>
+          <Card style={{border: 'none',backgroundColor: '#00000099',boxShadow: '0 2px 5px #0000001a',maxWidth: '1200px', padding: '25px'}}>
           <CardContent>
-        <p style={{fontWeight: 'bold',lineHeight: "1.85em", fontSize: '25px', color: 'white', fontFamily: 'Gotham Book'}}>
+        <p style={{ maxWidth: '775px',fontWeight: 'bold',lineHeight: "1.25em", fontSize: '24px', color: 'white', fontFamily: 'Gotham Book'}}>
         I spent the first 10 years of my life being homeschooled by my father
         focusing on business principles and personal growth to apply in the real world.
         </p>
           </CardContent>
           </Card>
-          <Card style={{border: 'none',backgroundColor: '#00000039',boxShadow: '0 2px 5px #0000001a',maxWidth: '1000px', padding: '25px',marginTop: '15px',}}>
+          <Card style={{border: 'none',backgroundColor: '#00000099',boxShadow: '0 2px 5px #0000001a',maxWidth: '1200px', padding: '25px',marginTop: '20px',}}>
           <CardContent>
-        <p style={{lineHeight: "1.85em",fontWeight: 'bold', fontSize: '25px', color: 'white', fontFamily: 'Gotham Book'}}>
+        <p style={{ maxWidth: '775px',lineHeight: "1.25em",fontWeight: 'bold', fontSize: '24px', color: 'white', fontFamily: 'Gotham Book'}}>
           When I transitioned into public school I quickly realized how different traditional education was from what I had been learning prior.
         </p>
         </CardContent>
           </Card>
       </div>
           <h2 className='' style={{marginBottom: '100px',fontSize: '36px',lineHeight: '55px', fontWeight: 'bold', backgroundColor: 'white', padding: '50px'}}>Restless and eager to create my own path…</h2>
-        <p style={{padding: '50px',paddingRight: '75px', fontFamily: 'Gotham Book', fontSize: '24px', lineHeight: '1.25em'}}>
+        <p style={{padding: '50px',paddingRight: '75px', fontFamily: 'Gotham Book', fontSize: '24px', lineHeight: '1.25em', paddingLeft: '75px'}}>
         My early years in the public school system were challenging. Struggling to focus and facing bullying from peers, I often felt out of place.<br /><br />
         Teachers doubted my potential, and I was told my inability to focus would limit my future.
         </p>
-          <div style={{padding: '50px',color: '#232323',backgroundPosition: 'center',backgroundImage: "url('/hawaii_cover.jpg')",minHeight: '1079px', width: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', marginTop: '200px'}}>
+          <div style={{padding: '50px',paddingBottom: '250px',color: '#232323',backgroundPosition: 'center',backgroundImage: "url('/hawaii_cover.jpg')",minHeight: '1079px', width: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', marginTop: '200px'}}>
             <h1 style={{fontSize: '60px', fontFamily: 'Gotham Book Bold', fontWeight: '800', padding: '20px'}}>While at the University of Hawaii…</h1>
 
-            <Card style={{border: 'none',backgroundColor: '#23232379',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginTop: '30%',maxWidth: '750px'}}>
+            <Card style={{border: 'none',backgroundColor: '#23232399',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginLeft: '25px',marginTop: '10vh',maxWidth: '750px'}}>
               <CardContent>
-                <p style={{fontWeight: 'bold',lineHeight: "2.5em", fontSize: '25px', color: 'white', fontFamily: 'Gotham Book', }}>
+                <p style={{fontWeight: 'bold',lineHeight: "2em", fontSize: '25px', color: 'white', fontFamily: 'Gotham Book', }}>
                 As a business major and a D1 athlete, I was constantly stressed about the amount of student loans I had taken out to get my degree. Despite this, I was admitted to the business school early. While balancing athletics and school, I took on a job working as a call center employee for the University as a way to bring in some money for those
                 loans. Although I hated the job, within 3 months I raised more for the University than any other employee in the call center ever had. Thinking this would heavily increase in my pay, I was shocked when 6 months later was given an 80 cents raise... I quickly realized that working for someone else would not bring me the fulfillment I was searching for.</p>
               </CardContent>
@@ -134,7 +134,7 @@ const AboutPage = () => {
         </div>
         <div style={{padding: '100px', marginBottom: '200px', marginTop: '200px'}}>
           <h1 style={styles.heroTitle}>At age 20...</h1>
-          <p style={{fontSize: '24px', marginTop: '10px', lineHeight: '1.7em'}}>
+          <p style={{fontSize: '24px', marginTop: '10px', lineHeight: '1.7em', maxWidth: '1620px'}}>
           I joined an affiliate marketing company in the health and wellness industry to pursue part time over the summer. After my poor experience working at the call center, I hoped I could apply my sales skills in order to make enough cash, to avoid a similar summer job.
           </p>
         </div>
@@ -177,16 +177,16 @@ const AboutPage = () => {
         </div>
         <div style={{padding: '50px', marginTop: '200px'}}>
         <h1 style={{fontSize: '56px',marginBottom: '10px', marginBottom: '10px'}}>Over the next 10 years…</h1>
-        <p style={{fontSize: '24px', lineHeight: '1.5em',}}>I scaled multiple teams in the direct selling space to 12,000 plus distributors globally with a combined $100+ million in revenue. This allowed me to retire in my 20’s and build my own companies outside of the direct selling industry.</p>
+        <p style={{fontSize: '24px', lineHeight: '1.5em',maxWidth: '1620px'}}>I scaled multiple teams in the direct selling space to 12,000 plus distributors globally with a combined $100+ million in revenue. This allowed me to retire in my 20’s and build my own companies outside of the direct selling industry.</p>
         </div>
         <div style={{padding: '75px', marginTop: '200px', }}>
         <h1 style={{fontSize: '56px',lineHeight: '1.3em'}} className='bold'>Now I live out my passion each day…</h1>
-        <p style={{fontSize: '24px', lineHeight: '1.75em',marginTop: '20px'}}>As a husband and father, I have been fortunate to not only travel the world but take my family along with me. Giving them memories and moments that they can cherish for a lifetime.</p>
+        <p style={{fontSize: '24px', lineHeight: '1.75em',marginTop: '20px', maxWidth: '1620px'}}>As a husband and father, I have been fortunate to not only travel the world but take my family along with me. Giving them memories and moments that they can cherish for a lifetime.</p>
         </div>
         <CountrySlider ></CountrySlider>
         <div style={{padding: '25px', marginTop: '200px',marginBottom: '300px'}}>
           <h1 style={{color: 'black', fontSize: '60px'}}>My purpose is simple…</h1>
-          <p style={{textAlign: 'left', paddingLeft: '5px', lineHeight: '2em', fontSize: '26px', marginTop: '10px'}}>To inform, educate and empower others to think for themselves and live a life on their terms. I do this through not just sharing my own results but more importantly all the mistakes and mishaps I made along the way so you can cut the learning curve. I’m not perfect and fail all the time, but my ownership in those failures over the years have allowed me to create some pretty awesome results in the process.</p>
+          <p style={{textAlign: 'left', paddingLeft: '5px', lineHeight: '2em', fontSize: '26px', marginTop: '10px',maxWidth: '1700px'}}>To inform, educate and empower others to think for themselves and live a life on their terms. I do this through not just sharing my own results but more importantly all the mistakes and mishaps I made along the way so you can cut the learning curve. I’m not perfect and fail all the time, but my ownership in those failures over the years have allowed me to create some pretty awesome results in the process.</p>
         </div>
         <Contact></Contact>
         
