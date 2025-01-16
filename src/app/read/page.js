@@ -2,6 +2,7 @@
 import { redirect, useSearchParams } from 'next/navigation';
 import './index.css';
 import { Card, CardContent } from '../../../@/components/ui/card';
+import { Suspense } from 'react'
 const blogDict = {
     1: {
         content: <p>In this episode, we are going to ask the big question. Are you really worthy of success?<br />
@@ -205,35 +206,40 @@ const suggestions = [
     },
 ]
 
-
-const BlogPage = () => {
-    // const router = useRouter();
+const Inner = () => {
     const searchParams = useSearchParams();
 
     const blogId = searchParams.get('id');
+    return <div className='container'>
+    <img src='/back.png' style={{position: 'fixed', top: '95px', left: '10vw', cursor: 'pointer'}} height={'30px'} width={'30px'} onClick={() => redirect('/blog')}/>
+    <img src={blogDict[blogId].imgUrl} />
+    <h1>{blogDict[blogId].title}</h1>
+    {blogDict[blogId].content}
+    <div style={{marginTop: '20px', width: '100%', justifyContent: 'center', display: 'flex'}}>
+    {blogDict[blogId].video}
+    </div>
+    <div className="subarticles" style={{display: 'flex', maxHeight: '600px', gap: '20px', marginTop: '50px'}}>
+    {suggestions.map((i) => {
+        
+        return <Card key={i.title} style={{marginBottom: '50px'}}>
+            <CardContent style={{padding: '25px', maxHeight: '600px',}}>
+            <img src={i.imgUrl} />
+                <h1 style={{marginTop: '10px', marginBottom: '5px'}} className='bold'>{i.title}</h1>
+                <p style={{textOverflow: 'ellipsis'}}>{i.text} <a>Read more</a></p>
+            </CardContent>
+        </Card>
+    })}
+    </div>
+</div>
+}
+const BlogPage = () => {
+    // const router = useRouter();
+    
 
     return (
-        <div className='container'>
-            <img src='/back.png' style={{position: 'fixed', top: '95px', left: '10vw', cursor: 'pointer'}} height={'30px'} width={'30px'} onClick={() => redirect('/blog')}/>
-            <img src={blogDict[blogId].imgUrl} />
-            <h1>{blogDict[blogId].title}</h1>
-            {blogDict[blogId].content}
-            <div style={{marginTop: '20px', width: '100%', justifyContent: 'center', display: 'flex'}}>
-            {blogDict[blogId].video}
-            </div>
-            <div className="subarticles" style={{display: 'flex', maxHeight: '600px', gap: '20px', marginTop: '50px'}}>
-            {suggestions.map((i) => {
-                
-                return <Card key={i.title} style={{marginBottom: '50px'}}>
-                    <CardContent style={{padding: '25px', maxHeight: '600px',}}>
-                    <img src={i.imgUrl} />
-                        <h1 style={{marginTop: '10px', marginBottom: '5px'}} className='bold'>{i.title}</h1>
-                        <p style={{textOverflow: 'ellipsis'}}>{i.text} <a>Read more</a></p>
-                    </CardContent>
-                </Card>
-            })}
-            </div>
-        </div>
+        <Suspense>
+            <Inner></Inner>
+        </Suspense>
     );
 };
 
