@@ -110,7 +110,7 @@ const AboutPage = () => {
         </CardContent>
           </Card>
       </div>
-          <h2 className='' style={{marginBottom: '100px',fontSize: '36px',lineHeight: '55px', fontWeight: 'bold', backgroundColor: 'white', padding: '50px'}}>Restless and eager to create my own path…</h2>
+          <h2 className='bold' style={{marginBottom: '100px',fontSize: '36px',lineHeight: '55px', fontWeight: 'bold', backgroundColor: 'white', padding: '50px'}}>Restless and eager to create my own path…</h2>
         <p style={{padding: '50px',paddingRight: '75px', fontFamily: 'Gotham Book', fontSize: '24px', lineHeight: '1.25em', paddingLeft: '75px'}}>
         My early years in the public school system were challenging. Struggling to focus and facing bullying from peers, I often felt out of place.<br /><br />
         Teachers doubted my potential, and I was told my inability to focus would limit my future.
