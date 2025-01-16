@@ -1,0 +1,25 @@
+.container {
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    padding-bottom: 500px;
+    padding-top: 100px;
+    font-family: 'Gotham Book';
+}
+.container > h1 {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Gotham Book Bold';
+}
+a {
+cursor: pointer;
+    color: #707070;
+}
+
+@media (max-width: 700px) {
+    .subarticles {
+        opacity: 0;
+    }
+}

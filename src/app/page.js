@@ -34,7 +34,10 @@ export default function Home() {
           <div className="contact">
             <div style={{textAlign: 'left'}}>
               <h1 style={{fontFamily: 'Gotham Book Bold'}}>It's Time to Make the Transition</h1>
-              <p style={{position: 'relative',fontFamily: 'Gotham Book Bold'}}>Your path to success starts here— jump on my mailing list <img style={{width: '12.5px', height: '15px', top: '7px', position: 'absolute', marginLeft: '10px', transform: 'scale(-1, 1)'}} src="/hand-pointing-down.png" /></p>
+              <span>
+
+              <p style={{position: 'relative',fontFamily: 'Gotham Book Bold',    display: 'flex', alignItems: 'center'}}>Your path to success starts here— jump on my mailing list <img style={{width: '12.5px', height: '15px', top: '7px', marginLeft: '10px', transform: 'scale(-1, 1)'}} src="/hand-pointing-down.png" /></p>
+              </span>
               <div style={{display: 'flex', flexDirection: 'column', textAlign: 'left', gap: '1rem', width: '100%',marginTop: '20px'}}>
                 <input type="email" placeholder="Enter your email" required />
                 <input type="text" placeholder="Enter your first name" required />

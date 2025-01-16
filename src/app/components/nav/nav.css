@@ -29,16 +29,21 @@
   background-color: #00000099;
 }
 
+.navbar:not(.scrolled) .sublinks-container {
+  background-color: #000000 !important;
+}
+
 .navbar-links {
   display: flex;
   list-style: none;
-  /* gap: 5px; */
+  gap: 20px;
 }
 
 .navbar-links li {
 
   font-size: 1rem;
   font-family: 'Gotham Book';
+  white-space: nowrap;
 }
 
 .navbar-links a {
@@ -82,7 +87,7 @@
 }
 
 .sidebar-links li {
-  padding: 15px 0;
+  padding: 10px 0;
   font-family: 'Gotham Book';
 }
 
@@ -120,7 +125,8 @@
 }
 
 .navbar-links li {
-  margin: 0 10px;
+  margin: 0 0;
+  text-align: center;
 }
 
 .navbar-links a {
@@ -182,4 +188,15 @@
   .hamburger-menu {
     display: flex;
   }
+}
+.sublinks li{
+  text-align: left;
+}
+.sublinks {
+  padding: 5px;
+}
+.sublinks:hover {
+  background-color: white;
+  color: black;
+  
 }

@@ -1,0 +1,68 @@
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-in {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+div *, div * * {
+    font-family: 'Gotham Book';
+}
+.arrow {
+    position: relative;
+}
+.arrow:before {
+    content: '';
+    background-image: url('/arrow.png');
+    background-size: 100%;
+    position: absolute;
+    width: 0.885vw;
+    height: 4.219vw;
+    top: -2vw;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 999;
+}
+.subtitle {
+    transform: translateX(-30%);
+    opacity: 0.5;
+    transition: all 0.75s ease-in-out;
+    transition: opacity 0.75s ease-in-out;
+
+}
+.title {
+    transform: translateX(-50%);
+    opacity: 0.5;
+    transition: all 0.95s ease-in-out;
+    transition: opacity 0.95s ease-in-out;
+}
+.visible {
+    opacity: 1;
+    transform: translateX(0); /* Or translateX(0) for the quote */
+  }
+
+  

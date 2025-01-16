@@ -19,15 +19,16 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 20px;
+    min-width: 600px;
     max-width: 800px;
     margin: 0 auto;
     padding-top: 20px;
   }
   
-  .vault-form {
+  .speaking .vault-form {
     padding: 63px;
-    background-color: #000;
-    color: white;
+    background-color: #fff !important;
+    color: black;
     padding-top: 50px;
     border-radius: 10px;
     /* border: 3px white solid; */
@@ -49,33 +50,33 @@
   
   .vault-form p {
     font-size: 14px;
-    color: #d0cccc;
+    color: #fff;
     margin-bottom: 30px;
     font-family: 'Gotham Book Light';
     font-weight: 300;
   }
   
-  .vault-form label {
+  .speaking .vault-form label {
     text-align: left;
     display: block;
     font-size: 14px;
     margin-bottom: 3px;
     margin-left: 5px;
-    color: white;
+    color: black !important;
     font-family: 'Gotham Book Light';
   }
   
   .vault-form input,
   .vault-form textarea {
     width: 100%;
-    color: black;
+    color: white;
     padding: 10px;
     margin-bottom:23px;
     border: 1px solid #aaa;
     border-radius: 5px;
     font-size: 10px;
     padding-left: 12.5px;
-    background: #ede3e3;
+    background: #c5c1c1;
     font-family: 'Gotham Book';
   }
   
@@ -86,6 +87,7 @@
   
   .vault-form button {
     background-color:  #d32f2f;
+    
     color: white;
 
     border: 3px #d32f2f solid;
@@ -96,11 +98,11 @@
 
     transition: all 300ms ease-in-out;
   }
-  
-  .vault-form button:hover {
+  .speaking .vault-form button:hover {
+    
     background-color: transparent;
     border-color: #a42727;
-    color: #fff;
+    color: #000 !important;
   }
   
   .vault-image {
@@ -141,7 +143,8 @@
   .button-container {
     display: flex;
     gap: 10px;
-    justify-content: flex-start;
+    margin-top: 10px;
+    justify-content: center;
     /* margin-top: 20px; */
   }
   .button-container button {
