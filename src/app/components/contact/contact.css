@@ -11,6 +11,9 @@
         padding-top: 0 !important;
         padding-bottom: 150px;
     }
+    .coverlay {
+        max-width: 1400px !important;
+    }
 }
 .coverlay > div > h1{
     max-width: 500px;
@@ -28,4 +31,5 @@
 .coverlay{
     padding: 18% 15% 1% 15% !important;
 }
+
 
