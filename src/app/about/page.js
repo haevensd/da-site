@@ -96,7 +96,7 @@ const AboutPage = () => {
           </h2> */}
           <Card style={{border: 'none',backgroundColor: '#00000099',boxShadow: '0 2px 5px #0000001a',maxWidth: '1200px', padding: '25px'}}>
           <CardContent>
-        <p style={{ maxWidth: '775px',fontWeight: 'bold',lineHeight: "1.25em", fontSize: '24px', color: 'white', fontFamily: 'Gotham Book'}}>
+        <p style={{ maxWidth: '875px',fontWeight: 'bold',lineHeight: "1.35em", fontSize: '24px', color: 'white', fontFamily: 'Gotham Book'}}>
         I spent the first 10 years of my life being homeschooled by my father
         focusing on business principles and personal growth to apply in the real world.
         </p>
@@ -104,7 +104,7 @@ const AboutPage = () => {
           </Card>
           <Card style={{border: 'none',backgroundColor: '#00000099',boxShadow: '0 2px 5px #0000001a',maxWidth: '1200px', padding: '25px',marginTop: '20px',}}>
           <CardContent>
-        <p style={{ maxWidth: '775px',lineHeight: "1.25em",fontWeight: 'bold', fontSize: '24px', color: 'white', fontFamily: 'Gotham Book'}}>
+        <p style={{ maxWidth: '875px',lineHeight: "1.35em",fontWeight: 'bold', fontSize: '24px', color: 'white', fontFamily: 'Gotham Book'}}>
           When I transitioned into public school I quickly realized how different traditional education was from what I had been learning prior.
         </p>
         </CardContent>
