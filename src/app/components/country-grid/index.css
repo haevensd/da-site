@@ -27,6 +27,8 @@
       10px 10px 8px rgba(152, 133, 133, 0.392),
       15px 15px 8px rgba(139, 154, 139, 0.303); */
       /* border: 3px #d32f2f solid; */
+      border: none;
+      transform: scale(1) !important;
       cursor: pointer;
       
   
@@ -59,6 +61,9 @@
     animation: slide 48s linear infinite;
 
   }
+  .carousel-track:hover {
+    animation-play-state: initial!important;
+}
   .carousel-track:nth-child(2) {
     top: 228px  ;
   }
