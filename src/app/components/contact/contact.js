@@ -1,4 +1,5 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import BookForm from '../get-book/book';
 import './contact.css';
 
@@ -151,6 +152,43 @@ const Contact = () => {
       color: 'white',
     },
   };
+  const [email, setEmail] = useState('');
+  const [name, setName] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+
+    try {
+      const response = await fetch('/api/email', {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({email, name}),
+      });
+
+      if (!response.ok) {
+        throw new Error('Registration failed');
+      }
+
+      setSubmitted(true);
+      setEmail('');
+      setName('');
+    } catch (err) {
+      setEmail('');
+      setName('');
+      console.log('Failed to register. Please try again.');
+    } 
+  };
+  const handleInputChange = (e) => {
+    if (e.target.name == 'email') {
+      setEmail(e.target.value)
+    } else {
+      setName(e.target.value)
+    }
+
+  };
 
   return (
     <div style={styles.container}>
@@ -199,10 +237,12 @@ const Contact = () => {
             <p style={{color: 'white'}}>Drop your info below to get connected and see
             how we can help support you!</p>
           <div style={{display: 'flex', flexDirection: 'column', textAlign: 'left', gap: '1rem', width: '100%',marginTop: '20px', marginBottom: '100px'}}>
-                <input type="email" placeholder="Enter your email" required />
-                <input type="text" placeholder="Enter your first name" required />
-                <div className="terms-and-conditions"><input id="terms_and_conditions_9rbq2dj9bto" value="terms_and_conditions" name="terms_and_conditions" type="checkbox" data-q="terms_and_conditions" data-required="true" /><span style={{fontFamily:'Roboto',marginLeft:'10px'}} htmlFor="terms_and_conditions_9rbq2dj9bto"><span style={{color: '#FFFFFFFF'}}><p>I agree to receive communications and agree to the <a style={{color: '#9BCAF6FF', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer nofollow" href="https://bradlea.com/terms-of-use/">terms</a> and <a style={{color: '#9BCAF6FF', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer nofollow" href="https://bradlea.com/privacy-policy/">privacy policy</a> </p></span></span></div>
-                <button className="mail-button">Contact us</button>
+          <form style={{display: 'flex', flexDirection: 'column', gap: '1rem'}} onSubmit={handleSubmit} className="login-form">
+                <input type="email" value={email} name="email" onChange={handleInputChange} placeholder="Enter your email" required />
+                <input type="text" value={name} name="name" onChange={handleInputChange} placeholder="Enter your name" required />
+                <div className="terms-and-conditions"><input required id="terms_and_conditions_9rbq2dj9bto" value="terms_and_conditions" name="terms_and_conditions" type="checkbox" data-q="terms_and_conditions" data-required="true" /><span style={{fontFamily:'Roboto',marginLeft:'10px'}} htmlFor="terms_and_conditions_9rbq2dj9bto"><span style={{color: '#FFFFFFFF'}}><p>I agree to receive communications and agree to the <a style={{color: '#9BCAF6FF', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer nofollow" href="https://bradlea.com/terms-of-use/">terms</a> and <a style={{color: '#9BCAF6FF', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer nofollow" href="https://bradlea.com/privacy-policy/">privacy policy</a> </p></span></span></div>
+                <button type='submit' className="mail-button">Contact</button>
+                </form>
               </div>
               </div>
           {/* <BookForm showImage={false}></BookForm> */}
