@@ -73,7 +73,7 @@ const DarikStory = () => {
             work, and a heart-driven mission can spark a transformation for
             anyone willing to take the leap.
           </p>
-          <button className="story-button">Discover My Story</button>
+          <a href="/about"><button className="story-button">Discover My Story</button></a>
         </div>
       </div>
     </section>

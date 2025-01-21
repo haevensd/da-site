@@ -219,6 +219,6 @@
 }
 .testimonial-top {
   background: rgb(255,255,255);
-  
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 21%, rgb(255, 255, 255) 100%);
+  padding-top: 50px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 47.5%, rgb(255, 255, 255) 80%);
 }
