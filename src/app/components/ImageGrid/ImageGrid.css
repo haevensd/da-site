@@ -1,3 +1,6 @@
+.carousel-container a{
+  transform: scale(1.1);
+}
 .carousel-container {
   overflow: hidden;
 
@@ -16,13 +19,15 @@
   align-items: center;
   width: 100%;
   /* height: 100%; */
-  max-height: 227px;
-  min-width: 403px;
-
+  max-height: 227px !important;
+  min-width: 390px;
+box-sizing: border-box;
   background: rgb(41, 40, 40);
+  border: 1px #fff solid;
 }
 .carousel-card:hover {
-  transform: scale(1.01);
+  
+  z-index: 1000;
   /* box-shadow: 5px 5px 8px rgba(222, 222, 222, 0.362),
     10px 10px 8px rgba(152, 133, 133, 0.392),
     15px 15px 8px rgba(139, 154, 139, 0.303); */
@@ -43,6 +48,7 @@
 .carousel-card > img {
   height: 100%;
   width: 100%;
+  
 
 }
 
@@ -53,6 +59,7 @@
   justify-content: center;
   align-items: center;
   height: 220px;
+  gap: 0;
   top:0;
   width: 200%;
 

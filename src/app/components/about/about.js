@@ -33,7 +33,7 @@ const DarikStory = () => {
       <img
         height="auto"
         width="100%"
-        src="http://darikalexander.com/wp-content/uploads/2020/03/You-arent-stupid-though-you-also-know-that-_one-day-isnt-a-day-on-the-calendar_.png"
+        src="mystory.jpeg"
         alt="Story Header"
       />
       <div className="story-inner-container">

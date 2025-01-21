@@ -61,8 +61,9 @@ export default function Home() {
           <div className={styles.topPageTestimonial}>
             
             <FeaturedIn></FeaturedIn>
-            
+      <div className="testimonial-top">
             <Testimonial></Testimonial>
+        </div>       
             
             
             
@@ -70,7 +71,7 @@ export default function Home() {
           
           <About></About>
           
-          <section style={{backgroundColor: '#000', border: 'none'}} className={styles.animatedSection}>
+          {/* <section style={{backgroundColor: '#000', border: 'none'}} className={styles.animatedSection}>
             <div
               
               className={`${styles.textContainer} ${
@@ -84,29 +85,29 @@ export default function Home() {
                 </a>
               </button>
             </div>
-      </section>
+      </section> */}
       <AutoplayCarousel></AutoplayCarousel>
-          <div className='hexagon-container' style={{height: '1130px', marginTop: '100px'}}>
+          <div className='hexagon-container' style={{height: '1130px', marginTop: '100px', }}>
             
           <h2 className="elementor-heading-title elementor-size-default">
-                JOIN THE MOVEMENT TO <span className="stoneharbour-text-sec6">
-                BECOME THE PERSON</span><br></br>
+          Join a community built <span className="stoneharbour-text-sec6">
+          for success</span><br></br>
 
-         YOU WERE<span className="bold-gotham"> MADE TO BE</span>
+          and rise to your<span className="bold-gotham"> true potential</span>
          </h2>
           <HexagonSections></HexagonSections>
           
-          <div className="hexagon-gradient"></div>
-          <div className="hexagon-gradient-white"></div>
+          {/* <div className="hexagon-gradient"></div>
+          <div className="hexagon-gradient-white"></div> */}
           </div>
-          <div style={{position: 'relative',}}>
+          <div style={{position: 'relative',marginTop: '0'}}>
 
           <Contact></Contact>
 <section style={{backgroundColor: '#fff', paddingBottom: '0', }}>
 
           {/* <BookForm showImage={false}></BookForm> */}
 </section>
-          <section style={{backgroundColor: '#000'}} className={styles.animatedSection} >
+          {/* <section style={{backgroundColor: '#000'}} className={styles.animatedSection} >
             <div
               
               className={`${styles.textContainer} ${
@@ -121,7 +122,7 @@ export default function Home() {
                 </a>
               </button>
             </div>
-          </section>
+          </section> */}
         </div>
       
       </div>

@@ -15,6 +15,15 @@
         max-width: 1400px !important;
     }
 }
+@media (min-width: 2024px) {
+    .three-column .vault-content {
+        padding-top: 0 !important;
+        padding-bottom: 150px;
+    }
+    .coverlay {
+        max-width: 2000px !important;
+    }
+}
 .coverlay > div > h1{
     max-width: 500px;
     margin: auto;
@@ -33,3 +42,53 @@
 }
 
 
+
+.terms-and-conditions input{
+    background-color: white;
+  }
+  .terms-and-conditions {
+    align-items: flex-start;
+    display: flex;
+    line-height: 1.25rem;
+    word-break: break-word;
+    margin-top: 5px;
+  }
+  
+  .terms-and-conditions p {
+    margin: 0!important;
+    font-size: 12px;  
+    font-family: Gotham Book;
+  }
+  
+  .mail-button {
+    float: left;
+  }
+  
+  .mail-button {
+    display: block;
+    border: 2px solid #fff;
+    background-color: transparent;
+    /* background-color: #000; */
+    color: #fff;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 7px;
+    margin: 5px auto 0 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  max-width: 300px;
+  
+    font-family: Gotham Book Bold;
+  }
+  
+  .mail-button:hover {
+    background-color: #d32f2f !important;
+    border-color: #d32f2f;
+  }
+  input {
+    background-color: white;
+    color: black;
+    padding: 13px;
+    border-radius: 10px;
+  }

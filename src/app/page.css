@@ -10,8 +10,9 @@
 }
 .elementor-heading-title {
   padding: 0;
+  color: white;
   margin: 0;
-  margin-top: -15vh;
+  padding-top:15vh;
   margin-bottom: 55px;
   line-height: 1.35em;
 }
@@ -19,6 +20,7 @@
   
   font-size: 3.795vw;
   font-weight: 700 !important;
+  font-family: 'Gotham Book Bold';
   /* letter-spacing: 10px; */
 }
 .bold-gotham {
@@ -61,14 +63,21 @@
   text-align: center;
   padding-top: 10px;
   position: relative;
-  background-image: url('/sec-bg6.png');
+  background-image: url('/made2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+@media (min-width: 2067px) {
+  .hexagon-container {
+
+    min-height: 2200px;
+  }
+}
 @media (max-width: 767px) {
   .hexagon-container {
-    min-height: 800px;
+    min-height: 1400px;
+    padding-bottom: 400px !important;
   }
 }
 
@@ -207,4 +216,9 @@
 .mail-button:hover {
   background-color: #d32f2f !important;
   border-color: #d32f2f;
+}
+.testimonial-top {
+  background: rgb(255,255,255);
+  
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 21%, rgb(255, 255, 255) 100%);
 }

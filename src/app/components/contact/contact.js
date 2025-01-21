@@ -18,6 +18,7 @@ const Contact = () => {
     },
     backgroundImg: {
       width: '100%',
+      minWidth: '150%',
       height: '100%',
       objectFit: 'cover',
     },
@@ -42,8 +43,8 @@ const Contact = () => {
     },
     threeColumnLayout: {
       display: 'grid',
-      gridTemplateColumns: '2fr 1fr',
-      gap: '32px',
+      gridTemplateColumns: '1fr 2fr 1fr',
+      gap: '10vw',
       marginTop: '32px',
     },
     column: {
@@ -155,7 +156,7 @@ const Contact = () => {
     <div style={styles.container}>
       <div style={styles.backgroundImage}>
         <img 
-          src="https://lewishowes.com/wp-content/uploads/2019/11/footer-bg-1-2.jpg" 
+          src="/contact.jpg" 
           alt="Landscape with hot air balloons" 
           style={styles.backgroundImg}
         />
@@ -171,29 +172,40 @@ const Contact = () => {
 
         <div className='three-column' style={styles.threeColumnLayout}>
           {/* Podcast Section */}
-          {/* <div style={styles.column}>
-            <h2 style={styles.sectionTitle}>PODCAST</h2>
+          <div style={styles.column}>
+            <h2 style={styles.sectionTitle}>PROGRAMS</h2>
             <p style={styles.sectionText}>
-              DREAM BIGGER. LIVE BETTER.<br />
-              MAKE AN IMPACT.
+              TAKE MY FREE<br />
+              PROGRAMS
             </p>
             
-            <div style={styles.starRating}>
+            {/* <div style={styles.starRating}>
               <span style={{ marginLeft: '8px' }}>(19,700+)</span>
-            </div>
+            </div> */}
 
-            {['Apple Podcast', 'Spotify', 'Amazon Music', 'Pandora'].map((platform) => (
+            {['Magnetic Messenger', 'Ascension'].map((platform) => (
               <button key={platform} style={styles.platformButton}>
-                <img 
+                {/* <img 
                   src="/api/placeholder/20/20" 
                   alt={platform} 
                   style={styles.buttonIcon}
-                />
+                /> */}
                 <span>{platform}</span>
               </button>
             ))}
-          </div> */}
-          <BookForm showImage={false}></BookForm>
+          </div>
+          <div style={styles.column}>
+            <h1 style={{color: 'white', fontFamily: 'Gotham Book Bold', fontSize: '32px'}}>WANT TO WORK TOGETHER?</h1>
+            <p style={{color: 'white'}}>Drop your info below to get connected and see
+            how we can help support you!</p>
+          <div style={{display: 'flex', flexDirection: 'column', textAlign: 'left', gap: '1rem', width: '100%',marginTop: '20px', marginBottom: '100px'}}>
+                <input type="email" placeholder="Enter your email" required />
+                <input type="text" placeholder="Enter your first name" required />
+                <div className="terms-and-conditions"><input id="terms_and_conditions_9rbq2dj9bto" value="terms_and_conditions" name="terms_and_conditions" type="checkbox" data-q="terms_and_conditions" data-required="true" /><span style={{fontFamily:'Roboto',marginLeft:'10px'}} htmlFor="terms_and_conditions_9rbq2dj9bto"><span style={{color: '#FFFFFFFF'}}><p>I agree to receive communications and agree to the <a style={{color: '#9BCAF6FF', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer nofollow" href="https://bradlea.com/terms-of-use/">terms</a> and <a style={{color: '#9BCAF6FF', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer nofollow" href="https://bradlea.com/privacy-policy/">privacy policy</a> </p></span></span></div>
+                <button className="mail-button">Contact us</button>
+              </div>
+              </div>
+          {/* <BookForm showImage={false}></BookForm> */}
 
           {/* Email Signup Section */}
           {/* <div style={styles.column}>
