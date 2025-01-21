@@ -87,7 +87,7 @@ export default function Home() {
             </div>
       </section> */}
       <AutoplayCarousel></AutoplayCarousel>
-          <div className='hexagon-container' style={{height: '1500px', marginTop: '0', }}>
+          <div className='hexagon-container' style={{height: '1300px', marginTop: '0', }}>
             
           <h2 className="elementor-heading-title elementor-size-default">
           Join a community built <span className="stoneharbour-text-sec6">

@@ -3,7 +3,7 @@
   color: black;
   /* font-family: 'Roboto'; */
   font-family: "Gotham Book", Sans-serif;
-  font-size: 3.795vw;
+  font-size: 2.5em;
   font-weight: 500;
   min-width: 100%;
   line-height: 1.35em;
@@ -18,7 +18,7 @@
 }
 .stoneharbour-text-sec6 {
   
-  font-size: 3.795vw;
+  font-size: 2.5rem;
   font-weight: 700 !important;
   font-family: 'Gotham Book Bold';
   /* letter-spacing: 10px; */
@@ -26,8 +26,23 @@
 .bold-gotham {
   font-family: "Permanent Marker", Sans-serif;
   font-weight: 200;
-  font-size: 4.795vw;
+  font-size: 3.5rem;
   line-height: 1.35em;
+}
+@media (min-width: 1067px) {
+  .elementor-heading-title {
+    font-size: 4vw !important;
+  }
+  .elementor-heading-title {
+    font-size: 3.795vw !important;
+    
+  }
+  .stoneharbour-text-sec6 {
+    font-size: 3.795vw !important;
+  }
+  .bold-gotham {
+    font-size: 3.795vw !important;
+  }
 }
 
 .hexagon-section-wrapper {
@@ -220,5 +235,6 @@
 .testimonial-top {
   background: rgb(255,255,255);
   padding-top: 50px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 47.5%, rgb(255, 255, 255) 80%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 47.5%, rgb(255, 255, 255) 90%);
+  min-height: 800px;
 }
