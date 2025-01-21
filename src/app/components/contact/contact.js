@@ -222,7 +222,7 @@ const Contact = () => {
             </div> */}
 
             {['Magnetic Messenger', 'Ascension'].map((platform) => (
-              <button key={platform} style={styles.platformButton}>
+              <button key={platform} style={styles.platformButton} className='platform-btn'>
                 {/* <img 
                   src="/api/placeholder/20/20" 
                   alt={platform} 
