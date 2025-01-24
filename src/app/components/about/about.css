@@ -100,7 +100,7 @@
   
   .story-intro {
     font-size: 18px;
-    font-style: italic;
+    /* font-style: italic; */
     margin-bottom: 20px;
     font-family: 'Geist';
   }

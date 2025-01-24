@@ -93,10 +93,13 @@
 }
 .hexagon-item:nth-child(1)  .hexagon-description {
   position: absolute;
-  top: 70%;
+  top: 65%;
 }
 
 
+.hexagon-item:nth-child(2) .hexagon-description {
+  top: 30%;
+}
 .hexagon-item:nth-child(2) {
   top: 0;
   left: 25%;
@@ -125,11 +128,11 @@
 }
 
 .hexagon-item:nth-child(5)  .hexagon-description {
-  top: -20%;
+  top: -40%;
 }
 .hexagon-item:nth-child(4)  .hexagon-description {
   position: absolute;
-  top: 30%;
+  top: 45%;
 }
 
 .hexagon-item:nth-child(6) {
@@ -144,7 +147,7 @@
 
 /* Text inside the triangles */
 .hexagon-description {
-  background-color: #1f1c1c99;
+  background-color: #1f1c1c70;
   padding: 5px;
   position: absolute;
   left: 50%;
