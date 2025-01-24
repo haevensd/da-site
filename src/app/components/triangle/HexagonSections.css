@@ -20,6 +20,12 @@
     margin-top: 100px;
   }
 }
+@media (min-width: 1667px) {
+  .hexagon.loaded {
+    transform: scale(1.4);
+    margin-top: 300px;
+  }
+}
 .hexagon-item {
   position: absolute;
   width: 50%; /* Each item takes up half of the row */

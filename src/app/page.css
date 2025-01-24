@@ -238,3 +238,8 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 47.5%, rgb(255, 255, 255) 90%);
   min-height: 800px;
 }
+@media (min-width: 1667px) {
+  .hexagon-container {
+    min-height: 1700px !important;
+  }
+}
