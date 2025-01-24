@@ -34,6 +34,7 @@ const DarikStory = () => {
         height="auto"
         width="100%"
         src="mystory.jpeg"
+        className="about-img"
         alt="Story Header"
       />
       <div className="story-inner-container">

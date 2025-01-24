@@ -1,10 +1,12 @@
+'use client';
 import React from "react";
+
 import "./HexagonSections.css";
 
 const HexagonSections = () => {
   const sections = [
     {
-      text: "Magnetic Minds",
+      text: "Magnetic Messenger Scripts",
       link: "",
       image: "/mm.png",
       // hoverImage: "https://lewishowes.com/wp-content/uploads/2019/10/triangle-on-state-daily-motivation-.png",
@@ -36,7 +38,7 @@ const HexagonSections = () => {
     {
       text: "Blog",
       link: "/blog",
-      image: "/blog.jpg",
+      image: "/blog.png",
       // hoverImage: "https://lewishowes.com/wp-content/uploads/2019/10/sog-on-state.png",
     },
   ];
@@ -58,11 +60,12 @@ const HexagonSections = () => {
           //   (e.currentTarget.style.backgroundImage = `url(${section.image})`)
           // }
         >
+         
           <div className="hexagon-description">
             <p>{section.text}</p>
             {/* <a href={section.link} target="_blank" rel="noopener noreferrer">
               READ MORE
-            </a> */}
+              </a> */}
           </div>
         </div>
       ))}

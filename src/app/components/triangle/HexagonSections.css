@@ -14,6 +14,12 @@
   opacity: 1;
 }
 
+@media (min-width: 1267px) {
+  .hexagon.loaded {
+    transform: scale(1.2);
+    margin-top: 100px;
+  }
+}
 .hexagon-item {
   position: absolute;
   width: 50%; /* Each item takes up half of the row */
@@ -118,6 +124,9 @@
   clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
 }
 
+.hexagon-item:nth-child(5)  .hexagon-description {
+  top: -20%;
+}
 .hexagon-item:nth-child(4)  .hexagon-description {
   position: absolute;
   top: 30%;
@@ -135,6 +144,8 @@
 
 /* Text inside the triangles */
 .hexagon-description {
+  background-color: #1f1c1c99;
+  padding: 5px;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);

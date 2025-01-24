@@ -121,9 +121,9 @@ const AutoplayCarousel = () => {
     <div style={{backgroundColor: 'white',paddingTop: '55px', paddingBottom: '0px'}}>
       <div style={{ width: '100%'}}>
 
-    <h2 style={{textAlign: 'center',color: 'black',fontSize: '3rem', marginBottom: '55px', fontFamily: "GOTHAM BOOK", }}>Checkout My Channel! </h2>
+    <h2 style={{textAlign: 'center',color: 'black',fontSize: '3rem', marginBottom: '55px', fontFamily: "GOTHAM",fontWeight: '700' }}>Checkout My Channel! </h2>
       </div>
-    <div style={{height: '500px', display: 'flex'}}>
+    <div style={{height: '465px', display: 'flex'}}>
     <div className="carousel-container" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}> 
       <div className="carousel-track" style={{animationPlayState: hover ? 'paused' : ''}}>
         {Object.keys(cardDetails).map((detailKey, index) => {

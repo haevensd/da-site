@@ -51,7 +51,7 @@
     font-size: 14px;
     color: #d0cccc;
     margin-bottom: 30px;
-    font-family: 'Gotham Book Light';
+    font-family: 'Gotham Book';
     font-weight: 300;
   }
   
@@ -62,7 +62,7 @@
     margin-bottom: 3px;
     margin-left: 5px;
     color: white;
-    font-family: 'Gotham Book Light';
+    font-family: 'Gotham Book';
   }
   
   .vault-form input,

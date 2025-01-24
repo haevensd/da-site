@@ -41,13 +41,13 @@
   
   .testimonial-quote {
     font-size: 21px;
-    font-family: "Gotham Book Light";
+    font-family: "Gotham Book";
 
     font-style: italic;
-    font-weight: 100;
+
     color: #ccc;
     margin-bottom: 1rem;
-    line-height: 31px;
+    line-height: 21px;
 
   }
   
