@@ -15,7 +15,7 @@
     min-height: 1000px;
     width: 100%;
     display: flex;
-
+    overflow: visible;
     justify-content: flex-end;
     padding: 100px;
 
@@ -53,11 +53,7 @@
     padding: 20px;
 
   }
-  @media (min-width: 768px) { 
-    .story-container img {
-      /* display: none;/ */
-    }
-  }
+  
   .about-img {
     display: none;
   }
@@ -322,5 +318,11 @@
   }
   .story-inner-container {
     margin-right: auto !important;
+  }
+}
+@media (max-width: 768px) { 
+  .story-inner-container {
+    /* display: none;/ */
+    max-height: unset !important;
   }
 }

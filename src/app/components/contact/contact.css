@@ -28,6 +28,11 @@
     max-width: 500px;
     margin: auto;
 }
+@media (min-width: 1300px) {
+  .bg-image {
+    padding-right: 400px;
+  }
+}
 @media (max-width: 1024px) {
     .coverlay{
         padding: 18% 15% 1% 15% !important;
@@ -104,3 +109,4 @@
     color: black !important;
     /* font-family: 'Gotham Book Bold'; */
   }
+  

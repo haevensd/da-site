@@ -12,7 +12,7 @@ const Contact = () => {
     },
     backgroundImage: {
       position: 'absolute',
-      paddingRight: '400px',
+      
       top: 0,
       left: 0,
       right: 0,
@@ -193,7 +193,7 @@ const Contact = () => {
 
   return (
     <div style={styles.container}>
-      <div style={styles.backgroundImage}>
+      <div style={styles.backgroundImage} className='bg-image'>
         <img 
           src="/plan.jpeg" 
           alt="Landscape with hot air balloons" 

@@ -271,7 +271,8 @@
     left:50.33%;
   }
   .hexagon-item:nth-child(5) .hexagon-description {
-    transform: translate(-50%,175%) rotate(180deg);
+    transform: translate(-50%,75%) rotate(180deg);
+    top: 30% !important;
   }
   .hexagon-item:nth-child(4) .hexagon-description {
     max-width: 167px !important;
