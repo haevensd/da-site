@@ -104,7 +104,7 @@
 
 
 .hexagon-item:nth-child(2) .hexagon-description {
-  top: 30%;
+  top: 20%;
 }
 .hexagon-item:nth-child(2) {
   top: 0;
@@ -118,7 +118,7 @@
 
 .hexagon-item:nth-child(3)  .hexagon-description {
   position: absolute;
-  top: 70%;
+  top: 60%;
 }
 
 .hexagon-item:nth-child(4) {
@@ -134,7 +134,7 @@
 }
 
 .hexagon-item:nth-child(5)  .hexagon-description {
-  top: -40%;
+  top: -42%;
 }
 .hexagon-item:nth-child(4)  .hexagon-description {
   position: absolute;
