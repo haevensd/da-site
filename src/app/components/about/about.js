@@ -65,9 +65,7 @@ const DarikStory = () => {
             Fast forward, I am now the CEO of Ignite Programs, a multiple
             six-figure earner by the age of 20, and a sought-after trainer who’s
             worked with world-renowned entrepreneurs like Gary Vaynerchuk,
-            Darren Hardy, and Les Brown. He’s helped thousands attract leads and
-            sales through heart-centered strategies that don’t just build
-            businesses—they change lives.
+            Darren Hardy, and Les Brown. 
           </p>
           <p className="story-paragraph">
             From broke to thriving, proving that the right mindset, hard
