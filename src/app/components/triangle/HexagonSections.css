@@ -154,7 +154,7 @@
 /* Text inside the triangles */
 .hexagon-description {
   background-color: #1f1c1c70;
-  padding: 5px;
+  padding: 2px;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -165,7 +165,7 @@
 
   transition: opacity 0.3s ease-in-out;
   z-index: 2;
-  min-width: 200px;
+  min-width: 150px;
 }
 .hexagon-item:nth-child(5) .hexagon-description {
   transform: translate(-50%, 500%) rotate(180deg);
