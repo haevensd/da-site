@@ -47,7 +47,7 @@ const FreeCourseForm = () => {
 
   return (
     <div className="vault-container">
-      <h2 className="vault-title">Your Journey Begins Here</h2>
+      <h2 className="vault-title"></h2>
       <div className="vault-content">
         {!submitted ? (
           <div className="vault-form">

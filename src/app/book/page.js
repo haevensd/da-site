@@ -81,7 +81,7 @@ const BookForm = ({showImage=true}) => {
       case 1:
         return (
           <div className="vault-form">
-            <h3>UNLOCK THE SECRETS TO SUCCESS!</h3>
+            <h3 >UNLOCK THE SECRETS TO SUCCESS!</h3>
             <p>
               Fill in the form to receive your <strong>free</strong> copy of our exclusive
               book— packed with actionable strategies, insights, and
@@ -217,6 +217,7 @@ const BookForm = ({showImage=true}) => {
 
   return (
     <div className="vault-container">
+      <h2 className="vault-title"></h2>
     <div className="vault-content">
       {renderStep()}
       {showImage && (
