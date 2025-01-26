@@ -118,7 +118,7 @@ const cardDetails2 = {
 const AutoplayCarousel = () => {
   const [hover, setHover] = useState(false);
   return (
-    <div style={{backgroundColor: 'white',paddingTop: '55px', paddingBottom: '0px'}}>
+    <div style={{backgroundColor: 'white',paddingTop: '', paddingBottom: '0px'}}>
       <div style={{ width: '100%'}}>
 
     <h2 style={{textAlign: 'center',color: 'black',fontSize: '3rem', marginBottom: '55px', fontFamily: "GOTHAM",fontWeight: '700' }}>Checkout My Channel! </h2>
