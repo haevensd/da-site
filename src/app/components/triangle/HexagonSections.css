@@ -14,7 +14,7 @@
   opacity: 1;
 }
 
-@media (min-width: 1267px) {
+@media (min-width: 1067px) {
   .hexagon.loaded {
     transform: scale(1.2);
     margin-top: 100px;
@@ -154,7 +154,7 @@
 /* Text inside the triangles */
 .hexagon-description {
   background-color: #1f1c1c70;
-  padding: 2px;
+  padding: 5px;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
