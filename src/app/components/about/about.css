@@ -32,14 +32,14 @@
 
     background-repeat: no-repeat;
     background-color: black !important;
-    min-height: 100vh;
-    max-height: 100vh;
-    height: 1300px;
+    min-height: 129vh;
+    max-height: 129vh;
+    height: 100vh;
 
   }
   @media screen and (max-width: 1617px) {
     .story-container {
-      min-height: 100vh !important;
+      min-height: 129vh !important;
 height: 100%;
       max-height: 100vh;
     }
@@ -55,7 +55,7 @@ height: 100%;
   }
   @media screen and (min-width: 1817px) {
     .story-container {
-      min-height: 100vh !important;
+      min-height: 129vh !important;
 height: 100%;
       max-height: 100vh !important;
     }
