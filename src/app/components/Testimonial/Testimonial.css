@@ -15,18 +15,18 @@
 
   
   .testimonial-portrait {
-    width: 1280px;
-    height: 350px;
+    width: 1200px;
+    height: 360px;
     border-radius: 50%;
     background-size: cover ;
     background-position: center;
     background-repeat: no-repeat;
-    margin-right: 4.2rem;
+    margin-right: 2rem;
   }
 
   @media (min-width: 1068px) {
     .testimonial {
-      max-width: 1050px;
+      max-width: 1090px;
     }
   }
   @media (max-width: 768px) {
