@@ -13,7 +13,7 @@
     color: #333;
 
     min-height: 1380px;
-    width: 115%;
+    width: 100%;
     display: flex;
     overflow: visible;
     justify-content: flex-end;
@@ -32,10 +32,35 @@
 
     background-repeat: no-repeat;
     background-color: black !important;
-    min-height: 129vh;
-    max-height: 129vh;
+    min-height: 100vh;
+    max-height: 100vh;
     height: 100vh;
 
+  }
+  @media screen and (max-width: 1200px) {
+    .story-container {
+      min-height: 180vh !important;
+height: 100%;
+      max-height: 140vh !important;
+    }
+    
+  }
+
+  @media screen and (max-width: 1500px) {
+    .story-container {
+      min-height: 180vh !important;
+height: 100%;
+      max-height: 140vh !important;
+    }
+    
+  }
+  @media screen and (max-width: 1517px) {
+    .story-container {
+      min-height: 150vh !important;
+height: 100%;
+      max-height: 100vh;
+    }
+    
   }
   @media screen and (max-width: 1617px) {
     .story-container {
@@ -55,7 +80,7 @@ height: 100%;
   }
   @media screen and (min-width: 1817px) {
     .story-container {
-      min-height: 129vh !important;
+      min-height: 109vh !important;
 height: 100%;
       max-height: 100vh !important;
     }
