@@ -26,7 +26,7 @@ export default function Home() {
         <div className={styles.bannerOverlay}>7
           <div className="content">
 
-          <video autoPlay={true} width={'100%'} height={'100%'} src="http://darikalexander.com/wp-content/uploads/2017/06/website-loop-darik-1.m4v" loop="loop"  muted={true} id="mejs_376381418949159_html5"  >
+          <video autoPlay={true} width={'100%'} height={'100%'} src="https://bradlea.com/wp-content/uploads/2024/09/BRAD-LEA-WEBSITE-BG.mp4" loop="loop"  muted={true} id="mejs_376381418949159_html5"  >
         
           </video>
           </div>

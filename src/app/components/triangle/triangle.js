@@ -32,7 +32,7 @@ const HexagonSections = () => {
     {
         text: "Arcadia",
         link: "/",
-        image: "/arcadia.jpg",
+        image: "/arcadia.png",
         // hoverImage: "https://lewishowes.com/wp-content/uploads/2019/10/triangle-on-state-greatness8.png",
     },
     {

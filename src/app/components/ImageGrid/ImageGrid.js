@@ -1,5 +1,6 @@
 'use client'
-import { useState } from "react";
+import { TypeAnimation } from 'react-type-animation';
+import { useEffect, useState, useRef } from "react";
 import CarouselItem from "./CarouselItem";
 import './ImageGrid.css';
 const cardDetails = {
@@ -117,11 +118,53 @@ const cardDetails2 = {
 }
 const AutoplayCarousel = () => {
   const [hover, setHover] = useState(false);
-  return (
-    <div style={{backgroundColor: 'white',paddingTop: '', paddingBottom: '0px'}}>
-      <div style={{ width: '100%'}}>
+  const [isVisible, setIsVisible] = useState(false);
+  const elementRef = useRef(null);
 
-    <h2 style={{textAlign: 'center',color: 'black',fontSize: '3rem', marginBottom: '55px', fontFamily: "GOTHAM",fontWeight: '700' }}>Checkout My Channel! </h2>
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting);
+      },
+      {
+        rootMargin: '0px', // No margin
+        threshold: 0.1 // Trigger when 50% of the element is visible
+      }
+    );
+
+    const elementsToAnimate = document.querySelectorAll(
+      ".typed"
+    );
+
+    elementsToAnimate.forEach((el) => observer.observe(el));
+
+    return () => {
+      elementsToAnimate.forEach((el) => observer.unobserve(el));
+      observer.disconnect();
+    }
+  }, []);
+
+
+  return (
+    <div  style={{backgroundColor: 'black',paddingTop: '75px', paddingBottom: ''}}>
+      <div style={{ width: '100%', minHeight: '100px', display: 'flex'}}>
+
+    {/* <h2 style={{textAlign: 'center',color: 'white',fontSize: '3rem', marginBottom: '75px', fontFamily: "GOTHAM",fontWeight: '700' }}>CHECKOUT MY CHANNEL </h2> */}
+    <div  className='typed' style={{margin: 'auto', marginBottom: '75px'}}>
+
+{isVisible &&    <TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+        'Checkout my channel!',
+      ]}
+      wrapper="span"
+      speed={43}
+      color={'white'}
+      style={{ fontSize: '4em', display: 'inline-block', color: 'white', fontFamily: 'Gotham Book Bold' }}
+      className='typed'
+
+      />}
+      </div>
       </div>
     <div style={{height: '465px', display: 'flex'}}>
     <div className="carousel-container" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}> 
