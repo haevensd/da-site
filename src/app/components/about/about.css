@@ -30,22 +30,40 @@
 
     font-family: 'Geist';
 
-
-    min-height: 1380px;
-    max-height: 1380px;
+    background-repeat: no-repeat;
+    background-color: black !important;
+    min-height: 100vh;
+    max-height: 100vh;
+    height: 1300px;
 
   }
   @media screen and (max-width: 1617px) {
     .story-container {
-      min-height: 1080px !important;
+      min-height: 100vh !important;
 height: 100%;
-      max-height: 1380px;
+      max-height: 100vh;
+    }
+    
+  }
+  @media screen and (max-width: 1717px) {
+    .story-container {
+      min-height: 100vh !important;
+height: 100%;
+      max-height: 100vh;
     }
     
   }
   @media screen and (min-width: 1817px) {
     .story-container {
-      min-height: 1380px !important;
+      min-height: 100vh !important;
+height: 100%;
+      max-height: 100vh !important;
+    }
+    
+  }
+  @media screen and (min-width: 2000px) {
+    .story-container {
+      min-height: 1580px !important;
 height: 100%;
       max-height: 1580px !important;
     }
@@ -71,8 +89,7 @@ height: 100%;
   .story-inner-container {
     max-width: 800px;
 
-    opacity: 0.8;
-    background-color: #ffffff;
+    background-color: #00000099;
     z-index: 100;
     border-radius: 15px;
 
@@ -94,7 +111,7 @@ height: 100%;
   .story-header h1 {
     text-transform: uppercase;
     font-size: 36px;
-    color: #333;
+    color: #fff !important;
     letter-spacing: 2px;
     margin-bottom: 20px;
     text-align: center;
@@ -130,9 +147,9 @@ height: 100%;
   
   .story-button {
     display: block;
-    border-color: #000;
-    border: 3px solid black;
-    background-color: white;
+    border-color: #fff;
+    border: 3px solid white;
+    background-color: transparent !important;
     
     color: black;
     padding: 12px 24px;
@@ -149,7 +166,7 @@ height: 100%;
   .story-button:hover {
     background-color: #d32f2f !important;
     color: white;
-    border-color: white;
+    border-color: #d32f2f;
   }
   
 
@@ -217,7 +234,7 @@ height: 100%;
 .story-paragraph,
 .story-quote {
   font-family: 'Gotham';
-  color: black;
+  color: white !important;
   transform: translateY(20px); /* For fade-up effect */
   transition: all 0.8s ease-in-out;
 }
@@ -261,7 +278,7 @@ height: 100%;
 
 .story-header h1 {
   font-size: 36px;
-  color: #333;
+  color: #000;
   font-weight: 800;
   transform: translateY(0px);
   transition: all 0.8s ease-in-out;
@@ -291,12 +308,12 @@ height: 100%;
 }
 
 .story-button {
-  border-color: #000;
-  border-color: #000;
-  border: 3px solid black;
+  border-color: #fff;
+  border-color: #fff;
+  border: 3px solid white;
   background-color: white;
   
-  color: black;
+  color: white;
   /* color: #fff; */
   padding: 10px 20px;
   font-family: 'Gotham Book Bold';
@@ -327,7 +344,7 @@ height: 100%;
   .story-container{
     background-image: none;
     /* padding-bottom: 500px !important; */
-    min-height: 1880px;
+    min-height: 1880px !important;
   }
   .story-inner-container {
     margin-right: auto !important;
