@@ -337,6 +337,22 @@ height: 100%;
   transform: translateX(0);
 }
 
+@media  (max-height: 1000px){ 
+  .about-img {
+    display: initial;
+  }
+  .story-container{
+    background-image: none;
+    /* padding-bottom: 500px !important; */
+    min-height: 1880px !important;
+  }
+  .story-inner-container {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 50px;
+  }
+}
 @media (max-width: 1250px) { 
   .about-img {
     display: initial;
