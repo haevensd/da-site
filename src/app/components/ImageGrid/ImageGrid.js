@@ -158,7 +158,7 @@ const AutoplayCarousel = () => {
         'Checkout my channel!',
       ]}
       wrapper="span"
-      speed={43}
+      speed={50}
       color={'white'}
       style={{ fontSize: '4em', display: 'inline-block', color: 'white', fontFamily: 'Gotham Book Bold' }}
       className='typed'
