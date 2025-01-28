@@ -20,7 +20,7 @@ const Contact = () => {
     },
     backgroundImg: {
       width: '100%',
-      minWidth: '150%',
+      minWidth: '200%',
       height: '100%',
       objectFit: 'cover',
     },

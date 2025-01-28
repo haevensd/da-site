@@ -1,9 +1,11 @@
 'use client';
+import { useRouter } from 'next/navigation'
 import React from "react";
 
 import "./HexagonSections.css";
 
 const HexagonSections = () => {
+  const router = useRouter();
   const sections = [
     {
       text: "Magnetic Messenger Scripts",
@@ -31,7 +33,7 @@ const HexagonSections = () => {
     },
     {
         text: "Arcadia",
-        link: "/",
+        link: "https://arcadiatechnologies.co",
         image: "/arcadia.png",
         // hoverImage: "https://lewishowes.com/wp-content/uploads/2019/10/triangle-on-state-greatness8.png",
     },
@@ -50,6 +52,7 @@ const HexagonSections = () => {
         <div
           key={index}
           className="hexagon-item"
+          onClick={() => router.replace(section.link)}
           style={{
             backgroundImage: `url(${section.image})`,
           }}
