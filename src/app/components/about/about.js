@@ -47,7 +47,7 @@ const DarikStory = () => {
             the mountain of bills on my desk. $50,000 in debt, while working
             concession stands for $9 an hour, and running on nothing but coffee
             and sheer determination. Life felt like an endless loop of struggle.
-            But it was one moment that he made a decision—a decision to rewrite
+            But it was one moment that I made a decision—a decision to rewrite
             my story.
           </p>
           <blockquote className="story-quote">
@@ -56,9 +56,9 @@ const DarikStory = () => {
             be trapped in this forever.”
           </blockquote>
           <p className="story-paragraph">
-            That moment was the turning point. I poured everything he had
+            That moment was the turning point. I poured everything I had
             into learning the ropes of entrepreneurship. Days blurred into
-            nights as he taught himself marketing strategies, crafted offers,
+            nights as I taught myself marketing strategies, crafted offers,
             and built connections.
           </p>
           <p className="story-paragraph">
