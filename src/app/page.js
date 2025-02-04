@@ -37,7 +37,7 @@ export default function Home() {
               <span>
 
               <p style={{position: 'relative',fontFamily: 'Gotham Book Bold',    display: 'flex', alignItems: 'center'}}>To Get Free Sale's Scripts, Courses and Marketing Material for Your Business
-               <img style={{width: '12.5px', height: '15px', top: '7px', marginLeft: '10px', transform: 'scale(-1, 1)'}} src="/hand-pointing-down.png" /></p>
+               </p>
               </span>
               <div style={{display: 'flex', flexDirection: 'column', textAlign: 'left', gap: '1rem', width: '100%',marginTop: '20px'}}>
                 <input type="email" placeholder="Enter your email" required />
