@@ -218,17 +218,17 @@ const BookForm = ({showImage=true}) => {
   return (
     <div className="vault-container">
       <h2 className="vault-title"></h2>
-    <div className="vault-content">
-      {renderStep()}
-      {showImage && (
-        <div className="vault-image">
-          <img
-            src="https://s.yimg.com/ny/api/res/1.2/79si0K0Q8wKMu4psN_l.yA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTcwMDtjZj13ZWJw/https://lh5.googleusercontent.com/JpJDaGvxCPQbTRCyhBeRu6lAPR4AfS-9Bc6N6bACn_qaL-u9Wrp2g2MTGV2UW9xId626SEhfEKpm-3dJi8lmF4PpIjSXVS7k1Yk6phOY4Bhh3rTVBV8gQm_6TxPkCc8e37M7GqAM=s800"
-            alt="Free Book"
-          />
-        </div>
-      )}
-    </div>
+      <div className="vault-content">
+        {renderStep()}
+        {showImage && (
+          <div className="vault-image">
+            <img
+              src="https://s.yimg.com/ny/api/res/1.2/79si0K0Q8wKMu4psN_l.yA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTcwMDtjZj13ZWJw/https://lh5.googleusercontent.com/JpJDaGvxCPQbTRCyhBeRu6lAPR4AfS-9Bc6N6bACn_qaL-u9Wrp2g2MTGV2UW9xId626SEhfEKpm-3dJi8lmF4PpIjSXVS7k1Yk6phOY4Bhh3rTVBV8gQm_6TxPkCc8e37M7GqAM=s800"
+              alt="Free Book"
+            />
+          </div>
+        )}
+      </div>
     </div>
   );
 };

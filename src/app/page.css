@@ -228,9 +228,9 @@
   font-family: Gotham Book Bold;
 }
 
-.mail-button:hover {
-  background-color: #d32f2f !important;
-  border-color: #d32f2f;
+button.mail-button:hover {
+  background-color: #038FB5 !important;
+  border-color: #038FB5 !important;
 }
 .testimonial-top {
   background: rgb(255,255,255);

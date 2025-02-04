@@ -33,7 +33,7 @@ const DarikStory = () => {
       <img
         height="auto"
         width="100%"
-        src="mystory2.png"
+        src="mystory.png"
         className="about-img"
         alt="Story Header"
       />

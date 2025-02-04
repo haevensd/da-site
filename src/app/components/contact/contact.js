@@ -17,6 +17,7 @@ const Contact = () => {
       left: 0,
       right: 0,
       bottom: 0,
+
     },
     backgroundImg: {
       width: '100%',
@@ -34,14 +35,16 @@ const Contact = () => {
     heroText: {
       textAlign: 'center',
       color: 'black',
-      marginBottom: '64px',
+      marginBottom: '100px',
     },
     heroTitle: {
       color: 'white',
+      marginTop: '-100px',
       fontSize: '48px',
       fontWeight: 'bold',
       fontFamily: 'Gotham Book Bold',
-      marginBottom: '8px',
+      lineHeight: '80px',
+      marginBottom: '100px',
     },
     threeColumnLayout: {
       display: 'grid',
@@ -197,7 +200,7 @@ const Contact = () => {
     <div style={styles.container}>
       <div style={styles.backgroundImage} className='bg-image'>
         <img 
-          src="/plan.jpeg" 
+          src="/contactbg.jpg" 
           alt="Landscape with hot air balloons" 
           style={styles.backgroundImg}
         />
@@ -207,7 +210,7 @@ const Contact = () => {
         <div style={styles.heroText}>
           <h1 style={styles.heroTitle}>
           JOIN A GLOBAL<br />
-          COMMUNITY OF <span style={{ fontStyle: 'italic', fontSize: '54px', color: '#d32f2f',  }}>ACHIEVERS</span>
+          COMMUNITY OF <span style={{ fontStyle: 'italic', fontSize: '54px', color: '#038FB5',  }}>ACHIEVERS</span>
           </h1>
         </div>
 
@@ -306,7 +309,7 @@ const Contact = () => {
                   <img style={{ width:'45px ', height: '35px'}}src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/YouTube_full-color_icon_%282024%29.svg/1280px-YouTube_full-color_icon_%282024%29.svg.png" alt="YouTube"/>
                 </div>
               </a>
-              <a href="https://www.instagram.com/darik.alexander/">
+              <a href="https://www.instagram.com/darik/">
                 <div style={{ ...styles.socialButton, backgroundColor: '#db2777' }}>
                   <img style={{ width:'33px', height: '35px'}}src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
                 </div>
