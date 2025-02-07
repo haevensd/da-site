@@ -95,7 +95,7 @@ const setIsSidebarOpen = (val) => {
           {showCompanies ?
           <>
           <Link style={{cursor: 'pointer', fontSize: '16px', }} href="https://merchants.fixmyfees.com/"><li>Fix My Fees</li></Link>
-          <Link style={{cursor: 'pointer', fontSize: '16px', }} href="#companies"><li>Arcadia Technologies</li></Link>
+          <Link style={{cursor: 'pointer', fontSize: '16px', }} href="https://arcadiatechnologies.co"><li>Arcadia Technologies</li></Link>
           </>
           : null}
 
