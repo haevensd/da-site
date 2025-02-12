@@ -29,11 +29,7 @@
     margin: auto;
 }
 
-@media (max-width: 700px) {
-  .bg-image {
-    width: 50% !important;
-  }
-}
+
 @media (max-width: 1024px) {
     .coverlay{
         padding: 15%;
