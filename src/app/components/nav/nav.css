@@ -200,7 +200,8 @@
   padding: 5px;
 }
 .sublinks:hover {
-  background-color: white;
-  color: black;
+  background-color: #14439c;
+  color: white;
+  text-align: center;
   min-width: fit-content !important; 
 }

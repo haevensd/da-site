@@ -155,7 +155,7 @@ const AutoplayCarousel = () => {
 {isVisible &&    <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        'Checkout my channel!',
+        'Checkout My Channel!',
       ]}
       wrapper="span"
       speed={50}
