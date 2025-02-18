@@ -198,7 +198,7 @@
 @media (max-width: 767px) {
   .hexagon-description {
     padding: 5px;
-    min-width: 120px;
+    min-width: 100px;
   }
   .hexagon-description a{
     padding: 5px 5px !important;
@@ -253,6 +253,10 @@
     clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
   }
   
+  .hexagon-item:nth-child(5)  .hexagon-description {
+    /* top: 60%; */
+  }
+
   .hexagon-item:nth-child(4)  .hexagon-description {
     position: absolute;
     top: 55%;
