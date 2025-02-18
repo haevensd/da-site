@@ -5,6 +5,9 @@
         gap: 100px !important;
         padding-bottom: 100px;
     }
+    .bg-image {
+      max-height: 1000px;
+    }
 }
 @media (min-width: 1024px) {
     .three-column .vault-content {
