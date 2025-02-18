@@ -19,7 +19,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 10px 20px;
+  padding: 47px 20px;
   background-color: black;
   height: 80px;
   color: white;
@@ -37,6 +37,7 @@
   display: flex;
   list-style: none;
   gap: 1rem;
+  padding-top: 5px;
 }
 
 .navbar-links li {
@@ -44,6 +45,8 @@
   font-size: 1.5rem;
   font-family: 'Gotham';
   white-space: nowrap;
+  padding: 5px;
+
 }
 
 .navbar-links a {
@@ -201,6 +204,7 @@
 }
 .sublinks:hover {
   background-color: #14439c;
+  transition: background-color 0.27s ease-out;
   color: white;
   text-align: center;
   min-width: fit-content !important; 
