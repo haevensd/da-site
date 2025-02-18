@@ -37,6 +37,7 @@
     .coverlay > div > h1 {
         max-width: 300px;
         margin: auto;
+        margin-bottom: -50px !important;
     }
 }
 .coverlay{
