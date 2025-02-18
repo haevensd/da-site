@@ -238,7 +238,7 @@
   }
   
   .hexagon-item:nth-child(3) .hexagon-description {
-    top: 70.33333333333333%;
+    top: 182px;
     left: 48.33%;
   }
   .hexagon-item:nth-child(4) {
@@ -280,7 +280,7 @@
 }
 @media (max-width: 417px) {
   .hexagon-item:nth-child(3) .hexagon-description {
-    top: 58.33333333333333%;
+    top: 182px;
     left:50.33%;
   }
   .hexagon-item:nth-child(5) .hexagon-description {
