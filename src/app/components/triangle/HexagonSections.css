@@ -197,7 +197,11 @@
 /* Responsive adjustments for smaller screens */
 @media (max-width: 767px) {
   .hexagon-description {
-    padding: 0px;
+    padding: 5px;
+    min-width: 120px;
+  }
+  .hexagon-description a{
+    padding: 5px 5px !important;
   }
 }
 @media (max-width: 767px) {
@@ -234,7 +238,7 @@
   }
   
   .hexagon-item:nth-child(3) .hexagon-description {
-    top: 40.33333333333333%;
+    top: 70.33333333333333%;
     left: 48.33%;
   }
   .hexagon-item:nth-child(4) {
@@ -251,7 +255,7 @@
   
   .hexagon-item:nth-child(4)  .hexagon-description {
     position: absolute;
-    top: 20%;
+    top: 55%;
   }
   
   .hexagon-item:nth-child(6) {
