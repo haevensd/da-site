@@ -223,10 +223,12 @@
   }
   .hexagon-item:nth-child(1)  .hexagon-description {
     position: absolute;
-    top: 70%;
+    top: 220px;
   }
-  
-  
+
+  .hexagon-item:nth-child(2) .hexagon-description {
+    top: 50px;
+  }
   .hexagon-item:nth-child(2) {
     top: 0;
     left: 33.33333333333333%;
@@ -269,7 +271,7 @@
   
   .hexagon-item:nth-child(6)  .hexagon-description {
     position: absolute;
-    top: 40%;
+    top: 100px;
   }
 }
 
