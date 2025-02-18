@@ -152,12 +152,13 @@ const Contact = () => {
     socialGrid: {
       display: 'grid',
       gridTemplateColumns: 'repeat(2, 1fr)',
-      gap: '8px',
+      rowGap: '8px',
+      gap: '24px',
     },
     socialButton: {
       cursor: 'pointer',
       padding: '8px',
-      borderRadius: '4px',
+      borderRadius: '7px',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
