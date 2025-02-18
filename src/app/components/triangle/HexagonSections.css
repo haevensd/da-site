@@ -196,6 +196,11 @@
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 767px) {
+  .hexagon-description {
+    padding: 0px;
+  }
+}
+@media (max-width: 767px) {
   .hexagon {
     /* min-height: 2000px; */
     height: 873px;

@@ -398,7 +398,7 @@ height: 100%;
 }
 @media (max-width: 950px) { 
   .story-container{
-    min-height: 1580px !important;
+    min-height: 1350px !important;
   }
 }
 @media (max-width: 768px) { 
