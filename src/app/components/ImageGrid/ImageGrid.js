@@ -160,7 +160,7 @@ const AutoplayCarousel = () => {
       wrapper="span"
       speed={50}
       color={'white'}
-      style={{ fontSize: '4em', display: 'inline-block', color: 'white', fontFamily: 'Gotham Book Bold' }}
+      style={{ fontSize: '4em', display: 'inline-block', color: 'white', fontFamily: 'Gotham Book Bold', textAlign: 'center' }}
       className='typed'
 
       />}
