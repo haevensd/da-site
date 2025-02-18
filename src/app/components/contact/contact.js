@@ -42,8 +42,8 @@ const Contact = () => {
       fontSize: '48px',
       fontWeight: 'bold',
       fontFamily: 'Gotham Book Bold',
-      lineHeight: '100px',
-      marginBottom: '100px',
+      lineHeight: '88px',
+      marginBottom: '-50px',
     },
     threeColumnLayout: {
       display: 'grid',
