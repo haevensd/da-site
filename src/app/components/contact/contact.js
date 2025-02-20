@@ -30,7 +30,7 @@ const Contact = () => {
       zIndex: 10,
       maxWidth: '1200px',
       margin: '0 auto',
-      padding: '32px 16px',
+      padding: '38px 16px',
     },
     heroText: {
       textAlign: 'center',
@@ -42,15 +42,17 @@ const Contact = () => {
       
       fontSize: '48px',
       fontWeight: 'bold',
+      marginTop: '50px',
       fontFamily: 'Gotham Book Bold',
-      lineHeight: '88px',
-      marginBottom: '-50px',
+      lineHeight: '120px',
+
+      marginBottom: '-338px',
     },
     threeColumnLayout: {
       display: 'grid',
       gridTemplateColumns: '2fr 2fr 2fr',
       gap: '10vw',
-      marginTop: '220px !important',
+      marginTop: '120px !important',
     }, 
     column: {
       color: 'white',
