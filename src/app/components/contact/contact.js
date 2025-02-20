@@ -50,7 +50,7 @@ const Contact = () => {
       display: 'grid',
       gridTemplateColumns: '2fr 2fr 2fr',
       gap: '10vw',
-      marginTop: '120px !important',
+      marginTop: '220px !important',
     }, 
     column: {
       color: 'white',
