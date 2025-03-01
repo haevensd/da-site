@@ -235,7 +235,7 @@ button.mail-button:hover {
 .testimonial-top {
   background: rgb(255,255,255);
   padding-top: 0px;
-  background: linear-gradient(180deg, #000 53.5%, #111111 84.5%,#ADC3D1 91.5%,#AFC5D3 95.5%, #ADC3D1 95%);
+  background: linear-gradient(180deg, #000 53.5%, #111111 79.5%,#ADC3D1 91.5%,#AFC5D3 95.5%, #ADC3D1 95%);
 
 }
 @media (min-width: 1667px) {
