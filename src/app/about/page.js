@@ -106,11 +106,11 @@ const AboutPage = () => {
 
         
         <div style={{display:'flex',  margin: 'auto', flexDirection:'column', height: 'auto',padding: '100px', gap: '50px',
-          backgroundColor: '#00000099',maxWidth: '1875px',marginLeft: 0,marginTop:'auto',marginBottom: '250px'
+          backgroundColor: '#00000099',maxWidth: '1875px',marginLeft: 0,marginTop:'auto',marginBottom: '350px'
         }}>
         {/* <img src="/da.jpg" style={{}} width="1000px" height="1000px" ></img> */}
 {/* <h1 style={{color: 'white', fontSize: '5vw',  padding: '0', marginTop:'-100px',marginBottom:'-57px'}}>...</h1> */}
-        <p style={{ fontWeight: 'bold',lineHeight: "50px", fontSize: '30px', color: 'white', fontFamily: 'Gotham Book'}}>
+        <p style={{ fontWeight: 'bold',lineHeight: "50px", fontSize: '40px', color: 'white', fontFamily: 'Gotham Book'}}>
 
           When I transitioned into public school, I quickly realized how different traditional education was from what I had been learning.<br /><br />
           My early years in the public school system were challenging. Struggling to focus and facing bullying from peers, I often felt out of place.<br /><br />
