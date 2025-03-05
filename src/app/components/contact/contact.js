@@ -17,7 +17,6 @@ const Contact = () => {
       left: 0,
       right: 0,
       bottom: 0,
-
     },
     backgroundImg: {
       width: '100%',
@@ -39,13 +38,11 @@ const Contact = () => {
     },
     heroTitle: {
       color: 'white',
-      
       fontSize: '48px',
       fontWeight: 'bold',
       marginTop: '50px',
       fontFamily: 'Gotham Book Bold',
       lineHeight: '120px',
-
       marginBottom: '-38px',
     },
     threeColumnLayout: {
@@ -240,7 +237,7 @@ const Contact = () => {
               <button key={platform} style={styles.platformButton} className='platform-btn'>
                 {/* <img 
                   src="/api/placeholder/20/20" 
-                  alt={platform} 
+                  alt={platform}
                   style={styles.buttonIcon}
                 /> */}
                 <span>{platform}</span>

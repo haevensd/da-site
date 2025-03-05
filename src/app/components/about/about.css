@@ -103,6 +103,22 @@ height: 100%;
     }
 
   }
+  @media screen and (min-width: 2315px) {
+    .story-container {
+      min-height: 1480px !important;
+height: 100%;
+      max-height: 1480px !important;
+    }
+
+  }
+  @media screen and (min-width: 2615px) {
+    .story-container {
+      min-height: 1680px !important;
+height: 100%;
+      max-height: 1680px !important;
+    }
+
+  }
 
   .story-container:after {
     content: '';
