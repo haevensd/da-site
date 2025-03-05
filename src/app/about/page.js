@@ -152,9 +152,9 @@ const AboutPage = () => {
         </div>
         <div style={{backgroundImage: "url('/stage.jpg')", backgroundRepeat: 'no-repeat', backgroundPosition: '20% 40%', backgroundSize: 'cover', padding:'50px', }}>
           <h1 style={{fontSize: '80px', color: 'white', fontFamily: 'Gotham Book Bold',marginTop: '100px'}}>In just 10 months...</h1>
-          <Card style={{border: 'none',backgroundColor: '#00000095',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginTop: '20px',maxWidth: '1200px',marginTop: '100px'}}>
+          <Card style={{border: 'none',backgroundColor: '#00000095',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginTop: '20px',maxWidth: '1250px',marginTop: '100px'}}>
               <CardContent>
-                <p style={{fontWeight: 'bold',lineHeight: "2.5em", fontSize: '35px', color: 'white', fontFamily: 'Gotham Book', }}>
+                <p style={{fontWeight: 'bold',lineHeight: "55px", fontSize: '35px', color: 'white', fontFamily: 'Gotham Book', }}>
                 I reached the top 30 income earners in the company out of half a million people. I did this by leading a team of over 10,000 distributors worldwide generating over $30,000,000 in sales revenue.</p>
               </CardContent>
             </Card>
@@ -165,12 +165,12 @@ const AboutPage = () => {
                 </p>
               </CardContent>
             </Card> */}
-          <Card style={{border: 'none',backgroundColor: '#00000095',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginTop: '20px',maxWidth: '1200px',marginBottom: '200px'}}>
+          <Card style={{border: 'none',backgroundColor: '#00000095',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginTop: '20px',maxWidth: '1250px',marginBottom: '200px'}}>
               <CardContent>
                 <p style={{fontWeight: '800',lineHeight: "50px", fontSize: '45px', color: 'white', fontFamily: 'Gotham Book', }}>
-                <i>This unbelievable accomplishment allowed me to for 4 years …</i>
+                <i >This unbelievable accomplishment allowed me to for 4 years …</i>
                 </p>
-                <ul style={{paddingLeft: '40px',listStyle: 'disc',fontWeight: 'bold',lineHeight: "3.5em", fontSize: '27px', color: 'white', fontFamily: 'Gotham Book', }}>
+                <ul style={{paddingLeft: '40px',listStyle: 'disc',fontWeight: 'bold', lineHeight: "65px", fontSize: '27px', color: 'white', fontFamily: 'Gotham Book', paddingTop: '30px' }}>
                     <li>Travel and build business relationships all around the world</li>
                     <li>Consistently speak and train audiences of up to 10,000 people</li>
                     <li>Influence others to build profitable businesses and transition into entrepreneurship</li>
