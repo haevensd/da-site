@@ -192,7 +192,7 @@ const AboutPage = () => {
           <p style={{fontSize: '43px', lineHeight: '1.5em',maxWidth: '1820px'}}>
           <h1 style={{fontSize: '80px',lineHeight: '1.5em',marginBottom: '10px', marginBottom: '10px'}}>Over the next 10 years…</h1>
             I scaled multiple teams in the direct selling space to 12,000 plus distributors globally with a combined $100+ million in revenue. This allowed me to retire in my 20’s and build my own companies outside of the direct selling industry.</p>
-          <OffsetImageGallery maxWidth='900px' imageUrls={['/guy.jpg',] }></OffsetImageGallery>
+          <OffsetImageGallery maxWidth='900px' marginTop={'-200px'} imageUrls={['/guy.jpg',] }></OffsetImageGallery>
         </div>
         <div style={{padding: '75px', marginTop: '200px', }}>
         <h1 style={{fontSize: '76px',lineHeight: '1.3em'}} className='bold'>Now I live out my passion each day…</h1>
@@ -201,7 +201,7 @@ const AboutPage = () => {
         <CountrySlider ></CountrySlider>
         <div style={{padding: '25px', marginTop: '200px',marginBottom: '300px', display: 'flex', gap: '50px'}}>
           
-          <p style={{textAlign: 'left', paddingLeft: '5px', lineHeight: '2em', fontSize: '26px', marginTop: '10px',maxWidth: '1700px'}}>
+          <p style={{textAlign: 'left', paddingLeft: '50px', lineHeight: '2em', fontSize: '26px', marginTop: '10px',maxWidth: '1700px'}}>
           <h1 style={{color: 'black', fontSize: '60px', lineHeight: '100px'}}>My purpose is simple…</h1>
             To inform, educate and empower others to think for themselves and live a life on their terms. I do this through not just sharing my own results but more importantly all the mistakes and mishaps I made along the way so you can cut the learning curve. I’m not perfect and fail all the time, but my ownership in those failures over the years have allowed me to create some pretty awesome results in the process.</p>
           
