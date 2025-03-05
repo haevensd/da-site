@@ -110,10 +110,10 @@ const AboutPage = () => {
         }}>
         {/* <img src="/da.jpg" style={{}} width="1000px" height="1000px" ></img> */}
 {/* <h1 style={{color: 'white', fontSize: '5vw',  padding: '0', marginTop:'-100px',marginBottom:'-57px'}}>...</h1> */}
-        <p style={{ fontWeight: 'bold',lineHeight: "80px", fontSize: '30px', color: 'white', fontFamily: 'Gotham Book'}}>
+        <p style={{ fontWeight: 'bold',lineHeight: "50px", fontSize: '30px', color: 'white', fontFamily: 'Gotham Book'}}>
 
-          When I transitioned into public school, I quickly realized how different traditional education was from what I had been learning.<br />
-          My early years in the public school system were challenging. Struggling to focus and facing bullying from peers, I often felt out of place.<br />
+          When I transitioned into public school, I quickly realized how different traditional education was from what I had been learning.<br /><br />
+          My early years in the public school system were challenging. Struggling to focus and facing bullying from peers, I often felt out of place.<br /><br />
         Teachers doubted my potential, and I was told my inability to focus would limit my future.
         
         </p>
@@ -130,7 +130,7 @@ const AboutPage = () => {
 
             <Card style={{border: 'none',backgroundColor: '#23232399',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginLeft: '25px',marginTop: '10vh',maxWidth: '1250px'}}>
               <CardContent>
-                <p style={{fontWeight: 'bold',lineHeight: "2em", fontSize: '2vw', color: 'white', fontFamily: 'Gotham Book', }}>
+                <p style={{fontWeight: 'bold',lineHeight: "2em", fontSize: '40px', color: 'white', fontFamily: 'Gotham Book', }}>
                 As a business major and a D1 athlete, I was constantly stressed about the amount of student loans I had taken out to get my degree. Despite this, I was admitted to the business school early. While balancing athletics and school, I took on a job working as a call center employee for the University as a way to bring in some money for those
                 loans. Although I hated the job, within 3 months I raised more for the University than any other employee in the call center ever had. Thinking this would heavily increase in my pay, I was shocked when 6 months later was given an 80 cents raise... I quickly realized that working for someone else would not bring me the fulfillment I was searching for.</p>
               </CardContent>
@@ -142,8 +142,8 @@ const AboutPage = () => {
           </div>
 
         </div>
-        <div style={{padding: '100px', marginBottom: '200px', marginTop: '200px', display: 'flex'}}>
-          <p style={{fontSize: '2vw', marginTop: '10px', lineHeight: '1.7em', maxWidth: '1620px'}}>
+        <div style={{padding: '100px', marginBottom: '200px',minHeight: '800px', marginTop: '200px', display: 'flex'}}>
+          <p style={{fontSize: '40px', marginTop: '10px', lineHeight: '1.7em', maxWidth: '1620px'}}>
           <h1 style={styles.heroTitle}>At age 20...</h1>
           I joined an affiliate marketing company in the health and wellness industry to pursue part time over the summer. After my poor experience working at the call center, I hoped I could apply my sales skills in order to make enough cash, to avoid a similar summer job.
 
@@ -189,20 +189,20 @@ const AboutPage = () => {
         </div>
         <div style={{padding: '50px', marginTop: '200px',display: 'flex', gap: '100px', justifyContent: 'space-between'}}>
           
-          <p style={{fontSize: '43px', lineHeight: '1.5em',maxWidth: '1820px'}}>
+          <p style={{fontSize: '43px', lineHeight: '1.5em',maxWidth: '1820px', minHeight: '750px', paddingTop: '100px'}}>
           <h1 style={{fontSize: '80px',lineHeight: '1.5em',marginBottom: '10px', marginBottom: '10px'}}>Over the next 10 years…</h1>
             I scaled multiple teams in the direct selling space to 12,000 plus distributors globally with a combined $100+ million in revenue. This allowed me to retire in my 20’s and build my own companies outside of the direct selling industry.</p>
-          <OffsetImageGallery maxWidth='900px' marginTop={'-200px'} imageUrls={['/guy.jpg',] }></OffsetImageGallery>
+          <OffsetImageGallery maxWidth='900px' marginTop={'-50px'} imageUrls={['/guy.jpg',] }></OffsetImageGallery>
         </div>
         <div style={{padding: '75px', marginTop: '200px', }}>
         <h1 style={{fontSize: '76px',lineHeight: '1.3em'}} className='bold'>Now I live out my passion each day…</h1>
-        <p style={{fontSize: '34px', lineHeight: '1.75em',marginTop: '20px', maxWidth: '1620px'}}>As a husband and father, I have been fortunate to not only travel the world but take my family along with me. Giving them memories and moments that they can cherish for a lifetime.</p>
+        <p style={{fontSize: '34px', lineHeight: '1.75em',marginTop: '20px', maxWidth: '1920px'}}>As a husband and father, I have been fortunate to not only travel the world but take my family along with me. Giving them memories and moments that they can cherish for a lifetime.</p>
         </div>
         <CountrySlider ></CountrySlider>
         <div style={{padding: '25px', marginTop: '200px',marginBottom: '300px', display: 'flex', gap: '50px'}}>
           
-          <p style={{textAlign: 'left', paddingLeft: '50px', lineHeight: '2em', fontSize: '26px', marginTop: '10px',maxWidth: '1700px'}}>
-          <h1 style={{color: 'black', fontSize: '60px', lineHeight: '100px'}}>My purpose is simple…</h1>
+          <p style={{textAlign: 'left', paddingLeft: '50px', lineHeight: '2em', fontSize: '34px', marginTop: '10px',maxWidth: '1700px'}}>
+          <h1 style={{color: 'black', fontSize: '76px', lineHeight: '150px'}}>My purpose is simple…</h1>
             To inform, educate and empower others to think for themselves and live a life on their terms. I do this through not just sharing my own results but more importantly all the mistakes and mishaps I made along the way so you can cut the learning curve. I’m not perfect and fail all the time, but my ownership in those failures over the years have allowed me to create some pretty awesome results in the process.</p>
           
           <OffsetImageGallery maxWidth='2000px' marginTop={'-150px'} imageUrls={['/purpose.jpg',] }></OffsetImageGallery>
