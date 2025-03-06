@@ -106,7 +106,7 @@ const AboutPage = () => {
 
         
         <div style={{display:'flex',  margin: 'auto', flexDirection:'column', height: 'auto',padding: '100px', gap: '50px',
-          backgroundColor: '#00000099',maxWidth: '1875px',marginLeft: 0,marginTop:'auto',marginBottom: '405px'
+          backgroundColor: '#00000099',maxWidth: '1875px',marginLeft: '140px',marginTop:'auto',marginBottom: '405px'
         }}>
         {/* <img src="/da.jpg" style={{}} width="1000px" height="1000px" ></img> */}
 {/* <h1 style={{color: 'white', fontSize: '5vw',  padding: '0', marginTop:'-100px',marginBottom:'-57px'}}>...</h1> */}
