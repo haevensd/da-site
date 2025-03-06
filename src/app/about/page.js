@@ -148,7 +148,7 @@ const AboutPage = () => {
           I joined an affiliate marketing company in the health and wellness industry to pursue part time over the summer. After my poor experience working at the call center, I hoped I could apply my sales skills in order to make enough cash, to avoid a similar summer job.
 
           </p>
-          <OffsetImageGallery maxWidth='500px' imageUrls={['/speaking3.jpg','/speaking2.jpg','/speaking1.jpg'] }></OffsetImageGallery>
+          <OffsetImageGallery maxWidth='500px' marginTop={'-70px'} imageUrls={['/speaking3.jpg','/speaking2.jpg','/speaking1.jpg'] }></OffsetImageGallery>
         </div>
         <div style={{backgroundImage: "url('/stage.jpg')", backgroundRepeat: 'no-repeat', backgroundPosition: '20% 40%', backgroundSize: 'cover', padding:'50px', }}>
           <h1 style={{fontSize: '80px', color: 'white', fontFamily: 'Gotham Book Bold',marginTop: '100px'}}>In just 10 months...</h1>
@@ -205,7 +205,7 @@ const AboutPage = () => {
           <h1 style={{color: 'black', fontSize: '76px', lineHeight: '150px'}}>My purpose is simple…</h1>
             To inform, educate and empower others to think for themselves and live a life on their terms. I do this through not just sharing my own results but more importantly all the mistakes and mishaps I made along the way so you can cut the learning curve. I’m not perfect and fail all the time, but my ownership in those failures over the years have allowed me to create some pretty awesome results in the process.</p>
           
-          <OffsetImageGallery maxWidth='2000px' marginTop={'-150px'} imageUrls={['/purpose.jpg',] }></OffsetImageGallery>
+          <OffsetImageGallery maxWidth='2000px' marginTop={'-50px'} imageUrls={['/purpose.jpg',] }></OffsetImageGallery>
         </div>
         <Contact></Contact>
         
