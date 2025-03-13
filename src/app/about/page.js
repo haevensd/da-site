@@ -102,26 +102,31 @@ const AboutPage = () => {
         <OffsetImageGallery  marginTop='-200px' imageUrls={['/about_dad.jpg','/about_kid.jpg',] }></OffsetImageGallery>
         </div>
       </div>
-        <div className='cover' style={{display: 'flex', padding: '50px',minHeight: '1679px', width: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover',backgroundPosition: '21% 33%', position: 'relative',backgroundImage: 'url(/da.png)'}}>
+        <div style={{display: 'flex'}}>
 
-        
-        <div style={{display:'flex',  margin: 'auto', flexDirection:'column', height: 'auto',padding: '100px', gap: '50px',
-          backgroundColor: '#00000099',maxWidth: '1875px',marginLeft: '140px',marginTop:'auto',marginBottom: '405px'
+        <div style={{display:'flex',  height: '100%', flexDirection:'column', height: 'auto', gap: '50px',
+          backgroundColor: '#000000',maxWidth: '957px',textAlign: '', padding: 
+          '50px'
         }}>
-        {/* <img src="/da.jpg" style={{}} width="1000px" height="1000px" ></img> */}
-{/* <h1 style={{color: 'white', fontSize: '5vw',  padding: '0', marginTop:'-100px',marginBottom:'-57px'}}>...</h1> */}
-        <p style={{ fontWeight: 'bold',lineHeight: "50px", fontSize: '40px', color: 'white', fontFamily: 'Gotham Book'}}>
+        <p style={{ fontWeight: 'bold',
+        marginTop: 
+        'auto',marginBottom: 'auto',lineHeight: "50px", fontSize: '40px', color: 'white', fontFamily: 'Gotham Book'}}>
 
           When I transitioned into public school, I quickly realized how different traditional education was from what I had been learning.<br /><br />
           My early years in the public school system were challenging. Struggling to focus and facing bullying from peers, I often felt out of place.<br /><br />
         Teachers doubted my potential, and I was told my inability to focus would limit my future.
         
         </p>
+        {/* <img src="/da.jpg" style={{}} width="1000px" height="1000px" ></img> */}
+{/* <h1 style={{color: 'white', fontSize: '5vw',  padding: '0', marginTop:'-100px',marginBottom:'-57px'}}>...</h1> */}
         </div>
+        <div className='cover' style={{display: 'flex', padding: '50px',minHeight: '1679px', width: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover',backgroundPosition: '41% 33%', position: 'relative',backgroundImage: 'url(/da.png)'}}>
+          </div>
+
       </div>
 
       </div>
-          <h2 className='bold' style={{marginBottom: '100px',fontSize: '100px',lineHeight: '55px', fontWeight: 'bold', backgroundColor: 'white', padding: '120px', marginBottom: '0'}}>Restless and eager to create my own path…</h2>
+          {/* <h2 className='bold' style={{marginBottom: '100px',fontSize: '100px',lineHeight: '55px', fontWeight: 'bold', backgroundColor: 'white', padding: '120px', marginBottom: '0'}}>Restless and eager to create my own path…</h2> */}
         {/* <p style={{padding: '50px',paddingRight: '75px', fontFamily: 'Gotham Book', fontSize: '24px', lineHeight: '1.25em', paddingLeft: '75px'}}>
         
         </p> */}
@@ -145,7 +150,7 @@ const AboutPage = () => {
         <div style={{padding: '100px', marginBottom: '200px',minHeight: '800px', marginTop: '200px', display: 'flex'}}>
           <p style={{fontSize: '40px', marginTop: '10px', lineHeight: '1.7em', maxWidth: '1620px'}}>
           <h1 style={styles.heroTitle}>At age 20...</h1>
-          I joined an affiliate marketing company in the health and wellness industry to pursue part time over the summer. After my poor experience working at the call center, I hoped I could apply my sales skills in order to make enough cash, to avoid a similar summer job.
+          I joined an affiliate marketing company to pursue part time over the summer. After my poor experience working at the call center, I hoped I could apply my sales skills in order to make enough cash, to avoid a similar summer job.
 
           </p>
           <OffsetImageGallery maxWidth='500px' marginTop={'-70px'} imageUrls={['/speaking3.jpg','/speaking2.jpg','/speaking1.jpg'] }></OffsetImageGallery>
@@ -190,22 +195,26 @@ const AboutPage = () => {
         <div style={{padding: '50px', marginTop: '200px',display: 'flex', gap: '100px', justifyContent: 'space-between'}}>
           
           <p style={{fontSize: '43px', lineHeight: '1.5em',maxWidth: '1820px', minHeight: '750px', paddingTop: '100px'}}>
-          <h1 style={{fontSize: '80px',lineHeight: '1.5em',marginBottom: '10px', marginBottom: '10px'}}>Over the next 10 years…</h1>
+          <h1 style={{fontSize: '80px',lineHeight: '1.5em',marginBottom: '10px', marginBottom: '10px',}}>Over the next 10 years…</h1>
             I scaled multiple teams in the direct selling space to 12,000 plus distributors globally with a combined $100+ million in revenue. This allowed me to retire in my 20’s and build my own companies outside of the direct selling industry.</p>
-          <OffsetImageGallery maxWidth='900px' marginTop={'-50px'} imageUrls={['/guy.jpg',] }></OffsetImageGallery>
+            <img src="/da-10.jpg" style={{maxHeight: '1001px'}}/>
+          {/* <OffsetImag eGallery maxWidth='900px' marginTop={'-50px'} imageUrls={['/guy
+          .jpg',] }></OffsetImageGallery> */}
         </div>
         <div style={{padding: '75px', marginTop: '200px', }}>
-        <h1 style={{fontSize: '76px',lineHeight: '1.3em'}} className='bold'>Now I live out my passion each day…</h1>
+        <h1 style={{fontSize: '69px',lineHeight: '1.3em'}} className='bold'>Now I live out my passion each day…</h1>
         <p style={{fontSize: '34px', lineHeight: '1.75em',marginTop: '20px', maxWidth: '1920px'}}>As a husband and father, I have been fortunate to not only travel the world but take my family along with me. Giving them memories and moments that they can cherish for a lifetime.</p>
         </div>
         <CountrySlider ></CountrySlider>
-        <div style={{padding: '25px', marginTop: '200px',marginBottom: '300px', display: 'flex', gap: '50px'}}>
+        <div style={{padding: '25px', marginTop: '200px',marginBottom: '300px', display: 'flex', gap: '50px', justifyContent: 'space-between'}}>
           
-          <p style={{textAlign: 'left', paddingLeft: '50px', lineHeight: '2em', fontSize: '34px', marginTop: '10px',maxWidth: '1700px'}}>
+          <p style={{textAlign: 'left', paddingLeft: '50px', lineHeight: '1.75em'
+          , fontSize: '34px', marginTop: '90px',maxWidth: '1700px',}}>
           <h1 style={{color: 'black', fontSize: '76px', lineHeight: '150px'}}>My purpose is simple…</h1>
             To inform, educate and empower others to think for themselves and live a life on their terms. I do this through not just sharing my own results but more importantly all the mistakes and mishaps I made along the way so you can cut the learning curve. I’m not perfect and fail all the time, but my ownership in those failures over the years have allowed me to create some pretty awesome results in the process.</p>
           
-          <OffsetImageGallery maxWidth='2000px' marginTop={'-50px'} imageUrls={['/purpose.jpg',] }></OffsetImageGallery>
+          {/* <OffsetImageGallery maxWidth='2000px' marginTop={'-50px'} imageUrls={['/purpose.jpg',] }></OffsetImageGallery> */}
+          <img src="/purpose.jpg" style={{height:'1001px'}}></img>
         </div>
         <Contact></Contact>
         
