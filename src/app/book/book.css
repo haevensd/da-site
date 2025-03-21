@@ -1,11 +1,16 @@
 .vault-container {
     font-family: 'Gotham Book';
     text-align: center;
-    padding: 40px;
-
+    
     min-height: 800px;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
     padding-bottom: 550px !important;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: -1rem;
   }
   
   .vault-title {
@@ -128,4 +133,91 @@
     gap: 10px;
     justify-content: flex-start;
     margin-top: 20px;
+  }
+
+  .hero-container {
+    padding-bottom: 55px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(https://images.clickfunnels.com/b9/c2ec517…/ppl-bg.jpg);
+  }
+
+  h4 {
+    font-size: 36px;
+    font-family: 'Gotham Book';
+    font-weight: 800;
+  }
+  h1 {
+    font-size: 56px;
+    line-height: 64px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 42px;
+  }
+  p {
+    font-size: 18px;
+
+    text-align: left;
+    line-height: 23px;
+  }
+  .highlight {
+    text-align: center;
+    color: rgb(0, 117, 178);
+  }
+  .yes-btn {
+    color: rgb(255, 255, 255);
+    background: rgb(255, 112, 0);
+    font-size: 21px;
+    cursor: pointer;
+    max-width: 1600px;
+padding: 50px;
+    background-image: linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%) !important;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.2), 0 0 3px rgba(0, 0, 0, 0.4);
+    height: 80px;
+    margin: auto;
+    padding-top: 27px;
+  }
+  .secondary-container {
+    display: flex;
+    max-width: 1170px;
+    margin: auto; 
+    gap: 50px;
+     margin-bottom: 20px;
+  }
+  .secondary-container > div{
+  }
+  .highlight-text {
+    color: orange;
+    border-right: 10px solid orange;
+  }
+
+  .standard-container {
+    max-width: 1170px;
+    margin: auto;
+  }
+  .mm-list li {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+
+  .mm-list strong {
+    color: rgb(1, 116, 199);
+  }
+
+  .mm-list {
+    flex-grow: 1fr;
+    max-width: 50%;
+   
+  }
+
+  .highlight-blue {
+    color: rgb(1, 116, 199);
+  }
+  .brown-highlight {
+    color: rgb(157, 139, 0);
   }

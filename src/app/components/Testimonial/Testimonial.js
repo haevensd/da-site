@@ -1,6 +1,6 @@
 'use client';
 import './Testimonial.css';
-export default function Testimonial() {
+export default function Testimonial(secondImage= false) {
   return (
     <div className="testimonial">
       <div className="testimonial-portrait" style={{ backgroundImage: 'url(/dp.png)' }}></div>
@@ -11,6 +11,7 @@ export default function Testimonial() {
         <span className="testimonial-author">Bob Proctor</span>
         <p className="testimonial-meta">Best selling author, speaker, and pioneer of "The Secret"</p>
       </div>
+      {secondImage && <div className="testimonial-portrait" style={{ backgroundImage: 'url(/darik-bob.png)', marginLeft: '20px' }}></div>}
     </div>
   );
 }
