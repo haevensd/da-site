@@ -232,6 +232,7 @@ const BookForm = ({showImage=true}) => {
             <div id="form" style={{display: 'flex',  flexDirection: 'column', marginTop: '1rem', maxWidth: '70%'}}>
               <h1 style={{textAlign: ''}}>3 Undeniable Truths of Network Marketing</h1>
               <p>that EVERY Single Top-Income Earner in Your Company Applies to their business which allows them to easily outperform, out-recruit, and out-duplicate everyone else...</p>
+              <iframe src="https://www.youtube.com/embed/https://www.youtube.com/watch?v=8KUHpd8T6S8?autoplay=0&amp;modestbranding=1&amp;controls=1&amp;showinfo=0&amp;rel=0&amp;hd=1&amp;wmode=transparent" height={'340px'} style={{margin: '20px 0'}} frameBorder="0" allowFullScreen="" wmode="opaque" id="fitvid417761" className=""></iframe>
             </div>
             <div style={{display: 'flex', flexDirection: 'column', paddingRight: '40px' }}>
               <BookFormm  showImage={false}></BookFormm>
