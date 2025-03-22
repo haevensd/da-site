@@ -357,8 +357,8 @@ const BookForm = ({showImage=true}) => {
         </div>
 
         </div>
-        <div style={{display: 'flex', textAlign: 'left', backgroundImage: 'url("/ppl-bg.jpg")', color: 'white', padding: '50px'}}>
-          <div style={{ padding: '50px', marginTop: '50px'}}>
+        <div style={{display: 'flex', textAlign: 'left', backgroundImage: 'url("/ppl-bg.jpg")', color: 'white', padding: '50px', justifyContent: 'center'}}>
+          <div style={{ padding: '50px', marginTop: '50px',  maxWidth: '1070px',}}>
               <p style={{textAlign: 'center'}}>I remember a long while ago, I asked a personal mentor of mine a question....</p> 
               <hr style={{marginTop: '5px', paddingBottom: '25px'}}/>
               He's considered a "Legend of Network Marketing" because he's earned $47 Million in his career...
@@ -371,9 +371,9 @@ const BookForm = ({showImage=true}) => {
             </div>
             <img width="500" src="/val.png" style={{margin: '100px 0'}} />
           </div>
-          <div style={{display: 'flex', backgroundColor: 'orange', padding: '30px',marginBottom: '30px'}}>
+          <div style={{display: 'flex', backgroundColor: 'orange', padding: '30px',marginBottom: '30px', textAlign: 'center', justifyContent: 'center'}}>
             <FontAwesomeIcon icon={faQuoteLeft} style={{fontSize: '50px', color: 'white'}}  />
-            <h2 style={{margin: '0 50px', fontSize: '46px', color: 'white', lineHeight: '50px'}}>He's dumber than me. If that MF*er can do it, I can too."</h2>
+            <h2 style={{margin: '0 50px', fontSize: '46px', color: 'white', lineHeight: '50px', textAlign: 'center'}}>He's dumber than me. If that MF*er can do it, I can too."</h2>
             <FontAwesomeIcon icon={faQuoteRight}  style={{fontSize: '50px', color: 'white'}} />
           </div>
         <div>
@@ -405,7 +405,7 @@ const BookForm = ({showImage=true}) => {
           It was then I realized that I had gotten what you would call a bit "lucky" in my first company. I joined at exactly the right time, I had the recruited the right leaders, they blew things up and I was at the helm, hosting events, trying to train people as quickly as they were joining. We'd hit a market of college students and high schoolers nationwide and then worldwide. It had become a bit of a phenomenon called the "YPR" or Young People Revolution.
           </div></div>
         </div>
-        <div style={{display: 'flex',marginTop: '70px',backgroundColor: 'rgb(247, 239, 237)', padding: '20px' }}>
+        <div style={{display: 'flex',marginTop: '70px',backgroundColor: 'rgb(247, 239, 237)', padding: '20px', justifyContent: 'center' }}>
           <div style={{padding:'50px', textAlign: 'left', marginTop: '15px'}}> 
             I thought it'd last forever too. These were good problems to have but it didn't teach me much about the newest person and the struggles they actually go through. It wasn't until my income was completely gone that I knew I couldn't just get lucky as I did before.
             <br /><br />But more than anything, I began to realize that I was kind of an outlier in terms of my speaking abilities and mentality. If I had things easy with my stage presence, sales, running events, and speaking, it's because I grew up running events with my father.
@@ -415,7 +415,7 @@ const BookForm = ({showImage=true}) => {
           </div>
           <img src="/coowners.jpg" />
         </div>
-        <div style={{display: 'flex',  marginTop: '50px', gap: '',paddingRight: '50px'}}>
+        <div style={{display: 'flex',  marginTop: '50px', gap: '',paddingRight: '50px', justifyContent: 'center', }}>
           <img width={'auto'} height="auto" style={{maxHeight: '480px', marginTop: '75px'}} src="mm-img.png" />
           <div style={{display: 'flex', flexDirection: 'column', margin: '50px 0', textAlign: 'left', marginBottom: '100px'}}>
 
@@ -606,9 +606,9 @@ And so you start all over "make a list of EVERYBODY you know. Don't Pre-judge. F
                 <br /><br />In other words, is there a selfish desire here? Of course, but only in the name of proving that I can help you succeed. And if you use my resources and don't succeed, then drop me like your last relationship.</p>
                 <div style={{display: 'flex', flexDirection: 'column'}}>
                   <img style={{maxWidth: '350px'}} src="coowner3.jpg" />
-                  <a className="yes-btn" href="#form" style={{minHeight: '115px',marginTop: '10px', textAlign: 'center'}}>
+                  <div className="yes-btn" href="#form" style={{minHeight: '130px',marginTop: '10px', textAlign: 'center'}}>
                     <span style={{marginTop: '-20px'}}>YES! I Want My FREE Copy Of The Magnetic Messenger Scripts</span>
-                  </a>  
+                  </div>  
                 </div>
             </div>
           </div>
@@ -645,9 +645,9 @@ How's that for a guarantee? I'm so confident you'll not only love Magnetic Messe
           </div>
           <div>
             <img width="2000px"  height="auto"src="collage.png" />
-            <a className="yes-btn" href="#form" style={{minHeight: '115px',marginTop: '50px'}}>
+            <div className="yes-btn" href="#form" style={{minHeight: '115px',marginTop: '50px'}}>
         <span>YES! I Want My FREE Copy Of The Magnetic Messenger Scripts</span>
-      </a>
+      </div>
           </div>
         </div>
         <div className="standard-container" style={{display: 'flex', flexDirection: '', gap: '50px', marginTop: '50px'}}>
@@ -662,9 +662,9 @@ So I've committed to run this offer to the first 1000 people who take action and
 Afterward, I'll increase the price to just above what it costs me to advertise.<br /><br />
 So hustle and grab your copy and I look forward to seeing you walk the stages at your company events!
             </p>  
-            <a className="yes-btn" href="#form" style={{minHeight: '115px',marginTop: '50px'}}>
+            <div className="yes-btn" href="#form" style={{minHeight: '115px',marginTop: '50px'}}>
         <span>YES! I Want My FREE Copy Of The Magnetic Messenger Scripts</span>
-      </a>
+      </div>
           </div>
         </div>
     </div>
