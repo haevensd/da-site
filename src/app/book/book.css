@@ -194,6 +194,7 @@ padding: 50px;
   .highlight-text {
     color: orange;
     border-right: 10px solid orange;
+    padding-right: 10px;
   }
 
   .standard-container {
