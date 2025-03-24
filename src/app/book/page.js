@@ -266,7 +266,7 @@ const BookForm = ({showImage=true}) => {
         <div>
           <h1 className="highlight" style={{textAlign: 'center'}}>Matt Ward</h1>
           
-          <h3>Small Call to Action Headline</h3>
+          <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-20px'}}>Small Call to Action Headline</h3>
         <img style={{height:"auto", width:"1500px"}} src="/nm-post1.jpg" />
 
         </div>
@@ -282,7 +282,7 @@ const BookForm = ({showImage=true}) => {
       <div className="secondary-container">
         <div>
           <h1 className="highlight">Donta Lewis</h1>
-          <h3>Small Call to Action Headline</h3>
+          <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-20px'}}>Small Call to Action Headline</h3>
         <img style={{height:"auto", width:"1500px"}} src="/buddies.jpg" />
 
         </div>
@@ -298,7 +298,7 @@ const BookForm = ({showImage=true}) => {
       <div className="secondary-container">
         <div>
           <h1 className="highlight">Cameron Kerkar</h1>
-          <h3>Small Call to Action Headline</h3>
+          <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-20px'}}>Small Call to Action Headline</h3>
         <img style={{height:"auto", width:"1500px"}} src="/buddies.jpg" />
 
         </div>
@@ -601,7 +601,7 @@ And so you start all over "make a list of EVERYBODY you know. Don't Pre-judge. F
                 They aren’t hard to remember and even easier to recite. You won’t be stuttering or "trying hard" because they use plain language anyone can understand. Plus, you’ll probably have them all memorized within a week. you know what that means? An easy system that your entire team can duplicate effortlessly.
                 <br /><br />So why am I offering this resource to all network marketers in any company?
                 I mean if I were you, I'd be a bit weary too. "What's his intention here? Is he trying to cross-recruit me into his company?"
-                <br /><br /> Nope, to be 100% transparent, I just want to build a name for myself in the industry like Ray Higdon & Eric Worre who currently hold positions as some of the most influential trainers in the space.
+                <br /><br />Nope, to be 100% transparent, I just want to build a name for myself in the industry like Ray Higdon & Eric Worre who currently hold positions as some of the most influential trainers in the space.
                 <br /><br />I figure, if I help you build your current business, and actually smash some ranks, earn some dollars, walk the stage, maybe you'll come to an event I'm hosting or speaking at.
                 <br /><br />In other words, is there a selfish desire here? Of course, but only in the name of proving that I can help you succeed. And if you use my resources and don't succeed, then drop me like your last relationship.</p>
                 <div style={{display: 'flex', flexDirection: 'column'}}>
