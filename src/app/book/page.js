@@ -266,7 +266,7 @@ const BookForm = ({showImage=true}) => {
         <div>
           <h1 className="highlight" style={{textAlign: 'center'}}>Matt Ward</h1>
           
-          <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-20px'}}>Small Call to Action Headline</h3>
+          <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-10px'}}>Small Call to Action Headline</h3>
         <img style={{height:"auto", width:"1500px"}} src="/nm-post1.jpg" />
 
         </div>
@@ -282,7 +282,7 @@ const BookForm = ({showImage=true}) => {
       <div className="secondary-container">
         <div>
           <h1 className="highlight">Donta Lewis</h1>
-          <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-20px'}}>Small Call to Action Headline</h3>
+          <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-10px'}}>Small Call to Action Headline</h3>
         <img style={{height:"auto", width:"1500px"}} src="/buddies.jpg" />
 
         </div>
@@ -298,7 +298,7 @@ const BookForm = ({showImage=true}) => {
       <div className="secondary-container">
         <div>
           <h1 className="highlight">Cameron Kerkar</h1>
-          <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-20px'}}>Small Call to Action Headline</h3>
+          <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-10px'}}>Small Call to Action Headline</h3>
         <img style={{height:"auto", width:"1500px"}} src="/buddies.jpg" />
 
         </div>

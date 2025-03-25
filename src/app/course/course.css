@@ -1,110 +1,108 @@
 .vault-container {
-    font-family: 'Gotham Book';
-    text-align: center;
-    padding: 40px;
+    min-height: 23000px;
+}
 
-    min-height: 800px;
-    background-color: #fff;
-    padding-bottom: 550px;
-  }
-  
-  .vault-title {
-    font-size: 24px;
-margin-top: 30px;
-    color: #000 !important;
-    font-family: 'Gotham Book';
-    font-weight: bold;
-  }
-  
-  .vault-content {
+.flex { display: flex;}
+.flex.vert {flex-direction: column;}
+.half {
+    width: 50%;
+}
+
+.ascension-table {
+    max-width: 675px;
+}
+.ascension-cover {
+    border-color: rgb(217, 217, 217);
+    padding-top: 20px;
+    min-height: 210px;
+    padding-bottom: 20px;
     display: flex;
+    border-width: 5px;
     justify-content: center;
-    align-items: flex-start;
-    gap: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-  
-  .vault-form {
-    padding: 63px;
-    background-color: #000;
-    padding-top: 50px;
-    border-radius: 10px;
-    padding-bottom: 30px;
-    flex: 1;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .vault-form h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: #fff;
-  }
-  
-  .vault-form p {
-    font-size: 14px;
-    color: #d0cccc;
-    margin-bottom: 20px;
-    line-height: 1.6;
-  }
-  
-  .vault-form label {
-    display: block;
-    font-size: 14px;
-    margin-bottom: 5px;
-    text-align: left;
-    margin-left: 1px;
-    color: #fff;
-  }
-  
-  .vault-form input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom:21px;
-    border: 1px solid #aaa;
-    border-radius: 5px;
-    font-size: 12px;
-    background: #ccc;
-  }
-  
-  .vault-form button {
-    background-color: #14439c;
-    border: 3px #14439c solid;
-    color: #fff;
-margin-top: 0px;
+    
+    background-color: rgb(7, 91, 183);
+}
 
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: all 300ms ease-in;
-  }
-  
-  .vault-form button:hover {
-    background-color: #b62a2a;
-    border-color: #b62a2a;
-  }
-  
-  .vault-image {
-    flex: 1;
-  }
-  
-  .vault-image img {
+.ascension-table-row {
+    border-color: rgb(217, 217, 217);
+display: flex;
+flex-direction: column;
+gap:20px;
+padding: 15px;
+border-width: 5px;
+border-top: 5px;
+}
+.ascension-table-row:nth-child(2n) { 
+    background-color: rgb(240, 240, 240);
+}
+.ascension-table-row h1 {
+
+}
+.ascension-table-row p {
+
+}
+.containerInner {
+    width: 1176px;
     max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .vault-content {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .vault-form,
-    .vault-image {
-      width: 100%;
-    }
-  }
-  
+    margin-right: auto;
+    margin-left: auto;
+}
+.container {
+    min-width: 100%;
+}
+
+strong.highlight {
+    color:rgb(7, 91, 183);
+}
+
+.bob-point-img {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.15), 0 0 2px rgba(0, 0, 0, 0.15);
+    padding: 5px !important;
+    border-radius: 200px;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.square {
+    padding: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    max-height: fit-content;
+    padding: 20px 30px;
+}
+
+.bonus-video {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.15), 0 0 2px rgba(0, 0, 0, 0.15);
+    padding: 5px !important;
+    border-radius: 200px;
+    background: rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blue-bg {
+    padding-top: 20px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.also-access {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.15), 0 0 2px rgba(0, 0, 0, 0.15);
+    padding: 5px !important;
+    border-radius: 200px;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.link {
+    color: rgb(65,139,189);
+    cursor: pointer;
+    font-size: 23px;
+}
+.link:hover {
+    text-decoration: underline;
+}
