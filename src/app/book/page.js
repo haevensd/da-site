@@ -231,7 +231,7 @@ const BookForm = ({showImage=true}) => {
             <div id="form" style={{display: 'flex',  flexDirection: 'column', marginTop: '1rem', maxWidth: '70%'}}>
               {/* <h1 style={{textAlign: ''}}>3 Undeniable Truths of Network Marketing</h1>
               <p>that EVERY Single Top-Income Earner in Your Company Applies to their business which allows them to easily outperform, out-recruit, and out-duplicate everyone else...</p> */}
-              <div  style={{minWidth:'600px',height:'338px'}}>
+              <div style={{minWidth:'600px',height:'338px'}}>
 
               <iframe width="600" height="350" style={{ marginTop: '10px' }} src="https://www.youtube.com/embed/jqBxnGxpF0c?si=KBulEdEThn7NEDYH" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>

@@ -1,5 +1,5 @@
 .vault-container {
-    min-height: 23000px;
+    min-height: 23250px;
 }
 
 .flex { display: flex;}
@@ -27,7 +27,7 @@
     border-color: rgb(217, 217, 217);
 display: flex;
 flex-direction: column;
-gap:20px;
+gap:10px;
 padding: 15px;
 border-width: 5px;
 border-top: 5px;
@@ -36,7 +36,12 @@ border-top: 5px;
     background-color: rgb(240, 240, 240);
 }
 .ascension-table-row h1 {
-
+    font-size: 21px;
+    font-family: 'Gotham Book Bold';
+    font-weight: 900;
+    margin-top: 7px;
+    line-height: 21px;
+    margin: 0;
 }
 .ascension-table-row p {
 

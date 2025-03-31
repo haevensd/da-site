@@ -13,14 +13,14 @@ const FreeCourseForm = () => {
 
   return (
     <div className="vault-container">
-      <div style={{ display: 'flex', justifyContent: 'center', paddingBottom: '50px', alignItems: 'center', flexDirection: 'column', backgroundColor: 'rgb(0, 0, 0)', color: 'white' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', padding: '50px', paddingTop: '0', alignItems: 'center', flexDirection: 'column', backgroundColor: 'rgb(0, 0, 0)', color: 'white' }}>
         <p style={{ marginTop: '100px', fontSize: '18px' }}>Are You Leveraging The #1 Network Marketing System?</p>
         <h1 style={{ fontSize: '34px', fontWeight: 'bold', textAlign: 'center' }}>Introducing: The Most Powerful Way to Become THE Leader In Your Network Marketing Company by Creating Endless Enrollments with TRUE Duplication... 24/7!</h1>
         <p><i>This is your step-by-step blueprint for building a successful network marketing business using real strategies... whether you're a total beginner or currently running a successful team.</i></p>
         <EnrollButton showSavings={true}></EnrollButton>
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', }}>
         <h4 style={{ color: 'rgb(7,91,183)', fontSize: '24px', fontWeight: '700', marginTop: '50px' }}>SO, JUST TO SUM IT ALL UP...</h4>
         <p style={{ marginBottom: '40px', fontSize: '24px' }}>Here's What's You're About To Get:</p>
         <hr style={{ marginBottom: '30px', color: 'inherit', width: '100%' }} />
@@ -95,7 +95,7 @@ const FreeCourseForm = () => {
 
         <h1 style={{ fontSize: '32px', fontWeight: 'bold', marginTop: '20px', marginBottom: '40px', color: 'rgb(39, 39, 39)' }}>YES! Darik Count Me In!</h1>
 
-        <EnrollButton showSaving={false}></EnrollButton>
+        <EnrollButton color={'rgb(39, 39, 39)'} showSaving={false}></EnrollButton>
 
         <a style={{ marginTop: '30px', marginBottom: '50px', color: 'rgb(65,139,189)' }} className="link">Save $194 -- Pay in Full</a>
 
@@ -108,24 +108,26 @@ const FreeCourseForm = () => {
 
       <div className="container">
         <div className="containerInner">
-          <img></img>
-          <div style={{ maxWidth: '50%', color: '#2e2e2e', marginTop: '70px', marginBottom: '20px' }}>
-            <h4 style={{ textAlign: 'center', color: 'rgb(7, 91, 183)', fontSize: '24px' }}>WHY YOU NEED MORE THAN JUST ENROLLMENTS...</h4>
-            So even if you are enrolling tons of people into your business, if you don't have a <strong className="highlight">turnkey</strong> system in place that everyone can use....
-            <br /><br />
-            AND that they can <strong className="highlight">"Leverage"</strong> to become leaders on your team...
-            <br /><br />
-            Then you won't be able to grow long-term...
-            <br /><br />
-            This means going beyond making you the star of the show because let's face it...there is only so much you can do.
-            <br /><br />
-            But using our proven growth strategies to help your teams become the stars all while giving you more time freedom and leverage to do the things you LOVE to do not what you HAVE to do.
-            <br /><br />
-            Only then are you able to join the ranks of "top earners" who are taking advantage of the #1 network marketing system in the world, to build their lucrative empires...
-            <br /><br />
-            This is about more than just building your team so you can reach the next rank.
-            <br /><br />
-            This is about creating a <strong className="highlight">BUSINESS</strong> that adds massive value to the world and has the depth and sustainability to provide a great lifestyle for you and your family for years... or even decades to come.
+          <div className='flex' style={{ alignItems: 'center', gap: '35px' }}>
+            <div style={{ maxWidth: '50%', color: '#2e2e2e', marginTop: '70px', marginBottom: '20px' }}>
+              <h4 style={{ textAlign: 'center', color: 'rgb(7, 91, 183)', fontSize: '24px' }}>WHY YOU NEED MORE THAN JUST ENROLLMENTS...</h4>
+              So even if you are enrolling tons of people into your business, if you don't have a <strong className="highlight">turnkey</strong> system in place that everyone can use....
+              <br /><br />
+              AND that they can <strong className="highlight">"Leverage"</strong> to become leaders on your team...
+              <br /><br />
+              Then you won't be able to grow long-term...
+              <br /><br />
+              This means going beyond making you the star of the show because let's face it...there is only so much you can do.
+              <br /><br />
+              But using our proven growth strategies to help your teams become the stars all while giving you more time freedom and leverage to do the things you LOVE to do not what you HAVE to do.
+              <br /><br />
+              Only then are you able to join the ranks of "top earners" who are taking advantage of the #1 network marketing system in the world, to build their lucrative empires...
+              <br /><br />
+              This is about more than just building your team so you can reach the next rank.
+              <br /><br />
+              This is about creating a <strong className="highlight">BUSINESS</strong> that adds massive value to the world and has the depth and sustainability to provide a great lifestyle for you and your family for years... or even decades to come.
+            </div>
+            <img style={{ width: '655px', minHeight: '400px' }} height={'200px'} src="d-green.png"></img>
           </div>
         </div>
       </div>
@@ -165,8 +167,8 @@ const FreeCourseForm = () => {
         </div>
       </div>
 
-      <div className="container">
-        <div className="containerInner">
+      <div className="container" style={{ background: "url('d-teach.png')", backgroundSize: '100% auto', backgroundRepeat: 'no-repeat', backgroundPosition: 'cover', padding: '50px 0' }}>
+        <div className="containerInner" >
           <div style={{ padding: '20px', color: 'white', backgroundColor: 'rgba(0, 0, 0, 0.407843)', maxWidth: '50%' }} className="">
             <h4 style={{ fontSize: '28px', marginBottom: '10px' }}>AS A LEADER, YOU MUST PROTECT YOUR TEAM'S BELIEF...</h4>
 
@@ -189,6 +191,7 @@ const FreeCourseForm = () => {
 
             </p>
           </div>
+          {/* <img src="d-teach.png" /> */}
         </div>
       </div>
 
@@ -224,8 +227,13 @@ const FreeCourseForm = () => {
             </div>
           </div>
 
-          <div style={{ display: 'flex', width: '100%', flexDirection: 'column' }}>
-            <div style={{ color: 'white', backgroundColor: 'rgba(7, 91, 183, 0.741176)', minWidth: '75%', margin: 'auto', marginTop: '100px', marginBottom: '20px', display: 'flex', fontSize: '28px', padding: '20px' }}>
+
+        </div>
+      </div>
+      <div className="container" style={{ backgroundImage: "url('black-geo.png')", paddingBottom: '50px', marginTop: '40px' }}>
+        <div className="containerInner">
+          <div style={{ display: 'flex', minWidth: '100%', flexDirection: 'column', marginTop: '' }}>
+            <div style={{ color: 'white', backgroundColor: 'rgba(7, 91, 183, 0.741176)', minWidth: '75%', margin: 'auto', marginTop: '50px', marginBottom: '20px', display: 'flex', fontSize: '28px', padding: '20px' }}>
               <p style={{ margin: 'auto' }}>THE SINGLE BIGGEST MISTAKE<br />
                 "NETWORK MARKETERS" MAKE</p>
             </div>
@@ -242,26 +250,28 @@ const FreeCourseForm = () => {
               And it’s only by serving people in this way that you can create an effective framework for your organization that will actually get results for your team.
             </div>
           </div>
-
         </div>
       </div>
-
-      <div className="container" style={{ marginTop: '50px' }}>
+      <div className="container" style={{ marginTop: '50px', }}>
         <div className="containerInner">
-          <img></img>
-          <div style={{ maxWidth: '50%', color: '#2e2e2e', }}>
-            <h4 style={{ textAlign: 'center', color: 'rgb(7, 91, 183)', fontSize: '24px', paddingTop: '75px' }}>WHAT IF YOU COULD START WITH YOUR "HIGHEST LEVERAGE MOVE" TODAY...</h4>
-            Whether you're just starting out or an experienced network marketer...
-            <br /><br />
-            It's important to start with a strategy that will get you the <strong className="highlight">best results in the shortest amount of time...</strong>
-            <br /><br />
-            While at the same time building a foundation for your future success!
-            <br /><br />
-            What if you could wake up every day and be 100% clear and confident that what you're focusing on today will actually build your business!?
-            <br /><br />
-            What if you could KNOW that you're going to get more rank ups... And more leads and sales...
-            <br /><br />
-            ... Because everything you're doing is in alignment with a PROVEN formula!?
+          <div className='flex' style={{ gap: '30px', alignItems: 'center' }}>
+
+            <div style={{ maxWidth: '100%', color: '#2e2e2e', }}>
+              <h4 style={{ textAlign: 'center', color: 'rgb(7, 91, 183)', fontSize: '24px', paddingTop: '75px' }}>WHAT IF YOU COULD START WITH YOUR "HIGHEST LEVERAGE MOVE" TODAY...</h4>
+              Whether you're just starting out or an experienced network marketer...
+              <br /><br />
+              It's important to start with a strategy that will get you the <strong className="highlight">best results in the shortest amount of time...</strong>
+              <br /><br />
+              While at the same time building a foundation for your future success!
+              <br /><br />
+              What if you could wake up every day and be 100% clear and confident that what you're focusing on today will actually build your business!?
+              <br /><br />
+              What if you could KNOW that you're going to get more rank ups... And more leads and sales...
+              <br /><br />
+              ... Because everything you're doing is in alignment with a PROVEN formula!?
+            </div>
+
+            <img style={{ maxWidth: '480px', minHeight: '300px', marginTop: '50px' }} src="guy.png"></img>
           </div>
         </div>
       </div>
@@ -270,11 +280,11 @@ const FreeCourseForm = () => {
         <div className="containerInner">
           <img />
           <div>
-            <h4 style={{ textAlign: 'center', color: 'rgb(7, 91, 183)', fontSize: '24px' }}>
+            <h4 style={{ textAlign: 'center', color: 'rgb(7, 91, 183)', fontSize: '24px', marginTop: '20px', marginBottom: '15px' }}>
               AND WHEN YOU DO THIS, YOU HAVE:
             </h4>
             <p>
-              <ul style={{ listStyleType: 'circle' }}>
+              <ul style={{ listStyleType: 'circle', display: 'flex', flexDirection: 'column', gap: '35px' }}>
                 <li>
                   <b>A REAL, automated, and leveraged business</b> that has the ability to take care of you and your family for years... or even decades to come.
                 </li>
@@ -321,12 +331,12 @@ const FreeCourseForm = () => {
           <div style={{ display: 'flex', gap: '50px', marginTop: '40px' }}>
             <img className="bob-point-img" width="600px" src="/bob-point.jpg" />
             <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'center' }}>
-              <p style={{ fontSize: '32px' }}>
+              <p style={{ fontSize: '28px' }}>
                 “I’ve known Darik for a long time. This man has a marvelous mind. When he offers you help, TAKE IT! Go for it! I’ve been in the business for over 53 years. This man impresses me.”
               </p>
               <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <h6 style={{ fontWeight: 'bold', marginTop: '16px', fontSize: '32px' }}>Bob Proctor</h6>
-                <p style={{ fontSize: '32px' }}>Best selling author, speaker, coach and pioneer of "The Secret" Large Call to Action Headline</p>
+                <h6 style={{ fontWeight: 'bold', marginTop: '16px', fontSize: '31px' }}>Bob Proctor</h6>
+                <p style={{ fontSize: '30px' }}>Best selling author, speaker, coach and pioneer of "The Secret" Large Call to Action Headline</p>
               </div>
             </div>
           </div>
@@ -1076,25 +1086,25 @@ const FreeCourseForm = () => {
 
       <div className="container">
         <div className="containerInner">
-          <h4 style={{ fontSize: '28px', color: 'rgb(7, 91, 183)', textAlign: 'center' }}>FAQ's</h4>
+          <h4 style={{ fontSize: '28px', color: 'rgb(7, 91, 183)', textAlign: 'center', marginBottom: '50px' }}>FAQ's</h4>
 
           <ul style={{ listStyleType: 'circle' }}>
-            <li className="flex vert" style={{ marginBottom: '10px' }}>
+            <li className="flex vert" style={{ marginBottom: '20px' }}>
               <b style={{ fontSize: '20px' }}>How do I know this will work for my market?</b>
               If you're in the mlm-based business, then this will work for you. Ascension works for beginner, intermediate and advanced network marketers. We've seen this system work for people at all different levels despite where they came from.
             </li>
 
-            <li className="flex vert" style={{ marginBottom: '10px' }}>
+            <li className="flex vert" style={{ marginBottom: '20px' }}>
               <b style={{ fontSize: '20px' }}>How do I know this will work in my business?</b>
               Ascension was designed to help 3 different brackets. Those new to network marketing wanting to make sure they begin as smoothly as possible, those that have been in network marketing for a little bit and want to scale their team to the next level, and lastly those that have large teams but are not properly duplicating. By covering all 3 of these brackets it allows anyone to use Ascension despite where they are currently at to maximize results.
             </li>
 
-            <li className="flex vert" style={{ marginBottom: '10px' }}>
+            <li className="flex vert" style={{ marginBottom: '20px' }}>
               <b style={{ fontSize: '20px' }}>This sounds complicated. Is it really hard to do?</b>
               This system makes it as easy and simple as possible. Are you still going to have challenges? Yes. Are you still going to get frustrated at times? Absolutely. However, you'll be moving forward with a proven system and a big support team who genuinely cares about you and wants to see you succeed. There is a whole team of experts who are so passionate about this... and want to see you succeed. We'll do this together!
             </li>
 
-            <li className="flex vert" style={{ marginBottom: '10px' }}>
+            <li className="flex vert" style={{ marginBottom: '20px' }}>
               <b style={{ fontSize: '20px' }}>If everyone is doing this, will it continue to work?</b>
               Yes. In fact, the more people who become a part of this community, the better! That means more potential promotional partners. More "share for share" partners. And more customers who see buying "how-to" products online as normal. The opportunity has never been bigger!
             </li>
@@ -1102,9 +1112,9 @@ const FreeCourseForm = () => {
         </div>
       </div>
 
-      <hr style={{boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)',marginTop:'50px', backgroundColor: 'white', color:'white'}} />
+      <hr style={{ boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', marginTop: '50px', backgroundColor: 'white', color: 'white' }} />
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column',   }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', }}>
         <h4 style={{ color: 'rgb(7,91,183)', fontSize: '24px', fontWeight: '700', marginTop: '50px', }}>SO, JUST TO SUM IT ALL UP...</h4>
         <p style={{ marginBottom: '40px', fontSize: '24px' }}>Here's What's You're About To Get:</p>
         <hr style={{ marginBottom: '30px', color: 'inherit', width: '100%' }} />
@@ -1179,7 +1189,7 @@ const FreeCourseForm = () => {
 
         <h1 style={{ fontSize: '32px', fontWeight: 'bold', marginTop: '20px', marginBottom: '40px', color: 'rgb(39, 39, 39)' }}>YES! Darik Count Me In!</h1>
 
-        <EnrollButton showSaving={false}></EnrollButton>
+        <EnrollButton color={'rgb(39, 39, 39)'} showSaving={false}></EnrollButton>
 
         <a style={{ marginTop: '30px', marginBottom: '50px', color: 'rgb(65,139,189)' }} className="link">Save $194 -- Pay in Full</a>
 

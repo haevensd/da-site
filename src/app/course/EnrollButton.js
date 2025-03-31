@@ -2,10 +2,10 @@
 import React, { useState } from "react";
 import "./EnrollButton.css";
 
-const EnrollButton = ({showSavings=false}) => {
+const EnrollButton = ({showSavings=false, color='', boxShadow}) => {
     return <div style={{display: 'flex', gap: '100px'}}>
         <div className="enroll-btn-container">
-            <span className="text">
+            <span className="text" style={{color}}>
                 LIFETIME ACCESS<span style={{marginBottom: '25px'}}><br /></span>
                 1 Payment of $997<br />
             </span>
@@ -17,7 +17,7 @@ const EnrollButton = ({showSavings=false}) => {
             </a>}
         </div>
         <div className="enroll-btn-container">
-            <span className="text">
+            <span className="text" style={{color}}>
                 LIFETIME ACCESS<br />
                 3 Payments of $397<br />
             </span>

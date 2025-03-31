@@ -4,16 +4,17 @@ import "./Testimonial.css";
 
 const Testimonial = () => {
     return <div style={{display: 'flex', gap: '100px', flexDirection: 'column', maxWidth: '1170px', marginLeft: 'auto', marginRight: 'auto',marginTop: '40px'}}>
-                  <div style={{backgroundColor: 'rgb(237, 237, 237)', marginBottom: '-70px',padding: '10px 0', marginTop: '',}}>
+                  <div style={{backgroundColor: 'rgb(237, 237, 237)', marginBottom: '-70px',padding: '10px 0', marginTop: '',marginBottom: '20px'}}>
             
-            <div style={{backgroundColor: 'rgb(7, 91, 183)', boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', textAlign: 'center', color: 'white', minHeight: '75px', alignContent: 'center',  maxWidth: '775px', margin: 'auto',fontSize: '24px'}}>
+            <div style={{backgroundColor: 'rgb(7, 91, 183)', boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', textAlign: 'center', color: 'white', minHeight: '75px', alignContent: 'center',  maxWidth: '775px', margin: 'auto',fontSize: '24px', }}>
               <p>CASE STUDIES</p>
             </div>
             </div>
         <div style={{display: 'flex', gap: '50px', justifyContent: 'space-around'}}>
             <div >
                 <img width="300" src="case_studies1.jpg" style={{borderRadius: '50%', marginBottom: '15px', boxShadow: '0 2px 5px 2px rgba(0,0,0,0.3)'}} />
-                <p style={{ textAlign: 'center' }}>Zain Jan</p>
+                <p style={{ textAlign: 'center' }}><strong>
+                    Zain Jan</strong></p>
                 <p  style={{ textAlign: 'center' }}>Founder of Sungrade Solar</p>
             </div>
 
@@ -39,7 +40,7 @@ const Testimonial = () => {
             </p>
                 <div >
                     <img width="300" src="case_studies2.png" style={{borderRadius: '50%', marginBottom: '15px', boxShadow: '0 2px 5px 2px rgba(0,0,0,0.3)'}} />
-                    <p style={{ textAlign: 'center' }}>Kenneth Milosovic</p>
+                    <p style={{ textAlign: 'center' }}><strong>Kenneth Milosovic</strong></p>
                     <p  style={{ textAlign: 'center' }}>CEO at THe Climb Corporation</p>
                 </div>
         </div>
@@ -47,7 +48,7 @@ const Testimonial = () => {
         <div style={{display: 'flex', gap: '50px', justifyContent: 'space-around'}}>
             <div >
                 <img width="300" src="case_studies3.jpg" style={{borderRadius: '50%', marginBottom: '15px', boxShadow: '0 2px 5px 2px rgba(0,0,0,0.3)'}} />
-                <p style={{ textAlign: 'center' }}>Josh Miller</p>
+                <p style={{ textAlign: 'center' }}><strong>Josh Miller</strong></p>
                 <p  style={{ textAlign: 'center' }}>Chief Operating Officer at Invigor8</p>
             </div>
             <p style={{         
