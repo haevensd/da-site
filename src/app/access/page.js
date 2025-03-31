@@ -188,7 +188,7 @@ const CoursePlayer = () => {
       
         {courseModules.map((module, moduleIndex) => (
           <div key={moduleIndex} className="module-section">
-            <div onClick={() => toggleSection(moduleIndex)} style={{border: '3px solid #000', backgroundColor: '#14439c', padding: '15px', paddingLeft: '30px', paddingBottom: '10px', borderTopLeftRadius: '0px', borderTopRightRadius: '15px', borderBottomLeftRadius: '0px', borderBottomRightRadius: '15px'}}>
+            <div onClick={() => toggleSection(moduleIndex)} style={{border: '3px solid #000', backgroundColor: '#266BF8', padding: '15px', paddingLeft: '30px', paddingBottom: '10px', borderTopLeftRadius: '0px', borderTopRightRadius: '15px', borderBottomLeftRadius: '0px', borderBottomRightRadius: '15px'}}>
                 <h3
                 className="module-title"
                 

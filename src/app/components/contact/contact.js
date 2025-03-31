@@ -216,7 +216,7 @@ const Contact = () => {
         <div style={styles.heroText}>
           <h1 style={styles.heroTitle}>
           JOIN A GLOBAL
-          COMMUNITY OF <span style={{ fontStyle: 'italic', fontSize: '54px', color: '#fff', backgroundColor: '#14439c', padding: '20px'  }}>ACHIEVERS</span>
+          COMMUNITY OF <span style={{ fontStyle: 'italic', fontSize: '54px', color: '#fff', backgroundColor: '#266BF8', padding: '20px'  }}>ACHIEVERS</span>
           </h1>
         </div>
 

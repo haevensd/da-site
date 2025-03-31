@@ -81,11 +81,10 @@ const BookForm = ({showImage=true}) => {
       case 1:
         return (
           <div className="vault-form">
-            <h3>UNLOCK THE SECRETS TO SUCCESS!</h3>
+            <h3>Grab Your Free Magnetic Messenger Scripts – Just Cover Shipping</h3>
             <p>
-              Fill in the form to receive your <strong>free</strong> copy of our exclusive
-              book— packed with actionable strategies, insights, and
-              inspiration to help you achieve your dreams.
+            
+            We’ll rush yours to your door — just tell us where to send it.
             </p>
             <form onSubmit={handleSubmitStep1}>
               <label>Email Address</label>
@@ -116,7 +115,7 @@ const BookForm = ({showImage=true}) => {
                 required 
               />
               <div className="button-container">
-                <button type="submit">Next Step</button>
+                <button type="submit">Get my Free Scripts Now!</button>
               </div>
             </form>
           </div>
@@ -217,7 +216,9 @@ const BookForm = ({showImage=true}) => {
 
   return (
     <div className="vault-content">
-      {renderStep()}
+      {
+        renderStep()
+      }
       {showImage && (
         <div className="vault-image">
           <img

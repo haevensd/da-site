@@ -120,7 +120,7 @@ const BookForm = ({showImage=true}) => {
                 required 
               />
               <div className="button-container">
-                <button type="submit">Next Step</button>
+                <button type="submit">Get my Free Scripts Now!</button>
               </div>
             </form>
           </div>
@@ -221,18 +221,20 @@ const BookForm = ({showImage=true}) => {
 
   return (
     <div className="vault-container">
-      <div style={{display: 'flex', backgroundImage: 'url("/ppl-bg.jpg")', color: 'white'}} className="hero-container" >
+      <div style={{display: 'flex', background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,60,156,1) 0%, rgba(38,107,248,1) 30%, rgb(10, 199, 236) 95%);', color: 'white'}} className="hero-container" >
         <div style={{margin: 'auto', maxWidth: '1170px',paddingTop: '4rem', }}>
-          <h4 style={{marginBottom: '5px'}}>Become a Recruiting Beast in No-Time Flat with these</h4>
-          <h2 style={{color: 'orange', marginTop: '', marginBottom: '5px'}}>Proven 101 RECRUITING SCRIPTS & 38 BUILDER TIPS</h2>
-          <h3 style={{textDecoration: 'italic', marginBottom: '50px'}}>That Will Solve All of your Network Marketing Problems Fast… Guaranteed
+          <h2 style={{color: 'orange', fontWeight: 'bold', color: '#ffbb2a',marginTop: '', marginBottom: '5px', fontFamily: 'Gotham Book Light'}}>The Exact Social Media Scripts That Built Teams of Tens of Thousands</h2>
+          <h3 style={{textDecoration: 'italic', marginBottom: '50px'}}>I used these to build massive sales teams and generate millions in revenue — and I'm giving them to you 100% free.
           </h3>
           <hr></hr>
-          <div style={{display: 'flex', marginTop: '20px', gap: '50px'}}>
+          <div style={{display: 'flex', marginTop: '20px', gap: '30px'}}>
             <div id="form" style={{display: 'flex',  flexDirection: 'column', marginTop: '1rem', maxWidth: '70%'}}>
-              <h1 style={{textAlign: ''}}>3 Undeniable Truths of Network Marketing</h1>
-              <p>that EVERY Single Top-Income Earner in Your Company Applies to their business which allows them to easily outperform, out-recruit, and out-duplicate everyone else...</p>
-              <iframe src="https://www.youtube.com/embed/https://www.youtube.com/watch?v=8KUHpd8T6S8?autoplay=0&amp;modestbranding=1&amp;controls=1&amp;showinfo=0&amp;rel=0&amp;hd=1&amp;wmode=transparent" height={'340px'} style={{margin: '20px 0'}} frameBorder="0" allowFullScreen="" wmode="opaque" id="fitvid417761" className=""></iframe>
+              {/* <h1 style={{textAlign: ''}}>3 Undeniable Truths of Network Marketing</h1>
+              <p>that EVERY Single Top-Income Earner in Your Company Applies to their business which allows them to easily outperform, out-recruit, and out-duplicate everyone else...</p> */}
+              <div  style={{minWidth:'600px',height:'338px'}}>
+
+              <iframe width="600" height="350" style={{ marginTop: '10px' }} src="https://www.youtube.com/embed/jqBxnGxpF0c?si=KBulEdEThn7NEDYH" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+              </div>
             </div>
             <div style={{display: 'flex', flexDirection: 'column', paddingRight: '40px' }}>
               <BookFormm  showImage={false}></BookFormm>
@@ -240,11 +242,11 @@ const BookForm = ({showImage=true}) => {
           </div>
         </div>
       </div>
-      <div style={{backgroundColor: 'black', maxHeight: '700px'}}>
-        <Testimonial secondImage={true}></Testimonial>
+      <div style={{background: 'linear-gradient(90deg, rgba(0,0,0,1) 55%, rgb(27, 34, 36) 100%)', maxHeight: '700px'}}>
+        <Testimonial color={true} secondImage={true}></Testimonial>
       </div>
-      <div style={{display: 'flex', maxWidth: '1170px', marginTop: '50px',margin: 'auto', marginBottom: '0px', gap: '50px', padding: '50px'}}>
-        <div>
+      {/* <div style={{display: 'flex', maxWidth: '1170px', marginTop: '50px',margin: 'auto', marginBottom: '0px', gap: '50px', padding: '50px'}}> */}
+        {/* <div>
           <p style={{textAlign: 'left', padding: '0px', marginTop: '50px'}}>By now, you've been around the block at your network marketing company. You've been to yearly corporate events full of hundreds and thousands of other people. You're now starting to get to know the people who "make the money" at the top and realize they're just people like you and me. You also wholeheartedly believe that Network Marketing is the solution to all of your problems, even though doubts have been creeping in. You love the income potential, you love the people, events, and opportunities.</p>
         </div>
         <div style={{minWidth: '30%'}}>
@@ -259,27 +261,31 @@ const BookForm = ({showImage=true}) => {
         </p>
         <a className="yes-btn" href="#form" style={{marginTop: '50px', marginBottom: '100px', }}>
         <span>YES! I Want My FREE Copy Of The Magnetic Messenger Scripts</span>
-      </a>
+      </a> */}
       
-</div>
-      <div className="secondary-container">
+{/* </div> */}
+      <div className="secondary-container" style={{marginTop: '100px'}}>
         <div>
-          <h1 className="highlight" style={{textAlign: 'center'}}>Matt Ward</h1>
+          {/* <h1 className="highlight" style={{textAlign: 'center'}}>Matt Ward</h1>
           
-          <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-10px'}}>Small Call to Action Headline</h3>
+          <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-10px'}}>Small Call to Action Headline</h3> */}
         <img style={{height:"auto", width:"1500px"}} src="/nm-post1.jpg" />
 
         </div>
         <div >
-          <h1 style={{textAlign:'center'}}>Call to Action!</h1>
+          <h1 style={{textAlign:'center', marginTop: '50px'}}>Love Network Marketing? Me too</h1>
           <p>You love everything it's taught you about business and mentality and life. You love the industry, and although it's been tough, you made the internal decision a long time ago that ONE DAY, you will succeed tremendously in Network Marketing... Right?</p>
         </div>
+        
       </div>
-      <iframe width="850px" height="511px" src="https://www.youtube.com/embed/BFp87F9pF8o" title="Matt Ward" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{margin: 'auto', marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
-      <a className="yes-btn" href="#form" style={{marginBottom: '100px', }}>
+      <a className="yes-btn" href="#form" style={{marginTop: '30px', marginBottom: '20px'}}>
         <span>YES! I Want My FREE Copy Of The Magnetic Messenger Scripts</span>
       </a>
-      <div className="secondary-container">
+      <iframe width="850px" height="511px" src="https://www.youtube.com/embed/BFp87F9pF8o" title="Matt Ward" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{margin: 'auto', marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
+      {/* <a className="yes-btn" href="#form" style={{marginBottom: '100px', }}>
+        <span>YES! I Want My FREE Copy Of The Magnetic Messenger Scripts</span>
+      </a> */}
+      {/* <div className="secondary-container">
         <div>
           <h1 className="highlight">Donta Lewis</h1>
           <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-10px'}}>Small Call to Action Headline</h3>
@@ -290,12 +296,13 @@ const BookForm = ({showImage=true}) => {
           <h1 style={{textAlign:'center'}}>Call to Action!</h1>
           <p>You love everything it's taught you about business and mentality and life. You love the industry, and although it's been tough, you made the internal decision a long time ago that ONE DAY, you will succeed tremendously in Network Marketing... Right?</p>
         </div>
-      </div>
+      </div> */}
       <iframe width="850px" height="511px" src="https://www.youtube.com/embed/1VRNqRoh5Mw" title="Donta Lewis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{margin: 'auto', marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
-      <div className="yes-btn" href="#form" style={{marginBottom: '100px'}}>
+      
+      {/* <div className="yes-btn" href="#form" style={{marginBottom: '100px'}}>
         <span>YES! I Want My FREE Copy Of The Magnetic Messenger Scripts</span>
-      </div>
-      <div className="secondary-container">
+      </div> */}
+      {/* <div className="secondary-container">
         <div>
           <h1 className="highlight">Cameron Kerkar</h1>
           <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-10px'}}>Small Call to Action Headline</h3>
@@ -306,9 +313,10 @@ const BookForm = ({showImage=true}) => {
           <h1 style={{textAlign:'center'}}>Call to Action!</h1>
           <p>You love everything it's taught you about business and mentality and life. You love the industry, and although it's been tough, you made the internal decision a long time ago that ONE DAY, you will succeed tremendously in Network Marketing... Right?</p>
         </div>
-      </div>
+      </div> */}
       <iframe width="850px" height="511px" src="https://www.youtube.com/embed/02z-YML-ucg" title="Cameron Kerkar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{margin: 'auto', marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
-      <div style={{backgroundImage: 'url("/img.jpeg")',width: '100%',height: '750px', backgroundRepeat: 'no-repeat',backgroundSize: 'cover', marginTop: '50px', }}>
+
+      {/* <div style={{backgroundImage: 'url("/img.jpeg")',width: '100%',height: '750px', backgroundRepeat: 'no-repeat',backgroundSize: 'cover', marginTop: '50px', }}>
           <div style={{marginLeft: 'auto', maxWidth: '50%', paddingTop: '20px', padding: '25px 20px'}}>
           <div className="col-inner bgCover noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin" style={{ padding: '0 10px' }}>
             <div className="de elHeadlineWrapper ui-droppable de-editable" id="headline-76267" data-de-type="headline" data-de-editing="false" data-title="sub-headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" data-gramm="false" style={{ marginTop: '0px', outline: 'none', cursor: 'pointer' }} aria-disabled="false">
@@ -354,10 +362,10 @@ const BookForm = ({showImage=true}) => {
               You've seen people from every other nation, state, country, and even people you personally know walk across that stage to collect an award. Some worked really hard for it and deserve it, some got a bit lucky with their downlines, and some, well, their success still confuses you…you know? The person that somehow, someway, for better lack of terms, is literally dumber than you, and yet they make more money than you?
             </div>
           </div>
-        </div>
+        </div> */}
 
-        </div>
-        <div style={{display: 'flex', textAlign: 'left', backgroundImage: 'url("/ppl-bg.jpg")', color: 'white', padding: '50px', justifyContent: 'center'}}>
+       {/* </div>*/}
+        {/* <div style={{display: 'flex', textAlign: 'left', backgroundImage: 'url("/ppl-bg.jpg")', color: 'white', padding: '50px', justifyContent: 'center'}}>
           <div style={{ padding: '50px', marginTop: '50px',  maxWidth: '1070px',}}>
               <p style={{textAlign: 'center'}}>I remember a long while ago, I asked a personal mentor of mine a question....</p> 
               <hr style={{marginTop: '5px', paddingBottom: '25px'}}/>
@@ -423,8 +431,8 @@ const BookForm = ({showImage=true}) => {
 <p style={{fontSize: '32px', fontWeight: '800',color: 'orange', lineHeight: '40px'}}>I would try and forget everything I knew and do what my uplines told the newest recruit to do. Maybe you've been there before?</p><br /><br />
 And so you start all over "make a list of EVERYBODY you know. Don't Pre-judge. Friends, family, acquaintances, your middle school teacher and your pastor. Everybody." Then, you reach out and invite them to a 3 way-call or a home event. At first, it works, for a few people. They get started because they bought into you and your excitement, probably more-so than the product or pitch. If they got started after an event, it's likely they FOMO'd (fear of missing out) into starting because they didn't want to be left behind or way down at the bottom of a leg.
           </div>
-        </div>
-        <div style={{display:'flex', maxWidth: '1070px', marginLeft: 'auto', marginRight: 'auto', gap: '50px', marginBottom: '50px'}}>
+        </div> */}
+        {/* <div style={{display:'flex', maxWidth: '1070px', marginLeft: 'auto', marginRight: 'auto', gap: '50px', marginBottom: '50px'}}>
 
           <div>
             <div>
@@ -433,7 +441,7 @@ And so you start all over "make a list of EVERYBODY you know. Don't Pre-judge. F
               <br /><br />This has become the constant experience for most peoople in the industry and if that's current;y you, no worries, it's not your fault, it's just how Top-Income earners train because if everyone in the company put just 1 person in per month in their downline, that would essentially double their income. But for you, its just one more person and does nothing for your income.
               </p>
             </div>
-            <h3 style={{color: '#14439c', textAlign: '', fontSize: '30px', margin: '30px 0'}}>You can't help but wonder when they're going to drop off just like the rest of them...</h3>
+            <h3 style={{color: '#266BF8', textAlign: '', fontSize: '30px', margin: '30px 0'}}>You can't help but wonder when they're going to drop off just like the rest of them...</h3>
             <div className="yes-btn" href="#form" style={{minHeight: '115px',marginTop: '0px'}}>
                     <span>YES! I Want My FREE Copy Of The Magnetic Messenger Scripts</span>
                   </div>  
@@ -469,9 +477,9 @@ And so you start all over "make a list of EVERYBODY you know. Don't Pre-judge. F
           <br /><br />But that's the equivalent to a fella approaching the head coach of an NFL team and saying, "Hi, I want to be paid like a professional football player, I want to try out for the team." To which the head coach responds, "What makes you qualified?" "Well, I know every single play, I've watched every single game over the last decade." The head coach scratches his head, semi-impressed and says, "But do you have any experience? Have you played a game on the grid-iron? Do you know how to take a hit? Catch a ball? Sprint the routes? Get bruised and bloodied?” 
           <br /><br />At some point, the rubber's gotta meet the road and you've gotta eat the no's. That means, having a proper system in place for people to eat the no's and still win. "Systems are duplicatable, people are not." Knowing this information was the first step but how would I apply it?!
         </div>
-      </div>
+      </div> */}
 
-        <div style={{display: 'flex', flexDirection: 'column', marginTop: '70px',  }}>
+        {/* <div style={{display: 'flex', flexDirection: 'column', marginTop: '70px',  }}>
           <img width={'500px'} height="1000px" src="/truth3.jpg" style={{margin: 'auto',marginBottom: '50px'}} ></img>
           <div style={{display:'flex', textAlign: 'left', maxWidth: '1170px', marginLeft: 'auto',gap: '20px', marginRight: 'auto', gap: '40px', marginBottom: '50px'}}>
             <div>
@@ -519,8 +527,8 @@ And so you start all over "make a list of EVERYBODY you know. Don't Pre-judge. F
               <p>I call this masterpiece: <strong>Magnetic Messenger Scripts</strong></p>
             </div>
           </div>
-        </div>
-        <div className="" style={{display: 'flex', gap: '70px', maxWidth: '1170px', marginLeft: 'auto', marginRight: 'auto',}}>
+        </div> */}
+        {/* <div className="" style={{display: 'flex', gap: '70px', maxWidth: '1170px', marginLeft: 'auto', marginRight: 'auto',}}>
             <div style={{minWidth: '40%'}}>
               <h3 style={{color: 'orange', textAlign: 'center', lineHeight: '50px', marginBottom: '50px'}}>This ONE Document Will Solve ALL of Your Network Marketing Problems.</h3>
               <img src="/one-portrait.jpg">
@@ -557,7 +565,7 @@ And so you start all over "make a list of EVERYBODY you know. Don't Pre-judge. F
                   <li style={{listStyleType: 'none', }}><FontAwesomeIcon style={{marginRight: '5px'}} icon={faCheckSquare} />It’s designed to remove the stress of success so you can just work the business and grow your team in a stupid simple way.</li>
               </div>
             </div>
-          </div>
+          </div> */}
 
         <div className="" style={{display: 'flex', flexDirection: 'column', marginTop: '40px', backgroundColor: 'rgb(246, 246, 246)', marginBottom: '50px'}}>
           <h2 style={{marginBottom: '50px',marginTop: '50px'}}>What’s inside Magnetic Messenger Scripts:</h2>
@@ -589,7 +597,7 @@ And so you start all over "make a list of EVERYBODY you know. Don't Pre-judge. F
             <div></div>
           </div>
         </div>
-        <div style={{maxWidth: '1170px', marginLeft: 'auto', marginRight: 'auto',marginBottom: '50px'}}>
+        {/* <div style={{maxWidth: '1170px', marginLeft: 'auto', marginRight: 'auto',marginBottom: '50px'}}>
           <div style={{display: 'flex', }}>
             <img height={'100px'} width={"auto"} style={{maxWidth: 'auto', height: '300px', margin: '0 20px',}} src="coowner1.jpg" />
             <h4 style={{ color: 'orange', lineHeight: '48px'}}>MAGNETIC MESSENGER SCRIPTS IS YOUR COMPLETE RESOURCE FOR TURNING TOTAL STRANGERS INTO CUSTOMERS AND DISTRIBUTORS WITHIN DAYS OF PRESENTING YOUR BUSINESS.</h4>
@@ -619,9 +627,9 @@ And so you start all over "make a list of EVERYBODY you know. Don't Pre-judge. F
           Also: There Are ZERO Links or Plugs Inside. No-upsells within Magnetic Messenger Scripts, It's 100% pure content (ad-free)<br />
           </p>
           </div>
-        </div>
+        </div> */}
 
-        <div style={{display: 'flex', gap: '50px', marginTop: '50px', marginBottom: '50px', maxWidth: '1170px', marginLeft: 'auto', marginRight: 'auto',}}>
+        {/* <div style={{display: 'flex', gap: '50px', marginTop: '50px', marginBottom: '50px', maxWidth: '1170px', marginLeft: 'auto', marginRight: 'auto',}}>
           <div style={{minWidth: '50%', textAlign: 'center', justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column',  }}>
             <h4>Here's How To Get Your Very Own Copy of Magnetic Messenger Scripts:</h4>
             <img width={'400px'} style={{marginTop: '50px'}} src="mm-img.png"></img>
@@ -649,8 +657,8 @@ How's that for a guarantee? I'm so confident you'll not only love Magnetic Messe
         <span>YES! I Want My FREE Copy Of The Magnetic Messenger Scripts</span>
       </div>
           </div>
-        </div>
-        <div className="standard-container" style={{display: 'flex', flexDirection: '', gap: '50px', marginTop: '50px'}}>
+        </div> */}
+        {/* <div className="standard-container" style={{display: 'flex', flexDirection: '', gap: '50px', marginTop: '50px'}}>
           <img width="800px" height="100px" style={{maxHeight: '800px'}} src="section-last.jpg" />
           <div >
             <h1 style={{color: 'orange', textAlign: 'left', fontWeight: 'bold', fontSize: '48px', }}>You've got to act fast:</h1>
@@ -666,7 +674,7 @@ So hustle and grab your copy and I look forward to seeing you walk the stages at
         <span>YES! I Want My FREE Copy Of The Magnetic Messenger Scripts</span>
       </div>
           </div>
-        </div>
+        </div> */}
     </div>
   );
 };
