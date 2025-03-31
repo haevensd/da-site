@@ -220,7 +220,7 @@ const BookForm = ({showImage=true}) => {
   };
 
   return (
-    <div className="vault-container">
+    <div className="vault-container" style={{paddingBottom: '450px'}}>
       <div style={{display: 'flex', background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,60,156,1) 0%, rgba(38,107,248,1) 30%, rgb(10, 199, 236) 95%);', color: 'white'}} className="hero-container" >
         <div style={{margin: 'auto', maxWidth: '1170px',paddingTop: '4rem', }}>
           <h2 style={{color: 'orange', fontWeight: 'bold', color: '#ffbb2a',marginTop: '', marginBottom: '5px', fontFamily: 'Gotham Book Light'}}>The Exact Social Media Scripts That Built Teams of Tens of Thousands</h2>
