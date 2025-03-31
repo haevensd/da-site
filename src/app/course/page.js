@@ -93,7 +93,7 @@ const FreeCourseForm = () => {
           </div>
         </div>
 
-        <h1 style={{ fontSize: '32px', fontWeight: 'bold', marginTop: '20px', marginBottom: '40px', color: 'rgb(39, 39, 39)' }}>YES! Darik Count Me In!</h1>
+        <h1 style={{ fontSize: '32px', fontWeight: 'bold', marginTop: '30px', marginBottom: '10px', color: 'rgb(39, 39, 39)' }}>YES! Darik Count Me In!</h1>
 
         <EnrollButton color={'rgb(39, 39, 39)'} showSaving={false}></EnrollButton>
 
@@ -1187,7 +1187,7 @@ const FreeCourseForm = () => {
           </div>
         </div>
 
-        <h1 style={{ fontSize: '32px', fontWeight: 'bold', marginTop: '20px', marginBottom: '40px', color: 'rgb(39, 39, 39)' }}>YES! Darik Count Me In!</h1>
+        <h1 style={{ fontSize: '32px', fontWeight: 'bold', marginTop: '30px', marginBottom: '20px', color: 'rgb(39, 39, 39)' }}>YES! Darik Count Me In!</h1>
 
         <EnrollButton color={'rgb(39, 39, 39)'} showSaving={false}></EnrollButton>
 
