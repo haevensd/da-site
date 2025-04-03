@@ -16,6 +16,10 @@ const FreeCourseForm = () => {
       <div style={{ display: 'flex', justifyContent: 'center', padding: '50px', paddingTop: '0', alignItems: 'center', flexDirection: 'column', backgroundColor: 'rgb(0, 0, 0)', color: 'white' }}>
         <p style={{ marginTop: '100px', fontSize: '18px' }}>Are You Leveraging The #1 Network Marketing System?</p>
         <h1 style={{ fontSize: '34px', fontWeight: 'bold', textAlign: 'center' }}>Introducing: The Most Powerful Way to Become THE Leader In Your Network Marketing Company by Creating Endless Enrollments with TRUE Duplication... 24/7!</h1>
+        <div style={{minHeight: '300px', display: 'flex', alignItems: 'center', justifyContent: 'center',}}><span style={{margin: 'auto'}}>
+          insert video
+          </span>
+          </div>
         <p><i>This is your step-by-step blueprint for building a successful network marketing business using real strategies... whether you're a total beginner or currently running a successful team.</i></p>
         <EnrollButton showSavings={true}></EnrollButton>
       </div>

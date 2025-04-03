@@ -242,50 +242,30 @@ const BookForm = ({showImage=true}) => {
           </div>
         </div>
       </div>
+
       <div style={{background: 'linear-gradient(90deg, rgba(0,0,0,1) 55%, rgb(27, 34, 36) 100%)', maxHeight: '700px'}}>
         <Testimonial color={true} secondImage={true}></Testimonial>
       </div>
-      {/* <div style={{display: 'flex', maxWidth: '1170px', marginTop: '50px',margin: 'auto', marginBottom: '0px', gap: '50px', padding: '50px'}}> */}
-        {/* <div>
-          <p style={{textAlign: 'left', padding: '0px', marginTop: '50px'}}>By now, you've been around the block at your network marketing company. You've been to yearly corporate events full of hundreds and thousands of other people. You're now starting to get to know the people who "make the money" at the top and realize they're just people like you and me. You also wholeheartedly believe that Network Marketing is the solution to all of your problems, even though doubts have been creeping in. You love the income potential, you love the people, events, and opportunities.</p>
-        </div>
-        <div style={{minWidth: '30%'}}>
-          <p className="highlight" >These scripts may very well be the reason you aren't earning a full-time income</p>
-          <img src="mm-img.png" />
-          <p className="highlight">yet and ONE thing to Apply Right Now that will solve ALL of Your MLM Problems within one calendar month)</p>
 
-        </div>
-      </div>
-      <div style={{display: 'flex', maxWidth: '1170px', margin: 'auto', flexDirection: 'column', }}>
-        <p>You love everything it's taught you about business and mentality and life. You love the industry, and although it's been tough, you made the internal decision a long time ago that ONE DAY, you will succeed tremendously in Network Marketing... Right?
-        </p>
-        <a className="yes-btn" href="#form" style={{marginTop: '50px', marginBottom: '100px', }}>
-        <span>YES! I Want My FREE Copy Of The Magnetic Messenger Scripts</span>
-      </a> */}
-      
-{/* </div> */}
       <div className="secondary-container" style={{marginTop: '50px'}}>
-        
-          <h1 style={{textAlign:'center', marginTop: '50px', marginBottom: '-20px'}}>So I Gave Them My Scripts… Here’s What Happened</h1>
-        
-        
+        <h1 style={{textAlign:'center', marginTop: '50px', marginBottom: '-20px'}}>So I Gave Them My Scripts… Here’s What Happened</h1>
       </div>
+
       <div className="flex" style={{gap:"20px", marginBottom: '-110px',margin: 'auto'}}>
+        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/BFp87F9pF8o" className="test-vid" title="Matt Ward" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
+        
+        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/1VRNqRoh5Mw" className="test-vid" title="Donta Lewis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
+        
+        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/02z-YML-ucg" className="test-vid" title="Cameron Kerkar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
+      </div>
 
-      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/BFp87F9pF8o" className="test-vid" title="Matt Ward" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
-      
-      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/1VRNqRoh5Mw" className="test-vid" title="Donta Lewis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
-      
-      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/02z-YML-ucg" className="test-vid" title="Cameron Kerkar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
-        </div>
-          <div className="flex" style={{gap:"20px", marginBottom: '20px',margin: 'auto'}}>
+      <div className="flex" style={{gap:"20px", marginBottom: '20px',margin: 'auto'}}>
+        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/eE5ylN05LEI" className="test-vid" title="Michael Manuel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
 
-      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/eE5ylN05LEI" className="test-vid" title="Michael Manuel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
+        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/tmyXhpbEX1M" className="test-vid" title="Victoria Czupta" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
 
-      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/tmyXhpbEX1M" className="test-vid" title="Victoria Czupta" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
-
-      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/jqBxnGxpF0c" className="test-vid" title="Adrian Cupp" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
-          </div>
+        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/jqBxnGxpF0c" className="test-vid" title="Adrian Cupp" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
+      </div>
 
       <a className="yes-btn" href="#form" style={{marginTop: '10px', marginBottom: '20px'}}>
         <span>YES! I Want My FREE Copy Of The Magnetic Messenger Scripts</span>
