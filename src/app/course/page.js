@@ -103,7 +103,7 @@ const FreeCourseForm = () => {
 
         <a style={{ marginTop: '30px', marginBottom: '50px', color: 'rgb(65,139,189)' }} className="link">Save $194 -- Pay in Full</a>
 
-        <div style={{ display: 'flex', gap: '15px', padding: '15px', flexDirection: 'column', textAlign: 'center', border: '1px solid black', minWidth: '65%' }}>
+        <div style={{ display: 'flex', gap: '15px', padding: '15px', flexDirection: 'column',  justifyContent: 'center',textAlign: 'center', border: '1px solid black', minWidth: '65%' }}>
           <p style={{ fontSize: '20px', }}>NEED HELP ORDERING OR HAVE QUESTIONS?</p>
           <p>Please contact us with questions at<br />
             info@darikalexander.com</p>
