@@ -222,3 +222,15 @@ padding: 50px;
   .brown-highlight {
     color: rgb(157, 139, 0);
   }
+  .test-vid {
+    min-width: 400px;
+    min-height: 225px;
+    user-select: none;
+    z-index: 100;
+  }
+  @media screen and (min-width: 1810px) {
+    .test-vid {
+      min-width: 540px;
+      min-height: 305px;
+    }
+  }

@@ -89,9 +89,10 @@
     color: white;
     background-image: linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%) !important;
     border: 3px #266BF8 solid;
-    padding: 15px 25px;
+    padding: 20px 30px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 18px !important;
+    width:100%;
     cursor: pointer;
 
     transition: all 300ms ease-in-out;

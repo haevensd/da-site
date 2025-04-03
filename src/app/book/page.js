@@ -223,17 +223,17 @@ const BookForm = ({showImage=true}) => {
     <div className="vault-container" style={{paddingBottom: '450px'}}>
       <div style={{display: 'flex', background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,60,156,1) 0%, rgba(38,107,248,1) 30%, rgb(10, 199, 236) 95%);', color: 'white'}} className="hero-container" >
         <div style={{margin: 'auto', maxWidth: '1170px',paddingTop: '4rem', }}>
-          <h2 style={{color: 'orange', fontWeight: 'bold', color: '#ffbb2a',marginTop: '', marginBottom: '5px', fontFamily: 'Gotham Book Light'}}>The Exact Social Media Scripts That Built Teams of Tens of Thousands</h2>
-          <h3 style={{textDecoration: 'italic', marginBottom: '50px'}}>I used these to build massive sales teams and generate millions in revenue — and I'm giving them to you 100% free.
+          <h2 style={{color: 'orange', fontWeight: 'bold', fontSize: '42px',color: '#ffbb2a',marginTop: '0px', marginBottom: '5px', fontFamily: 'Gotham Book Bold'}}>The Exact Social Media Scripts That Built Teams of Tens of Thousands</h2>
+          <h3 style={{textDecoration: 'italic', marginBottom: '50px', marginTop: '10px', fontSize:'24px',}}>I used these to build massive sales teams and generate millions in revenue — and I'm giving them to you 100% free.
           </h3>
           <hr></hr>
-          <div style={{display: 'flex', marginTop: '20px', gap: '30px'}}>
+          <div style={{display: 'flex', marginTop: '10px', gap: '30px'}}>
             <div id="form" style={{display: 'flex',  flexDirection: 'column', marginTop: '1rem', maxWidth: '70%'}}>
               {/* <h1 style={{textAlign: ''}}>3 Undeniable Truths of Network Marketing</h1>
               <p>that EVERY Single Top-Income Earner in Your Company Applies to their business which allows them to easily outperform, out-recruit, and out-duplicate everyone else...</p> */}
               <div style={{minWidth:'600px',height:'338px'}}>
 
-              <iframe width="600" height="350" style={{ marginTop: '10px' }} src="https://www.youtube.com/embed/jqBxnGxpF0c?si=KBulEdEThn7NEDYH" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+              <div style={{position:'relative', minWidth: '100%', marginTop: '5px'}}><iframe src="https://player.vimeo.com/video/1070641708?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '600px', height: '337px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
               </div>
             </div>
             <div style={{display: 'flex', flexDirection: 'column', paddingRight: '40px' }}>
@@ -264,58 +264,32 @@ const BookForm = ({showImage=true}) => {
       </a> */}
       
 {/* </div> */}
-      <div className="secondary-container" style={{marginTop: '100px'}}>
-        <div>
-          {/* <h1 className="highlight" style={{textAlign: 'center'}}>Matt Ward</h1>
-          
-          <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-10px'}}>Small Call to Action Headline</h3> */}
-        <img style={{height:"auto", width:"1500px"}} src="/nm-post1.jpg" />
-
-        </div>
-        <div >
-          <h1 style={{textAlign:'center', marginTop: '50px'}}>Love Network Marketing? Me too</h1>
-          <p>You love everything it's taught you about business and mentality and life. You love the industry, and although it's been tough, you made the internal decision a long time ago that ONE DAY, you will succeed tremendously in Network Marketing... Right?</p>
-        </div>
+      <div className="secondary-container" style={{marginTop: '50px'}}>
+        
+          <h1 style={{textAlign:'center', marginTop: '50px', marginBottom: '-20px'}}>So I Gave Them My Scripts… Here’s What Happened</h1>
+        
         
       </div>
-      <a className="yes-btn" href="#form" style={{marginTop: '30px', marginBottom: '20px'}}>
+      <div className="flex" style={{gap:"20px", marginBottom: '-110px',margin: 'auto'}}>
+
+      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/BFp87F9pF8o" className="test-vid" title="Matt Ward" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
+      
+      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/1VRNqRoh5Mw" className="test-vid" title="Donta Lewis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
+      
+      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/02z-YML-ucg" className="test-vid" title="Cameron Kerkar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
+        </div>
+          <div className="flex" style={{gap:"20px", marginBottom: '20px',margin: 'auto'}}>
+
+      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/eE5ylN05LEI" className="test-vid" title="Michael Manuel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
+
+      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/tmyXhpbEX1M" className="test-vid" title="Victoria Czupta" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
+
+      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/jqBxnGxpF0c" className="test-vid" title="Adrian Cupp" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
+          </div>
+
+      <a className="yes-btn" href="#form" style={{marginTop: '10px', marginBottom: '20px'}}>
         <span>YES! I Want My FREE Copy Of The Magnetic Messenger Scripts</span>
       </a>
-      <iframe width="850px" height="511px" src="https://www.youtube.com/embed/BFp87F9pF8o" title="Matt Ward" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{margin: 'auto', marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
-      {/* <a className="yes-btn" href="#form" style={{marginBottom: '100px', }}>
-        <span>YES! I Want My FREE Copy Of The Magnetic Messenger Scripts</span>
-      </a> */}
-      {/* <div className="secondary-container">
-        <div>
-          <h1 className="highlight">Donta Lewis</h1>
-          <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-10px'}}>Small Call to Action Headline</h3>
-        <img style={{height:"auto", width:"1500px"}} src="/buddies.jpg" />
-
-        </div>
-        <div>
-          <h1 style={{textAlign:'center'}}>Call to Action!</h1>
-          <p>You love everything it's taught you about business and mentality and life. You love the industry, and although it's been tough, you made the internal decision a long time ago that ONE DAY, you will succeed tremendously in Network Marketing... Right?</p>
-        </div>
-      </div> */}
-      <iframe width="850px" height="511px" src="https://www.youtube.com/embed/1VRNqRoh5Mw" title="Donta Lewis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{margin: 'auto', marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
-      
-      {/* <div className="yes-btn" href="#form" style={{marginBottom: '100px'}}>
-        <span>YES! I Want My FREE Copy Of The Magnetic Messenger Scripts</span>
-      </div> */}
-      {/* <div className="secondary-container">
-        <div>
-          <h1 className="highlight">Cameron Kerkar</h1>
-          <h3 style={{fontSize: '24px', marginBottom: '20px', marginTop:'-10px'}}>Small Call to Action Headline</h3>
-        <img style={{height:"auto", width:"1500px"}} src="/buddies.jpg" />
-
-        </div>
-        <div>
-          <h1 style={{textAlign:'center'}}>Call to Action!</h1>
-          <p>You love everything it's taught you about business and mentality and life. You love the industry, and although it's been tough, you made the internal decision a long time ago that ONE DAY, you will succeed tremendously in Network Marketing... Right?</p>
-        </div>
-      </div> */}
-      <iframe width="850px" height="511px" src="https://www.youtube.com/embed/02z-YML-ucg" title="Cameron Kerkar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{margin: 'auto', marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
-
       {/* <div style={{backgroundImage: 'url("/img.jpeg")',width: '100%',height: '750px', backgroundRepeat: 'no-repeat',backgroundSize: 'cover', marginTop: '50px', }}>
           <div style={{marginLeft: 'auto', maxWidth: '50%', paddingTop: '20px', padding: '25px 20px'}}>
           <div className="col-inner bgCover noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin" style={{ padding: '0 10px' }}>
