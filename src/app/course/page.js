@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import "./course.css";
 import EnrollButton from "./EnrollButton";
 import Testimonial from "./Testimonial";
+import BookForm from "../components/get-book/book";
+import CourseForm from "../components/course/course"
 
 const FreeCourseForm = () => {
   const [formData, setFormData] = useState({
@@ -12,7 +14,29 @@ const FreeCourseForm = () => {
   });
 
   return (
-    <div className="vault-container">
+    <div className="vault-container" style={{padding: '0', paddingBottom:'0'}}>
+      <div style={{display: 'flex', background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,60,156,1) 0%, rgba(38,107,248,1) 30%, rgb(10, 199, 236) 95%)', color: 'white'}} className="hero-container" >
+        <div style={{margin: 'auto', maxWidth: '',paddingTop: '4rem', }}>
+          <h2 style={{color: 'orange', fontWeight: 'bold', fontSize: '42px',maxWidth: '1170px',textAlign: 'center',color: '#ffbb2a',marginTop: '20px', marginBottom: '5px', marginLeft: 'auto', marginRight: 'auto',fontFamily: 'Gotham Book Bold'}}> I Built a Business From Home That Generated Millions With Teams of Tens of Thousands—Now I’m Giving You the Full Program Free</h2>
+          <h3 style={{textDecoration: 'italic', marginBottom: '50px', marginTop: '10px', fontSize:'24px',}}>This is your step-by-step blueprint for building a successful affiliate marketing organization using fundamental strategies... whether you're a beginner or running a successful team.
+
+          </h3>
+          <hr></hr>
+          <div style={{display: 'flex', marginTop: '10px', gap: '10px', alignItems: '', justifyContent: 'center'}}>
+            <div id="form" style={{display: 'flex',  flexDirection: 'column', marginTop: '1rem', maxWidth: '70%'}}>
+              {/* <h1 style={{textAlign: ''}}>3 Undeniable Truths of Network Marketing</h1>
+              <p>that EVERY Single Top-Income Earner in Your Company Applies to their business which allows them to easily outperform, out-recruit, and out-duplicate everyone else...</p> */}
+              <div style={{minWidth:'600px',height:'638px', marginLeft: '20px'}}>
+
+<div style={{position:'relative', minWidth: '100%', marginTop: '15px'}}><iframe src="https://player.vimeo.com/video/1070642304?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '800px', height: '450px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
+</div>
+            </div>
+            <div className="course-container" style={{display: 'flex', flexDirection: 'column', paddingRight: '40px', marginTop: '-10px' }}>
+              <CourseForm showImage={false}></CourseForm>
+              </div>
+          </div>
+        </div>
+      </div>
       <div style={{ display: 'flex', justifyContent: 'center', padding: '50px', paddingTop: '0', alignItems: 'center', flexDirection: 'column', backgroundColor: 'rgb(0, 0, 0)', color: 'white' }}>
         <p style={{ marginTop: '100px', fontSize: '18px' }}>Are You Leveraging The #1 Network Marketing System?</p>
         <h1 style={{ fontSize: '34px', fontWeight: 'bold', textAlign: 'center' }}>Introducing: The Most Powerful Way to Become THE Leader In Your Network Marketing Company by Creating Endless Enrollments with TRUE Duplication... 24/7!</h1>

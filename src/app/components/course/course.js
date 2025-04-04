@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./course.css";
 
-const FreeCourseForm = () => {
+const FreeCourseForm = (showImage) => {
   const [formData, setFormData] = useState({
     email: '',
     firstName: '',
@@ -46,7 +46,7 @@ const FreeCourseForm = () => {
   };
 
   return (
-    <div className="vault-container">
+    <div className="vault-containerr">
       <h2 className="vault-title"></h2>
       <div className="vault-content">
         {!submitted ? (
@@ -54,8 +54,7 @@ const FreeCourseForm = () => {
             <h3>LAUNCH INTO GREATNESS</h3>
             <p>
               This exclusive network marketing course, <strong>Ascension, </strong> 
-              is your gateway to mastering network marketing as well as the art of success, leadership, and 
-              living life with purpose. <br />
+              is your gateway to mastering network marketing. <br />
             </p>
             <form onSubmit={handleSubmit}>
               <label>Email Address</label>
@@ -78,12 +77,12 @@ const FreeCourseForm = () => {
             </p>
           </div>
         )}
-        <div className="vault-image">
+        {/* <div className="vault-image">
           <img
             src="https://s.yimg.com/ny/api/res/1.2/79si0K0Q8wKMu4psN_l.yA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTcwMDtjZj13ZWJw/https://lh5.googleusercontent.com/JpJDaGvxCPQbTRCyhBeRu6lAPR4AfS-9Bc6N6bACn_qaL-u9Wrp2g2MTGV2UW9xId626SEhfEKpm-3dJi8lmF4PpIjSXVS7k1Yk6phOY4Bhh3rTVBV8gQm_6TxPkCc8e37M7GqAM=s800" // Replace with course image URL
             alt="Free Course"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

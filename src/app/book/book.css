@@ -63,7 +63,7 @@
   .vault-form textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom:21px;
+    margin-bottom:10px;
     border: 1px solid #aaa;
     border-radius: 5px;
     color: white !important;
@@ -233,4 +233,12 @@ padding: 50px;
       min-width: 540px;
       min-height: 305px;
     }
+  }
+
+  .book-container .vault-form{
+    padding:32px 50px !important;
+    margin-top: 20px;
+    
+  max-width: 520px;
+    padding-bottom: 50px;
   }
