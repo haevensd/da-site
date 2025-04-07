@@ -55,36 +55,36 @@ const FreeCourseForm = () => {
         <div className="containerInner">
           <div className="flex" style={{flexDirection:'column', overflow: 'visible'}}>
 
-            <h1 style={{color: '#ffbb2a', fontSize:'36px',lineHeight:'50px', fontFamily: 'Gotham Book', marginTop: '70px', textAlign: 'center'}}>HERE'S EVERYTHING THAT'S INCLUDED WITH THE<br />
+            <h1 style={{color: '#ffbb2a', fontSize:'48px',lineHeight:'65px', fontFamily: 'Gotham Book Light', marginTop: '70px', textAlign: 'center'}}>HERE'S EVERYTHING THAT'S INCLUDED WITH THE<br />
                   INTENSIVE COACHING PROGRAM</h1>
-                <img src="asce-top.png" width={"200px"} style={{margin: 'auto', paddingLeft: '0px'}} />
+                <img src="asce-top.png" width={"200px"} style={{margin: 'auto',marginTop:'20px', paddingLeft: '0px'}} />
             <hr style={{color: '#ffbb2a', height: '', marginTop: '30px',marginBottom: '10px'}} />
 
             <img width="700px" style={{margin: 'auto'}} src="asc.png"/>
 
             <div className="flex" style={{gap: '40px', marginTop: '40px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
-                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                   MODULE 1: MASTER THE AFFILIATE UNDERWORLD
                 </h1>
-                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Real Reason 99% of People in Affiliate Marketing Never Make Big Money: </strong>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px', lineHeight:''}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Real Reason 99% of People in Affiliate Marketing Never Make Big Money: </strong>
                       There is a psychological process to understanding why most people fail in network marketing, and once you understand it you will really know how to motivate properly.
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Discern a Good Affiliate Marketing Company from a Bad One: </strong>How to properly evaluate companies that will last the test of time and ones that will not be around very long.
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Discern a Good Affiliate Marketing Company from a Bad One: </strong>How to properly evaluate companies that will last the test of time and ones that will not be around very long.
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Affiliate Marketing Myths That Are Not Working Anymore: </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Affiliate Marketing Myths That Are Not Working Anymore: </strong>
                       Identifying all of the "old world' ideas about network marketing that simply put, are not working in the information age anymore.  
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Affiliate Marketing Truths That Must Be Known to Get Ahead: </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Affiliate Marketing Truths That Must Be Known to Get Ahead: </strong>
                       Everything you need to know to about where this industry is going so you will have the foresight and wisdom to scale a lucrative team.  
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Sound like an Expert Without a Lot of Experience: </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Sound like an Expert Without a Lot of Experience: </strong>
                       How to influence people with simple facts and knowledge about Affiliate marketing that the average person would not be aware of. 
                     </p>
                 </div>
@@ -109,25 +109,25 @@ const FreeCourseForm = () => {
             </div>
             <div className="flex" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
-                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE 2:
                 REPROGRAMMING THE SELF IMAGE
                 </h1>
-                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Perceiving Yourself as a 7 Figure Earner: </strong>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px', lineHeight:''}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Perceiving Yourself as a 7 Figure Earner: </strong>
                       There is a psychological process to understanding why most people fail in network marketing, and once you understand it you will really know how to motivate properly.
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Growth Hacking Strategies with the 'Self Image Shifter':  </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Growth Hacking Strategies with the 'Self Image Shifter':  </strong>
                       How to properly evaluate companies that will last the test of time and ones that will not be around very long.
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Identifying Your Teams Core Values with the Commitment Checklist: </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Identifying Your Teams Core Values with the Commitment Checklist: </strong>
                       Identifying all of the "old world' ideas about network marketing that simply put, are not working in the information age anymore.  
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Implementing Daily Exercises to Increase Your Expectations for Yourself: </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Implementing Daily Exercises to Increase Your Expectations for Yourself: </strong>
                       How to apply these exercises into a daily routine that is measurable so you can track how your perception of your self has changed over time. 
                     </p>
                     
@@ -159,25 +159,25 @@ const FreeCourseForm = () => {
             </div>
             <div className="flex" style={{gap: '40px', marginTop: '120px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
-                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  3:
                 THE GAMEPLAN ASSESSMENT
                 </h1>
-                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Every Question Someone New To Your Team Should Get Answered: </strong>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px', lineHeight:''}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Every Question Someone New To Your Team Should Get Answered: </strong>
                       There is a psychological process to understanding why most people fail in network marketing, and once you understand it you will really know how to motivate properly.
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The 7 Figure Launch Strategy to Earn Fast and Sustainably: </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The 7 Figure Launch Strategy to Earn Fast and Sustainably: </strong>
                       How to properly evaluate companies that will last the test of time and ones that will not be around very long.
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Assess the Amount of Time You Should Delegate with Each New Enrollment: </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Assess the Amount of Time You Should Delegate with Each New Enrollment: </strong>
                       Rather than playing the guessing game, use the assessment to identify exactly who is worth investing into quickly. 
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Affiliate Marketing Truths That Must Be Known to Get Ahead: </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Affiliate Marketing Truths That Must Be Known to Get Ahead: </strong>
                       Ascended affiliate marketers are big earners, meaning you need to have an understanding of tax advantages, write-offs and incorporating your network marketing business so that you can take full advantage of being a business owner.  
                     </p>
                     
@@ -208,24 +208,24 @@ const FreeCourseForm = () => {
             </div>
             <div className="flex" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
-                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  4:
                 STORY SEQUENCING
                 </h1>
-                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Create the Perfect Affiliate Marketing Narrative: </strong>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px', lineHeight:''}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Create the Perfect Affiliate Marketing Narrative: </strong>
                       There is a psychological process to understanding why most people fail in network marketing, and once you understand it you will really know how to motivate properly.
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Discern a Good Affiliate Marketing Company from a Bad One: </strong>How to properly evaluate companies that will last the test of time and ones that will not be around very long.
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Discern a Good Affiliate Marketing Company from a Bad One: </strong>How to properly evaluate companies that will last the test of time and ones that will not be around very long.
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Scripts That Top Earners Use When Telling Their Story That You Can Copy:  </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Scripts That Top Earners Use When Telling Their Story That You Can Copy:  </strong>
                       How to use tone, inflection, and pauses to deliver your message in a powerful way. It's not just what you say, it's how you say it. 
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>An Entire Packet to Design Your Custom Story so That You Can Confidently Speak in Front of Thousands. </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>An Entire Packet to Design Your Custom Story so That You Can Confidently Speak in Front of Thousands. </strong>
                       Growth comes from repetition, the sequencing packet is designed to let your story be broken down into parts so that it is easier to master quickly. 
                     </p>
                     
@@ -256,21 +256,21 @@ const FreeCourseForm = () => {
             </div>
             <div className="flex" style={{gap: '40px', marginTop: '120px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
-                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  5:
                 CREATING LIMITLESS LUCRATIVE LEADS
                 </h1>
-                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How To Qualify a Lucrative Lead: </strong>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px', lineHeight:''}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How To Qualify a Lucrative Lead: </strong>
                       How to define and target your leads for your business with our Perfect Avatar model.
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Designing a Limitless List That Is Always Growing: </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Designing a Limitless List That Is Always Growing: </strong>
                       How to supercharge your list with our Memory Matcher so you can categorize your entire affiliate easily. 
                       </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Our Irresistible Invite Script so Your Leads Always Say "YES!" to Learning More: </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Our Irresistible Invite Script so Your Leads Always Say "YES!" to Learning More: </strong>
                       Mastering the invitation process no matter who you are talking to or what the situation is.
                     </p>
 
@@ -301,29 +301,29 @@ const FreeCourseForm = () => {
             </div>
             <div className="flex" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
-                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  6:
                 CREATING ENDLESS ENROLLMENTS
                 </h1>
-                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Truly Create Endless Enrollments-Implementing Our Simple Enrolling Framework to Become a Recruiting Machine</strong>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px', lineHeight:''}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Truly Create Endless Enrollments-Implementing Our Simple Enrolling Framework to Become a Recruiting Machine</strong>
                       <br/>How to think like an affiliate marketing pro when it comes to sales and understand how to take advantage of a MASSIVE opportunity because millions upon millions of new people are joining network marketing in the next 3-5 years.
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Sales Psychology and Mastery-How to Easily Answer Every Question and Objection Your Prospect Has so That They Are Left Ready to Buy </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Sales Psychology and Mastery-How to Easily Answer Every Question and Objection Your Prospect Has so That They Are Left Ready to Buy </strong>
                       <br />-How to handle any objection in a way that does not create animosity but actually makes them feel thankful they asked you.
                       <br />-Scripts that top Affiliate Marketers have used to take concerns to confidence, and turn skeptics into superstars.
                         -How to identify when someone is ready to be closed so you don’t have to play the guessing game.
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Confident Closing-How to Subtly Yet Effectively Guide the Prospect to the Sale</strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Confident Closing-How to Subtly Yet Effectively Guide the Prospect to the Sale</strong>
                       <br />The words you should NEVER USE when closing that can kill the sale.
                       <br />-How to use a very simple set of closing questions that can be used no matter who you are talking to.
                       -How to convey a demeanor of confidence so that it seems as though not joining your affiliate marketing business would be weird.
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Create a Follow Up Calendar so Everyday You Stay Busy</strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Create a Follow Up Calendar so Everyday You Stay Busy</strong>
                       <br />-What to say when someone says no but still may be interested eventually.
                       <br />-All of the information needed so that when you do follow up with a lead, you have everything you need to lock in that sale.
                       -How to use my simple Follow Up calendar so that you will never leave money on the table.
@@ -356,25 +356,25 @@ const FreeCourseForm = () => {
             </div>
             <div className="flex" style={{gap: '40px', marginTop: '120px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
-                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  7:
                 ELECTRIFYING EVENTS
                 </h1>
-                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Electrifying Event Framework: </strong>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px', lineHeight:''}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Electrifying Event Framework: </strong>
                       How to Scale a Living Room Event of Three People and Scale It to Rooms of ThousandsHow to Properly Promote An Event So It Is Filled with Qualified Buyers
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Keep the Momentum Going: </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Keep the Momentum Going: </strong>
                       The point of having an event is to have another event after. This is where you will learn the right way and the wrong way to get the buzz going about your event. 
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Create an Engaged Energy at Your Event Where All of Your Team Knows How To Conduct Themselves So That the Leads Enjoy a Safe and Exciting Atmosphere: </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Create an Engaged Energy at Your Event Where All of Your Team Knows How To Conduct Themselves So That the Leads Enjoy a Safe and Exciting Atmosphere: </strong>
                       Learn how top earners use live events as a very precise and structured way of creating large enrollments time after time. 
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Closing an Event-How to Make Sure That the Leads Sign up After the Meeting and No One Gets Left Behind: </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Closing an Event-How to Make Sure That the Leads Sign up After the Meeting and No One Gets Left Behind: </strong>
                       Word for word what to say at live events so the meeting after the meeting is filled with results. 
                     </p>
                 </div>
@@ -404,21 +404,21 @@ const FreeCourseForm = () => {
             </div>
             <div className="flex" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
-                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  8:
                 THE GAMEPLAN INTERVIEW
                 </h1>
-                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Properly Conduct an Interview With New Enrollments In Your Business</strong>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px', lineHeight:''}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Properly Conduct an Interview With New Enrollments In Your Business</strong>
                       <br/>This advanced strategy uses everything from prior modules to build momentum, build your email list, and attract top-tier promotional partners to you so that you can reach the 6 or 7-figure sales mark, and generate thousands of leads in a 1 week period. </p>
                       
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Simple Metrics for Evaluating Which New Enrollments Have Leadership Potential and Which One's Will Not Be as Serious </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Simple Metrics for Evaluating Which New Enrollments Have Leadership Potential and Which One's Will Not Be as Serious </strong>
                       <br/>This is designed so that you can follow the 80/20 rule. Spending 80% of your time with the top 20% of your organization...while ensuring the 80% are retained in your organization. 
                       </p>
-                      <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Use Our Simple Profile Template to Keep Track of All the New Enrollments in Your Business so That Your Leadership Abilities Will Scale</strong>
+                      <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Use Our Simple Profile Template to Keep Track of All the New Enrollments in Your Business so That Your Leadership Abilities Will Scale</strong>
                       <br/>When you have a growing team, its about gathering data and measuring growth through each leader. This is when we dive into how to maintain sustainable momentum through our profile. 
                       </p>
                       
@@ -449,22 +449,22 @@ const FreeCourseForm = () => {
             </div>
             <div className="flex" style={{gap: '40px', marginTop: '120px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
-                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  9:
                 SYSTEMATIC DUPLICATION
                 </h1>
-                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Weekly Routine Top Earners Use to Create Predictable Income No Matter What Is Happening in the Industry: </strong>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px', lineHeight:''}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Weekly Routine Top Earners Use to Create Predictable Income No Matter What Is Happening in the Industry: </strong>
                       In this module, we walk you through the exact process the top earners use to make sure their large teams consistently grow month after month. This is about carefully reviewing back office data.                     </p>
                    
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>​Simple Leadership Strategies That Make It Easier to Trust in Your Organizations Ability to Grow With or Without You:  </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>​Simple Leadership Strategies That Make It Easier to Trust in Your Organizations Ability to Grow With or Without You:  </strong>
                       How to dial in your communication so nothing gets lost from leader to leader. We explain how you can keep the main message the main message so a powerful culture can be maintained.
                     
                     </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Take All of the Information in This Program and Duplicate It Through Your Entire Organization so That There Is Structure and Scalability: </strong>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Take All of the Information in This Program and Duplicate It Through Your Entire Organization so That There Is Structure and Scalability: </strong>
                       This is where we hold your hand and walk you through how all of these pieces connect so that you have one system you can rely on in your affiliate marketing business.
                        </p>
 
