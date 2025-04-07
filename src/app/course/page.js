@@ -5,7 +5,10 @@ import EnrollButton from "./EnrollButton";
 import Testimonial from "./Testimonial";
 import BookForm from "../components/get-book/book";
 import CourseForm from "../components/course/course"
+import {  faCheck,  } from '@fortawesome/free-solid-svg-icons'
 
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const FreeCourseForm = () => {
   const [formData, setFormData] = useState({
     email: '',
@@ -37,7 +40,7 @@ const FreeCourseForm = () => {
           </div>
         </div>
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center', padding: '50px', paddingTop: '0', alignItems: 'center', flexDirection: 'column', backgroundColor: 'rgb(0, 0, 0)', color: 'white' }}>
+      {/* <div style={{ display: 'flex', justifyContent: 'center', padding: '50px', paddingTop: '0', alignItems: 'center', flexDirection: 'column', backgroundColor: 'rgb(0, 0, 0)', color: 'white' }}>
         <p style={{ marginTop: '100px', fontSize: '18px' }}>Are You Leveraging The #1 Network Marketing System?</p>
         <h1 style={{ fontSize: '34px', fontWeight: 'bold', textAlign: 'center' }}>Introducing: The Most Powerful Way to Become THE Leader In Your Network Marketing Company by Creating Endless Enrollments with TRUE Duplication... 24/7!</h1>
         <div style={{minHeight: '300px', display: 'flex', alignItems: 'center', justifyContent: 'center',}}><span style={{margin: 'auto'}}>
@@ -46,18 +49,563 @@ const FreeCourseForm = () => {
           </div>
         <p><i>This is your step-by-step blueprint for building a successful network marketing business using real strategies... whether you're a total beginner or currently running a successful team.</i></p>
         <EnrollButton showSavings={true}></EnrollButton>
-      </div>
+      </div> */}
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', }}>
-        <h4 style={{ color: 'rgb(7,91,183)', fontSize: '24px', fontWeight: '700', marginTop: '50px' }}>SO, JUST TO SUM IT ALL UP...</h4>
-        <p style={{ marginBottom: '40px', fontSize: '24px' }}>Here's What's You're About To Get:</p>
+      <div className="container">
+        <div className="containerInner">
+          <div className="flex" style={{flexDirection:'column', overflow: 'visible'}}>
+
+            <h1 style={{color: '#ffbb2a', fontSize:'36px',lineHeight:'50px', fontFamily: 'Gotham Book', marginTop: '70px', textAlign: 'center'}}>HERE'S EVERYTHING THAT'S INCLUDED WITH THE<br />
+                  INTENSIVE COACHING PROGRAM</h1>
+                <img src="asce-top.png" width={"200px"} style={{margin: 'auto', paddingLeft: '0px'}} />
+            <hr style={{color: '#ffbb2a', height: '', marginTop: '30px',marginBottom: '10px'}} />
+
+            <img width="700px" style={{margin: 'auto'}} src="asc.png"/>
+
+            <div className="flex" style={{gap: '40px', marginTop: '40px'}}>
+              <div className="flex vert" style={{minWidth: '50%'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                  MODULE 1: MASTER THE AFFILIATE UNDERWORLD
+                </h1>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Real Reason 99% of People in Affiliate Marketing Never Make Big Money: </strong>
+                      There is a psychological process to understanding why most people fail in network marketing, and once you understand it you will really know how to motivate properly.
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Discern a Good Affiliate Marketing Company from a Bad One: </strong>How to properly evaluate companies that will last the test of time and ones that will not be around very long.
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Affiliate Marketing Myths That Are Not Working Anymore: </strong>
+                      Identifying all of the "old world' ideas about network marketing that simply put, are not working in the information age anymore.  
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Affiliate Marketing Truths That Must Be Known to Get Ahead: </strong>
+                      Everything you need to know to about where this industry is going so you will have the foresight and wisdom to scale a lucrative team.  
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Sound like an Expert Without a Lot of Experience: </strong>
+                      How to influence people with simple facts and knowledge about Affiliate marketing that the average person would not be aware of. 
+                    </p>
+                </div>
+              </div>
+                <div className="flex vert">
+
+                    <img src="asc-1.png" ></img>
+                    <div className="flex vert">
+                      <h2 style={{fontSize:'28px', fontFamily:'Gotham Book Bold',marginTop: '50px', marginBottom: '15px'}}>BONUS VIDEO: </h2>
+                      <div style={{borderRadius:'50%', display:'flex',justifyContent:'center',marginTop:'20px'}}>
+                        <img className="circle-image" src="bonus-video.jpg" />
+                      </div>
+                      <h2 style={{fontSize:'26px', fontFamily:'Gotham Book Bold', marginTop: '25px'}}>
+                      'Becoming a Affiliate Marketing Legend' with Ray Higdon
+                      </h2>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div className="flex" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
+              <div className="flex vert" style={{minWidth: '50%'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                MODULE 2:
+                REPROGRAMMING THE SELF IMAGE
+                </h1>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Perceiving Yourself as a 7 Figure Earner: </strong>
+                      There is a psychological process to understanding why most people fail in network marketing, and once you understand it you will really know how to motivate properly.
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Growth Hacking Strategies with the 'Self Image Shifter':  </strong>
+                      How to properly evaluate companies that will last the test of time and ones that will not be around very long.
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Identifying Your Teams Core Values with the Commitment Checklist: </strong>
+                      Identifying all of the "old world' ideas about network marketing that simply put, are not working in the information age anymore.  
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Implementing Daily Exercises to Increase Your Expectations for Yourself: </strong>
+                      How to apply these exercises into a daily routine that is measurable so you can track how your perception of your self has changed over time. 
+                    </p>
+                    
+                </div>
+              </div>
+                <div className="flex vert">
+
+                    <img src="asc-2.png" ></img>
+                    <div className="flex vert">
+                      <h2 style={{fontSize:'28px', fontFamily:'Gotham Book Bold',marginTop: '50px', marginBottom: '15px'}}>BONUS VIDEO: </h2>
+                      <div style={{borderRadius:'50%', display:'flex',justifyContent:'center',marginTop:'20px'}}>
+                        <img className="circle-image" src="bonus-video2.jpg" />
+                      </div>
+                      <h2 style={{fontSize:'26px', fontFamily:'Gotham Book Bold', marginTop: '25px'}}>
+                      '7 Figure Mindset Mastery' with Clift Braun
+                      </h2>
+                       <div >
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+
+                        Get Ascension for FREE Now!
+                        </button>
+                      </div>
+                      
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div className="flex" style={{gap: '40px', marginTop: '120px'}}>
+              <div className="flex vert" style={{minWidth: '50%'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                MODULE  3:
+                THE GAMEPLAN ASSESSMENT
+                </h1>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Every Question Someone New To Your Team Should Get Answered: </strong>
+                      There is a psychological process to understanding why most people fail in network marketing, and once you understand it you will really know how to motivate properly.
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The 7 Figure Launch Strategy to Earn Fast and Sustainably: </strong>
+                      How to properly evaluate companies that will last the test of time and ones that will not be around very long.
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Assess the Amount of Time You Should Delegate with Each New Enrollment: </strong>
+                      Rather than playing the guessing game, use the assessment to identify exactly who is worth investing into quickly. 
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Affiliate Marketing Truths That Must Be Known to Get Ahead: </strong>
+                      Ascended affiliate marketers are big earners, meaning you need to have an understanding of tax advantages, write-offs and incorporating your network marketing business so that you can take full advantage of being a business owner.  
+                    </p>
+                    
+                </div>
+              </div>
+                <div className="flex vert">
+
+                    <img src="asc-1.png" ></img>
+                    <div className="flex vert">
+                      <h2 style={{fontSize:'28px', fontFamily:'Gotham Book Bold',marginTop: '50px', marginBottom: '15px'}}>BONUS VIDEO: </h2>
+                      <div style={{borderRadius:'50%', display:'flex',justifyContent:'center',marginTop:'20px'}}>
+                        <img className="circle-image" src="bonus-video3.jpg" />
+                      </div>
+                      <h2 style={{fontSize:'26px', fontFamily:'Gotham Book Bold', marginTop: '25px'}}>
+                      'Training for Momentum' with Jared & Sharaya Maples
+                      </h2>
+                       <div >
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+
+                        Get Ascension for FREE Now!
+                        </button>
+                      </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div className="flex" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
+              <div className="flex vert" style={{minWidth: '50%'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                MODULE  4:
+                STORY SEQUENCING
+                </h1>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Create the Perfect Affiliate Marketing Narrative: </strong>
+                      There is a psychological process to understanding why most people fail in network marketing, and once you understand it you will really know how to motivate properly.
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Discern a Good Affiliate Marketing Company from a Bad One: </strong>How to properly evaluate companies that will last the test of time and ones that will not be around very long.
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Scripts That Top Earners Use When Telling Their Story That You Can Copy:  </strong>
+                      How to use tone, inflection, and pauses to deliver your message in a powerful way. It's not just what you say, it's how you say it. 
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>An Entire Packet to Design Your Custom Story so That You Can Confidently Speak in Front of Thousands. </strong>
+                      Growth comes from repetition, the sequencing packet is designed to let your story be broken down into parts so that it is easier to master quickly. 
+                    </p>
+                    
+                </div>
+              </div>
+                <div className="flex vert">
+
+                    <img src="asc-2.png" ></img>
+                    <div className="flex vert">
+                      <h2 style={{fontSize:'28px', fontFamily:'Gotham Book Bold',marginTop: '50px', marginBottom: '15px'}}>BONUS VIDEO: </h2>
+                      <div style={{borderRadius:'50%', display:'flex',justifyContent:'center',marginTop:'20px'}}>
+                        <img className="circle-image" src="bonus-video4.jpg" />
+                      </div>
+                      <h2 style={{fontSize:'26px', fontFamily:'Gotham Book Bold', marginTop: '25px'}}>
+                      'Master Storytelling' with Bob Heilig
+                      </h2>
+                       <div >
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+
+                        Get Ascension for FREE Now!
+                        </button>
+                      </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div className="flex" style={{gap: '40px', marginTop: '120px'}}>
+              <div className="flex vert" style={{minWidth: '50%'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                MODULE  5:
+                CREATING LIMITLESS LUCRATIVE LEADS
+                </h1>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How To Qualify a Lucrative Lead: </strong>
+                      How to define and target your leads for your business with our Perfect Avatar model.
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Designing a Limitless List That Is Always Growing: </strong>
+                      How to supercharge your list with our Memory Matcher so you can categorize your entire affiliate easily. 
+                      </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Our Irresistible Invite Script so Your Leads Always Say "YES!" to Learning More: </strong>
+                      Mastering the invitation process no matter who you are talking to or what the situation is.
+                    </p>
+
+                </div>
+              </div>
+                <div className="flex vert">
+
+                    <img src="asc-1.png" ></img>
+                    <div className="flex vert">
+                      <h2 style={{fontSize:'28px', fontFamily:'Gotham Book Bold',marginTop: '50px', marginBottom: '15px'}}>BONUS VIDEO: </h2>
+                      <div style={{borderRadius:'50%', display:'flex',justifyContent:'center',marginTop:'20px'}}>
+                        <img className="circle-image" src="bonus-video5.jpg" />
+                      </div>
+                      <h2 style={{fontSize:'26px', fontFamily:'Gotham Book Bold', marginTop: '25px'}}>
+                      'Never Run Out of Prospects on Social Media' with John & Nadya Melton
+                      </h2>
+                       <div >
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+
+                        Get Ascension for FREE Now!
+                        </button>
+                      </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div className="flex" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
+              <div className="flex vert" style={{minWidth: '50%'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                MODULE  6:
+                CREATING ENDLESS ENROLLMENTS
+                </h1>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Truly Create Endless Enrollments-Implementing Our Simple Enrolling Framework to Become a Recruiting Machine</strong>
+                      <br/>How to think like an affiliate marketing pro when it comes to sales and understand how to take advantage of a MASSIVE opportunity because millions upon millions of new people are joining network marketing in the next 3-5 years.
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Sales Psychology and Mastery-How to Easily Answer Every Question and Objection Your Prospect Has so That They Are Left Ready to Buy </strong>
+                      <br />-How to handle any objection in a way that does not create animosity but actually makes them feel thankful they asked you.
+                      <br />-Scripts that top Affiliate Marketers have used to take concerns to confidence, and turn skeptics into superstars.
+                        -How to identify when someone is ready to be closed so you don’t have to play the guessing game.
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Confident Closing-How to Subtly Yet Effectively Guide the Prospect to the Sale</strong>
+                      <br />The words you should NEVER USE when closing that can kill the sale.
+                      <br />-How to use a very simple set of closing questions that can be used no matter who you are talking to.
+                      -How to convey a demeanor of confidence so that it seems as though not joining your affiliate marketing business would be weird.
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Create a Follow Up Calendar so Everyday You Stay Busy</strong>
+                      <br />-What to say when someone says no but still may be interested eventually.
+                      <br />-All of the information needed so that when you do follow up with a lead, you have everything you need to lock in that sale.
+                      -How to use my simple Follow Up calendar so that you will never leave money on the table.
+                    </p>
+                    
+                </div>
+              </div>
+                <div className="flex vert">
+
+                    <img src="asc-2.png" ></img>
+                    <div className="flex vert">
+                      <h2 style={{fontSize:'28px', fontFamily:'Gotham Book Bold',marginTop: '50px', marginBottom: '15px'}}>BONUS VIDEO: </h2>
+                      <div style={{borderRadius:'50%', display:'flex',justifyContent:'center',marginTop:'20px'}}>
+                        <img className="circle-image" src="bonus-video6.jpg" />
+                      </div>
+                      <h2 style={{fontSize:'26px', fontFamily:'Gotham Book Bold', marginTop: '25px'}}>
+                      'How to Enroll People on Social Media' with Tanya Aliza
+                      </h2>
+                       <div >
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+
+                        Get Ascension for FREE Now!
+                        </button>
+                      </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div className="flex" style={{gap: '40px', marginTop: '120px'}}>
+              <div className="flex vert" style={{minWidth: '50%'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                MODULE  7:
+                ELECTRIFYING EVENTS
+                </h1>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Electrifying Event Framework: </strong>
+                      How to Scale a Living Room Event of Three People and Scale It to Rooms of ThousandsHow to Properly Promote An Event So It Is Filled with Qualified Buyers
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Keep the Momentum Going: </strong>
+                      The point of having an event is to have another event after. This is where you will learn the right way and the wrong way to get the buzz going about your event. 
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Create an Engaged Energy at Your Event Where All of Your Team Knows How To Conduct Themselves So That the Leads Enjoy a Safe and Exciting Atmosphere: </strong>
+                      Learn how top earners use live events as a very precise and structured way of creating large enrollments time after time. 
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Closing an Event-How to Make Sure That the Leads Sign up After the Meeting and No One Gets Left Behind: </strong>
+                      Word for word what to say at live events so the meeting after the meeting is filled with results. 
+                    </p>
+                </div>
+              </div>
+                <div className="flex vert">
+
+                    <img src="asc-1.png" ></img>
+                    <div className="flex vert">
+                      <h2 style={{fontSize:'28px', fontFamily:'Gotham Book Bold',marginTop: '50px', marginBottom: '15px'}}>BONUS VIDEO: </h2>
+                      <div style={{borderRadius:'50%', display:'flex',justifyContent:'center',marginTop:'20px'}}>
+                        <img className="circle-image" src="bonus-video7.jpg" />
+                      </div>
+                      <h2 style={{fontSize:'26px', fontFamily:'Gotham Book Bold', marginTop: '25px'}}>
+                      'How to Build a Tribe on Facebook' with Frazer Brookes
+                      </h2>
+                       <div >
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+
+                        Get Ascension for FREE Now!
+                        </button>
+                      </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div className="flex" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
+              <div className="flex vert" style={{minWidth: '50%'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                MODULE  8:
+                THE GAMEPLAN INTERVIEW
+                </h1>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Properly Conduct an Interview With New Enrollments In Your Business</strong>
+                      <br/>This advanced strategy uses everything from prior modules to build momentum, build your email list, and attract top-tier promotional partners to you so that you can reach the 6 or 7-figure sales mark, and generate thousands of leads in a 1 week period. </p>
+                      
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Simple Metrics for Evaluating Which New Enrollments Have Leadership Potential and Which One's Will Not Be as Serious </strong>
+                      <br/>This is designed so that you can follow the 80/20 rule. Spending 80% of your time with the top 20% of your organization...while ensuring the 80% are retained in your organization. 
+                      </p>
+                      <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Use Our Simple Profile Template to Keep Track of All the New Enrollments in Your Business so That Your Leadership Abilities Will Scale</strong>
+                      <br/>When you have a growing team, its about gathering data and measuring growth through each leader. This is when we dive into how to maintain sustainable momentum through our profile. 
+                      </p>
+                      
+                </div>
+              </div>
+                <div className="flex vert">
+
+                    <img src="asc-2.png" ></img>
+                    <div className="flex vert">
+                      <h2 style={{fontSize:'28px', fontFamily:'Gotham Book Bold',marginTop: '50px', marginBottom: '15px'}}>BONUS VIDEO: </h2>
+                      <div style={{borderRadius:'50%', display:'flex',justifyContent:'center',marginTop:'20px'}}>
+                        <img className="circle-image" src="bonus-video8.jpg" />
+                      </div>
+                      <h2 style={{fontSize:'26px', fontFamily:'Gotham Book Bold', marginTop: '25px'}}>
+                      'How to Sort the Perfect Leads' with Todd Falcone
+                      </h2>
+                       <div >
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+
+                        Get Ascension for FREE Now!
+                        </button>
+                      </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div className="flex" style={{gap: '40px', marginTop: '120px'}}>
+              <div className="flex vert" style={{minWidth: '50%'}}>
+                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px'}}>
+                MODULE  9:
+                SYSTEMATIC DUPLICATION
+                </h1>
+                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px'}}>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>The Weekly Routine Top Earners Use to Create Predictable Income No Matter What Is Happening in the Industry: </strong>
+                      In this module, we walk you through the exact process the top earners use to make sure their large teams consistently grow month after month. This is about carefully reviewing back office data.                     </p>
+                   
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>​Simple Leadership Strategies That Make It Easier to Trust in Your Organizations Ability to Grow With or Without You:  </strong>
+                      How to dial in your communication so nothing gets lost from leader to leader. We explain how you can keep the main message the main message so a powerful culture can be maintained.
+                    
+                    </p>
+                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline'}}>
+                      <FontAwesomeIcon size="" style={{marginRight: '10px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>How to Take All of the Information in This Program and Duplicate It Through Your Entire Organization so That There Is Structure and Scalability: </strong>
+                      This is where we hold your hand and walk you through how all of these pieces connect so that you have one system you can rely on in your affiliate marketing business.
+                       </p>
+
+                </div>
+              </div>
+                <div className="flex vert">
+
+                    <img src="asc-1.png" ></img>
+                    <div className="flex vert">
+                      <h2 style={{fontSize:'28px', fontFamily:'Gotham Book Bold',marginTop: '50px', marginBottom: '15px'}}>BONUS VIDEO: </h2>
+                      <div style={{borderRadius:'50%', display:'flex',justifyContent:'center',marginTop:'20px'}}>
+                        <img className="circle-image" src="bonus-video9.jpg" />
+                      </div>
+                      <h2 style={{fontSize:'26px', fontFamily:'Gotham Book Bold', marginTop: '25px'}}>
+                      'Duplicating Leaders' with Rob Sperry
+                      </h2>
+                       <div >
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+
+                        Get Ascension for FREE Now!
+                        </button>
+                      </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <div style={{marginTop: '120px'}}>
+              <h1 style={{fontSize: '52px'}}>Here’s what people have to say</h1>
+              <div style={{ display: 'flex', gap: '30px', minHeight: '', marginTop: '50px', justifyContent: 'center' }}>
+            <div className="square-alt flex vert" style={{minHeight: '500px',minWidth: '350px', maxWidth: '220px'}}>
+              <img src="testimonial.jpg" width="220" style={{ marginBottom: '28px',borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px' }} />
+              <p style={{fontFamily: 'Gotham Book'}}>
+                <strong>"What separates Darik from most trainer's is that he has actually done it. </strong>
+                He has lived it. He knows it. I could not give a higher recommendation. Anything he touches turns to gold."
+              </p>
+              <div style={{marginTop: '10px'}}>
+
+                <p style={{ marginTop: '20px', textAlign: 'center',fontFamily: 'Gotham' }}><strong>Rob Sperry</strong></p>
+                <p style={{ textAlign: 'center' }}>
+                  Author of "The Game of Networking"
+                </p>
+              </div>
+            </div>
+            <div className="square-alt flex vert" style={{minHeight: '500px', minWidth: '350px', padding: '20px 30px 48px',maxWidth: '220px' }}>
+              <img src="testimonial2.jpg" width="220" style={{ marginBottom: '28px',borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px', }} />
+              <p style={{fontFamily: 'Gotham Book'}}>
+                "Darik simply put is amazing. His strategies and frameworks are to the point and INCREDIBLY effective. I believe every Network Marker needs his training!"
+              </p>
+              <div style={{marginTop: '5px'}}>
+
+              <p style={{ marginTop: '20px', textAlign: 'center',fontFamily: 'Gotham' }}><strong>Tanya Aliza</strong></p>
+              <p style={{ textAlign: 'center' }}>
+                7 Figure Success Coach and Network Marketing Consultant
+              </p>
+              </div>
+            </div>
+            <div className="square-alt flex vert" style={{minHeight: '500px',minWidth: '350px', maxWidth: '220px'}}>
+              <img src="testimonial3.jpg" width="220" style={{ marginBottom: '28px',borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px' }} />
+              <p style={{fontFamily: 'Gotham Book'}}>
+                “As top earner's in our company. It is safe to say we LOVE Darik's content and purpose driven value. He spends time making sure his training is exactly what people in network marketing NEED to be implementing to get results NOW!”
+              </p>
+              <div style={{marginTop: '5px'}}>
+
+              <p style={{ marginTop: '20px', textAlign: 'center',fontFamily: 'Gotham' }}>
+                <strong>
+                  Jared and Sharaya Maples
+                </strong>
+              </p>
+              <p style={{ textAlign: 'center' }}>
+                Network Marketing top earners and investors.
+              </p>
+              </div>
+            </div>
+          
+          </div>
+              <div style={{ display: 'flex', gap: '30px', minHeight: '', marginTop: '50px', justifyContent: 'center' }}>
+          
+              <div className="square-alt flex vert" style={{minHeight: '500px',minWidth: '350px', maxWidth: '220px'}}>
+              <img src="case_studies1.jpg" width="220" style={{ marginBottom: '30px',borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px' }} />
+              <p style={{fontFamily: 'Gotham Book'}}>
+                "<strong>I implemented Darik's messenger scripts into my entire companies' sales process. </strong>
+                The result was outstanding. Our company has done over $20 million in sales and I owe much of that to what I have learned from Darik."
+                
+              </p>
+              <div style={{marginTop: '10px'}}>
+
+              <p style={{ marginTop: '20px', textAlign: 'center',fontFamily: 'Gotham' }}><strong>Zain Jan</strong></p>
+              <p style={{ textAlign: 'center' }}>
+                CEO of Better Earth
+              </p>
+              </div>
+            </div>
+            <div className="square-alt flex vert" style={{minHeight: '500px', minWidth: '350px', maxWidth: '220px',padding: '20px 30px 48px' }}>
+              <img src="case_studies2.png" width="220" style={{ marginBottom: '30px',borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px', }} />
+              <p style={{fontFamily: 'Gotham Book'}}>
+              "The strategies in these messenger scripts allowed me to close 3 high ticket clients within my first 30 days of implementing. I highly recommend them to anyone in the network marketing space!"    
+              </p>
+              <div style={{marginTop: '20px'}}>
+
+              <p style={{ marginTop: '20px', textAlign: 'center',fontFamily: 'Gotham' }}><strong>Kenneth Milosovic</strong></p>
+              <p style={{ textAlign: 'center' }}>
+              CEO at THe Climb Corporation
+              </p>
+              </div>
+            </div>
+            <div className="square-alt flex vert" style={{minHeight: '500px',minWidth: '350px', maxWidth: '220px'}}>
+              <img src="case_studies3.jpg" width="220" style={{ marginBottom: '30px',borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px' }} />
+              <p style={{fontFamily: 'Gotham Book'}}>
+              "After using these messenger scripts I enrolled 5 people within the first two days of implementing them. Simply put, these WORK! Their easy, effective and get the job done!"
+              </p>
+              <div style={{marginTop: '15px'}}>
+
+              <p style={{ marginTop: '20px', textAlign: 'center',fontFamily: 'Gotham' }}>
+                <strong>
+                  Josh Miller
+                </strong>
+              </p>
+              <p style={{ textAlign: 'center' }}>
+              Chief Operating Officer at Invigor8
+              </p>
+              </div>
+            </div>
+              </div>
+      </div>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column',marginTop: '50px' }}>
+        <h4 style={{ color: 'rgb(7,91,183)', fontSize: '48px', fontWeight: '700', marginTop: '50px' }}>SO, JUST TO SUM IT ALL UP...</h4>
+        <p style={{ marginBottom: '40px', fontSize: '32px' }}>Here's What's You're About To Get: </p>
         <hr style={{ marginBottom: '30px', color: 'inherit', width: '100%' }} />
         <div className="ascension-table" >
           <div className="ascension-cover" style={{}}>
             <img height={'161px'} style={{ maxHeight: '160px' }} width="300px" src="/ascension-cover.png" />
           </div>
           <div className="ascension-table-row">
-            <h1><strong>
+            <h1 style={{textAlign:'left'}}><strong>
               FULL ACCESS to The 9 Core Modules of Ascension
             </strong>
             </h1>
@@ -66,7 +614,7 @@ const FreeCourseForm = () => {
             </p>
           </div>
           <div className="ascension-table-row">
-            <h1><strong>
+            <h1 style={{textAlign:'left'}}><strong>
               New 12 BONUS Modules! Secret Interviews from the Best Network Marketers in the World <span style={{ fontSize: '18px' }}>(Value: $12,000)</span>
             </strong>
             </h1>
@@ -75,7 +623,7 @@ const FreeCourseForm = () => {
             </p>
           </div>
           <div className="ascension-table-row">
-            <h1><strong>
+            <h1 style={{textAlign:'left'}}><strong>
               FREE Sale's Scripts, Prospecting Scripts, Objections Scripts, Closing Scripts <span style={{ fontSize: '18px' }}>(Value: $297 per year)</span>
             </strong>
             </h1>
@@ -84,7 +632,7 @@ const FreeCourseForm = () => {
             </p>
           </div>
           <div className="ascension-table-row">
-            <h1><strong>
+            <h1 style={{textAlign:'left'}}><strong>
               My Magnetic Messenger Scripts <span style={{ fontSize: '18px' }}>(Value: PRICELESS)</span>
             </strong>
             </h1>
@@ -93,8 +641,8 @@ const FreeCourseForm = () => {
             </p>
           </div>
           <div className="ascension-table-row">
-            <h1><strong>
-              The Gameplan Assessment Program Packet! (Value:<span style={{ color: 'rgb(190, 11, 13)', fontSize: '18px' }}> $97)</span>
+            <h1 style={{textAlign:'left'}}><strong>
+              The Gameplan Assessment Program Packet! (Value: <span style={{ color: 'rgb(190, 11, 13)', fontSize: '18px' }}> $97)</span>
             </strong>
             </h1>
             <p>
@@ -102,8 +650,8 @@ const FreeCourseForm = () => {
             </p>
           </div>
           <div className="ascension-table-row">
-            <h1><strong>
-              The Story Sequencing Packet! (Value:<span style={{ color: 'rgb(190, 11, 13)', fontSize: '18px' }}> $97)</span>
+            <h1 style={{textAlign:'left'}}><strong>
+              The Story Sequencing Packet! (Value: <span style={{ color: 'rgb(190, 11, 13)', fontSize: '18px' }}> $97)</span>
             </strong>
             </h1>
             <p>
@@ -111,7 +659,7 @@ const FreeCourseForm = () => {
             </p>
           </div>
           <div className="ascension-table-row">
-            <h1><strong>
+            <h1 style={{textAlign:'left'}}><strong>
               BONUS <span style={{ color: 'rgb(190, 11, 13)', fontSize: '18px' }}>($97)</span>
             </strong>
             </h1>
@@ -136,9 +684,9 @@ const FreeCourseForm = () => {
 
       <div className="container">
         <div className="containerInner">
-          <div className='flex' style={{ alignItems: 'center', gap: '35px' }}>
-            <div style={{ maxWidth: '50%', color: '#2e2e2e', marginTop: '70px', marginBottom: '20px' }}>
-              <h4 style={{ textAlign: 'center', color: 'rgb(7, 91, 183)', fontSize: '24px' }}>WHY YOU NEED MORE THAN JUST ENROLLMENTS...</h4>
+          <div className='flex' style={{ alignItems: 'center', gap: '50px', marginTop: '100px', marginBottom: '20px' }}>
+            <div style={{ maxWidth: '60%', color: '#2e2e2e', marginTop: '70px', marginBottom: '20px', textAlign: 'left' }}>
+              <h4 style={{ textAlign: 'center', color: 'rgb(7, 91, 183)', fontSize: '24px', marginBottom: '20px' }}>WHY YOU NEED MORE THAN JUST ENROLLMENTS...</h4>
               So even if you are enrolling tons of people into your business, if you don't have a <strong className="highlight">turnkey</strong> system in place that everyone can use....
               <br /><br />
               AND that they can <strong className="highlight">"Leverage"</strong> to become leaders on your team...
@@ -155,7 +703,7 @@ const FreeCourseForm = () => {
               <br /><br />
               This is about creating a <strong className="highlight">BUSINESS</strong> that adds massive value to the world and has the depth and sustainability to provide a great lifestyle for you and your family for years... or even decades to come.
             </div>
-            <img style={{ width: '655px', minHeight: '400px' }} height={'200px'} src="d-green.png"></img>
+            <img style={{ width: '505px', minHeight: '290px' }} height={'200px'} src="d-green.png"></img>
           </div>
         </div>
       </div>
@@ -171,7 +719,7 @@ const FreeCourseForm = () => {
       <div className="container">
         <div className="containerInner" style={{ marginTop: '70px', marginBottom: '120px', color: '#2e2e2e' }}>
           <h1 style={{ textAlign: 'center', fontSize: '24px', margin: '35px 0', color: 'rgb(7, 91, 183)' }}>MANY PEOPLE THINK THAT THE ANSWER IS SIMPLY BUILDING ALL ONLINE.</h1>
-          <div style={{ display: 'flex', flexDirection: 'row', gap: '40px' }}>
+          <div style={{ display: 'flex', flexDirection: 'row', gap: '40px', textAlign:'left' }}>
             <p>
               However, the simple truth is that it's really hard to build a sustainable business with just 1 strategy or the other.
               <br /><br />
@@ -232,7 +780,7 @@ const FreeCourseForm = () => {
       <div className="container">
         <div className="containerInner">
           <div className="flex " style={{ justifyContent: 'space-between' }}>
-            <p style={{ width: '65%', gap: '50px' }}>
+            <p style={{ width: '65%', gap: '50px', textAlign:'left' }}>
               Having a proven system in place to both build your "Leadership Leverage"  so you bring in enrollments, while automatically using a proven system that gives every new person who joins your team exactly what they need to know so they can create momentum quickly. Not to much, not to less.
               <br /><br />
               See, once you know the specific, high leverage activities you MUST do based on where you are right now...
@@ -284,8 +832,8 @@ const FreeCourseForm = () => {
         <div className="containerInner">
           <div className='flex' style={{ gap: '30px', alignItems: 'center' }}>
 
-            <div style={{ maxWidth: '100%', color: '#2e2e2e', }}>
-              <h4 style={{ textAlign: 'center', color: 'rgb(7, 91, 183)', fontSize: '24px', paddingTop: '75px' }}>WHAT IF YOU COULD START WITH YOUR "HIGHEST LEVERAGE MOVE" TODAY...</h4>
+            <div style={{ maxWidth: '100%', color: '#2e2e2e',  textAlign:'left'}}>
+              <h4 style={{ textAlign: 'center', color: 'rgb(7, 91, 183)', fontSize: '24px', paddingTop: '75px', marginBottom: '20px'}}>WHAT IF YOU COULD START WITH YOUR "HIGHEST LEVERAGE MOVE" TODAY...</h4>
               Whether you're just starting out or an experienced network marketer...
               <br /><br />
               It's important to start with a strategy that will get you the <strong className="highlight">best results in the shortest amount of time...</strong>
@@ -304,15 +852,15 @@ const FreeCourseForm = () => {
         </div>
       </div>
 
-      <div className="container" style={{ marginTop: '50px', marginBottom: '110px' }}>
+      <div className="container" style={{ marginTop: '50px', marginBottom: '75px' }}>
         <div className="containerInner">
           <img />
           <div>
-            <h4 style={{ textAlign: 'center', color: 'rgb(7, 91, 183)', fontSize: '24px', marginTop: '20px', marginBottom: '15px' }}>
+            <h4 style={{ textAlign: 'center', color: 'rgb(7, 91, 183)', fontSize: '24px', marginTop: '20px', marginBottom: '20px' }}>
               AND WHEN YOU DO THIS, YOU HAVE:
             </h4>
             <p>
-              <ul style={{ listStyleType: 'circle', display: 'flex', flexDirection: 'column', gap: '35px' }}>
+              <ul style={{ listStyleType:'disc', display: 'flex', flexDirection: 'column', gap: '5px', textAlign:'left' }}>
                 <li>
                   <b>A REAL, automated, and leveraged business</b> that has the ability to take care of you and your family for years... or even decades to come.
                 </li>
@@ -341,8 +889,8 @@ const FreeCourseForm = () => {
 
       <div className="container">
         <div className="containerInner">
-          <div style={{ display: 'flex', alignItems: 'center', gap: '40px' }}>
-            <img width="375px" src="/group1.png" />
+          <div style={{ display: 'flex', alignItems: 'center', gap: '44px', textAlign:'left', marginTop: '50px' }}>
+            <img width="440px" src="/group1.png" />
             <p>
               Darik is highly profitable entrepreneur and trainer. As CEO of Ignite Programs, he has worked with some of the top entrepreneurs in the world (including people like Gary Vaynerchuk, Darren Hardy, and Les Brown) and became a multiple six figure earner at the age of 20, generating millions of dollars in revenue using offline and online marketing strategies.
               <br /><br />
@@ -353,18 +901,20 @@ const FreeCourseForm = () => {
               This is where he started his business, and changed his life forever. Today, Darik has earned hundreds of thousands with a thriving business, amazing clients, and a dedicated team… and he’s committed to helping entrepreneurs build their businesses using his simple, proven, heart-centered strategies.
             </p>
           </div>
-          <div style={{ backgroundColor: 'rgb(7, 91, 183)', boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', textAlign: 'center', color: 'white', minHeight: '75px', alignContent: 'center', maxWidth: '775px', margin: 'auto', marginTop: '50px', fontSize: '24px' }}>
+        </div>
+      </div>
+          {/* <div style={{ backgroundColor: 'rgb(7, 91, 183)', boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', textAlign: 'center', color: 'white', minHeight: '75px', alignContent: 'center', maxWidth: '775px', margin: 'auto', marginTop: '50px', fontSize: '24px' }}>
             <p>EXPERT ENDORSEMENTS</p>
           </div>
-          <div style={{ display: 'flex', gap: '50px', marginTop: '40px' }}>
-            <img className="bob-point-img" width="600px" src="/bob-point.jpg" />
-            <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'center' }}>
-              <p style={{ fontSize: '28px' }}>
+          <div style={{ display: 'flex', gap: '50px', marginTop: '40px', alignItems:'center' }}>
+            <img className="bob-point-img" width="550px" src="/bob-point.jpg" />
+            <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'center', alignItems: 'center' }}>
+              <p style={{ fontSize: '24px' }}>
                 “I’ve known Darik for a long time. This man has a marvelous mind. When he offers you help, TAKE IT! Go for it! I’ve been in the business for over 53 years. This man impresses me.”
               </p>
               <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <h6 style={{ fontWeight: 'bold', marginTop: '16px', fontSize: '31px' }}>Bob Proctor</h6>
-                <p style={{ fontSize: '30px' }}>Best selling author, speaker, coach and pioneer of "The Secret" Large Call to Action Headline</p>
+                <h6 style={{ fontWeight: 'bold', marginTop: '16px', fontSize: '28px' }}>Bob Proctor</h6>
+                <p style={{ fontSize: '25px' }}>Best selling author, speaker, coach and pioneer of "The Secret" Large Call to Action Headline</p>
               </div>
             </div>
           </div>
@@ -373,34 +923,34 @@ const FreeCourseForm = () => {
       <hr style={{ margin: '50px 0' }} />
       <div className="container">
         <div className="containerInner">
-          <div style={{ display: 'flex', gap: '30px', minHeight: '', marginTop: '50px' }}>
-            <div className="square">
-              <img src="testimonial.jpg" width="120" style={{ borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px' }} />
+          <div style={{ display: 'flex', gap: '30px', minHeight: '', marginTop: '50px', justifyContent: 'center' }}>
+            <div className="square" style={{minWidth: '350px', maxWidth: '220px'}}>
+              <img src="testimonial.jpg" width="120" style={{ marginBottom: '15px',borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px' }} />
               <p>
                 <strong>"What separates Darik from most trainer's is that he has actually done it.</strong>
                 He has lived it. He knows it. I could not give a higher recommendation. Anything he touches turns to gold."
               </p>
-              <p style={{ marginTop: '20px', textAlign: 'center' }}><strong>Rob Sperry</strong></p>
+              <p style={{ marginTop: '20px', textAlign: 'center',fontFamily: 'Gotham' }}><strong>Rob Sperry</strong></p>
               <p style={{ textAlign: 'center' }}>
                 Author of "The Game of Networking"
               </p>
             </div>
-            <div className="square" style={{ padding: '20px 30px 48px' }}>
-              <img src="testimonial2.jpg" width="120" style={{ borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px', }} />
+            <div className="square" style={{ minWidth: '350px', maxWidth: '220px',padding: '20px 30px 48px' }}>
+              <img src="testimonial2.jpg" width="120" style={{ marginBottom: '15px',borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px', }} />
               <p>
                 "Darik simply put is amazing. His strategies and frameworks are to the point and INCREDIBLY effective. I believe every Network Marker needs his training!"
               </p>
-              <p style={{ marginTop: '20px', textAlign: 'center' }}><strong>Tanya Aliza</strong></p>
+              <p style={{ marginTop: '20px', textAlign: 'center',fontFamily: 'Gotham' }}><strong>Tanya Aliza</strong></p>
               <p style={{ textAlign: 'center' }}>
                 7 Figure Success Coach and Network Marketing Consultant
               </p>
             </div>
-            <div className="square">
-              <img src="testimonial3.jpg" width="120" style={{ borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px' }} />
+            <div className="square" style={{minWidth: '350px', maxWidth: '220px'}}>
+              <img src="testimonial3.jpg" width="120" style={{ marginBottom: '15px',borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px' }} />
               <p>
                 “As top earner's in our company. It is safe to say we LOVE Darik's content and purpose driven value. He spends time making sure his training is exactly what people in network marketing NEED to be implementing to get results NOW!”
               </p>
-              <p style={{ marginTop: '20px', textAlign: 'center' }}>
+              <p style={{ marginTop: '20px', textAlign: 'center',fontFamily: 'Gotham' }}>
                 <strong>
                   Jared and Sharaya Maples
                 </strong>
@@ -411,43 +961,43 @@ const FreeCourseForm = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <hr style={{ margin: '50px 0' }} />
+      {/* <hr style={{ margin: '50px 0' }} /> */}
 
-      <Testimonial></Testimonial>
+      {/* <Testimonial></Testimonial> */}
 
       <hr style={{ margin: '50px 0' }} />
 
       <div style={{ color: 'white', padding: '25px 0', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', backgroundColor: 'rgba(6, 73, 146, 0.88)' }}>
-        <img width="450" src="ascension-cover.png" style={{ marginBottom: '25px' }} />
-        <p style={{ fontSize: '24px', maxWidth: '1130px' }}>I've spent years developing and perfecting the most complete, proven system for scaling your network marketing business to ensure you get consistent results that create predictable cash flow in your business.</p>
+        <img width="370" src="ascension-cover.png" style={{ marginBottom: '25px' }} />
+        <p style={{ fontSize: '22px', maxWidth: '1130px' }}>I've spent years developing and perfecting the most complete, proven system for scaling your network marketing business to ensure you get consistent results that create predictable cash flow in your business.</p>
       </div>
 
-      <h6 style={{ fontSize: '32px', marginTop: '50px', marginBottom: '20px', textAlign: 'center' }}>Ascension Is Split Into <strong>9 Modules</strong> To Help You Duplicate Your Network <br /> Marketing Business NOW...</h6>
+      <h6 style={{ fontSize: '28px', marginTop: '50px', marginBottom: '20px', textAlign: 'center' }}>Ascension Is Split Into <strong>9 Modules</strong> To Help You Duplicate Your Network <br /> Marketing Business NOW...</h6>
 
       <div className="container">
         <div className="containerInner" style={{ boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', }}>
           <div style={{ display: 'flex', gap: '30px', minHeight: '', boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', backgroundColor: 'rgb(7, 91, 183)', color: 'white' }} className="blue-bg">
             <div style={{ display: 'flex', flexDirection: 'column' }}>
-              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px' }}>
+              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px',marginBottom: '10px', fontFamily: 'Gotham' }}>
                 MODULE 1: MASTER THE MLM UNDERWORLD
               </h1>
               <img width="250" src="/module1-1.png" />
             </div>
             <div style={{ textAlign: 'center', marginTop: '25px', fontSize: '20px', display: 'flex', flexDirection: 'column' }}>
-              <i>
+              <i style={{marginBottom: '10px',fontFamily: 'Gotham'}}>
                 Section: Know Which Companies to Join
               </i>
-              <hr />
-              <img width="250" src="/module1-2.png" />
+              <hr  style={{marginTop: '5px'}}/>
+              <img width="250" style={{marginTop: '10px'}} src="/module1-2.png" />
             </div>
-            <div style={{ paddingLeft: '30px' }}>
+            <div style={{ paddingLeft: '30px',marginTop: '15px' }}>
               <h4 style={{ textAlign: 'center', color: 'rgb(7, 91, 183)', }}>
                 AND WHEN YOU DO THIS, YOU HAVE:
               </h4>
               <p>
-                <ul style={{ listStyleType: 'circle' }}>
+                <ul style={{ listStyleType: 'disc', textAlign: 'left', fontFamily: 'Gotham' }}>
                   <li style={{ marginBottom: '20px', fontSize: '14px' }}>
                     <b>
                       The Real Reason 99% of People in Network Marketing Never Make Big Money
@@ -485,7 +1035,7 @@ const FreeCourseForm = () => {
                 </ul>
               </p>
 
-              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO:</h1>
+              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO: </h1>
 
               <img className="bonus-video" width="250" src="/bonus-video.jpg" />
 
@@ -499,22 +1049,22 @@ const FreeCourseForm = () => {
         <div className="containerInner" style={{ boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', }}>
           <div style={{ display: 'flex', gap: '30px', minHeight: '', boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', backgroundColor: 'rgb(240, 240, 240)', color: 'black' }} className="blue-bg">
             <div>
-              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px' }}>
+              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px',marginBottom: '10px', fontFamily: 'Gotham' }}>
                 MODULE 2:
                 REPROGRAMMING THE SELF IMAGE
               </h1>
               <img width="250" src="/module2-1.png" />
             </div>
             <div style={{ textAlign: 'center', marginTop: '25px', fontSize: '20px' }}>
-              <i>
+              <i style={{marginBottom: '10px',fontFamily: 'Gotham'}}>
                 Section: Become Worthy of 7 Figures
               </i>
-              <hr />
-              <img width="250" src="/module2-2.png" />
+              <hr  style={{marginTop: '5px'}}/>
+              <img width="250" style={{marginTop: '10px'}} src="/module2-2.png" />
             </div>
-            <div style={{ paddingLeft: '30px' }}>
+            <div style={{ paddingLeft: '30px',marginTop: '15px' }}>
               <p>
-                <ul style={{ listStyleType: 'circle', }}>
+                <ul style={{ listStyleType: 'disc', textAlign: 'left', fontFamily: 'Gotham', }}>
                   <li style={{ marginBottom: '20px', fontSize: '14px' }}>
                     <b>
                       Perceiving Yourself as a 7 Figure Earner
@@ -546,7 +1096,7 @@ const FreeCourseForm = () => {
                 </ul>
               </p>
 
-              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO:</h1>
+              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO: </h1>
 
               <img className="bonus-video" width="250" src="/bonus-video2.jpg" />
 
@@ -560,22 +1110,22 @@ const FreeCourseForm = () => {
         <div className="containerInner" style={{ boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', }}>
           <div style={{ display: 'flex', gap: '30px', minHeight: '', backgroundColor: 'rgb(7, 91, 183)', color: 'white' }} className="blue-bg">
             <div>
-              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px' }}>
-                MODULE 3:<br />
+              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px',marginBottom: '10px', fontFamily: 'Gotham' }}>
+                MODULE 3: <br />
                 THE GAMEPLAN ASSESSMENT
               </h1>
               <img width="250" src="/module3-1.png" />
             </div>
             <div style={{ textAlign: 'center', marginTop: '25px', fontSize: '20px' }}>
-              <i>
+              <i style={{marginBottom: '10px',fontFamily: 'Gotham'}}>
                 Section: The One Thing Every New Person Must Do
               </i>
-              <hr />
-              <img width="250" src="/module3-2.png" />
+              <hr  style={{marginTop: '5px'}}/>
+              <img width="250" style={{marginTop: '10px'}} src="/module3-2.png" />
             </div>
-            <div style={{ paddingLeft: '30px' }}>
+            <div style={{ paddingLeft: '30px',marginTop: '15px' }}>
               <p>
-                <ul style={{ listStyleType: 'circle', }}>
+                <ul style={{ listStyleType: 'disc', textAlign: 'left', fontFamily: 'Gotham', }}>
                   <li style={{ marginBottom: '20px', fontSize: '14px' }}>
                     <b>
                       Every Question Someone Knew to Your Team Should Answer
@@ -607,7 +1157,7 @@ const FreeCourseForm = () => {
                 </ul>
               </p>
 
-              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO:</h1>
+              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO: </h1>
 
               <img className="bonus-video" width="250" src="/bonus-video3.jpg" />
 
@@ -621,22 +1171,22 @@ const FreeCourseForm = () => {
         <div className="containerInner" style={{ boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', }}>
           <div style={{ display: 'flex', gap: '30px', minHeight: '', backgroundColor: 'rgb(240, 240, 240)', color: 'black' }} className="blue-bg">
             <div>
-              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px' }}>
-                MODULE 4:<br />
+              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px',marginBottom: '10px', fontFamily: 'Gotham' }}>
+                MODULE 4: <br />
                 STORY SEQUENCING
               </h1>
               <img width="250" src="/module4-1.png" />
             </div>
             <div style={{ textAlign: 'center', marginTop: '25px', fontSize: '20px' }}>
-              <i>
+              <i style={{marginBottom: '10px',fontFamily: 'Gotham'}}>
                 Section: The Perfect Network Marketing Narrative
               </i>
-              <hr />
-              <img width="250" src="/module4-2.png" />
+              <hr  style={{marginTop: '5px'}}/>
+              <img width="250" style={{marginTop: '10px'}} src="/module4-2.png" />
             </div>
-            <div style={{ paddingLeft: '30px' }}>
+            <div style={{ paddingLeft: '30px',marginTop: '15px' }}>
               <p>
-                <ul style={{ listStyleType: 'circle', }}>
+                <ul style={{ listStyleType: 'disc', textAlign: 'left', fontFamily: 'Gotham', }}>
                   <li style={{ marginBottom: '20px', fontSize: '14px' }}>
                     <b>
                       How to Create the Perfect Network Marketing Narrative
@@ -668,7 +1218,7 @@ const FreeCourseForm = () => {
                 </ul>
               </p>
 
-              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO:</h1>
+              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO: </h1>
 
               <img className="bonus-video" width="250" src="/bonus-video4.jpg" />
 
@@ -682,22 +1232,22 @@ const FreeCourseForm = () => {
         <div className="containerInner" style={{ boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', }}>
           <div style={{ display: 'flex', gap: '30px', minHeight: '', backgroundColor: 'rgb(7, 91, 183)', color: 'white' }} className="blue-bg">
             <div>
-              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px' }}>
+              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px',marginBottom: '10px', fontFamily: 'Gotham' }}>
                 MODULE 5:
                 CREATING LIMITLESS LUCRATIVE LEADS
               </h1>
               <img width="250" src="/module5-1.png" />
             </div>
             <div style={{ textAlign: 'center', marginTop: '25px', fontSize: '20px' }}>
-              <i>
+              <i style={{marginBottom: '10px',fontFamily: 'Gotham'}}>
                 Section: Leave Them Always Saying "YES' to Learning More!
               </i>
-              <hr />
-              <img width="250" src="/module5-2.png" />
+              <hr  style={{marginTop: '5px'}}/>
+              <img width="250" style={{marginTop: '10px'}} src="/module5-2.png" />
             </div>
-            <div style={{ paddingLeft: '30px' }}>
+            <div style={{ paddingLeft: '30px',marginTop: '15px' }}>
               <p>
-                <ul style={{ listStyleType: 'circle', }}>
+                <ul style={{ listStyleType: 'disc', textAlign: 'left', fontFamily: 'Gotham', }}>
                   <li style={{ marginBottom: '20px', fontSize: '14px' }}>
                     <b>
                       How to Qualify a Lucrative Lead
@@ -727,7 +1277,7 @@ const FreeCourseForm = () => {
                 </ul>
               </p>
 
-              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO:</h1>
+              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO: </h1>
 
               <img className="bonus-video" width="250" src="/bonus-video5.jpg" />
 
@@ -740,22 +1290,22 @@ const FreeCourseForm = () => {
         <div className="containerInner" style={{ boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', }}>
           <div style={{ display: 'flex', gap: '30px', minHeight: '', backgroundColor: 'rgb(240, 240, 240)', color: 'black' }} className="blue-bg">
             <div>
-              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px' }}>
+              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px',marginBottom: '10px', fontFamily: 'Gotham' }}>
                 MODULE 6:
                 CREATING ENDLESS ENROLLMENTS
               </h1>
               <img width="250" src="/module6-1.png" />
             </div>
             <div style={{ textAlign: 'center', marginTop: '25px', fontSize: '20px' }}>
-              <i>
+              <i style={{marginBottom: '10px',fontFamily: 'Gotham'}}>
                 Section: The Proper Enrolling Etiquette
               </i>
-              <hr />
-              <img width="250" src="/module6-2.png" />
+              <hr  style={{marginTop: '5px'}}/>
+              <img width="250" style={{marginTop: '10px'}} src="/module6-2.png" />
             </div>
-            <div style={{ paddingLeft: '30px' }}>
+            <div style={{ paddingLeft: '30px',marginTop: '15px' }}>
               <p>
-                <ul style={{ listStyleType: 'circle', }}>
+                <ul style={{ listStyleType: 'disc', textAlign: 'left', fontFamily: 'Gotham', }}>
                   <li style={{ marginBottom: '20px', fontSize: '14px' }}>
                     <b>
                       How to Truly Create Endless Enrollments-Implementing Our Simple Enrolling Framework to Become a Recruiting Machine
@@ -794,7 +1344,7 @@ const FreeCourseForm = () => {
                 </ul>
               </p>
 
-              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO:</h1>
+              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO: </h1>
 
               <img className="bonus-video" width="250" src="/bonus-video6.jpg" />
 
@@ -807,22 +1357,22 @@ const FreeCourseForm = () => {
         <div className="containerInner" style={{ boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', }}>
           <div style={{ display: 'flex', gap: '30px', minHeight: '', backgroundColor: 'rgb(7, 91, 183)', color: 'white' }} className="blue-bg">
             <div>
-              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px' }}>
+              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px',marginBottom: '10px', fontFamily: 'Gotham' }}>
                 MODULE 7:
                 ELECTRIFYING EVENTS
               </h1>
               <img width="250" src="/module7-1.png" />
             </div>
             <div style={{ textAlign: 'center', marginTop: '25px', fontSize: '20px' }}>
-              <i>
+              <i style={{marginBottom: '10px',fontFamily: 'Gotham'}}>
                 Section: The Only Reason to Have an Event
               </i>
-              <hr />
-              <img width="250" src="/module7-2.png" />
+              <hr  style={{marginTop: '5px'}}/>
+              <img width="250" style={{marginTop: '10px'}} src="/module7-2.png" />
             </div>
-            <div style={{ paddingLeft: '30px' }}>
+            <div style={{ paddingLeft: '30px',marginTop: '15px' }}>
               <p>
-                <ul style={{ listStyleType: 'circle', }}>
+                <ul style={{ listStyleType: 'disc', textAlign: 'left', fontFamily: 'Gotham', }}>
                   <li style={{ marginBottom: '20px', fontSize: '14px' }}>
                     <b>
                       The Electrifying Event Framework-How to Scale a Living Room Event of Three People and Scale It to Rooms of Thousands
@@ -854,7 +1404,7 @@ const FreeCourseForm = () => {
                 </ul>
               </p>
 
-              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO:</h1>
+              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO: </h1>
 
               <img className="bonus-video" width="250" src="/bonus-video7.jpg" />
 
@@ -867,22 +1417,22 @@ const FreeCourseForm = () => {
         <div className="containerInner" style={{ boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', }}>
           <div style={{ display: 'flex', gap: '30px', minHeight: '', backgroundColor: 'rgb(240, 240, 240)', color: 'black' }} className="blue-bg">
             <div>
-              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px' }}>
+              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px',marginBottom: '10px', fontFamily: 'Gotham' }}>
                 MODULE 8:
                 THE GAMEPLAN INTERVIEW
               </h1>
               <img width="250" src="/module8-1.png" />
             </div>
             <div style={{ textAlign: 'center', marginTop: '25px', fontSize: '20px' }}>
-              <i>
+              <i style={{marginBottom: '10px',fontFamily: 'Gotham'}}>
                 Section: Ensuring No One Gets Left Behind
               </i>
-              <hr />
-              <img width="250" src="/module8-2.png" />
+              <hr  style={{marginTop: '5px'}}/>
+              <img width="250" style={{marginTop: '10px'}} src="/module8-2.png" />
             </div>
-            <div style={{ paddingLeft: '30px' }}>
+            <div style={{ paddingLeft: '30px',marginTop: '15px' }}>
               <p>
-                <ul style={{ listStyleType: 'circle', }}>
+                <ul style={{ listStyleType: 'disc', textAlign: 'left', fontFamily: 'Gotham', }}>
                   <li style={{ marginBottom: '20px', fontSize: '14px' }}>
                     <b>
                       How to Properly Conduct an Interview With New Enrollments In Your Business
@@ -908,7 +1458,7 @@ const FreeCourseForm = () => {
                 </ul>
               </p>
 
-              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO:</h1>
+              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO: </h1>
 
               <img className="bonus-video" width="250" src="/bonus-video8.jpg" />
 
@@ -922,22 +1472,22 @@ const FreeCourseForm = () => {
 
           <div style={{ display: 'flex', gap: '30px', minHeight: '', backgroundColor: 'rgb(7, 91, 183)', color: 'white' }} className="blue-bg">
             <div>
-              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px' }}>
+              <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '24px',marginBottom: '10px', fontFamily: 'Gotham' }}>
                 MODULE 9:
                 SYSTEMATIC DUPLICATION
               </h1>
               <img width="250" src="/module9-1.png" />
             </div>
             <div style={{ textAlign: 'center', marginTop: '25px', fontSize: '20px' }}>
-              <i>
+              <i style={{marginBottom: '10px',fontFamily: 'Gotham'}}>
                 Section: It Isn't About What Works...It's About What Duplicates
               </i>
-              <hr />
-              <img width="250" src="/module9-2.png" />
+              <hr  style={{marginTop: '5px'}}/>
+              <img width="250" style={{marginTop: '10px'}} src="/module9-2.png" />
             </div>
-            <div style={{ paddingLeft: '30px' }}>
+            <div style={{ paddingLeft: '30px',marginTop: '15px' }}>
               <p>
-                <ul style={{ listStyleType: 'circle', }}>
+                <ul style={{ listStyleType: 'disc', textAlign: 'left', fontFamily: 'Gotham', }}>
                   <li style={{ marginBottom: '20px', fontSize: '14px' }}>
                     <b>
                       The Weekly Routine Top Earners Use to Create Predictable Income No Matter What Is Happening in the Industry
@@ -963,7 +1513,7 @@ const FreeCourseForm = () => {
                 </ul>
               </p>
 
-              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO:</h1>
+              <h1 style={{ textAlign: 'center', fontSize: '24px', fontWeight: 'bold', marginTop: '20px' }}>BONUS VIDEO: </h1>
 
               <img className="bonus-video" width="250" src="/bonus-video9.jpg" />
 
@@ -1116,7 +1666,7 @@ const FreeCourseForm = () => {
         <div className="containerInner">
           <h4 style={{ fontSize: '28px', color: 'rgb(7, 91, 183)', textAlign: 'center', marginBottom: '50px' }}>FAQ's</h4>
 
-          <ul style={{ listStyleType: 'circle' }}>
+          <ul style={{ listStyleType: 'disc', textAlign: 'left', fontFamily: 'Gotham' }}>
             <li className="flex vert" style={{ marginBottom: '20px' }}>
               <b style={{ fontSize: '20px' }}>How do I know this will work for my market?</b>
               If you're in the mlm-based business, then this will work for you. Ascension works for beginner, intermediate and advanced network marketers. We've seen this system work for people at all different levels despite where they came from.
@@ -1144,14 +1694,14 @@ const FreeCourseForm = () => {
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', }}>
         <h4 style={{ color: 'rgb(7,91,183)', fontSize: '24px', fontWeight: '700', marginTop: '50px', }}>SO, JUST TO SUM IT ALL UP...</h4>
-        <p style={{ marginBottom: '40px', fontSize: '24px' }}>Here's What's You're About To Get:</p>
+        <p style={{ marginBottom: '40px', fontSize: '24px' }}>Here's What's You're About To Get: </p>
         <hr style={{ marginBottom: '30px', color: 'inherit', width: '100%' }} />
         <div className="ascension-table" >
           <div className="ascension-cover" style={{}}>
             <img height={'161px'} style={{ maxHeight: '160px' }} width="300px" src="/ascension-cover.png" />
           </div>
           <div className="ascension-table-row">
-            <h1><strong>
+            <h1 style={{textAlign:'left'}}><strong>
               FULL ACCESS to The 9 Core Modules of Ascension
             </strong>
             </h1>
@@ -1160,7 +1710,7 @@ const FreeCourseForm = () => {
             </p>
           </div>
           <div className="ascension-table-row">
-            <h1><strong>
+            <h1 style={{textAlign:'left'}}><strong>
               New 12 BONUS Modules! Secret Interviews from the Best Network Marketers in the World <span style={{ fontSize: '18px' }}>(Value: $12,000)</span>
             </strong>
             </h1>
@@ -1169,7 +1719,7 @@ const FreeCourseForm = () => {
             </p>
           </div>
           <div className="ascension-table-row">
-            <h1><strong>
+            <h1 style={{textAlign:'left'}}><strong>
               FREE Sale's Scripts, Prospecting Scripts, Objections Scripts, Closing Scripts <span style={{ fontSize: '18px' }}>(Value: $297 per year)</span>
             </strong>
             </h1>
@@ -1178,7 +1728,7 @@ const FreeCourseForm = () => {
             </p>
           </div>
           <div className="ascension-table-row">
-            <h1><strong>
+            <h1 style={{textAlign:'left'}}><strong>
               My Magnetic Messenger Scripts <span style={{ fontSize: '18px' }}>(Value: PRICELESS)</span>
             </strong>
             </h1>
@@ -1187,8 +1737,8 @@ const FreeCourseForm = () => {
             </p>
           </div>
           <div className="ascension-table-row">
-            <h1><strong>
-              The Gameplan Assessment Program Packet! (Value:<span style={{ color: 'rgb(190, 11, 13)', fontSize: '18px' }}> $97)</span>
+            <h1 style={{textAlign:'left'}}><strong>
+              The Gameplan Assessment Program Packet! (Value: <span style={{ color: 'rgb(190, 11, 13)', fontSize: '18px' }}> $97)</span>
             </strong>
             </h1>
             <p>
@@ -1196,8 +1746,8 @@ const FreeCourseForm = () => {
             </p>
           </div>
           <div className="ascension-table-row">
-            <h1><strong>
-              The Story Sequencing Packet! (Value:<span style={{ color: 'rgb(190, 11, 13)', fontSize: '18px' }}> $97)</span>
+            <h1 style={{textAlign:'left'}}><strong>
+              The Story Sequencing Packet! (Value: <span style={{ color: 'rgb(190, 11, 13)', fontSize: '18px' }}> $97)</span>
             </strong>
             </h1>
             <p>
@@ -1205,7 +1755,7 @@ const FreeCourseForm = () => {
             </p>
           </div>
           <div className="ascension-table-row">
-            <h1><strong>
+            <h1 style={{textAlign:'left'}}><strong>
               BONUS <span style={{ color: 'rgb(190, 11, 13)', fontSize: '18px' }}>($97)</span>
             </strong>
             </h1>

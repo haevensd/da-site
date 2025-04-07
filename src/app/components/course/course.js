@@ -63,7 +63,7 @@ const FreeCourseForm = (showImage) => {
               <input type="text" placeholder="Enter your first name" required />
               <label>Last Name</label>
               <input type="text" placeholder="Enter your last name" required />
-              <button type="submit">Claim Your Spot</button>
+              <button type="submit">Get Ascension for FREE Now!</button>
             </form>
           </div>
         ) : (
