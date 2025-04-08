@@ -55,7 +55,7 @@ const FreeCourseForm = () => {
         <div className="containerInner">
           <div className="flex" style={{flexDirection:'column', overflow: 'visible'}}>
 
-            <h1 style={{color: '#ffbb2a', fontSize:'48px',lineHeight:'65px', fontFamily: 'Gotham Book Light', marginTop: '70px', textAlign: 'center'}}>HERE'S EVERYTHING THAT'S INCLUDED WITH THE<br />
+            <h1 style={{color: '#ffbb2a', fontSize:'48px',lineHeight:'65px', fontFamily: 'Gotham Book', marginTop: '70px', textAlign: 'center'}}>HERE'S EVERYTHING THAT'S INCLUDED WITH THE<br />
                   INTENSIVE COACHING PROGRAM</h1>
                 <img src="asce-top.png" width={"200px"} style={{margin: 'auto',marginTop:'20px', paddingLeft: '0px'}} />
             <hr style={{color: '#ffbb2a', height: '', marginTop: '30px',marginBottom: '10px'}} />
@@ -145,7 +145,7 @@ const FreeCourseForm = () => {
                       '7 Figure Mindset Mastery' with Clift Braun
                       </h2>
                        <div >
-                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '16px',fontWeight: '900',fontFamily: 'Gotham', color: 'white', fontSize: '21px',marginTop:'35px'}}>
 
                         Get Ascension for FREE Now!
                         </button>
@@ -195,7 +195,7 @@ const FreeCourseForm = () => {
                       'Training for Momentum' with Jared & Sharaya Maples
                       </h2>
                        <div >
-                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '16px',fontWeight: '900',fontFamily: 'Gotham', color: 'white', fontSize: '21px',marginTop:'35px'}}>
 
                         Get Ascension for FREE Now!
                         </button>
@@ -243,7 +243,7 @@ const FreeCourseForm = () => {
                       'Master Storytelling' with Bob Heilig
                       </h2>
                        <div >
-                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '16px',fontWeight: '900',fontFamily: 'Gotham', color: 'white', fontSize: '21px',marginTop:'35px'}}>
 
                         Get Ascension for FREE Now!
                         </button>
@@ -288,7 +288,7 @@ const FreeCourseForm = () => {
                       'Never Run Out of Prospects on Social Media' with John & Nadya Melton
                       </h2>
                        <div >
-                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '16px',fontWeight: '900',fontFamily: 'Gotham', color: 'white', fontSize: '21px',marginTop:'35px'}}>
 
                         Get Ascension for FREE Now!
                         </button>
@@ -343,7 +343,7 @@ const FreeCourseForm = () => {
                       'How to Enroll People on Social Media' with Tanya Aliza
                       </h2>
                        <div >
-                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '16px',fontWeight: '900',fontFamily: 'Gotham', color: 'white', fontSize: '21px',marginTop:'35px'}}>
 
                         Get Ascension for FREE Now!
                         </button>
@@ -391,7 +391,7 @@ const FreeCourseForm = () => {
                       'How to Build a Tribe on Facebook' with Frazer Brookes
                       </h2>
                        <div >
-                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '16px',fontWeight: '900',fontFamily: 'Gotham', color: 'white', fontSize: '21px',marginTop:'35px'}}>
 
                         Get Ascension for FREE Now!
                         </button>
@@ -436,7 +436,7 @@ const FreeCourseForm = () => {
                       'How to Sort the Perfect Leads' with Todd Falcone
                       </h2>
                        <div >
-                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '16px',fontWeight: '900',fontFamily: 'Gotham', color: 'white', fontSize: '21px',marginTop:'35px'}}>
 
                         Get Ascension for FREE Now!
                         </button>
@@ -482,7 +482,7 @@ const FreeCourseForm = () => {
                       'Duplicating Leaders' with Rob Sperry
                       </h2>
                        <div >
-                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '20px', color: 'white', fontSize: '24px',marginTop:'35px'}}>
+                        <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '16px',fontWeight: '900',fontFamily: 'Gotham', color: 'white', fontSize: '21px',marginTop:'35px'}}>
 
                         Get Ascension for FREE Now!
                         </button>
