@@ -1,5 +1,5 @@
 .vault-container {
-    min-height: 23400px;
+    min-height: 25500px !important;
 }
 
 .flex { display: flex;}
