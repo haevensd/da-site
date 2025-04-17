@@ -156,7 +156,7 @@ const FreeCourseForm = () => {
                 </div>
               </div>
             </div>
-            <div className="flex" style={{gap: '40px', marginTop: '120px'}}>
+            <div className="flex" style={{gap: '40px', marginTop: '100px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
                 <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  3:
@@ -205,7 +205,7 @@ const FreeCourseForm = () => {
 
 
             </div>
-            <div className="flex bg-style" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
+            <div className="flex bg-style" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '75px',paddingTop: '70px'}}>
             <div className="flex">
               <div className="flex vert" style={{minWidth: '50%'}}>
                 <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
@@ -254,7 +254,7 @@ const FreeCourseForm = () => {
 </div>
 
             </div>
-            <div className="flex" style={{gap: '40px', marginTop: '120px'}}>
+            <div className="flex" style={{gap: '40px', marginTop: '100px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
                 <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  5:
@@ -299,7 +299,7 @@ const FreeCourseForm = () => {
 
 
             </div>
-            <div className="flex bg-style" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
+            <div className="flex bg-style" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '75px',paddingTop: '70px'}}>
             <div className="flex">
               <div className="flex vert" style={{minWidth: '50%'}}>
                 <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
@@ -355,7 +355,7 @@ const FreeCourseForm = () => {
 
 
             </div>
-            <div className="flex" style={{gap: '40px', marginTop: '120px'}}>
+            <div className="flex" style={{gap: '40px', marginTop: '100px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
                 <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  7:
@@ -403,7 +403,7 @@ const FreeCourseForm = () => {
 
 
             </div>
-            <div className="flex bg-style" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
+            <div className="flex bg-style" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '75px',paddingTop: '70px'}}>
             <div className="flex">
               <div className="flex vert" style={{minWidth: '50%'}}>
                 <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
@@ -449,7 +449,7 @@ const FreeCourseForm = () => {
 </div>
 
             </div>
-            <div className="flex" style={{gap: '40px', marginTop: '120px'}}>
+            <div className="flex" style={{gap: '40px', marginTop: '100px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
                 <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  9:
