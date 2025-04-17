@@ -85,10 +85,10 @@
   }
   
   .vault-form button {
-    background-color:  #266BF8;
+    background-color:  #ffbb2a;
     color: white;
     background-image: linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%) !important;
-    border: 3px #266BF8 solid;
+    border:none !important;
     padding: 20px 30px;
     border-radius: 5px;
     font-size: 18px !important;

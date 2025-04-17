@@ -137,7 +137,7 @@ const SpeakingForm = ({showImage=true}) => {
                 required 
               ></textarea>
               <div className="button-container">
-                <button type="submit">SEND SPEAKING REQUEST</button>
+                <button type="submit" className="speaking-button" style={{backgroundImage: 'none !important'}}>SEND SPEAKING REQUEST</button>
               </div>
             </form>
           </div>
