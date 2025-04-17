@@ -1,7 +1,20 @@
 .vault-container {
-    min-height: 25500px !important;
+    min-height: 13900px !important;
 }
+.bg-style {
+    background-color: #e5e5f7;
+    /* opacity: 0.8; */
 
+    min-width: 100% !important  ;
+    background-image:  radial-gradient(rgb(10, 199, 236) 0.3px, transparent 0.3px), radial-gradient(rgb(10, 199, 236) 0.2px, #e5e5f7 0.2px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+    padding: 50px;
+}
+.bg-style > .flex {
+    max-width: 1170px !important;
+    margin: auto;
+}
 .flex { display: flex;}
 .flex.vert {flex-direction: column;}
 .half {
@@ -46,6 +59,10 @@ border-top: 5px;
 }
 .ascension-table-row p {
 
+}
+.parent > div:not(.bg-style) {
+    max-width: 1170px;
+    margin: auto;
 }
 .containerInner {
     width: 1176px;

@@ -20,8 +20,8 @@ const FreeCourseForm = () => {
     <div className="vault-container" style={{padding: '0', paddingBottom:'0', minHeight: '24800px'}}>
       <div style={{display: 'flex', background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,60,156,1) 0%, rgba(38,107,248,1) 30%, rgb(10, 199, 236) 95%)', color: 'white'}} className="hero-container" >
         <div style={{margin: 'auto', maxWidth: '',paddingTop: '4rem', }}>
-          <h2 style={{color: 'orange', fontWeight: 'bold', fontSize: '42px',maxWidth: '1170px',textAlign: 'center',color: '#ffbb2a',marginTop: '20px', marginBottom: '5px', marginLeft: 'auto', marginRight: 'auto',fontFamily: 'Gotham Book Bold'}}> I Built a Business From Home That Generated Millions With Teams of Tens of Thousands—Now I’m Giving You the Full Program Free</h2>
-          <h3 style={{textDecoration: 'italic', marginBottom: '50px', marginTop: '10px', fontSize:'24px',}}>This is your step-by-step blueprint for building a successful affiliate marketing organization using fundamental strategies... whether you're a beginner or running a successful team.
+          <h2 style={{color: 'orange', fontWeight: 'bold', fontSize: '42px',maxWidth: '1170px',textAlign: 'center',color: '#ffbb2a',marginTop: '20px', marginBottom: '5px', marginLeft: 'auto', marginRight: 'auto',fontFamily: 'Gotham Book Bold'}}> I Built a Business From Home That <br />Generated Millions With Teams of Tens of Thousands—<br />Now I’m Giving You the Full Program Free</h2>
+          <h3 style={{textDecoration: 'italic',  margin: 'auto',marginBottom: '50px', marginTop:'20px', fontSize:'24px',maxWidth: '1270px',}}>This is your step-by-step blueprint for building a successful affiliate marketing organization using fundamental strategies... whether you're a beginner or running a successful team.
 
           </h3>
           <hr></hr>
@@ -29,10 +29,10 @@ const FreeCourseForm = () => {
             <div id="form" style={{display: 'flex',  flexDirection: 'column', marginTop: '1rem', maxWidth: '70%'}}>
               {/* <h1 style={{textAlign: ''}}>3 Undeniable Truths of Network Marketing</h1>
               <p>that EVERY Single Top-Income Earner in Your Company Applies to their business which allows them to easily outperform, out-recruit, and out-duplicate everyone else...</p> */}
-              <div style={{minWidth:'600px',height:'638px', marginLeft: '20px'}}>
+              <div style={{minWidth:'600px',height:'700px', marginLeft: '20px'}}>
 
-<div style={{position:'relative', minWidth: '100%', marginTop: '15px'}}><iframe src="https://player.vimeo.com/video/1070642304?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '800px', height: '450px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
-</div>
+              <div style={{position:'relative', minWidth: '100%', minHeight: '100%',marginTop: '15px'}}><iframe src="https://player.vimeo.com/video/1070642304?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '819px', height: '460px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
+              </div>
             </div>
             <div className="course-container" style={{display: 'flex', flexDirection: 'column', paddingRight: '40px', marginTop: '-10px' }}>
               <CourseForm showImage={false}></CourseForm>
@@ -52,12 +52,12 @@ const FreeCourseForm = () => {
       </div> */}
 
       <div className="container">
-        <div className="containerInner">
-          <div className="flex" style={{flexDirection:'column', overflow: 'visible'}}>
+        <div className="">
+          <div className="flex parent" style={{flexDirection:'column', overflow: 'visible'}}>
 
-            <h1 style={{color: '#ffbb2a', fontSize:'48px',lineHeight:'65px', fontFamily: 'Gotham Book', marginTop: '70px', textAlign: 'center'}}>HERE'S EVERYTHING THAT'S INCLUDED WITH THE<br />
-                  INTENSIVE COACHING PROGRAM</h1>
-                <img src="asce-top.png" width={"200px"} style={{margin: 'auto',marginTop:'20px', paddingLeft: '0px'}} />
+            <h1 style={{color: '#ffbb2a', fontSize:'48px',lineHeight:'65px', fontFamily: 'Gotham Book Bold', marginTop: '70px', textAlign: 'center'}}>HERE'S EVERYTHING THAT'S INCLUDED WITH <br />
+            THE INTENSIVE COACHING PROGRAM</h1>
+                {/* <img src="asce-top.png" width={"200px"} style={{margin: 'auto',marginTop:'20px', paddingLeft: '0px'}} /> */}
             <hr style={{color: '#ffbb2a', height: '', marginTop: '30px',marginBottom: '10px'}} />
 
             <img width="700px" style={{margin: 'auto'}} src="asc.png"/>
@@ -107,32 +107,33 @@ const FreeCourseForm = () => {
 
 
             </div>
-            <div className="flex" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
-              <div className="flex vert" style={{minWidth: '50%'}}>
-                <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
-                MODULE 2:
-                REPROGRAMMING THE SELF IMAGE
-                </h1>
-                <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px', lineHeight:''}}>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Perceiving Yourself as a 7 Figure Earner: </strong>
-                      There is a psychological process to understanding why most people fail in network marketing, and once you understand it you will really know how to motivate properly.
-                    </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Growth Hacking Strategies with the 'Self Image Shifter':  </strong>
-                      How to properly evaluate companies that will last the test of time and ones that will not be around very long.
-                    </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Identifying Your Teams Core Values with the Commitment Checklist: </strong>
-                      Identifying all of the "old world' ideas about network marketing that simply put, are not working in the information age anymore.  
-                    </p>
-                    <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
-                      <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Implementing Daily Exercises to Increase Your Expectations for Yourself: </strong>
-                      How to apply these exercises into a daily routine that is measurable so you can track how your perception of your self has changed over time. 
-                    </p>
-                    
+            <div className="flex bg-style" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
+              <div className="flex">
+                <div className="flex vert" style={{minWidth: '50%'}}>
+                  <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
+                  MODULE 2:
+                  REPROGRAMMING THE SELF IMAGE
+                  </h1>
+                  <div className="flex vert"  style={{fontFamily: 'Gotham', textAlign: 'left', gap: '20px', lineHeight:''}}>
+                      <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                        <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Perceiving Yourself as a 7 Figure Earner: </strong>
+                        There is a psychological process to understanding why most people fail in network marketing, and once you understand it you will really know how to motivate properly.
+                      </p>
+                      <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                        <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Growth Hacking Strategies with the 'Self Image Shifter':  </strong>
+                        How to properly evaluate companies that will last the test of time and ones that will not be around very long.
+                      </p>
+                      <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                        <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Identifying Your Teams Core Values with the Commitment Checklist: </strong>
+                        Identifying all of the "old world' ideas about network marketing that simply put, are not working in the information age anymore.  
+                      </p>
+                      <p style={{fontSize: '21px', alignmentBaseline: 'baseline',lineHeight: '26px'}}>
+                        <FontAwesomeIcon size="" style={{marginRight: '12px',paddingTop: '15px',marginTop: '',marginBottom: '-3px',fontSize: '30px'}} icon={faCheck} /><strong>Implementing Daily Exercises to Increase Your Expectations for Yourself: </strong>
+                        How to apply these exercises into a daily routine that is measurable so you can track how your perception of your self has changed over time. 
+                      </p>
+                      
+                  </div>
                 </div>
-              </div>
                 <div className="flex vert">
 
                     <img src="asc-2.png" ></img>
@@ -144,7 +145,7 @@ const FreeCourseForm = () => {
                       <h2 style={{fontSize:'26px', fontFamily:'Gotham Book Bold', marginTop: '25px'}}>
                       '7 Figure Mindset Mastery' with Clift Braun
                       </h2>
-                       <div >
+                      <div >
                         <button style={{background: 'linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%)', padding: '20px 50px', borderRadius: '16px',fontWeight: '900',fontFamily: 'Gotham', color: 'white', fontSize: '21px',marginTop:'35px'}}>
 
                         Get Ascension for FREE Now!
@@ -153,9 +154,7 @@ const FreeCourseForm = () => {
                       
                     </div>
                 </div>
-
-
-
+              </div>
             </div>
             <div className="flex" style={{gap: '40px', marginTop: '120px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
@@ -206,7 +205,8 @@ const FreeCourseForm = () => {
 
 
             </div>
-            <div className="flex" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
+            <div className="flex bg-style" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
+            <div className="flex">
               <div className="flex vert" style={{minWidth: '50%'}}>
                 <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  4:
@@ -251,7 +251,7 @@ const FreeCourseForm = () => {
                     </div>
                 </div>
 
-
+</div>
 
             </div>
             <div className="flex" style={{gap: '40px', marginTop: '120px'}}>
@@ -299,7 +299,8 @@ const FreeCourseForm = () => {
 
 
             </div>
-            <div className="flex" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
+            <div className="flex bg-style" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
+            <div className="flex">
               <div className="flex vert" style={{minWidth: '50%'}}>
                 <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  6:
@@ -350,7 +351,7 @@ const FreeCourseForm = () => {
                       </div>
                     </div>
                 </div>
-
+</div>
 
 
             </div>
@@ -402,7 +403,8 @@ const FreeCourseForm = () => {
 
 
             </div>
-            <div className="flex" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
+            <div className="flex bg-style" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
+            <div className="flex">
               <div className="flex vert" style={{minWidth: '50%'}}>
                 <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  8:
@@ -444,7 +446,7 @@ const FreeCourseForm = () => {
                     </div>
                 </div>
 
-
+</div>
 
             </div>
             <div className="flex" style={{gap: '40px', marginTop: '120px'}}>
@@ -596,7 +598,7 @@ const FreeCourseForm = () => {
             </div>
               </div>
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column',marginTop: '50px' }}>
+      {/* <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column',marginTop: '50px' }}>
         <h4 style={{ color: 'rgb(7,91,183)', fontSize: '48px', fontWeight: '700', marginTop: '50px' }}>SO, JUST TO SUM IT ALL UP...</h4>
         <p style={{ marginBottom: '40px', fontSize: '32px' }}>Here's What's You're About To Get: </p>
         <hr style={{ marginBottom: '30px', color: 'inherit', width: '100%' }} />
@@ -680,8 +682,8 @@ const FreeCourseForm = () => {
           <p>Please contact us with questions at<br />
             info@darikalexander.com</p>
         </div>
-      </div>
-
+      </div> */}
+{/* 
       <div className="container">
         <div className="containerInner">
           <div className='flex' style={{ alignItems: 'center', gap: '50px', marginTop: '100px', marginBottom: '20px' }}>
@@ -767,10 +769,9 @@ const FreeCourseForm = () => {
 
             </p>
           </div>
-          {/* <img src="d-teach.png" /> */}
         </div>
-      </div>
-
+      </div> */}
+{/* 
       <div className="container" style={{ backgroundColor: 'rgb(7, 91, 183)', margin: '50px 0', marginBottom: '75px', height: '75px', display: 'flex', alignItems: 'center', minWidth: '100%' }}>
         <div className="containerInner" style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', color: 'white', fontSize: '22px' }}>
           <p style={{ fontSize: '24px', }}>HERE'S WHAT IT ALL COMES DOWN TO...</p>
@@ -902,7 +903,7 @@ const FreeCourseForm = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
           {/* <div style={{ backgroundColor: 'rgb(7, 91, 183)', boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', textAlign: 'center', color: 'white', minHeight: '75px', alignContent: 'center', maxWidth: '775px', margin: 'auto', marginTop: '50px', fontSize: '24px' }}>
             <p>EXPERT ENDORSEMENTS</p>
           </div>
@@ -966,7 +967,7 @@ const FreeCourseForm = () => {
       {/* <hr style={{ margin: '50px 0' }} /> */}
 
       {/* <Testimonial></Testimonial> */}
-
+{/* 
       <hr style={{ margin: '50px 0' }} />
 
       <div style={{ color: 'white', padding: '25px 0', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', backgroundColor: 'rgba(6, 73, 146, 0.88)' }}>
@@ -1626,9 +1627,9 @@ const FreeCourseForm = () => {
             </span>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="container" style={{ marginTop: '150px', marginBottom: '50px' }}>
+      {/* <div className="container" style={{ marginTop: '150px', marginBottom: '50px' }}>
         <div className="containerInner">
           <div style={{ color: 'white', backgroundColor: 'rgb(7, 91, 183)', maxWidth: '75%', textAlign: 'center', margin: 'auto', padding: '10px 0', fontSize: '24px  ' }}>
             OUR "DOING BUSINESS THE RIGHT WAY" GUARANTEE
@@ -1690,9 +1691,9 @@ const FreeCourseForm = () => {
         </div>
       </div>
 
-      <hr style={{ boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', marginTop: '50px', backgroundColor: 'white', color: 'white' }} />
+      <hr style={{ boxShadow: '0 2px 5px 2px rgba(0,0,0,0.4)', marginTop: '50px', backgroundColor: 'white', color: 'white' }} /> */}
 
-      <div style={{ display: 'flex', justifyContent: 'center',paddingBottom:'525px', alignItems: 'center', flexDirection: 'column', }}>
+      {/* <div style={{ display: 'flex', justifyContent: 'center',paddingBottom:'525px', alignItems: 'center', flexDirection: 'column', }}>
         <h4 style={{ color: 'rgb(7,91,183)', fontSize: '24px', fontWeight: '700', marginTop: '50px', }}>SO, JUST TO SUM IT ALL UP...</h4>
         <p style={{ marginBottom: '40px', fontSize: '24px' }}>Here's What's You're About To Get: </p>
         <hr style={{ marginBottom: '30px', color: 'inherit', width: '100%' }} />
@@ -1776,7 +1777,7 @@ const FreeCourseForm = () => {
           <p>Please contact us with questions at<br />
             info@darikalexander.com</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

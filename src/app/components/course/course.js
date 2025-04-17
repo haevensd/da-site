@@ -51,10 +51,9 @@ const FreeCourseForm = (showImage) => {
       <div className="vault-content">
         {!submitted ? (
           <div className="vault-form">
-            <h3>LAUNCH INTO GREATNESS</h3>
+            <h3>Grab The Free Program Ascension - Just Cover Shipping</h3>
             <p>
-              This exclusive network marketing course, <strong>Ascension, </strong> 
-              is your gateway to mastering network marketing. <br />
+            We’ll rush yours to your door — just tell us where to send it.
             </p>
             <form onSubmit={handleSubmit}>
               <label>Email Address</label>
