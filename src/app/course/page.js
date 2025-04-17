@@ -500,8 +500,8 @@ const FreeCourseForm = () => {
           </div>
         </div>
       </div>
-      <div style={{marginTop: '120px'}}>
-              <h1 style={{fontSize: '52px'}}>Here’s what people have to say</h1>
+      <div style={{marginTop: '120px', textAlign: 'center'}}>
+              <h1 style={{fontSize: '52px', margin: '0 auto', textAlign: 'center'}}>Here’s what people have to say</h1>
               <div style={{ display: 'flex', gap: '30px', minHeight: '', marginTop: '50px', justifyContent: 'center' }}>
             <div className="square-alt flex vert" style={{minHeight: '500px',minWidth: '350px', maxWidth: '220px'}}>
               <img src="testimonial.jpg" width="220" style={{ marginBottom: '28px',borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px' }} />

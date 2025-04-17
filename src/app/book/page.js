@@ -251,7 +251,7 @@ const BookForm = ({showImage=true}) => {
         <h1 style={{textAlign:'center', marginTop: '50px', marginBottom: '-20px'}}>So I Gave Them My Scripts… Here’s What Happened</h1>
       </div>
 
-      <div className="flex" style={{gap:"20px", marginBottom: '-110px',margin: 'auto'}}>
+      <div className="flex" style={{gap:"20px", marginBottom: '-110px',margin: '0 auto'}}>
         <iframe width="auto" height="auto" src="https://www.youtube.com/embed/BFp87F9pF8o" className="test-vid" title="Matt Ward" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
         
         <iframe width="auto" height="auto" src="https://www.youtube.com/embed/1VRNqRoh5Mw" className="test-vid" title="Donta Lewis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
@@ -259,7 +259,7 @@ const BookForm = ({showImage=true}) => {
         <iframe width="auto" height="auto" src="https://www.youtube.com/embed/02z-YML-ucg" className="test-vid" title="Cameron Kerkar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
       </div>
 
-      <div className="flex" style={{gap:"20px", marginBottom: '20px',margin: 'auto'}}>
+      <div className="flex" style={{gap:"20px", marginBottom: '20px',margin: '0 auto'}}>
         <iframe width="auto" height="auto" src="https://www.youtube.com/embed/eE5ylN05LEI" className="test-vid" title="Michael Manuel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
 
         <iframe width="auto" height="auto" src="https://www.youtube.com/embed/tmyXhpbEX1M" className="test-vid" title="Victoria Czupta" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style={{marginTop: '70px', marginBottom: '50px'}} allowfullscreen></iframe>
