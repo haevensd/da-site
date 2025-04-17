@@ -40,7 +40,7 @@ const AboutPage = () => {
         <div style={{
             backgroundImage:
             'url("/stage.jpg")',
-            height: '700px',
+            height: '750px',
             backgroundPositionY: '42%',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
@@ -48,11 +48,11 @@ const AboutPage = () => {
         }}>
             <span style={{margin: 'auto', padding: '40px'}}>
 
-            <h1  className="title"  style={{fontSize: '56px', textAlign: 'center', color: 'white', fontFamily: 'Gotham Book Light'}}><span style={{fontSize: '55px',fontFamily: '', marginRight: '20px'}}>
+            <h1  className="title"  style={{fontSize: '75px', textAlign: 'center', color: 'white', fontFamily: 'Gotham Book Light'}}><span style={{fontSize: '75px',fontFamily: 'Gotham Book Light', marginRight: '20px'}}>
                 SPEAKING
                 </span>
                 OPPORTUNITIES</h1>
-            <h3 className="subtitle" style={{textAlign: 'center',fontSize: '40px',marginTop: '30px',color: 'white', fontFamily: 'Gotham Book Bold  '}}>INSPIRING A GENERATION OF <span style={{ color: '#fff',padding: '5px', backgroundColor: '#266BF8'}}>
+            <h3 className="subtitle" style={{textAlign: 'center',fontSize: '50px',marginTop: '30px',color: 'white', fontFamily: 'Gotham Book Bold  '}}>INSPIRING A GENERATION OF <span style={{ color: '#fff',padding: '5px', backgroundColor: '#266BF8'}}>
               ACHIEVERS</span> ON YOUR STAGE NEXT</h3>
             </span>
         </div>
