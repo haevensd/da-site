@@ -55,7 +55,7 @@ const FreeCourseForm = () => {
         <div className="">
           <div className="flex parent" style={{flexDirection:'column', overflow: 'visible'}}>
 
-            <h1 style={{color: '#ffbb2a', fontSize:'48px',lineHeight:'65px', fontFamily: 'Gotham Book Bold', marginTop: '70px', textAlign: 'center'}}>HERE'S EVERYTHING THAT'S INCLUDED WITH <br />
+            <h1 style={{color: '#ffbb2a', fontSize:'48px',lineHeight:'65px', fontFamily: 'Gotham Book', marginTop: '70px', textAlign: 'center'}}>HERE'S EVERYTHING THAT'S INCLUDED WITH <br />
             THE INTENSIVE COACHING PROGRAM</h1>
                 {/* <img src="asce-top.png" width={"200px"} style={{margin: 'auto',marginTop:'20px', paddingLeft: '0px'}} /> */}
             <hr style={{color: '#ffbb2a', height: '', marginTop: '30px',marginBottom: '10px'}} />
