@@ -84,7 +84,7 @@ const BookForm = ({showImage=true}) => {
             <h3>Grab Your Free Magnetic Messenger Scripts – Just Cover Shipping</h3>
             <p>
             
-            We’ll rush yours to your door — just tell us where to send it.
+            We’ll rush your's to your door — just tell us where to send it.
             </p>
             <form onSubmit={handleSubmitStep1}>
               <label>Email Address</label>

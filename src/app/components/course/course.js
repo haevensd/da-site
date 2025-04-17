@@ -53,7 +53,7 @@ const FreeCourseForm = (showImage) => {
           <div className="vault-form">
             <h3>Grab The Free Program Ascension - Just Cover Shipping</h3>
             <p>
-            We’ll rush yours to your door — just tell us where to send it.
+            We’ll rush your's to your door — just tell us where to send it.
             </p>
             <form onSubmit={handleSubmit}>
               <label>Email Address</label>

@@ -21,7 +21,7 @@ const FreeCourseForm = () => {
       <div style={{display: 'flex', background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,60,156,1) 0%, rgba(38,107,248,1) 30%, rgb(10, 199, 236) 95%)', color: 'white'}} className="hero-container" >
         <div style={{margin: 'auto', maxWidth: '',paddingTop: '4rem', }}>
           <h2 style={{color: 'orange', fontWeight: 'bold', fontSize: '42px',maxWidth: '1170px',textAlign: 'center',color: '#ffbb2a',marginTop: '20px', marginBottom: '5px', marginLeft: 'auto', marginRight: 'auto',fontFamily: 'Gotham Book Bold'}}> I Built a Business From Home That <br />Generated Millions With Teams of Tens of Thousands—<br />Now I’m Giving You the Full Program Free</h2>
-          <h3 style={{textDecoration: 'italic',  margin: 'auto',marginBottom: '50px', marginTop:'20px', fontSize:'24px',maxWidth: '1270px',}}>This is your step-by-step blueprint for building a successful affiliate marketing organization using fundamental strategies... whether you're a beginner or running a successful team.
+          <h3 style={{textDecoration: 'italic',  margin: 'auto',marginBottom: '50px', marginTop:'20px', fontSize:'24px',maxWidth: '1480px',}}>This is your step-by-step blueprint for building a successful affiliate marketing organization using fundamental strategies... whether you're a beginner or running a successful team.
 
           </h3>
           <hr></hr>
@@ -31,7 +31,7 @@ const FreeCourseForm = () => {
               <p>that EVERY Single Top-Income Earner in Your Company Applies to their business which allows them to easily outperform, out-recruit, and out-duplicate everyone else...</p> */}
               <div style={{minWidth:'600px',height:'700px', marginLeft: '20px'}}>
 
-              <div style={{position:'relative', minWidth: '100%', minHeight: '100%',marginTop: '15px'}}><iframe src="https://player.vimeo.com/video/1070642304?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '819px', height: '460px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
+              <div style={{position:'relative', minWidth: '100%', minHeight: '100%',marginTop: '15px'}}><iframe src="https://player.vimeo.com/video/1070642304?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '817px', height: '460px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
               </div>
             </div>
             <div className="course-container" style={{display: 'flex', flexDirection: 'column', paddingRight: '40px', marginTop: '-10px' }}>
