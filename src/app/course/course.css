@@ -5,7 +5,7 @@
     background-color: #e5e5f7;
     /* opacity: 0.8; */
     min-width: 100% !important  ;
-    background-image:  radial-gradient(rgb(10, 199, 236) 0.3px, transparent 0.3px), radial-gradient(rgb(10, 199, 236) 0.2px, #e5e5f7 0.2px);
+    background-image:  radial-gradient(#0ac7ec .3px, #0000 0), radial-gradient(#0ac7ec .2px, #e8f2f7 0);
     background-size: 20px 20px;
     background-position: 0 0,10px 10px;
     padding: 50px;
