@@ -29,7 +29,7 @@ const FreeCourseForm = () => {
             <div id="form" style={{display: 'flex',  flexDirection: 'column', marginTop: '1rem', maxWidth: '70%'}}>
               {/* <h1 style={{textAlign: ''}}>3 Undeniable Truths of Network Marketing</h1>
               <p>that EVERY Single Top-Income Earner in Your Company Applies to their business which allows them to easily outperform, out-recruit, and out-duplicate everyone else...</p> */}
-              <div style={{minWidth:'600px',height:'700px', marginLeft: '20px'}}>
+              <div style={{minWidth:'600px',height:'650px', marginLeft: '20px'}}>
 
               <div style={{position:'relative', minWidth: '100%', minHeight: '100%',marginTop: '10px'}}><iframe src="https://player.vimeo.com/video/1070642304?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '817px', height: '460px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
               </div>
