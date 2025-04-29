@@ -233,7 +233,7 @@ const BlogPage = () => {
         return <Card key={i.title} style={{marginBottom: '50px', minWidth: '400px', }}>
             <CardContent style={{padding: '25px', maxHeight: '600px',}}>
             <img src={i.imgUrl} />
-                <h1 style={{marginTop: '10px', marginBottom: '5px'}} className='bold'>{i.title}</h1>
+                <h1 style={{marginTop: '10px', marginBottom: '5px', lineHeight: '1.25'}} className='bold'>{i.title}</h1>
                 <p style={{textOverflow: 'ellipsis'}}>{i.text} <a>Read more</a></p>
             </CardContent>
         </Card>
