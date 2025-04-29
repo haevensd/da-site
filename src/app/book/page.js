@@ -220,20 +220,28 @@ const BookForm = ({showImage=true}) => {
   };
 
   return (
-    <div className="vault-container" style={{paddingBottom: '450px'}}>
+    <div className="vault-container" style={{paddingBottom: ''}}>
       <div style={{display: 'flex', background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,60,156,1) 0%, rgba(38,107,248,1) 30%, rgb(10, 199, 236) 95%)', color: 'white'}} className="hero-container" >
         <div style={{margin: 'auto', maxWidth: '',paddingTop: '4rem', }}>
-          <h2 style={{color: 'orange', fontWeight: 'bold', fontSize: '42px',color: '#ffbb2a',marginTop: '0px', marginBottom: '5px', fontFamily: 'Gotham Book Bold'}}>The Exact Social Media Scripts That Built Teams of Tens of Thousands</h2>
+          <h2 style={{color: 'orange', fontWeight: 'bold', fontSize: '42px',color: '#ffbb2a',marginTop: '50px', marginBottom: '5px', fontFamily: 'Gotham Book Bold'}}>The Exact Social Media Scripts That Built Teams of Tens of Thousands</h2>
           <h3 style={{textDecoration: 'italic', marginBottom: '50px', marginTop: '10px', fontSize:'24px',}}>I used these to build massive sales teams and generate millions in revenue — and I'm giving them to you 100% free.
           </h3>
           <hr></hr>
-          <div style={{display: 'flex', marginTop: '10px', gap: '10px'}}>
-            <div id="form" style={{display: 'flex',  flexDirection: 'column', marginTop: '1rem', maxWidth: '70%'}}>
+          <div style={{display: 'flex', paddingTop: '50px', gap: '10px'}}>
+            {/* <div id="form" style={{display: 'flex',  flexDirection: 'column', marginTop: '0', maxWidth: '70%'}}> */}
               {/* <h1 style={{textAlign: ''}}>3 Undeniable Truths of Network Marketing</h1>
               <p>that EVERY Single Top-Income Earner in Your Company Applies to their business which allows them to easily outperform, out-recruit, and out-duplicate everyone else...</p> */}
-              <div style={{minWidth:'800px',height:'638px', marginLeft: '20px'}}>
+              {/* <div style={{minWidth:'800px',height:'438px', marginLeft: '20px'}}>
 
-              <div style={{position:'relative', minWidth: '100%', marginTop: '15px'}}><iframe src="https://player.vimeo.com/video/1070641708?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '800px', height: '450px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
+              <div style={{position:'relative', minWidth: '100%', marginTop: '5px'}}><iframe src="https://player.vimeo.com/video/1070641708?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '800px', height: '460px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
+              </div>
+            </div> */}
+            <div id="form" style={{display: 'flex',  flexDirection: 'column', marginTop: '0px', maxWidth: '70%'}}>
+              {/* <h1 style={{textAlign: ''}}>3 Undeniable Truths of Network Marketing</h1>
+              <p>that EVERY Single Top-Income Earner in Your Company Applies to their business which allows them to easily outperform, out-recruit, and out-duplicate everyone else...</p> */}
+              <div style={{minWidth:'600px',height:'700px', marginLeft: '20px'}}>
+
+              <div style={{position:'relative', minWidth: '100%', minHeight: '100%',marginTop: ''}}><iframe src="https://player.vimeo.com/video/1070641708?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '817px', height: '460px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
               </div>
             </div>
             <div style={{display: 'flex', flexDirection: 'column', paddingRight: '40px' }} className="book-container">

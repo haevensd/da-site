@@ -31,7 +31,7 @@ const FreeCourseForm = () => {
               <p>that EVERY Single Top-Income Earner in Your Company Applies to their business which allows them to easily outperform, out-recruit, and out-duplicate everyone else...</p> */}
               <div style={{minWidth:'600px',height:'700px', marginLeft: '20px'}}>
 
-              <div style={{position:'relative', minWidth: '100%', minHeight: '100%',marginTop: '15px'}}><iframe src="https://player.vimeo.com/video/1070642304?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '817px', height: '460px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
+              <div style={{position:'relative', minWidth: '100%', minHeight: '100%',marginTop: '10px'}}><iframe src="https://player.vimeo.com/video/1070642304?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '817px', height: '460px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
               </div>
             </div>
             <div className="course-container" style={{display: 'flex', flexDirection: 'column', paddingRight: '40px', marginTop: '-10px' }}>
@@ -55,7 +55,7 @@ const FreeCourseForm = () => {
         <div className="">
           <div className="flex parent" style={{flexDirection:'column', overflow: 'visible'}}>
 
-            <h1 style={{color: '#ffbb2a', fontSize:'48px',lineHeight:'65px', fontFamily: 'Gotham Book', marginTop: '70px', textAlign: 'center'}}>HERE'S EVERYTHING THAT'S INCLUDED WITH <br />
+            <h1 style={{color: '#ffbb2a', fontSize:'48px',lineHeight:'65px', fontFamily: 'Gotham Book Bold', marginTop: '70px', textAlign: 'center'}}>HERE'S EVERYTHING THAT'S INCLUDED WITH <br />
             THE INTENSIVE COACHING PROGRAM</h1>
                 {/* <img src="asce-top.png" width={"200px"} style={{margin: 'auto',marginTop:'20px', paddingLeft: '0px'}} /> */}
             <hr style={{color: '#ffbb2a', height: '', marginTop: '30px',marginBottom: '10px'}} />
