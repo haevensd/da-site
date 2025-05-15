@@ -62,10 +62,13 @@ const BlogPage = () => {
             padding: '',
             paddingTop: '100px',
             paddingBottom: '750px',
-            maxWidth: '1000px',
+            
             margin: 'auto'
         }}>
-            <h1 style={{fontFamily: 'Gotham Book Bold', fontSize: '72px',marginBottom: '10px'}}>Blog</h1>
+            <h1 style={{fontFamily: 'Gotham Book Bold', minWidth: '1000px', maxWidth: '1000px', margin:'auto',fontSize: '72px',marginBottom: '10px'}}>Blog</h1>
+            <hr style={{ margin:'auto', minWidth: '1200px', maxWidth: '1000px',}}></hr>
+            <div style={{maxWidth: '1000px',margin: 'auto',marginTop: '70px'}}>
+
             {articles.map((i) => {
                 
                 return <Card key={i.title} style={{marginBottom: '50px', padding: '20px'}} onClick={() => redirect(`/read?id=${i.id}`)}>
@@ -76,6 +79,7 @@ const BlogPage = () => {
                         </CardContent>
                 </Card>
             })}
+            </div>
         </div>
     );
 };
