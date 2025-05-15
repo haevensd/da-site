@@ -210,12 +210,12 @@ const Inner = () => {
     const searchParams = useSearchParams();
 
     const blogId = searchParams.get('id');
-    return <div className='container' style={{paddingBottom: '0'}}>
-    <img src='/back.png' style={{position: 'fixed', top: '95px', left: '10vw', cursor: 'pointer'}} height={'30px'} width={'30px'} onClick={() => redirect('/blog')}/>
+    return <div className='container' style={{paddingBottom: '0', maxWidth: '1270px'}}>
+    <img src='/back.png' style={{position: 'fixed', top: '150px', left: '10vw', cursor: 'pointer'}} height={'30px'} width={'30px'} onClick={() => redirect('/blog')}/>
     <img src={blogDict[blogId].imgUrl} />
     <h1>{blogDict[blogId].title}</h1>
     {blogDict[blogId].content}
-    <div style={{marginTop: '20px', width: '100%', justifyContent: 'center', display: 'flex'}}>
+    <div style={{marginTop: '50px', width: '100%', justifyContent: 'center', display: 'flex'}}>
     {blogDict[blogId].video}
     </div>
 </div>
@@ -228,7 +228,7 @@ const BlogPage = () => {
     return (
         <Suspense>
             <Inner></Inner>
-            <div className="subarticles" style={{display: 'flex',maxWidth: '1200px',marginLeft: 'auto',marginRight: 'auto', maxHeight: '600px', gap: '20px', marginTop: '50px', marginBottom: '600px'}}>
+            <div className="subarticles" style={{display: 'flex',maxWidth: '1200px',marginLeft: 'auto',marginRight: 'auto', maxHeight: '600px', gap: '20px', marginTop: '100px', marginBottom: '600px'}}>
     {suggestions.map((i) => {
         return <Card key={i.title} style={{marginBottom: '50px', minWidth: '400px', }}>
             <CardContent style={{padding: '25px', maxHeight: '600px',}}>

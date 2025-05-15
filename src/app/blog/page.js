@@ -71,7 +71,7 @@ const BlogPage = () => {
 
             {articles.map((i) => {
                 
-                return <Card key={i.title} style={{marginBottom: '50px', padding: '20px'}} onClick={() => redirect(`/read?id=${i.id}`)}>
+                return <Card key={i.title} style={{marginBottom: '50px', padding: '20px', cursor: 'pointer'}} onClick={() => redirect(`/read?id=${i.id}`)}>
                         <CardContent style={{padding: '25px'}} className='content'>
                         <img src={i.imgUrl} width={400} style={{margin: 'auto',marginBottom: '20px'}} />
                             <h1 className='bold'>{i.title}</h1>
