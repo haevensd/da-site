@@ -17,7 +17,7 @@ const FreeCourseForm = () => {
   });
 
   return (
-    <div className="vault-container" style={{padding: '0', paddingBottom:'0', minHeight: '24800px'}}>
+    <div className="vault-container course" style={{padding: '0', paddingBottom:'0', minHeight: '24800px'}}>
       <div style={{display: 'flex', background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,60,156,1) 0%, rgba(38,107,248,1) 30%, rgb(10, 199, 236) 95%)', color: 'white'}} className="hero-container" >
         <div style={{margin: 'auto', maxWidth: '',paddingTop: '4rem', }}>
           <h2 style={{color: 'orange', fontWeight: 'bold', fontSize: '42px',maxWidth: '1170px',textAlign: 'center',color: '#ffbb2a',marginTop: '20px', marginBottom: '5px', marginLeft: 'auto', marginRight: 'auto',fontFamily: 'Gotham Book Bold'}}> I Built a Business From Home That <br />Generated Millions With Teams of Tens of Thousands—<br />Now I’m Giving You the Full Program Free</h2>
