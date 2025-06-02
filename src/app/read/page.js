@@ -30,12 +30,12 @@ Listening to her story got me thinking but she said one thing in particular that
 <br />
 There are people out there who want to know what you have to say and want to learn from you and only you. When I realized this it gave me the permission I needed to share my mission with the world unapologetically and so should you.<br />
 </p>,
-imgUrl: '/daunfiltered.jpg',
+imgUrl: '/dominate.jpg',
 title: 'How to Dominate Your Competition',
 video: <iframe width="790" height="445" src="https://www.youtube.com/embed/7RgOvrXKWrQ" title="How to Beat the Competition" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
     2: {
-        imgUrl: '/daunfiltered.jpg',
+        imgUrl: '/qualified.jpg',
         title: 'Are You Qualified for Success?',
         content: <p>In this episode, we are going to ask the big question. Are you really worthy of success?<br />
             <br />
@@ -63,7 +63,7 @@ video: <iframe width="790" height="445" src="https://www.youtube.com/embed/7RgOv
         video: <iframe width="790" height="445" src="https://www.youtube.com/embed/7tr-E9Uj4o0" title="Are You Qualified For Success?" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
     3: {
-        imgUrl: '/daunfiltered.jpg',
+        imgUrl: '/story.jpg',
         title: 'My Story',
         content: <p>
             5 years ago I was a dead broke student at the University of Hawaii. As a D1 athlete, I had over 50 thousand dollars in student loan debt with absolutely no plan on repaying it. At the time I felt like I was unworthy for success. Since I didn’t believe I had the intelligence or resourcefulness to make money how I wanted to and since I felt like I lacked the innovation to start my own business, I applied for a job at the call center of my university.<br />
@@ -90,7 +90,7 @@ video: <iframe width="790" height="445" src="https://www.youtube.com/embed/7RgOv
         video: <iframe width="743" height="418" src="https://www.youtube.com/embed/HkRhTDN-Has" title="My Story-How I Lost Everything and Got It Back" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
     4: {
-        imgUrl: '/daunfiltered.jpg',
+        imgUrl: '/negative.jpg',
         title: '3 Steps to Cure Negative Thinking',
         content: <p>
 In this episode, I dive into 3 simple steps that I have used time and time again to cure negative thinking.<br />
@@ -116,7 +116,7 @@ Lastly, is HUNT…hunt for the triggers that cause your negative thoughts in the
         video: <iframe width="743" height="418" src="https://www.youtube.com/embed/jROMv7ToWxI" title="3 Steps to Cure Negative Thinking" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
     5: {
-        imgUrl: '/daunfiltered.jpg',
+        imgUrl: '/relax.jpg',
         title: 'Relax Your Body in 30 Seconds',
         content: <p>
             Stress has become second nature in our busy world. We live in a society where we are nearly programmed to feel like we should be constantly doing something day in an day out or else what we are doing is not relevant or worth while.<br />
@@ -133,7 +133,7 @@ Lastly, is HUNT…hunt for the triggers that cause your negative thoughts in the
         video: <iframe width="743" height="418" src="https://www.youtube.com/embed/NXQxHwlTTqM" title="How to Relax Your Body-In 30 Seconds" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
     6: {
-        imgUrl: '/daunfiltered.jpg',
+        imgUrl: '/connected.jpg',
         title: 'How to Stay Connected',
         content: <p>
             So I have had a lot of people reaching out to me asking the best ways to connect with me and work with me.<br />
@@ -152,7 +152,7 @@ Lastly, is HUNT…hunt for the triggers that cause your negative thoughts in the
         video: <iframe width="743" height="418" src="https://www.youtube.com/embed/NXQxHwlTTqM" title="How to Relax Your Body-In 30 Seconds" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
     7: {
-        imgUrl: '/daunfiltered.jpg',
+        imgUrl: '/money.jpg',
         title: 'The Truth About Money',
         content: <p>
             It is probably the most controversial topic out there. But I figured at some point we need to tackle the idea of money. Although money is something that can be a huge cause of stress in life, it can also be a huge testament to identifying one’s value in the marketplace.<br />
@@ -171,7 +171,7 @@ Find your financial thermostat and do your best to maintain balance in the proce
         video: <iframe width="743" height="418" src="https://www.youtube.com/embed/zLmWRVHmyJk" title="The Truth About Money" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
     8: {
-        imgUrl: '/daunfiltered.jpg',
+        imgUrl: '/networking.jpg',
         title: 'The First Thing You Should Do in Network Marketing',
         content: <p>
             There is a lot of debate about what the first thing someone should do when they join a network marketing company. Some people would argue that they should immediately make a list and contact everyone they know. Others would say it is easier to just spend your first 2 weeks learning about the company and the compensation plan. However, I personally have a different viewpoint.<br />
@@ -223,8 +223,6 @@ const Inner = () => {
 }
 const BlogPage = () => {
     // const router = useRouter();
-    
-
     return (
         <Suspense>
             <Inner></Inner>

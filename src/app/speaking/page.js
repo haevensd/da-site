@@ -39,26 +39,28 @@ const AboutPage = () => {
     <div style={styles.container}>
         <div style={{
             backgroundImage:
-            'url("/stage.jpg")',
+            'url("/backflip.jpg")',
             height: '750px',
-            backgroundPositionY: '50%',
+            backgroundPositionY: '55%',
+            // backgroundPositionX: '-35%',
             backgroundSize: 'cover',
+            backgroundSize: '100% 260%',
             backgroundRepeat: 'no-repeat',
             display: 'flex'
         }}>
             <span style={{margin: 'auto', padding: '40px'}}>
 
-            <h1  className="title"  style={{fontSize: '75px', textAlign: 'center', color: 'black', fontFamily: 'Gotham Book Light'}}><span style={{fontSize: '75px',fontFamily: 'Gotham Book Light', marginRight: '20px'}}>
+            <h1  className="title"  style={{fontSize: '75px', textAlign: 'center', color: 'white', fontFamily: 'Gotham Book Light'}}><span style={{fontSize: '75px',fontFamily: 'Gotham Book Light', marginRight: '20px'}}>
                 SPEAKING
                 </span>
                 OPPORTUNITIES</h1>
-            <h3 className="subtitle" style={{textAlign: 'center',fontSize: '50px',marginTop: '30px',color: 'black', fontFamily: 'Gotham Book Bold  '}}>INSPIRING A GENERATION OF ACHEIVERS, ON YOUR STAGE NEXT</h3>
+            <h3 className="subtitle" style={{textAlign: 'center',fontSize: '50px',marginTop: '30px',color: 'white', fontFamily: 'Gotham Book Bold  '}}>INSPIRING A GENERATION OF ACHEIVERS, ON YOUR STAGE NEXT</h3>
               {/* <span style={{ color: '#fff',padding: '5px', backgroundColor: '#266BF8'}}> */}
               {/* </span> */}
             </span>
         </div>
-        <div style={{display: 'flex',backgroundImage: 'url("/hawaii_cover-flipped.png")',paddingTop: '70px', paddingBottom: '200px', backgroundPositionY: '30%',backgroundRepeat: 'no-repeat', backgroundSize: 'cover',}}>
-            <div style={{marginLeft: 'auto',marginRight: '5%',minHeight: '550px',padding: '50px',maxWidth: '500px',marginTop: '50px', backgroundColor: 'white'}}>
+        <div style={{display: 'flex',backgroundImage: 'url("/darik_about.jpg")',paddingTop: '70px', paddingBottom: '200px', backgroundPositionY: '85%',backgroundRepeat: 'no-repeat', backgroundSize: 'cover',}}>
+            <div style={{marginLeft: 'auto',marginRight: '10%',minHeight: '550px',padding: '50px',maxWidth: '500px',marginTop: '50px', backgroundColor: 'white'}}>
 
                 <h1 className="title" style={{fontSize: '26px', color: 'black', fontFamily: 'Gotham Book Bold'}}>ABOUT</h1>
                 <h1 className="title" style={{fontSize: '26px', color: 'black',marginBottom: '10px'}}>DARIK ALEXANDER</h1>
@@ -72,7 +74,6 @@ const AboutPage = () => {
             <h3 className="subtitle" style={{maxWidth: '860px',fontSize: '20px',textAlign:'center', color: 'white',marginBottom: '50px', marginTop: '10px', }}>If you’ve got an aligned stage or speaking opportunity that you think I’m the right fit for, then this is the place for you to make the request.</h3>
             <SpeakingForm showImage={false}></SpeakingForm>
         </div>
-            <Contact></Contact>
     </div>
   );
 };

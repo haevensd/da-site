@@ -29,7 +29,7 @@
     background-color: #fff !important;
     color: black;
     padding-top: 50px;
-    border-radius: 10px;
+    border-radius: 21px;
     /* border: 3px white solid; */
     font-family: 'Gotham Book';
     font-weight: 800;
@@ -101,7 +101,8 @@
 
     display: block;
     
-    background-color: #266BF8 !important;
+    color: white;
+    background-image: linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%) !important;
     /* background-color: #000; */
     color: #fff;
     background-image: none !important;
