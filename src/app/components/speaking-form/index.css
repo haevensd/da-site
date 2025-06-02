@@ -105,7 +105,7 @@
     background-image: linear-gradient(-8deg, #ffbb2a 10%, #ff7000 74%) !important;
     /* background-color: #000; */
     color: #fff;
-    background-image: none !important;
+    /* background-image: none !important; */
     padding: 12px 24px;
     text-transform: uppercase;
     font-weight: bold;
@@ -114,15 +114,13 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-    
-  
-  border: 2px transparent solid !important;
+    border: 2px transparent solid !important;
     font-family: Gotham Book Bold;
 }
 
   .speaking .vault-form button:hover {
     
-    background-color: #153e91 !important;
+    background-color: #ff7000 !important;
     
     color: white !important;
   }
