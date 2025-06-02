@@ -71,7 +71,7 @@ const AboutPage = () => {
         <section className="arrow"></section>
         <div className="speaking" style={{paddingLeft: '30px',paddingRight: '30px',minHeight: '1000px',display: 'flex', flexDirection: 'column',alignItems: 'center',backgroundImage: 'url("/stage.jpg")', backgroundRepeat: 'no-repeat', backgroundPositionY: '38%',backgroundSize: 'cover',paddingBottom: '100px'}}>
             <h1 className="title" style={{maxWidth: '860px',fontSize: '2.917vw', color: 'white', fontFamily: 'Gotham Book Bold', paddingTop: '75px'}}>SEND ME A SPEAKING INQUIRY</h1>
-            <h3 className="subtitle" style={{maxWidth: '860px',fontSize: '20px',textAlign:'center', color: 'white',marginBottom: '50px', marginTop: '10px', }}>If you’ve got an  aligned stage or speaking opportunity that you think I’m the right fit for, this is the place for you to make the request.</h3>
+            <h3 className="subtitle" style={{maxWidth: '860px',fontSize: '20px',textAlign:'center', color: 'white',marginBottom: '50px', marginTop: '10px', }}>If you’ve got an aligned stage or speaking opportunity that you think I’m the right fit for, this is the place for you to make the request.</h3>
             <SpeakingForm showImage={false}></SpeakingForm>
         </div>
     </div>

@@ -13,18 +13,12 @@ I remember a time in my life where I felt as though no matter what I did I could
 <br />
 This fear kept nagging at me day and night to the point where I really was suffering constantly. Feeling unworthy and as if I would always be stuck in a position where no matter how bad I wanted success; it just wasn’t meant for me.<br />
 <br />
-<br />
-<br />
 Until one day I was at a seminar and I heard a woman speak. She told her story about how she read a book written by Napoleon Hill and it gave her a new understanding of the Law of Success that she never knew existed and she became fascinated with this type of content.<br />
 <br />
 So for months….<br />
 she devoted all of her time in the library learning about the science behind success and achievement. She continued her research and decided to hold an event in Santa Monica where she would teach this information. Now remember she herself was not successful but she fell in love with the content so much that she decided to hold this event regardless of if anyone came or not.<br />
 <br />
-<br />
-<br />
 Through her persistence and positive attitude, she filled the event with 500 people. She then went on to be a prominent speaker in the category of success and achievement for the next 20 years.<br />
-<br />
-<br />
 <br />
 Listening to her story got me thinking but she said one thing in particular that changed my perception of everything. She said that your message doesn’t matter as much as the fact that it’s YOU the one telling it. Think about that for a second, if you express a message to an audience and I express the exact same message…we may have 2 completely different demographics reside with who we are simply because of our energy even if its the exact same message.<br />
 <br />
@@ -51,10 +45,7 @@ video: <iframe width="790" height="445" src="https://www.youtube.com/embed/7RgOv
         So for months….<br />
         she devoted all of her time in the library learning about the science behind success and achievement. She continued her research and decided to hold an event in Santa Monica where she would teach this information. Now remember she herself was not successful but she fell in love with the content so much that she decided to hold this event regardless of if anyone came or not.<br />
         <br />
-        <br />
         Through her persistence and positive attitude, she filled the event with 500 people. She then went on to be a prominent speaker in the category of success and achievement for the next 20 years.<br />
-        <br />
-        <br />
         <br />
         Listening to her story got me thinking but she said one thing in particular that changed my perception of everything. She said that your message doesn’t matter as much as the fact that it’s YOU the one telling it. Think about that for a second, if you express a message to an audience and I express the exact same message…we may have 2 completely different demographics reside with who we are simply because of our energy even if its the exact same message.<br />
         <br />
@@ -190,30 +181,72 @@ Identifying what to commit to first is really important when launching your netw
 
 const suggestions = [
     {
-        imgUrl: '/daunfiltered.jpg',
-        title: 'Are You Qualified for Success?',
-        text: 'How do you know if you really deserve the success you aspire to have? In this episode…'
-    },
-    {
-        imgUrl: '/daunfiltered.jpg',
+        imgUrl: '/story.jpg',
         title: 'My Story',
-        text: 'In this episode I break down my story regarding I was able to change my self image to get what I wanted…'
+        text: 'In this episode I break down my story regarding how I was able to change my self image to get what I wanted…',
+        id: 3
+    },
+
+    {
+        imgUrl: '/qualified.jpg',
+        title: 'Are You Qualified for Success?',
+        text: 'How do you know if you really deserve the success you aspire to have? In this episode we break down a simple concept that will help you answer that question…',
+        id: 2
+    },
+
+    {
+        imgUrl: '/dominate.jpg',
+        title: 'How to Dominate Your Competition',
+        text: 'In this episode we are breaking down how to dominate the compeition in your space so you can really step out…',
+        id: 1
     },
     {
-        imgUrl: '/daunfiltered.jpg',
-        title: 'How to Figure Out What to Do With Your Life',
-        text: 'In this episode we go through a brainstorming session to help you identify the problems you would like to solve in the world…'
+        imgUrl: '/relax.jpg',
+        title: 'Relax Your Body in 30 Seconds',
+        text: 'In this episode I guide you through a simple meditation to immediately relax your whole body…',
+        id: 5
+    },
+    {
+        imgUrl: '/connected.jpg',
+        title: 'How to Stay Connected',
+        text: 'In this episode I explain the best way to stay connected with me so I can help serve you…',
+        id: 6
+    },
+    {
+        imgUrl: '/negative.jpg',
+        title: '3 Steps to Cure Negative Thinking',
+        text: 'In this episode we go through a brainstorming session to help you identify the problems you would like to solve in the world…',
+        id: 4
+    },
+    {
+        imgUrl: '/money.jpg',
+        title: 'The Truth About Money',
+        text: 'In this episode we dive into the truth regarding how we perceive money…',
+        id: 7
+    },
+    {
+        imgUrl: '/networking.jpg',
+        title: 'The First Thing You Should Do in Network Marketing',
+        text: 'In this module we learn...',
+        id: 8
     },
 ]
-
+function pickThreeRandom(list) {
+    if (list.length < 3) {
+      return "List must have at least 3 elements.";
+    }
+  
+    const shuffled = [...list].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, 3);
+  }
 const Inner = () => {
     const searchParams = useSearchParams();
 
     const blogId = searchParams.get('id');
     return <div className='container' style={{paddingBottom: '0', maxWidth: '1270px'}}>
     <img src='/back.png' style={{position: 'fixed', top: '150px', left: '10vw', cursor: 'pointer'}} height={'30px'} width={'30px'} onClick={() => redirect('/blog')}/>
-    <img src={blogDict[blogId].imgUrl} />
-    <h1>{blogDict[blogId].title}</h1>
+    <img src={blogDict[blogId].imgUrl} style={{maxWidth:'500px',margin: 'auto' }}/>
+    <h1 style={{margin:'auto', textAlign:'center'}}>{blogDict[blogId].title}</h1>
     {blogDict[blogId].content}
     <div style={{marginTop: '50px', width: '100%', justifyContent: 'center', display: 'flex'}}>
     {blogDict[blogId].video}
@@ -227,12 +260,13 @@ const BlogPage = () => {
         <Suspense>
             <Inner></Inner>
             <div className="subarticles" style={{display: 'flex',maxWidth: '1200px',marginLeft: 'auto',marginRight: 'auto', maxHeight: '600px', gap: '20px', marginTop: '100px', marginBottom: '600px'}}>
-    {suggestions.map((i) => {
-        return <Card key={i.title} style={{marginBottom: '50px', minWidth: '400px', }}>
+    {pickThreeRandom(suggestions).map((i) => {
+        return <Card key={i.title} style={{marginBottom: '50px', minWidth: '400px', cursor:'pointer' }} onClick={() => redirect(`/read?id=${i.id}`)}>
             <CardContent style={{padding: '25px', maxHeight: '600px',}}>
-            <img src={i.imgUrl} />
-                <h1 style={{marginTop: '10px', marginBottom: '5px', lineHeight: '1.25'}} className='bold'>{i.title}</h1>
-                <p style={{textOverflow: 'ellipsis'}}>{i.text} <a>Read more</a></p>
+            <div width={300} height={100} style={{borderRadius: '5px', minHeight: '300px', minWidth: '350px', backgroundImage: `url(${i.imgUrl})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+                </div>
+                <h1 style={{marginTop: '10px', marginBottom: '5px', lineHeight: '1.25', fontSize: '20px'}} className='bold'>{i.title}</h1>
+                <p style={{textOverflow: 'ellipsis', fontFamily: 'Gotham Book Light', color: 'black'}}>{i.text} <a>Read more</a></p>
             </CardContent>
         </Card>
     })}

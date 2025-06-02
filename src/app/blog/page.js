@@ -73,9 +73,15 @@ const BlogPage = () => {
 
             {articles.map((i) => {
                 
-                return <Card key={i.title} style={{marginBottom: '50px', padding: '20px', cursor: 'pointer'}} onClick={() => redirect(`/read?id=${i.id}`)}>
+                return <Card key={i.title} style={{marginBottom: '50px', padding: '5px', cursor: 'pointer'}} onClick={() => redirect(`/read?id=${i.id}`)}>
                         <CardContent style={{padding: '25px'}} className='content'>
-                        <img src={i.imgUrl} width={400} style={{margin: 'auto',marginBottom: '20px'}} />
+                            <div style={{display: 'flex', justifyContent: 'center', padding: ' 0',borderRadius:'15px', minWidth: '100%', backgroundColor: '#fef4f4', alignItems:'center',marginBottom: '20px',}}>
+                                
+                        {/* <img src={i.imgUrl} width={400} style={{margin: 'auto', borderRadius: '10px'}} /> */}
+            <div width={400} height={100} style={{borderRadius: '5px', minHeight: '300px', minWidth: '350px', backgroundImage: `url(${i.imgUrl})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+
+                            </div>
+                            </div>
                             <h1 className='bold'>{i.title}</h1>
                             <p  style={{fontSize:'23px'}}>{i.text} <a>Read more</a></p>
                         </CardContent>
