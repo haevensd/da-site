@@ -3,88 +3,234 @@ import React, { useState } from "react";
 import "./course.css";
 
 const FreeCourseForm = (showImage) => {
+  const [step, setStep] = useState(1);
   const [formData, setFormData] = useState({
     email: '',
     firstName: '',
-    lastName: ''
+    lastName: '',
+    address: '',
+    city: '',
+    state: '',
+    zipCode: '',
+    cardNumber: '',
+    expiryDate: '',
+    cvv: ''
   });
-  const [submitted, setSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
 
-  const handleChange = (e) => {
+  const handleInputChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmitStep1 = (e) => {
     e.preventDefault();
-    setLoading(true);
-    setError('');
+    setStep(2);
+  };
+  const handleBackButton = (e) => {
+    e.preventDefault();
+    setStep(1);
+  };
 
+  const handleSubmitStep2 = async (e) => {
+    e.preventDefault();
+    
     try {
+      // Initialize NMI payment
+      const paymentData = {
+        amount: '4.95', // Shipping cost
+        cardNumber: formData.cardNumber,
+        expiryDate: formData.expiryDate,
+        cvv: formData.cvv
+      };
+      
+      // Process payment with NMI (implement according to NMI documentation)
+      // const paymentResult = await processNMIPayment(paymentData);
+      
+      // Save order details
+      const orderData = {
+        email: formData.email,
+        firstName: formData.firstName,
+        lastName: formData.lastName,
+        address: formData.address,
+        city: formData.city,
+        state: formData.state,
+        zipCode: formData.zipCode,
+        orderDate: new Date().toISOString()
+      };
+
       const response = await fetch('/api/orders', {
-        method: 'PUT',
+        method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(orderData)
       });
 
-      if (!response.ok) {
-        throw new Error('Registration failed');
+      if (response.ok) {
+        setStep(3);
       }
-
-      setSubmitted(true);
-    } catch (err) {
-      setError('Failed to register. Please try again.');
-    } finally {
-      setLoading(false);
+    } catch (error) {
+      console.error('Error processing order:', error);
     }
   };
 
-  return (
-    <div className="vault-containerr">
-      <h2 className="vault-title"></h2>
-      <div className="vault-content">
-        {!submitted ? (
+  const renderStep = () => {
+    switch(step) {
+      case 1:
+        return (
           <div className="vault-form">
             <h3>Grab The Free Program Ascension<br/> Just Cover Shipping</h3>
             <p>
+            
             We’ll rush yours to your door — just tell us where to send it.
             </p>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmitStep1}>
               <label>Email Address</label>
-              <input type="email" placeholder="Enter your email" required />
+              <input 
+                type="email" 
+                name="email"
+                value={formData.email}
+                onChange={handleInputChange}
+                placeholder="Enter your email" 
+                required 
+              />
               <label>First Name</label>
-              <input type="text" placeholder="Enter your first name" required />
+              <input 
+                type="text"
+                name="firstName"
+                value={formData.firstName}
+                onChange={handleInputChange}
+                placeholder="Enter your first name" 
+                required 
+              />
               <label>Last Name</label>
-              <input type="text" placeholder="Enter your last name" required />
-              <button type="submit">Get Ascension for FREE Now!</button>
+              <input 
+                type="text"
+                name="lastName"
+                value={formData.lastName}
+                onChange={handleInputChange}
+                placeholder="Enter your last name" 
+                required 
+              />
+              <div className="button-container">
+                <button type="submit">Get my Free Scripts Now!</button>
+              </div>
             </form>
           </div>
-        ) : (
+        );
+      
+      case 2:
+        return (
           <div className="vault-form">
-            <h3>Congratulations, You’re In!</h3>
+            <h3>Almost There!</h3>
+            <p>Please enter your shipping details and payment information for the $4.95 shipping fee.</p>
+            <form onSubmit={handleSubmitStep2}>
+              <label>Shipping Address</label>
+              <input
+                type="text"
+                name="address"
+                value={formData.address}
+                onChange={handleInputChange}
+                placeholder="Street Address"
+                required
+              />
+              <div className="address-group">
+                <input
+                  type="text"
+                  name="city"
+                  value={formData.city}
+                  onChange={handleInputChange}
+                  placeholder="City"
+                  required
+                />
+                <input
+                  type="text"
+                  name="state"
+                  value={formData.state}
+                  onChange={handleInputChange}
+                  placeholder="State"
+                  required
+                />
+                <input
+                  type="text"
+                  name="zipCode"
+                  value={formData.zipCode}
+                  onChange={handleInputChange}
+                  placeholder="ZIP Code"
+                  required
+                />
+              </div>
+              
+              <label>Card Number</label>
+              <input
+                type="text"
+                name="cardNumber"
+                value={formData.cardNumber}
+                onChange={handleInputChange}
+                placeholder="Card Number"
+                required
+              />
+              
+              <div className="card-details">
+                <input
+                  type="text"
+                  name="expiryDate"
+                  value={formData.expiryDate}
+                  onChange={handleInputChange}
+                  placeholder="MM/YY"
+                  required
+                />
+                <input
+                  type="text"
+                  name="cvv"
+                  value={formData.cvv}
+                  onChange={handleInputChange}
+                  placeholder="CVV"
+                  required
+                />
+              </div>
+              
+              <div className="button-container">
+                <button type="button" onClick={handleBackButton}>Back</button>
+                <button type="submit">Complete Order</button>
+              </div>
+            </form>
+          </div>
+        );
+      
+      case 3:
+        return (
+          <div className="vault-form">
+            <h3>Congratulations!</h3>
             <p>
-              Welcome to the beginning of a new chapter. Check your email for
+            Welcome to the beginning of a new chapter. Check your email for
               all the details to access the course. Prepare to be inspired, 
               challenged, and equipped with the tools to craft your most 
               extraordinary life. Let’s make it happen!
             </p>
           </div>
-        )}
-        {/* <div className="vault-image">
+        );
+    }
+  };
+
+  return (
+    <div className="vault-content">
+      {
+        renderStep()
+      }
+      {/* {showImage && (
+        <div className="vault-image">
           <img
-            src="https://s.yimg.com/ny/api/res/1.2/79si0K0Q8wKMu4psN_l.yA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTcwMDtjZj13ZWJw/https://lh5.googleusercontent.com/JpJDaGvxCPQbTRCyhBeRu6lAPR4AfS-9Bc6N6bACn_qaL-u9Wrp2g2MTGV2UW9xId626SEhfEKpm-3dJi8lmF4PpIjSXVS7k1Yk6phOY4Bhh3rTVBV8gQm_6TxPkCc8e37M7GqAM=s800" // Replace with course image URL
-            alt="Free Course"
+            src="http://darikalexander.com/wp-content/uploads/2017/07/11816979_10153647685917494_6933033594485994486_n.jpg"
+            alt="Free Book"
           />
-        </div> */}
-      </div>
+        </div>
+      )} */}
     </div>
   );
 };
+
 
 export default FreeCourseForm;

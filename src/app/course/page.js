@@ -34,7 +34,7 @@ const FreeCourseForm = () => {
               <div style={{position:'relative', minWidth: '100%', minHeight: '100%',marginTop: '10px'}}><iframe src="https://player.vimeo.com/video/1070642304?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '817px', height: '460px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
               </div>
             </div>
-            <div className="course-container" style={{display: 'flex', flexDirection: 'column', paddingRight: '40px', marginTop: '-10px' }}>
+            <div className="course-container" style={{display: 'flex', flexDirection: 'column', paddingRight: '40px', marginTop: '0px' }}>
               <CourseForm showImage={false}></CourseForm>
               </div>
           </div>
