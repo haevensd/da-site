@@ -110,9 +110,11 @@ const setIsSidebarOpen = (val) => {
 
         <Link style={{cursor: 'pointer'}} href="/about"><li>About</li></Link>
         <Link style={{cursor: 'pointer', position: 'relative'}} href="#companies"
-        onMouseEnter={() => setShowCompanies(true)}
         >
-          <li>Companies</li>
+          <li 
+          onClick={() => setShowCompanies(!showCompanies)}
+          onMouseEnter={() => showCompanies ? setShowCompanies(false) : setShowCompanies(true)}
+          >Companies</li>
           {showCompanies ?
           <div className="sublinks-container" style={{left: '-65px', position: 'absolute', top: '61px',width: '320px', height: '150px',backgroundColor: '#00000099', display: 'flex', flexDirection: 'column', padding: '15px', gap: '5px'}} onMouseLeave={() => setShowCompanies(false)}>
           <Link className='sublinks' style={{cursor: 'pointer', fontSize: '16px',  }} href="https://merchants.fixmyfees.com/"><li style={{textAlign: 'left'}}>Fix My Fees</li></Link>

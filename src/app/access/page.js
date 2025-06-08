@@ -4,6 +4,7 @@ import "./access.css";
 import { Icon } from '@iconify/react';
 import arrowDown from '@iconify-icons/mdi/chevron-down'; // Down arrow
 import arrowUp from '@iconify-icons/mdi/chevron-up';
+import VimeoPlayer from "../components/video/video";
 
 const CoursePlayer = () => {
   const [expandedSections, setExpandedSections] = useState({});
@@ -125,7 +126,7 @@ const CoursePlayer = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (loginData.email === "course@darikalexander.com" && loginData.password === "freecourse1") {
+    if (loginData.email === "user_access" && loginData.password === "freecourse1") {
       setIsLoggedIn(true);
       // setError("");
     } else {
@@ -157,7 +158,7 @@ const CoursePlayer = () => {
         <h2>Login to Access Your Course</h2>
           <label htmlFor="email">Email Address</label>
           <input
-            type="email"
+            type="text"
             id="email"
             name="email"
             value={loginData.email}
@@ -181,6 +182,8 @@ const CoursePlayer = () => {
     );
   }
 
+  
+
   return (
     <div className={`course-player-container ${!mobileSidebarClosed && 'is-mobile'}`}>
       
@@ -188,15 +191,15 @@ const CoursePlayer = () => {
       
         {courseModules.map((module, moduleIndex) => (
           <div key={moduleIndex} className="module-section">
-            <div onClick={() => toggleSection(moduleIndex)} style={{border: '3px solid #000', backgroundColor: '#266BF8', padding: '15px', paddingLeft: '30px', paddingBottom: '10px', borderTopLeftRadius: '0px', borderTopRightRadius: '15px', borderBottomLeftRadius: '0px', borderBottomRightRadius: '15px'}}>
+            <div onClick={() => toggleSection(moduleIndex)} style={{border: '2px solid #000', backgroundColor: '#266BF8', padding: '15px', paddingLeft: '30px', paddingBottom: '10px', borderTopLeftRadius: '0px', borderTopRightRadius: '15px', borderBottomLeftRadius: '0px', borderBottomRightRadius: '15px'}}>
                 <h3
                 className="module-title"
                 
                 >
                 {module.title}
                 
-                {expandedSections[moduleIndex] ? <Icon icon={arrowUp} style={{ marginLeft: '5px', fontSize: '24px' }} />
-                :<Icon icon={arrowDown} style={{ marginLeft: '5px', fontSize: '20px' }} />}
+                {expandedSections[moduleIndex] ? <Icon icon={arrowUp} style={{ marginLeft: '5px', fontSize: '23px' }} />
+                :<Icon icon={arrowDown} style={{ marginLeft: '5px', fontSize: '24px' }} />}
                 </h3>
             </div>
             {expandedSections[moduleIndex] && (
@@ -216,12 +219,12 @@ const CoursePlayer = () => {
         ))}
       </div>
       {!mobileSidebarClosed && <span className="arrow"  onClick={() => setMobileSidebarClosed(!mobileSidebarClosed)} ><img style={{ top: '20px',zIndex: 1000, left: '20px', marginBottom: '1rem', transform: 'rotate(180deg)',}} width={10} height={15} src="/chevron-left.png"></img></span>}
-      {mobileSidebarClosed && <span className="arrow" onClick={() => setMobileSidebarClosed(!mobileSidebarClosed)}><img style={{ top: '20px', right: '20px', marginBottom: '1rem', marginLeft: 'auto',}} width={10} height={15} src="/chevron-left.png"></img></span>}
+      {mobileSidebarClosed && <span className="arrow" onClick={() => setMobileSidebarClosed(!mobileSidebarClosed)}><img style={{ top: '20px', right: '20px', marginBottom: '1rem', marginLeft: 'auto',}} width={'10px'} height={'15px'} src="/chevron-left.png"></img></span>}
       <div className={`video-container ${!mobileSidebarClosed && 'is-mobile'}`}>
         {selectedVideo ? (
-          <div style={{padding:'56.25% 0 0 0',backgroundColor: 'black',position:'relative', width: '100%'  }}>
-            <iframe src={`https://player.vimeo.com/video/${selectedVideo.url}?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479`}  allow={"autoplay; fullscreen; picture-in-picture; clipboard-write"}
-            style={{backgroundColor: 'black',position:'absolute',top:'0',left:'0',width:'50%',height:'50%'}} title={selectedVideo.title}></iframe><script src="https://player.vimeo.com/api/player.js"></script></div>
+          <div style={{padding:'100% 0 0 0',backgroundColor: 'black',position:'relative', width: '100%'  }}>
+            <VimeoPlayer selectedVideo={selectedVideo}></VimeoPlayer>
+            </div>
         ) : (
           <div className="video-placeholder">
             <p>Select a video to begin watching.</p>

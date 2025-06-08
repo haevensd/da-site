@@ -77,27 +77,35 @@ export async function GET() {
 
 export async function POST(req) {
   try {
-    const newOrder = await req.json();
-    
+    let newOrder = await req.json();
+
+    // Handle nested newOrder like: { "0": { ...actualOrder } }
+    if (typeof newOrder === 'object' && Object.keys(newOrder).length === 1 && newOrder["0"]) {
+      newOrder = newOrder["0"];
+    }
+
     // Read existing orders
     let orders = [];
     try {
       const data = fs.readFileSync(ordersFilePath, "utf8");
       orders = JSON.parse(data);
-    } catch (error) {
-      // If file doesn't exist or is empty, start with empty array
+    } catch (_) {
+      // If file doesn't exist or is unreadable, start with empty array
     }
-    
-    // Add new order
+
+    // Remove any existing order with the same id (or matching content)
+    orders = orders.filter(order => order.id !== newOrder.id);
+
+    // Add the new order
     orders.push({
       id: Date.now().toString(),
       ...newOrder,
       status: 'pending'
     });
-    
+
     // Save updated orders
     fs.writeFileSync(ordersFilePath, JSON.stringify(orders, null, 2));
-    
+
     return NextResponse.json({ message: "Order saved successfully" });
   } catch (error) {
     return NextResponse.json({ error: "Failed to save order" }, { status: 500 });

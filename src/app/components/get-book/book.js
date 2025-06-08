@@ -16,13 +16,31 @@ const BookForm = ({showImage=true}) => {
     expiryDate: '',
     cvv: ''
   });
-
   const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    let formattedValue = value;
+  
+    if (name === 'cardNumber') {
+      formattedValue = value.replace(/\D/g, '').slice(0, 16).replace(/(.{4})/g, '$1 ').trim();
+    }
+  
+    if (name === 'expiryDate') {
+      formattedValue = value
+        .replace(/\D/g, '')
+        .slice(0, 4)
+        .replace(/(\d{2})(\d{1,2})/, '$1/$2');
+    }
+  
+    if (name === 'cvv') {
+      formattedValue = value.replace(/\D/g, '').slice(0, 4);
+    }
+  
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [name]: formattedValue
     });
   };
+  
 
   const handleSubmitStep1 = (e) => {
     e.preventDefault();
@@ -69,6 +87,16 @@ const BookForm = ({showImage=true}) => {
       });
 
       if (response.ok) {
+        // Basic validations
+        const isCardNumberValid = formData.cardNumber.replace(/\s/g, '').length === 16;
+        const isExpiryValid = /^\d{2}\/\d{2}$/.test(formData.expiryDate);
+        const isCVVValid = formData.cvv.length >= 3;
+
+        if (!isCardNumberValid || !isExpiryValid || !isCVVValid) {
+          alert("Please enter valid card details before submitting.");
+          return;
+        }
+
         setStep(3);
       }
     } catch (error) {

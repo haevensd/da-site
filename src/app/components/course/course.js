@@ -18,11 +18,30 @@ const FreeCourseForm = (showImage) => {
   });
 
   const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    let formattedValue = value;
+  
+    if (name === 'cardNumber') {
+      formattedValue = value.replace(/\D/g, '').slice(0, 16).replace(/(.{4})/g, '$1 ').trim();
+    }
+  
+    if (name === 'expiryDate') {
+      formattedValue = value
+        .replace(/\D/g, '')
+        .slice(0, 4)
+        .replace(/(\d{2})(\d{1,2})/, '$1/$2');
+    }
+  
+    if (name === 'cvv') {
+      formattedValue = value.replace(/\D/g, '').slice(0, 4);
+    }
+  
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [name]: formattedValue
     });
   };
+  
 
   const handleSubmitStep1 = (e) => {
     e.preventDefault();
@@ -37,12 +56,18 @@ const FreeCourseForm = (showImage) => {
     e.preventDefault();
     
     try {
-      // Initialize NMI payment
       const paymentData = {
-        amount: '4.95', // Shipping cost
+        amount: '4.95',
         cardNumber: formData.cardNumber,
         expiryDate: formData.expiryDate,
-        cvv: formData.cvv
+        cvv: formData.cvv,
+        firstName: formData.firstName,
+        lastName: formData.lastName,
+        address: formData.address,
+        city: formData.city,
+        state: formData.state,
+        zipCode: formData.zipCode,
+        email: formData.email
       };
       
       // Process payment with NMI (implement according to NMI documentation)
@@ -68,7 +93,33 @@ const FreeCourseForm = (showImage) => {
         body: JSON.stringify(orderData)
       });
 
+
+      
+      const paymentRes = await fetch('/api/charge', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(paymentData)
+      });
+      
+      const paymentJson = await paymentRes.json();
+      
+      if (!paymentRes.ok || !paymentJson.success) {
+        alert('Payment failed: ' + paymentJson.error);
+        return;
+      }
+      
+
       if (response.ok) {
+        // Basic validations
+        const isCardNumberValid = formData.cardNumber.replace(/\s/g, '').length === 16;
+        const isExpiryValid = /^\d{2}\/\d{2}$/.test(formData.expiryDate);
+        const isCVVValid = formData.cvv.length >= 3;
+
+        if (!isCardNumberValid || !isExpiryValid || !isCVVValid) {
+          alert("Please enter valid card details before submitting.");
+          return;
+        }
+
         setStep(3);
       }
     } catch (error) {
