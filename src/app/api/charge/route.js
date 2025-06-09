@@ -1,4 +1,4 @@
-vimport { NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import https from 'https';
 import querystring from 'querystring';
 
