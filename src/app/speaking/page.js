@@ -50,11 +50,11 @@ const AboutPage = () => {
         }}>
             <span style={{margin: 'auto', padding: '40px'}}>
 
-            <h1  className="title"  style={{fontSize: '75px', textAlign: 'center', color: 'white', fontFamily: 'Gotham Book Light'}}><span className="title--speaking" style={{fontSize: '75px',fontFamily: 'Gotham Book Light', marginRight: '20px'}}>
+            <h1  className="title cover-title"  style={{fontSize: '75px', textAlign: 'center', color: 'white', fontFamily: 'Gotham Book Light'}}><span className="title--speaking" style={{fontSize: '75px',fontFamily: 'Gotham Book Light', marginRight: '20px'}}>
                 SPEAKING
                 </span><br className='break' />
                 OPPORTUNITIES</h1>
-            <h3 className="subtitle" style={{textAlign: 'center',fontSize: '50px',marginTop: '30px',color: 'white', fontFamily: 'Gotham Book Bold  '}}>INSPIRING A GENERATION OF ACHEIVERS, ON YOUR STAGE NEXT</h3>
+            <h3 className="subtitle cover-subtitle" style={{textAlign: 'center',fontSize: '50px',marginTop: '30px',color: 'white', fontFamily: 'Gotham Book Bold  '}}>INSPIRING A GENERATION OF ACHEIVERS, ON YOUR STAGE NEXT</h3>
               {/* <span style={{ color: '#fff',padding: '5px', backgroundColor: '#266BF8'}}> */}
               {/* </span> */}
             </span>

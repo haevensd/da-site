@@ -72,14 +72,14 @@ div *, div * * {
   }
   
 @media (max-width: 1067px) {
-  .title, .title--speaking {
+  .cover-title, .title--speaking {
     font-size: 41px !important;
   }
 
   .break {
     display: initial;
   }
-  .subtitle {
+  .cover-subtitle {
     font-size:51px !important;
   }
 }
