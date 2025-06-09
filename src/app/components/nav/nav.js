@@ -77,12 +77,12 @@ const setIsSidebarOpen = (val) => {
       {/* Sidebar */}
       <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
         <ul className="sidebar-links">
-          <Link style={{cursor: 'pointer'}} href="/"><li>Home</li></Link>
-          <Link style={{cursor: 'pointer'}} href="/about"><li>About</li></Link>
-          {/* <Link style={{cursor: 'pointer'}}> */}
-            <Link style={{cursor: 'pointer'}} href="/speaking"><li>Speaking</li></Link>
-            <Link style={{cursor: 'pointer'}} href="/book"><li>Free Book</li></Link>
-            <Link style={{cursor: 'pointer'}} href="/course"><li>Free Course</li></Link>
+          <Link onClick={() => setIsSidebarOpen(false)} style={{cursor: 'pointer'}} href="/"><li>Home</li></Link>
+          <Link onClick={() => setIsSidebarOpen(false)} style={{cursor: 'pointer'}} href="/about"><li>About</li></Link>
+          {/* <Link onClick={() => setIsSidebarOpen(false)} style={{cursor: 'pointer'}}> */}
+            <Link onClick={() => setIsSidebarOpen(false)} style={{cursor: 'pointer'}} href="/speaking"><li>Speaking</li></Link>
+            <Link onClick={() => setIsSidebarOpen(false)} style={{cursor: 'pointer'}} href="/book"><li>Free Book</li></Link>
+            <Link onClick={() => setIsSidebarOpen(false)} style={{cursor: 'pointer'}} href="/course"><li>Free Course</li></Link>
           <li style={{cursor: 'pointer'}} onClick={() => setShowCompanies(!showCompanies)}>
             <span style={{display: 'flex', fontSize: '20px'}}>
 
