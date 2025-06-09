@@ -62,7 +62,7 @@ const FreeCourseForm = () => {
 
             <img width="700px" style={{margin: 'auto'}} src="asc.png"/>
 
-            <div className="flex" style={{gap: '40px', marginTop: '40px'}}>
+            <div className="flex" style={{padding: '0 50px', gap: '40px', marginTop: '40px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
                 <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                   MODULE 1: MASTER THE AFFILIATE UNDERWORLD
@@ -156,7 +156,7 @@ const FreeCourseForm = () => {
                 </div>
               </div>
             </div>
-            <div className="flex" style={{gap: '40px', marginTop: '100px'}}>
+            <div className="flex" style={{padding: '0 50px', gap: '40px', marginTop: '100px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
                 <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  3:
@@ -254,7 +254,7 @@ const FreeCourseForm = () => {
 </div>
 
             </div>
-            <div className="flex" style={{gap: '40px', marginTop: '100px'}}>
+            <div className="flex" style={{padding: '0 50px', gap: '40px', marginTop: '100px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
                 <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  5:
@@ -355,7 +355,7 @@ const FreeCourseForm = () => {
 
 
             </div>
-            <div className="flex" style={{gap: '40px', marginTop: '100px'}}>
+            <div className="flex" style={{padding: '0 50px', gap: '40px', marginTop: '100px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
                 <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  7:
@@ -449,7 +449,7 @@ const FreeCourseForm = () => {
 </div>
 
             </div>
-            <div className="flex" style={{gap: '40px', marginTop: '100px'}}>
+            <div className="flex" style={{padding: '0 50px', gap: '40px', marginTop: '100px'}}>
               <div className="flex vert" style={{minWidth: '50%'}}>
                 <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                 MODULE  9:

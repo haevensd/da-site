@@ -244,3 +244,100 @@ padding: 50px;
   max-width: 520px;
     padding-bottom: 50px;
   }
+
+  /* Make hero section stack on mobile */
+@media (max-width: 768px) {
+  .hero-container > div {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 2rem 1rem !important;
+  }
+  /* Make the Vimeo iframe fluid */
+  .hero-container iframe {
+    width: 100% !important;
+    height: auto !important;
+    min-width: unset !important;
+    margin: 0 auto !important;
+  }
+
+  /* Stack the form and hide the extra side-padding */
+  #form {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .book-container {
+    padding-right: 1rem !important;
+    width: 100% !important;
+  }
+
+  /* Testimonials & videos – stack vertically and make fluid */
+  .flex {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    gap: 0rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .testimonial-container {
+    max-height: 850px !important;
+  }
+
+  .vp-center {
+    justify-content: flex-start !important;
+  }
+
+  .test-vid {
+    min-width: unset !important;
+    min-height: unset !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Narrow down the list columns into one */
+  .mm-list {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .mm-list + .mm-list {
+    margin-top: 2rem; /* space between the two lists */
+  }
+
+  /* Stack the “What’s inside…” section */
+  .secondary-container {
+    flex-direction: column !important;
+    gap: 1rem !important;
+    padding: 1rem;
+  }
+
+  /* Scale headings & text for readability on small screens */
+  h1 { font-size: 2rem !important; line-height: 2.5rem !important; }
+  h2 { font-size: 1.75rem !important; }
+  h3 { font-size: 1.25rem !important; }
+  p  { font-size: 1rem !important; }
+
+  /* Button full-width */
+  .yes-btn {
+    width: 90% !important;
+    padding: 1.5rem 0 !important;
+    font-size: 1.125rem !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .yes-btn > span {
+    /* margin-top: -29px; */
+  }
+
+
+  .mm-list {
+    padding: 1rem;
+  }
+
+  .mm-list > div {
+    gap: 0 !important;
+  }
+}
