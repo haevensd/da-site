@@ -108,9 +108,10 @@
   @media (max-width: 768px) {
     .vault-content {
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start !important;
     }
-  
+
+
     .vault-form,
     .vault-image {
       width: 100%;

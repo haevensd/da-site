@@ -36,7 +36,7 @@ const AboutPage = () => {
         };
       }, []);
   return (
-    <div style={styles.container}>
+    <div style={styles.container} className='Speaking'>
         <div style={{
             backgroundImage:
             'url("/backflip.jpg")',
@@ -48,7 +48,7 @@ const AboutPage = () => {
             backgroundRepeat: 'no-repeat',
             display: 'flex'
         }}>
-            <span style={{margin: 'auto', padding: '40px'}}>
+            <span className='cover-header' style={{margin: 'auto', padding: '40px'}}>
 
             <h1  className="title cover-title"  style={{fontSize: '75px', textAlign: 'center', color: 'white', fontFamily: 'Gotham Book Light'}}><span className="title--speaking" style={{fontSize: '75px',fontFamily: 'Gotham Book Light', marginRight: '20px'}}>
                 SPEAKING
@@ -60,7 +60,7 @@ const AboutPage = () => {
             </span>
         </div>
         <div style={{display: 'flex',backgroundImage: 'url("/darik_about.jpg")',paddingTop: '70px', paddingBottom: '200px', backgroundPositionY: '85%',backgroundRepeat: 'no-repeat', backgroundSize: 'cover',}}>
-            <div style={{marginLeft: 'auto',marginRight: '10%',minHeight: '550px',padding: '50px',maxWidth: '500px',marginTop: '50px', backgroundColor: 'white'}}>
+            <div className='about-section' style={{marginLeft: 'auto',marginRight: '10%',minHeight: '550px',padding: '50px',maxWidth: '500px',marginTop: '50px', backgroundColor: 'white'}}>
 
                 <h1 className="title" style={{fontSize: '26px', color: 'black', fontFamily: 'Gotham Book Bold'}}>ABOUT</h1>
                 <h1 className="title" style={{fontSize: '26px', color: 'black',marginBottom: '10px'}}>DARIK ALEXANDER</h1>
@@ -70,7 +70,7 @@ const AboutPage = () => {
         </div>
         <section className="arrow"></section>
         <div className="speaking" style={{paddingLeft: '30px',paddingRight: '30px',minHeight: '1000px',display: 'flex', flexDirection: 'column',alignItems: 'center',backgroundImage: 'url("/stage.jpg")', backgroundRepeat: 'no-repeat', backgroundPositionY: '38%',backgroundSize: 'cover',paddingBottom: '100px'}}>
-            <h1 className="title" style={{maxWidth: '860px',fontSize: '2.917vw', color: 'white', fontFamily: 'Gotham Book Bold', paddingTop: '75px'}}>SEND ME A SPEAKING INQUIRY</h1>
+            <h1 className="title footer-title" style={{maxWidth: '860px',fontSize: '2.917vw', color: 'white', fontFamily: 'Gotham Book Bold', paddingTop: '75px'}}>SEND ME A SPEAKING INQUIRY</h1>
             <h3 className="subtitle" style={{maxWidth: '860px',fontSize: '20px',textAlign:'center', color: 'white',marginBottom: '50px', marginTop: '10px', }}>If you’ve got an aligned stage or speaking opportunity that you think I’m the right fit for, this is the place for you to make the request.</h3>
             <SpeakingForm showImage={false}></SpeakingForm>
         </div>

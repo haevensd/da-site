@@ -71,10 +71,20 @@ div *, div * * {
     display: none;
   }
   
+@media (max-width: 768px) {
+  .about-section {
+    margin: 0 !important;
+  }
+}
 @media (max-width: 1067px) {
   .cover-title, .title--speaking {
-    font-size: 41px !important;
+    font-size: 34px !important;
+    text-align: center !important;
   }
+
+.cover-header {
+  padding: 30px !important;
+}
 
   .break {
     display: initial;
