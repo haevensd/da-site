@@ -249,24 +249,30 @@ padding: 50px;
   max-width: 520px;
     padding-bottom: 50px;
   }
-
+.book-form-cont {
+  padding-top: 10px !important;
+}
+.Book #form {
+  margin-top: 10px !important;
+}
   /* Make hero section stack on mobile */
 @media (max-width: 768px) {
   .hero-container > div {
     display: flex !important;
     flex-direction: column !important;
-    padding: 2rem 1rem !important;
+    /* padding: 2rem 1rem !important; */
   }
   /* Make the Vimeo iframe fluid */
   .hero-container iframe {
     width: 100% !important;
-    height: auto !important;
+    height: 100% !important;
     min-width: unset !important;
-    margin: 0 auto !important;
+    /* margin: 0 auto !important; */
   }
 
   /* Stack the form and hide the extra side-padding */
-  #form {
+  .Book #form {
+    /* margin-top: 10px !important; */
     max-width: 100% !important;
     margin-left: 0 !important;
   }
@@ -274,6 +280,9 @@ padding: 50px;
     padding-right: 0 !important;
     width: 100% !important;
   }
+
+
+  
 
   /* Testimonials & videos – stack vertically and make fluid */
   .flex {
@@ -290,18 +299,29 @@ padding: 50px;
 
   .book-form-cont {
     flex-direction: column;
+    padding-top: 0 !important;
   }
   .book-vid-cont {
     height: 300px !important;
+    margin-left: 0 !important;
+    min-width: 100% !important;
   }
 
-  .Book .vp-center {
+  .Book iframe .vp-center {
     justify-content: flex-start;
+    height: unset !important;
   }
 
   .Book .course-vid {
-    width: 350px !important;
+    width: 100% !important;
+    height: 100% !important;
+    /* min-height: 460px; */
   }
+  .vid-contain {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
+
 
   .testimonial-container {
     max-height: 850px !important;

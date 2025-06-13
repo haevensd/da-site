@@ -107,6 +107,24 @@ margin-top: 0px;
     padding: 0 !important;
     margin-bottom: 20px;
   }
+.course-vid-section {
+  min-width: unset !important;
+  margin-left: 0 !important;
+  height: 300px !important;
+}
+#form{
+  max-width: unset !important;
+}
+  .vid-container {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
+  
+  .hero-container iframe {
+    width: 100% !important;
+    height: 100% !important;
+    min-width: unset !important;
+  }
 
   .vault-form,
   .vault-image {

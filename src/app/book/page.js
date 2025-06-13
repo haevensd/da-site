@@ -22,7 +22,7 @@ const Book = ({showImage=true}) => {
             <div id="form" style={{display: 'flex',  flexDirection: 'column', marginTop: '0px', maxWidth: '70%'}}>
              <div style={{minWidth:'600px',height:'700px', marginLeft: '20px'}} className="book-vid-cont">
 
-              <div style={{position:'relative', minWidth: '100%', minHeight: '100%',marginTop: '2px'}}><iframe className="course-vid" src="https://player.vimeo.com/video/1070641708?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '817px', height: '460px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
+              <div className="vid-contain" style={{position:'relative', minWidth: '100%', minHeight: '100%',marginTop: '2px'}}><iframe className="course-vid" src="https://player.vimeo.com/video/1070641708?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '817px', height: '460px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
               </div>
             </div>
             <div style={{display: 'flex', flexDirection: 'column', paddingRight: '40px' }} className="book-container">
