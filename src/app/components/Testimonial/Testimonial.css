@@ -76,13 +76,19 @@
   
   /* Responsive styles */
   @media (max-width: 768px) {
+    .testimonial-container {
+      max-height: 900px !important;
+    }
     .testimonial {
       flex-direction: column;
       text-align: center;
+      gap: 30px;
+      padding-top: 100px !important;
     }
   
     .testimonial-portrait {
       margin: 0 auto 1rem auto;
+      margin-left: auto !important;
     }
   
     .testimonial-content {
