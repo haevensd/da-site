@@ -1,5 +1,5 @@
 .vault-container.course {
-    min-height: 14100px !important;
+    min-height: 29200px  !important;
 }
 .bg-style {
     background-color: #e5e5f7;
@@ -147,4 +147,42 @@ strong.highlight {
 }
 .link:hover {
     text-decoration: underline;
+}
+
+.show-on-mobile {
+    display: none;
+}
+@media (max-width: 1068px) {
+    .course-header {
+        max-width: 340px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+    }
+    .flex {
+        flex-direction: column !important;
+    }
+
+    .flex.vert {
+        width: 267px;
+
+    }
+    .course-footer {
+        flex-direction: column !important;
+    }
+    .page-header {
+        text-align: center   !important;
+        font-size: 21px !important;
+    }
+    .show-on-mobile {
+        display: initial;
+    }
+    .form-container {
+        flex-direction: column;
+    }
+    .course-vid-section {
+        max-height: 500px !important;
+    }
 }

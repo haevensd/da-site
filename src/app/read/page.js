@@ -78,7 +78,7 @@ video: <iframe width="790" height="445" src="https://www.youtube.com/embed/7RgOv
         For years I have received messages in my inbox asking for guidance on how to excel in this industry. This need for mentorship in the industry despite what company these distributors are in lead me on a journey of research and discovery. I started to spend my time identifying not just the strategies that I used over the years to grow my team, but the frameworks countless other professionals in the industry have done to build their massive teams. As I began studying not just what I did but these other industry powerhouses, I began to notice a trend. Despite what company these people were in, all of their teams faced the same internal problems. And although these people needed to learn how to recruit, how to train, how to duplicate, how to create momentum…I began to understand the ultimate problem lied in the individual’s self image. Their behavior of how they viewed themselves was the fundamental difference maker in their belief level to exceed or to fail.<br />
         </p>,
         
-        video: <iframe width="743" height="418" src="https://www.youtube.com/embed/HkRhTDN-Has" title="My Story-How I Lost Everything and Got It Back" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        video: <iframe className="blog-video" width="743" height="418" src="https://www.youtube.com/embed/HkRhTDN-Has" title="My Story-How I Lost Everything and Got It Back" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
     4: {
         imgUrl: '/negative.jpg',
@@ -104,7 +104,7 @@ Hunt<br />
 Lastly, is HUNT…hunt for the triggers that cause your negative thoughts in the first place and constantly work on eliminating them. If you hate broccoli you aren’t going to put it in all of your meals, so if you can recognize what thoughts stimulate negative emotions and start working on identifying the triggers that stimulate those thoughts in the first place.<br />
         </p>,
         
-        video: <iframe width="743" height="418" src="https://www.youtube.com/embed/jROMv7ToWxI" title="3 Steps to Cure Negative Thinking" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        video: <iframe className="blog-video" width="743" height="418" src="https://www.youtube.com/embed/jROMv7ToWxI" title="3 Steps to Cure Negative Thinking" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
     5: {
         imgUrl: '/relax.jpg',
@@ -121,7 +121,7 @@ Lastly, is HUNT…hunt for the triggers that cause your negative thoughts in the
             I hope that these exercises will serve you as they have served me and feel free to share them with other people who you feel may be getting stressed and could use some relaxation.<br />
         </p>,
         
-        video: <iframe width="743" height="418" src="https://www.youtube.com/embed/NXQxHwlTTqM" title="How to Relax Your Body-In 30 Seconds" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        video: <iframe className="blog-video" width="743" height="418" src="https://www.youtube.com/embed/NXQxHwlTTqM" title="How to Relax Your Body-In 30 Seconds" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
     6: {
         imgUrl: '/connected.jpg',
@@ -140,7 +140,7 @@ Lastly, is HUNT…hunt for the triggers that cause your negative thoughts in the
             These are just some of the tools I have developed to help you make that transition and if you would like to reach me personally feel free to contact me on my facebook page at ‘Darik Alexander’.
         </p>,
         
-        video: <iframe width="743" height="418" src="https://www.youtube.com/embed/NXQxHwlTTqM" title="How to Relax Your Body-In 30 Seconds" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        video: <iframe className="blog-video" width="743" height="418" src="https://www.youtube.com/embed/NXQxHwlTTqM" title="How to Relax Your Body-In 30 Seconds" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
     7: {
         imgUrl: '/money.jpg',
@@ -159,7 +159,7 @@ Money can give you the freedom to truly live how you want to live, but dedicatin
 Find your financial thermostat and do your best to maintain balance in the process of pursuing not just money but your value in the marketplace.
         </p>,
         
-        video: <iframe width="743" height="418" src="https://www.youtube.com/embed/zLmWRVHmyJk" title="The Truth About Money" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        video: <iframe className="blog-video" width="743" height="418" src="https://www.youtube.com/embed/zLmWRVHmyJk" title="The Truth About Money" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
     8: {
         imgUrl: '/networking.jpg',
@@ -174,7 +174,7 @@ When you have people in your organization that is having a tough time or are fru
 Identifying what to commit to first is really important when launching your network marketing business.
         </p>,
         
-        video: <iframe width="743" height="418" src="https://www.youtube.com/embed/x7824u9RVh0" title="What to Do Your First Day in Network Marketing" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        video: <iframe className="blog-video" width="743" height="418" src="https://www.youtube.com/embed/x7824u9RVh0" title="What to Do Your First Day in Network Marketing" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
 
 }
@@ -243,7 +243,7 @@ const Inner = () => {
     const searchParams = useSearchParams();
 
     const blogId = searchParams.get('id');
-    return <div className='container' style={{paddingBottom: '0', maxWidth: '1270px'}}>
+    return <div className='container read' style={{paddingBottom: '0', maxWidth: '1270px'}}>
     <img src='/back.png' style={{position: 'fixed', top: '150px', left: '10vw', cursor: 'pointer'}} height={'30px'} width={'30px'} onClick={() => redirect('/blog')}/>
     <img src={blogDict[blogId].imgUrl} style={{maxWidth:'500px',margin: 'auto' }}/>
     <h1 style={{margin:'auto', textAlign:'center'}}>{blogDict[blogId].title}</h1>
@@ -257,11 +257,12 @@ const Inner = () => {
 const BlogPage = () => {
     // const router = useRouter();
     return (
-        <Suspense>
+        <Suspense >
+            <div className='read-page' style={{justifyContent: 'center', alignItems: 'center', flexDirection: 'column', display: 'flex'}}>
             <Inner></Inner>
             <div className="subarticles" style={{display: 'flex',maxWidth: '1200px',marginLeft: 'auto',marginRight: 'auto', maxHeight: '600px', gap: '20px', marginTop: '100px', marginBottom: '600px'}}>
     {pickThreeRandom(suggestions).map((i) => {
-        return <Card key={i.title} style={{marginBottom: '50px', minWidth: '400px', cursor:'pointer' }} onClick={() => redirect(`/read?id=${i.id}`)}>
+        return <Card className='subarticles-card' key={i.title} style={{marginBottom: '50px', minWidth: '400px', cursor:'pointer' }} onClick={() => redirect(`/read?id=${i.id}`)}>
             <CardContent style={{padding: '25px', maxHeight: '600px',}}>
             <div width={300} height={100} style={{borderRadius: '5px', minHeight: '300px', minWidth: '350px', backgroundImage: `url(${i.imgUrl})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
                 </div>
@@ -270,6 +271,7 @@ const BlogPage = () => {
             </CardContent>
         </Card>
     })}
+    </div>
     </div>
         </Suspense>
     );

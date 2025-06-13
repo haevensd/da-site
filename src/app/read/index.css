@@ -18,8 +18,37 @@ cursor: pointer;
     color: #707070;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1068px) {
+    .blog-video {
+        max-width: 100% !important;
+        height: auto !important;
+        min-height: 300px !important;
+    }
     .subarticles {
-        opacity: 0;
+        /* opacity: 0; */
+        flex-direction: column;
+        display: none;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 }
+@media (max-width: 768px) {
+    .read.container {
+        margin: 0 !important;
+        width: 100%;
+    }
+
+    .read {
+        p {
+            margin: 30px;
+        }
+    }
+.read-page{
+    min-height: 6200px;}
+
+    .subarticles-card {
+        min-width: 360px !important;
+    }
+
+}
+

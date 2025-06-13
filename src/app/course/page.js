@@ -19,17 +19,18 @@ const FreeCourseForm = () => {
   return (
     <div className="vault-container course" style={{padding: '0', paddingBottom:'0', minHeight: '24800px'}}>
       <div style={{display: 'flex', background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,60,156,1) 0%, rgba(38,107,248,1) 30%, rgb(10, 199, 236) 95%)', color: 'white'}} className="hero-container" >
-        <div style={{margin: 'auto', maxWidth: '',paddingTop: '4rem', }}>
-          <h2 style={{color: 'orange', fontWeight: 'bold', fontSize: '42px',maxWidth: '1170px',textAlign: 'center',color: '#ffbb2a',marginTop: '20px', marginBottom: '5px', marginLeft: 'auto', marginRight: 'auto',fontFamily: 'Gotham Book Bold'}}> I Built a Business From Home That <br />Generated Millions With Teams of Tens of Thousands—<br />Now I’m Giving You the Full Program Free</h2>
-          <h3 style={{textDecoration: 'italic',  margin: 'auto',marginBottom: '50px', marginTop:'20px', fontSize:'24px',maxWidth: '1480px',}}>This is your step-by-step blueprint for building a successful affiliate marketing organization using fundamental strategies... whether you're a beginner or running a successful team.
+        <div style={{margin: 'auto', maxWidth: '100%',paddingTop: '4rem', }}>
+          <div className="course-header">
 
-          </h3>
+            <h2 className="page-header" style={{color: 'orange', fontWeight: 'bold', fontSize: '42px',maxWidth: '1170px',textAlign: 'center',color: '#ffbb2a',marginTop: '20px', marginBottom: '5px', marginLeft: 'auto', marginRight: 'auto',fontFamily: 'Gotham Book Bold', }}> I Built a Business<br className="show-on-mobile" /> From Home That <br />Generated Millions <br className="show-on-mobile" />With Teams of Tens of Thousands—<br />Now I’m Giving You the Full Program Free</h2>
+            <h3 style={{textDecoration: 'italic',  margin: 'auto',marginBottom: '50px', marginTop:'20px', fontSize:'24px',maxWidth: '1480px',}}>This is your step-by-step blueprint for building a successful affiliate marketing organization using fundamental strategies... whether you're a beginner or running a successful team.            </h3>
+          </div>
           <hr></hr>
-          <div style={{display: 'flex', marginTop: '10px', gap: '10px', alignItems: '', justifyContent: 'center'}}>
+          <div className="form-container" style={{display: 'flex', marginTop: '10px', gap: '10px', alignItems: '', justifyContent: 'center'}}>
             <div id="form" style={{display: 'flex',  flexDirection: 'column', marginTop: '1rem', maxWidth: '70%'}}>
               {/* <h1 style={{textAlign: ''}}>3 Undeniable Truths of Network Marketing</h1>
               <p>that EVERY Single Top-Income Earner in Your Company Applies to their business which allows them to easily outperform, out-recruit, and out-duplicate everyone else...</p> */}
-              <div style={{minWidth:'600px',height:'700px', marginLeft: '20px'}}>
+              <div className="course-vid-section" style={{minWidth:'600px',height:'700px', marginLeft: '20px'}}>
 
               <div style={{position:'relative', minWidth: '100%', minHeight: '100%',marginTop: '10px'}}><iframe src="https://player.vimeo.com/video/1070642304?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style={{minWidth: '300px', width: '817px', height: '460px'}} title="Magnetic Messenger Scripts v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
               </div>
@@ -53,9 +54,9 @@ const FreeCourseForm = () => {
 
       <div className="container">
         <div className="">
-          <div className="flex parent" style={{flexDirection:'column', overflow: 'visible'}}>
+          <div className="flex parent"  style={{flexDirection:'column', overflow: 'visible'}}>
 
-            <h1 style={{color: '#ffbb2a', fontSize:'48px',lineHeight:'65px', fontFamily: 'Gotham Book Bold', marginTop: '70px', textAlign: 'center'}}>HERE'S EVERYTHING THAT'S INCLUDED WITH <br />
+            <h1  style={{color: '#ffbb2a', fontSize:'48px',lineHeight:'65px', fontFamily: 'Gotham Book Bold', marginTop: '70px', textAlign: 'center'}}>HERE'S EVERYTHING THAT'S INCLUDED WITH <br />
             THE INTENSIVE COACHING PROGRAM</h1>
                 {/* <img src="asce-top.png" width={"200px"} style={{margin: 'auto',marginTop:'20px', paddingLeft: '0px'}} /> */}
             <hr style={{color: '#ffbb2a', height: '', marginTop: '30px',marginBottom: '10px'}} />
@@ -110,7 +111,7 @@ const FreeCourseForm = () => {
             <div className="flex bg-style" style={{flexDirection: 'row-reverse', gap: '40px', marginTop: '100px'}}>
               <div className="flex">
                 <div className="flex vert" style={{minWidth: '50%'}}>
-                  <h1 style={{fontSize: '38px', fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
+                <h1 style={{fontSize: '38px',  wordWrap: 'break-word',  fontFamily: 'Gotham Book Bold', marginBottom: '37px', textAlign: 'center'}}>
                   MODULE 2:
                   REPROGRAMMING THE SELF IMAGE
                   </h1>
@@ -502,7 +503,7 @@ const FreeCourseForm = () => {
       </div>
       <div style={{marginTop: '120px', textAlign: 'center'}}>
               <h1 style={{fontSize: '52px', margin: '0 auto', textAlign: 'center'}}>Here’s what people have to say</h1>
-              <div style={{ display: 'flex', gap: '30px', minHeight: '', marginTop: '50px', justifyContent: 'center' }}>
+              <div  className="course-footer" style={{ display: 'flex', gap: '30px', minHeight: '', marginTop: '50px', justifyContent: 'center' }}>
             <div className="square-alt flex vert" style={{minHeight: '500px',minWidth: '350px', maxWidth: '220px'}}>
               <img src="testimonial.jpg" width="220" style={{ marginBottom: '28px',borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px' }} />
               <p style={{fontFamily: 'Gotham Book'}}>
@@ -549,7 +550,7 @@ const FreeCourseForm = () => {
             </div>
           
           </div>
-              <div style={{ display: 'flex', gap: '30px', minHeight: '', marginTop: '50px', justifyContent: 'center' }}>
+              <div className="course-footer" style={{ display: 'flex', gap: '30px', minHeight: '', marginTop: '50px', justifyContent: 'center' }}>
           
               <div className="square-alt flex vert" style={{minHeight: '500px',minWidth: '350px', maxWidth: '220px'}}>
               <img src="case_studies1.jpg" width="220" style={{ marginBottom: '30px',borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px' }} />

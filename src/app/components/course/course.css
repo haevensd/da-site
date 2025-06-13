@@ -102,6 +102,12 @@ margin-top: 0px;
     align-items: center;
   }
 
+  .course-container {
+    /* padding-right: 0 !important; */
+    padding: 0 35px !important;
+    margin-bottom: 20px;
+  }
+
   .vault-form,
   .vault-image {
     width: 100%;

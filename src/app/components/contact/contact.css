@@ -5,6 +5,9 @@
         gap: 100px !important;
         padding-bottom: 100px;
     }
+    .acheivers-text {
+      font-size: 37px;
+    }
     .bg-image {
       max-height: 1000px;
     }

@@ -116,6 +116,10 @@
     .vault-image {
       width: 100%;
     }
+
+    .course-vid {
+      width: 317px !important;
+    }
   }
   
   .address-group {
@@ -267,7 +271,7 @@ padding: 50px;
     margin-left: 0 !important;
   }
   .book-container {
-    padding-right: 1rem !important;
+    padding-right: 0 !important;
     width: 100% !important;
   }
 
@@ -278,6 +282,25 @@ padding: 50px;
     align-items: center;
     gap: 0rem !important;
     margin-bottom: 2rem !important;
+  }
+
+  .flex {
+    
+  }
+
+  .book-form-cont {
+    flex-direction: column;
+  }
+  .book-vid-cont {
+    height: 300px !important;
+  }
+
+  .Book .vp-center {
+    justify-content: flex-start;
+  }
+
+  .Book .course-vid {
+    width: 350px !important;
   }
 
   .testimonial-container {
