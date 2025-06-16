@@ -78,9 +78,20 @@ div *, div * * {
     
     line-height: 65px !important;
   }
+  .purpose-section > p {
+  padding-left: 0 !important;
+  }
+  .purpose-section img {
+    display: none;
+    /* padding: 50px !important; */
+
+  }
   .purpose-section h1{
     margin-bottom: 50px;
     line-height: 80px !important;
+  }
+  .passion-section {
+    padding: 50px !important;
   }
   .timeline-section > p h1 {
     margin-bottom: 50px !important;

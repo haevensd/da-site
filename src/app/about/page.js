@@ -200,7 +200,7 @@ const AboutPage = () => {
           {/* <OffsetImag eGallery maxWidth='900px' marginTop={'-50px'} imageUrls={['/guy
           .jpg',] }></OffsetImageGallery> */}
         </div>
-        <div style={{padding: '75px', marginTop: '200px', }}>
+        <div className="passion-section" style={{padding: '75px', marginTop: '200px', }}>
         <h1 style={{fontSize: '69px',lineHeight: '1.3em'}} className='bold'>Now I live out my passion each day…</h1>
         <p style={{fontSize: '34px', lineHeight: '1.75em',marginTop: '20px', maxWidth: '1920px'}}>As a husband and father, I have been fortunate to not only travel the world but take my family along with me. Giving them memories and moments that they can cherish for a lifetime.</p>
         </div>
@@ -213,7 +213,7 @@ const AboutPage = () => {
             To inform, educate and empower others to think for themselves and live a life on their terms. I do this through not just sharing my own results but more importantly all the mistakes and mishaps I made along the way so you can cut the learning curve. I’m not perfect and fail all the time, but my ownership in those failures over the years have allowed me to create some pretty awesome results in the process.</p>
           
           {/* <OffsetImageGallery maxWidth='2000px' marginTop={'-50px'} imageUrls={['/purpose.jpg',] }></OffsetImageGallery> */}
-          <img src="/purpose.jpg" style={{height:'1001px'}}></img>
+          <img  src="/purpose.jpg" style={{height:'1001px'}}></img>
         </div>
         <Contact></Contact>
         
