@@ -59,7 +59,7 @@ const AboutPage = () => {
               {/* </span> */}
             </span>
         </div>
-        <div style={{display: 'flex',backgroundImage: 'url("/darik_about.jpg")',paddingTop: '70px', paddingBottom: '200px', backgroundPositionY: '85%',backgroundRepeat: 'no-repeat', backgroundSize: 'cover',}}>
+        <div className='about-section-container' style={{display: 'flex',backgroundImage: 'url("/darik_about.jpg")',paddingTop: '70px', paddingBottom: '200px', backgroundPositionY: '85%',backgroundRepeat: 'no-repeat', backgroundSize: 'cover',}}>
             <div className='about-section' style={{marginLeft: 'auto',marginRight: '10%',minHeight: '550px',padding: '50px',maxWidth: '500px',marginTop: '50px', backgroundColor: 'white'}}>
 
                 <h1 className="title" style={{fontSize: '26px', color: 'black', fontFamily: 'Gotham Book Bold'}}>ABOUT</h1>

@@ -426,6 +426,7 @@ height: 100%;
   }
 }
 @media (max-width: 768px) { 
+  
   .story-inner-container {
     /* display: none;/ */
     max-height: unset !important;

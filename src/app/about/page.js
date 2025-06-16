@@ -93,9 +93,9 @@ const AboutPage = () => {
 
         <h1 style={{fontSize: '80px', fontWeight: 'bold', color: 'black',marginBottom: '50px'}}>As a kid...</h1>
         </div>
-        <div style={{display:'flex', flexDirection:'row', padding: '20px', paddingRight: '100px', gap: '50px'}}>
+        <div className="cover-title-container" style={{display:'flex', flexDirection:'row', padding: '20px', paddingRight: '100px', gap: '50px'}}>
 
-        <p style={{ maxWidth: '2075px',fontWeight: 'bold',lineHeight: "3.5vw", fontSize: '50px', color: 'black', fontFamily: 'Gotham Book'}}>
+        <p className="cover-title" style={{ maxWidth: '2075px',fontWeight: 'bold',lineHeight: "3.5vw", fontSize: '50px', color: 'black', fontFamily: 'Gotham Book'}}>
         I spent the first 10 years of my life being homeschooled by my father
         focusing on business principles and personal growth to apply in the real world.
         </p>
@@ -108,9 +108,8 @@ const AboutPage = () => {
           backgroundColor: '#000000',maxWidth: '957px',textAlign: '', padding: 
           '50px'
         }}>
-        <p style={{ fontWeight: 'bold',
-        marginTop: 
-        'auto',marginBottom: 'auto',lineHeight: "50px", fontSize: '40px', color: 'white', fontFamily: 'Gotham Book'}}>
+        <p className='mid-section' style={{ fontWeight: 'bold',
+        marginTop:'auto',marginBottom: 'auto',lineHeight: "50px", fontSize: '40px', color: 'white', fontFamily: 'Gotham Book'}}>
 
           When I transitioned into public school, I quickly realized how different traditional education was from what I had been learning.<br /><br />
           My early years in the public school system were challenging. Struggling to focus and facing bullying from peers, I often felt out of place.<br /><br />
@@ -130,12 +129,12 @@ const AboutPage = () => {
         {/* <p style={{padding: '50px',paddingRight: '75px', fontFamily: 'Gotham Book', fontSize: '24px', lineHeight: '1.25em', paddingLeft: '75px'}}>
         
         </p> */}
-          <div style={{padding: '50px',paddingBottom: '250px',color: '#232323',backgroundPosition: 'center',backgroundImage: "url('/hawaii_cover.jpg')",minHeight: '1079px', width: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', marginTop: '0'}}>
-            <h1 style={{fontSize: '80px', fontFamily: 'Gotham Book Bold', fontWeight: '800', padding: '20px'}}>While at the University of Hawaii...</h1>
+          <div className='hawaii-bg' style={{padding: '50px',paddingBottom: '250px',color: '#232323',backgroundPosition: 'center',backgroundImage: "url('/hawaii_cover.jpg')",minHeight: '1079px', width: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', marginTop: '0'}}>
+            <h1  style={{fontSize: '80px', fontFamily: 'Gotham Book Bold', fontWeight: '800', padding: '20px'}}>While at the University of Hawaii...</h1>
 
-            <Card style={{border: 'none',backgroundColor: '#23232399',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginLeft: '25px',marginTop: '10vh',maxWidth: '1250px'}}>
+            <Card className='da-about' style={{border: 'none',backgroundColor: '#23232399',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginLeft: '25px',marginTop: '10vh',maxWidth: '1250px'}}>
               <CardContent>
-                <p style={{fontWeight: 'bold',lineHeight: "2em", fontSize: '40px', color: 'white', fontFamily: 'Gotham Book', }}>
+                <p className='da-about-text' style={{fontWeight: 'bold',lineHeight: "2em", fontSize: '40px', color: 'white', fontFamily: 'Gotham Book', }}>
                 As a business major and a D1 athlete, I was constantly stressed about the amount of student loans I had taken out to get my degree. Despite this, I was admitted to the business school early. While balancing athletics and school, I took on a job working as a call center employee for the University as a way to bring in some money for those
                 loans. Although I hated the job, within 3 months I raised more for the University than any other employee in the call center ever had. Thinking this would heavily increase in my pay, I was shocked when 6 months later was given an 80 cents raise... I quickly realized that working for someone else would not bring me the fulfillment I was searching for.</p>
               </CardContent>
@@ -147,7 +146,7 @@ const AboutPage = () => {
           </div>
 
         </div>
-        <div style={{padding: '100px', marginBottom: '200px',minHeight: '800px', marginTop: '200px', display: 'flex'}}>
+        <div className='affiliate-section' style={{padding: '100px', marginBottom: '200px',minHeight: '800px', marginTop: '200px', display: 'flex'}}>
           <p style={{fontSize: '40px', marginTop: '10px', lineHeight: '1.7em', maxWidth: '1620px'}}>
           <h1 style={styles.heroTitle}>At age 20...</h1>
           I joined an affiliate marketing company to pursue part time over the summer. After my poor experience working at the call center, I hoped I could apply my sales skills in order to make enough cash, to avoid a similar summer job.
@@ -155,7 +154,7 @@ const AboutPage = () => {
           </p>
           <OffsetImageGallery maxWidth='500px' marginTop={'-70px'} imageUrls={['/speaking3.jpg','/speaking2.jpg','/speaking1.jpg'] }></OffsetImageGallery>
         </div>
-        <div style={{backgroundImage: "url('/stage.jpg')", backgroundRepeat: 'no-repeat', backgroundPosition: '20% 40%', backgroundSize: 'cover', padding:'50px', }}>
+        <div className='income-section' style={{backgroundImage: "url('/stage.jpg')", backgroundRepeat: 'no-repeat', backgroundPosition: '20% 40%', backgroundSize: 'cover', padding:'50px', }}>
           <h1 style={{fontSize: '80px', color: 'white', fontFamily: 'Gotham Book Bold',marginTop: '100px'}}>In just 10 months...</h1>
           <Card style={{border: 'none',backgroundColor: '#00000095',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginTop: '20px',maxWidth: '1250px',marginTop: '100px'}}>
               <CardContent>
@@ -170,7 +169,7 @@ const AboutPage = () => {
                 </p>
               </CardContent>
             </Card> */}
-          <Card style={{border: 'none',backgroundColor: '#00000095',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginTop: '20px',maxWidth: '1250px',marginBottom: '200px'}}>
+          <Card className='income-subsection' style={{border: 'none',backgroundColor: '#00000095',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginTop: '20px',maxWidth: '1250px',marginBottom: '200px'}}>
               <CardContent>
                 <p style={{fontWeight: '800',lineHeight: "50px", fontSize: '45px', color: 'white', fontFamily: 'Gotham Book', }}>
                 <i >This unbelievable accomplishment allowed me to for 4 years …</i>
@@ -192,7 +191,7 @@ const AboutPage = () => {
               </CardContent>
             </Card>
         </div>
-        <div style={{padding: '50px', marginTop: '200px',display: 'flex', gap: '100px', justifyContent: 'space-between'}}>
+        <div className='timeline-section' style={{padding: '50px', marginTop: '200px',display: 'flex', gap: '100px', justifyContent: 'space-between'}}>
           
           <p style={{fontSize: '43px', lineHeight: '1.5em',maxWidth: '1820px', minHeight: '750px', paddingTop: '100px'}}>
           <h1 style={{fontSize: '80px',lineHeight: '1.5em',marginBottom: '10px', marginBottom: '10px',}}>Over the next 10 years…</h1>
@@ -206,7 +205,7 @@ const AboutPage = () => {
         <p style={{fontSize: '34px', lineHeight: '1.75em',marginTop: '20px', maxWidth: '1920px'}}>As a husband and father, I have been fortunate to not only travel the world but take my family along with me. Giving them memories and moments that they can cherish for a lifetime.</p>
         </div>
         <CountrySlider ></CountrySlider>
-        <div style={{padding: '25px', marginTop: '200px',marginBottom: '300px', display: 'flex', gap: '50px', justifyContent: 'space-between'}}>
+        <div className='purpose-section' style={{padding: '25px', marginTop: '200px',marginBottom: '300px', display: 'flex', gap: '50px', justifyContent: 'space-between'}}>
           
           <p style={{textAlign: 'left', paddingLeft: '50px', lineHeight: '1.75em'
           , fontSize: '34px', marginTop: '90px',maxWidth: '1700px',}}>
