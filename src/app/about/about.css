@@ -43,6 +43,13 @@ div *, div * * {
   }
 } 
 @media (max-width: 768px) { 
+  .accomplishment-title i{
+    font-size: 32px !important;
+  }
+  .accomplishment-list {
+    line-height: 48px !important;
+    /* margin-bottom: 40px; */
+  }
   .cover-title {
     max-width: 100% !important;
     word-wrap: break-word;

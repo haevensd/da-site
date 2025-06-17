@@ -503,7 +503,7 @@ const FreeCourseForm = () => {
       </div>
       <div style={{marginTop: '120px', textAlign: 'center'}}>
               <h1 style={{fontSize: '52px', margin: '0 auto', textAlign: 'center'}}>Here’s what people have to say</h1>
-              <div  className="course-footer" style={{ display: 'flex', gap: '30px', minHeight: '', marginTop: '50px', justifyContent: 'center' }}>
+              <div  className="course-footer" style={{ alignItems:'center',display: 'flex', gap: '30px', minHeight: '', marginTop: '50px', justifyContent: 'center' }}>
             <div className="square-alt flex vert" style={{minHeight: '500px',minWidth: '350px', maxWidth: '220px'}}>
               <img src="testimonial.jpg" width="220" style={{ marginBottom: '28px',borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px' }} />
               <p style={{fontFamily: 'Gotham Book'}}>
@@ -550,7 +550,7 @@ const FreeCourseForm = () => {
             </div>
           
           </div>
-              <div className="course-footer" style={{ display: 'flex', gap: '30px', minHeight: '', marginTop: '50px', justifyContent: 'center' }}>
+              <div className="course-footer" style={{ alignItems:'center',display: 'flex', gap: '30px', minHeight: '', marginTop: '50px', justifyContent: 'center' }}>
           
               <div className="square-alt flex vert" style={{minHeight: '500px',minWidth: '350px', maxWidth: '220px'}}>
               <img src="case_studies1.jpg" width="220" style={{ marginBottom: '30px',borderRadius: '50%', marginLeft: 'auto', marginRight: 'auto', marginTop: '20px' }} />

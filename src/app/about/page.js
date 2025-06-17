@@ -173,10 +173,10 @@ const AboutPage = () => {
             </Card> */}
           <Card className='income-subsection' style={{border: 'none',backgroundColor: '#00000095',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginTop: '20px',maxWidth: '1250px',marginBottom: '200px'}}>
               <CardContent>
-                <p style={{fontWeight: '800',lineHeight: "50px", fontSize: '45px', color: 'white', fontFamily: 'Gotham Book', }}>
+                <p className="accomplishment-title" style={{fontWeight: '800',lineHeight: "50px", fontSize: '45px', color: 'white', fontFamily: 'Gotham Book', }}>
                 <i >This unbelievable accomplishment allowed me to for 4 years …</i>
                 </p>
-                <ul style={{paddingLeft: '40px',listStyle: 'disc',fontWeight: 'bold', lineHeight: "65px", fontSize: '27px', color: 'white', fontFamily: 'Gotham Book', paddingTop: '30px' }}>
+                <ul className="accomplishment-list" style={{paddingLeft: '40px',listStyle: 'disc',fontWeight: 'bold', lineHeight: "65px", fontSize: '27px', color: 'white', fontFamily: 'Gotham Book', paddingTop: '30px' }}>
                     <li>Travel and build business relationships all around the world</li>
                     <li>Consistently speak and train audiences of up to 10,000 people</li>
                     <li>Influence others to build profitable businesses and transition into entrepreneurship</li>
@@ -206,7 +206,7 @@ const AboutPage = () => {
         <h1 style={{fontSize: '69px',lineHeight: '1.3em'}} className='bold'>Now I live out my passion each day…</h1>
         <p style={{fontSize: '34px', lineHeight: '1.75em',marginTop: '20px', maxWidth: '1920px'}}>As a husband and father, I have been fortunate to not only travel the world but take my family along with me. Giving them memories and moments that they can cherish for a lifetime.</p>
         </div>
-        <CountrySlider ></CountrySlider>
+        <CountrySlider></CountrySlider>
         <div className='purpose-section' style={{padding: '25px', marginTop: '200px',marginBottom: '300px', display: 'flex', gap: '50px', justifyContent: 'space-between'}}>
           
           <p style={{textAlign: 'left', paddingLeft: '50px', lineHeight: '1.75em'

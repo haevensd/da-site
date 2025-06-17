@@ -1,5 +1,5 @@
 .vault-container.course {
-    min-height: 29200px  !important;
+    min-height: 15000px  !important;
 }
 .bg-style {
     background-color: #e5e5f7;
@@ -151,6 +151,11 @@ strong.highlight {
 
 .show-on-mobile {
     display: none;
+}
+@media (max-width: 768px) {
+    .vault-container.course {
+        min-height: 27000px;
+    }
 }
 @media (max-width: 1068px) {
     .course-header {

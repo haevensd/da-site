@@ -37,7 +37,7 @@ const AboutPage = () => {
       }, []);
   return (
     <div style={styles.container} className='Speaking'>
-        <div style={{
+        <div className='bg-image-speaking' style={{
             backgroundImage:
             'url("/backflip.jpg")',
             height: '750px',

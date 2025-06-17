@@ -70,7 +70,10 @@ div *, div * * {
 }
   
 @media (max-width: 768px) {
-
+.bg-image-speaking {
+  background-size: cover !important;
+  background-position-y: center !important;
+}
 
   .about-section {
     margin: 0 !important;
@@ -84,7 +87,9 @@ div *, div * * {
   .Speaking .title, .Speaking .subtitle {
     transition: none;
   }
-
+  .Speaking .vault-form{
+    width: 100% !important;
+  }
   .vault-content {
     min-width: 100% !important;
   }
@@ -93,7 +98,7 @@ div *, div * * {
 @media (max-width: 1067px) {
   .cover-title, .title--speaking {
     font-size: 34px !important;
-    text-align: center !important;
+    /* text-align: center !important; */
   }
 
   .cover-header {
