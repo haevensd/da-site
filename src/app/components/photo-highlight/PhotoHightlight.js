@@ -1,6 +1,6 @@
 import React from 'react';
 
-const OffsetImageGallery = ({ imageUrls = [], maxWidth ='1800px', marginTop }) => {
+const OffsetImageGallery = ({ className, imageUrls = [], maxWidth ='1800px', marginTop }) => {
   const containerStyle = {
     position: 'relative',
     width: '100%',
@@ -24,7 +24,7 @@ const OffsetImageGallery = ({ imageUrls = [], maxWidth ='1800px', marginTop }) =
   });
 
   return (
-    <div style={containerStyle}>
+    <div style={containerStyle} className={className}>
       {imageUrls.map((url, index) => (
         <img
           key={index}

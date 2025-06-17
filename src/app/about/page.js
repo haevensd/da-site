@@ -91,20 +91,22 @@ const AboutPage = () => {
 
         <div style={{backgroundColor: '',paddingLeft: '20px',paddingRight: '20px', maxWidth: '1975px', }}>
 
-        <h1 style={{fontSize: '80px', fontWeight: 'bold', color: 'black',marginBottom: '50px'}}>As a kid...</h1>
         </div>
+        <h1 className="cover-t show-on-desktop" style={{fontSize: '80px', fontWeight: 'bold', color: 'black',marginBottom: '50px'}}>As a kid...</h1>
         <div className="cover-title-container" style={{display:'flex', flexDirection:'row', padding: '20px', paddingRight: '100px', gap: '50px'}}>
 
+        <OffsetImageGallery className="show-on-mobile" marginTop='-200px' imageUrls={['/about_dad.jpg','/about_kid.jpg',] }></OffsetImageGallery>
+        <h1 className="cover-t show-on-mobile" style={{fontSize: '80px', fontWeight: 'bold', color: 'black',marginBottom: '50px'}}>As a kid...</h1>
         <p className="cover-title" style={{ maxWidth: '2075px',fontWeight: 'bold',lineHeight: "3.5vw", fontSize: '50px', color: 'black', fontFamily: 'Gotham Book'}}>
         I spent the first 10 years of my life being homeschooled by my father
         focusing on business principles and personal growth to apply in the real world.
         </p>
-        <OffsetImageGallery  marginTop='-200px' imageUrls={['/about_dad.jpg','/about_kid.jpg',] }></OffsetImageGallery>
+        <OffsetImageGallery className="show-on-desktop" marginTop='-200px' imageUrls={['/about_dad.jpg','/about_kid.jpg',] }></OffsetImageGallery>
         </div>
       </div>
         <div style={{display: 'flex'}}>
 
-        <div style={{display:'flex',  height: '100%', flexDirection:'column', height: 'auto', gap: '50px',
+        <div className="years-section" style={{display:'flex',  height: '100%', flexDirection:'column', height: 'auto', gap: '50px',
           backgroundColor: '#000000',maxWidth: '957px',textAlign: '', padding: 
           '50px'
         }}>
@@ -196,7 +198,7 @@ const AboutPage = () => {
           <p style={{fontSize: '43px', lineHeight: '1.5em',maxWidth: '1820px', minHeight: '750px', paddingTop: '100px'}}>
           <h1 style={{fontSize: '80px',lineHeight: '1.5em',marginBottom: '10px', marginBottom: '10px',}}>Over the next 10 years…</h1>
             I scaled multiple teams in the direct selling space to 12,000 plus distributors globally with a combined $100+ million in revenue. This allowed me to retire in my 20’s and build my own companies outside of the direct selling industry.</p>
-            <img src="/da-10.jpg" style={{maxHeight: '1001px'}}/>
+            <img src="/da-10.jpg" className="da-10" style={{maxHeight: '1001px'}}/>
           {/* <OffsetImag eGallery maxWidth='900px' marginTop={'-50px'} imageUrls={['/guy
           .jpg',] }></OffsetImageGallery> */}
         </div>
