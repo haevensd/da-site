@@ -42,7 +42,7 @@ const AboutPage = () => {
             'url("/backflip.jpg")',
             height: '750px',
             backgroundPositionY: '45%',
-            // backgroundPositionX: '-35%',
+            // backgroundPositionX: '-3university-title5%',
             backgroundSize: 'cover',
             backgroundSize: '100% 260%',
             backgroundRepeat: 'no-repeat',
@@ -65,7 +65,7 @@ const AboutPage = () => {
                 <h1 className="title" style={{fontSize: '26px', color: 'black', fontFamily: 'Gotham Book Bold'}}>ABOUT</h1>
                 <h1 className="title" style={{fontSize: '26px', color: 'black',marginBottom: '10px'}}>DARIK ALEXANDER</h1>
                 <strong className="subtitle">.</strong><br></br>
-                <p className="subtitle" style={{marginTop: '0px', lineHeight: '35px'}}><strong style={{fontFamily: 'Gotham'}}>DARIK ALEXANDER</strong> is a highly profitable entrepreneur and trainer. As CEO of Ignite programs, he has worked with some of the top entrepreneurs in the world (including people like Gary Vaynerchuk, Darren Hardy, and Les Brown) and became a multiple six figure earner at the age of 20, generating millions of dollars in revenue using offline and online marketing strategies</p>
+                <p className="subtitle" style={{marginTop: '0px', lineHeight: '35px'}}><strong style={{fontFamily: 'Gotham'}}>DARIK ALEXANDER</strong> is a highly profitable entrepreneur and trainer. As CEO of Ignite programs, he has worked with some of the top entrepreneurs in the world (including people like Gary Vaynerchuk, Darren Hardy, and Les Brown) and became a multiple six figure earner at the age of 20, generating millions of dollars in revenue using offline and online marketing strategies.</p>
             </div>
         </div>
         <section className="arrow"></section>

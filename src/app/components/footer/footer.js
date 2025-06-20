@@ -12,13 +12,13 @@ const Footer = () => {
         <div className="footer-links">
           <div>
             <h3>Email me</h3>
-            <p>info@darikalexander.com</p>
+            <a href="mailto:info@darikalexander.com">info@darikalexander.com</a>
           </div>
           <div>
             <h3>Privacy</h3>
             <p>
               <a href="/privacy" className="footer-link">
-                Click Here
+                Privacy policy
               </a>
             </p>
           </div>

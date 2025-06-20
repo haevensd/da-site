@@ -108,6 +108,14 @@ div *, div * * {
   }
 }
 
+.speaking .vault-content h3, 
+.speaking .vault-content form label {
+  color:white !important;
+}
+.speaking .vault-content > .vault-form{
+  /* color:white !important; */
+  background-color: black !important;
+}
 @media (max-width: 1067px) {
   .cover-title, .title--speaking {
     font-size: 34px !important;

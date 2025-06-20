@@ -25,12 +25,14 @@ export async function PUT(req) {
     const mailOptions = {
       from: process.env.EMAIL_USER,
       to: email,
-      subject: "Work Request",
+      subject: "Ascension Course - Darik Alexander",
       html: `
-        <h1>${name},</h1>
-        <p>Has indicated they would like to work together.</p>
-        <p>You can reach them back at ${email}</p>
-      `,
+        <h1>Hello ${name},</h1>
+        <p>Welcome to the Ascension course, here are your login credentials.</p>
+        <p>You can access the course at <a href="https://darikalexander.com/access">darikalexander.com/access</a></p>
+        User name: <b>access@darikalexander.com</b>
+        Password: <b>FreeCourse1</b>
+        `,
     };
 console.log('dew')
     // Send email

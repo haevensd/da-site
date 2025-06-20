@@ -1,0 +1,14 @@
+.privacy-policy {
+    padding: 50px;
+    min-height: fit-content;
+    padding-bottom: 500px;
+}
+.privacy-policy .title{
+    font-size: 32px;
+}
+@media (max-width: 768px) {
+    .privacy-policy {
+
+        min-height: 2200px;
+    }
+}
