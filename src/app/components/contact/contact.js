@@ -213,7 +213,7 @@ const Contact = () => {
       </div>
 
       <div style={styles.contentOverlay} className='coverlay'>
-        <div style={styles.heroText}>
+        <div style={styles.heroText} className='hero-title'>
           <h1 style={styles.heroTitle}>
           JOIN A GLOBAL
           COMMUNITY OF <span className='acheivers-text' style={{ fontStyle: 'italic', fontSize: '54px', color: '#fff', backgroundColor: '#266BF8', padding: '20px'  }}>ACHEIVERS</span>

@@ -41,7 +41,7 @@ const AboutPage = () => {
             backgroundImage:
             'url("/backflip.jpg")',
             height: '750px',
-            backgroundPositionY: '55%',
+            backgroundPositionY: '45%',
             // backgroundPositionX: '-35%',
             backgroundSize: 'cover',
             backgroundSize: '100% 260%',

@@ -20,7 +20,7 @@ const styles = {
   heroTitle: {
     fontSize: '72px',
     fontWeight: 'bold',
-    marginBottom: '16px',
+    margin: '16px 0',
   },
   heroSubtitle: {
     fontSize: '30px',
@@ -149,16 +149,16 @@ const AboutPage = () => {
 
         </div>
         <div className='affiliate-section' style={{padding: '100px', marginBottom: '200px',minHeight: '800px', marginTop: '200px', display: 'flex'}}>
-          <p style={{fontSize: '40px', marginTop: '10px', lineHeight: '1.7em', maxWidth: '1620px'}}>
+          <p className="age-20-text" style={{fontSize: '40px', marginTop: '10px', lineHeight: '1.7em', maxWidth: '45%'}}>
           <h1 style={styles.heroTitle}>At age 20...</h1>
           I joined an affiliate marketing company to pursue part time over the summer. After my poor experience working at the call center, I hoped I could apply my sales skills in order to make enough cash, to avoid a similar summer job.
 
           </p>
-          <OffsetImageGallery maxWidth='500px' marginTop={'-70px'} imageUrls={['/speaking3.jpg','/speaking2.jpg','/speaking1.jpg'] }></OffsetImageGallery>
+          <OffsetImageGallery className='show-on-desktop' maxWidth='500px' marginTop={'-70px'} imageUrls={['/speaking3.jpg','/speaking2.jpg','/speaking1.jpg'] }></OffsetImageGallery>
         </div>
         <div className='income-section' style={{backgroundImage: "url('/stage.jpg')", backgroundRepeat: 'no-repeat', backgroundPosition: '20% 40%', backgroundSize: 'cover', padding:'50px', }}>
           <h1 style={{fontSize: '80px', color: 'white', fontFamily: 'Gotham Book Bold',marginTop: '100px'}}>In just 10 months...</h1>
-          <Card style={{border: 'none',backgroundColor: '#00000095',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginTop: '20px',maxWidth: '1250px',marginTop: '100px'}}>
+          <Card className='income-sec-text' style={{border: 'none',backgroundColor: '#00000095',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginTop: '20px',maxWidth: '1250px',marginTop: '100px'}}>
               <CardContent>
                 <p style={{fontWeight: 'bold',lineHeight: "55px", fontSize: '35px', color: 'white', fontFamily: 'Gotham Book', }}>
                 I reached the top 30 income earners in the company out of half a million people. I did this by leading a team of over 10,000 distributors worldwide generating over $30,000,000 in sales revenue.</p>
@@ -196,7 +196,7 @@ const AboutPage = () => {
         <div className='timeline-section' style={{padding: '50px', marginTop: '200px',display: 'flex', gap: '100px', justifyContent: 'space-between'}}>
           
           <p style={{fontSize: '43px', lineHeight: '1.5em',maxWidth: '1820px', minHeight: '750px', paddingTop: '100px'}}>
-          <h1 style={{fontSize: '80px',lineHeight: '1.5em',marginBottom: '10px', marginBottom: '10px',}}>Over the next 10 years…</h1>
+          <h1 className='scale-text' style={{fontSize: '80px',lineHeight: '1.5em',marginBottom: '10px', marginBottom: '10px',}}>Over the next 10 years…</h1>
             I scaled multiple teams in the direct selling space to 12,000 plus distributors globally with a combined $100+ million in revenue. This allowed me to retire in my 20’s and build my own companies outside of the direct selling industry.</p>
             <img src="/da-10.jpg" className="da-10" style={{maxHeight: '1001px'}}/>
           {/* <OffsetImag eGallery maxWidth='900px' marginTop={'-50px'} imageUrls={['/guy

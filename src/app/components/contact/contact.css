@@ -6,7 +6,7 @@
         padding-bottom: 100px;
     }
     .acheivers-text {
-      font-size: 37px;
+      font-size: 48px !important;
       padding: 0 !important;
     }
     .bg-image {
@@ -14,6 +14,10 @@
     }
   }
   @media (max-width: 767px) {
+    .hero-title, .hero-title > h1 {
+      flex-direction: column;
+      display: flex !important;
+    }
   .bg-image {
     max-height: 500px;
   }
@@ -65,14 +69,14 @@
   .terms-and-conditions {
     align-items: flex-start;
     display: flex;
-    line-height: 1.25rem;
+    line-height: 21px !important  ;
     word-break: break-word;
     margin-top: 5px;
   }
   
   .terms-and-conditions p {
     margin: 0!important;
-    font-size: 15px;  
+    font-size: 24px !important;  
     font-family: Gotham Book;
   }
   

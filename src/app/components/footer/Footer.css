@@ -94,6 +94,10 @@
   
   /* Responsive Styling */
   @media (max-width: 768px) {
+    .footer {
+      padding: 0;
+      padding-top: 30px !important;
+    }
     .footer-top {
       flex-direction: column; /* Stacks top section */
       text-align: center;

@@ -73,6 +73,7 @@ div *, div * * {
 .bg-image-speaking {
   background-size: cover !important;
   background-position-y: center !important;
+  background-position-x: 45%;
 }
 
   .about-section {
