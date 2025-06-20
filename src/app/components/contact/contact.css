@@ -5,6 +5,12 @@
         gap: 100px !important;
         padding-bottom: 100px;
     }
+    .support-text {
+      line-height: 41px !important  ;
+    }
+    .programs-text {
+      line-height: 41px !important;
+    }
     .acheivers-text {
       font-size: 48px !important;
       padding: 0 !important;
@@ -17,6 +23,10 @@
     .hero-title, .hero-title > h1 {
       flex-direction: column;
       display: flex !important;
+      align-items: center;
+      text-align: center !important;
+      /* gap: 30px; */
+      line-height: 55px !important;
     }
   .bg-image {
     max-height: 500px;

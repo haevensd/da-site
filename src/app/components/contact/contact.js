@@ -224,7 +224,7 @@ const Contact = () => {
           {/* Podcast Section */}
           <div style={styles.column}>
             <h2 style={styles.sectionTitle}>PROGRAMS</h2>
-            <p style={styles.sectionText}>
+            <p style={styles.sectionText} className='programs-text'>
               TAKE MY FREE
               PROGRAMS
             </p>
@@ -246,7 +246,7 @@ const Contact = () => {
           </div>
           <div style={styles.column}>
             <h1 style={{color: 'white', fontFamily: 'Gotham Book Bold', fontSize: '32px'}}>WANT TO WORK TOGETHER?</h1>
-            <p style={{color: 'white', fontWeight: 800, fontFamily: 'Gotham Book', fontSize: '18px'}}>Drop your info below to get connected and see
+            <p className='support-text' style={{color: 'white', fontWeight: 800, fontFamily: 'Gotham Book', fontSize: '18px'}}>Drop your info below to get connected and see
             how we can help support you!</p>
           <div style={{display: 'flex', flexDirection: 'column', textAlign: 'left', gap: '1rem', width: '100%',marginTop: '20px', marginBottom: ''}}>
           <form style={{display: 'flex', flexDirection: 'column', gap: '1rem'}} onSubmit={handleSubmit} className="login-form">
