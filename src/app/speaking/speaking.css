@@ -70,6 +70,18 @@ div *, div * * {
 }
   
 @media (max-width: 768px) {
+  .subtitle{
+  transform: translateX(0%);
+  /* opacity: 0.2; */
+  /* transition: all none !important; */
+  /* transition: opacity 1.75s ease-in; */
+
+}
+.title {
+  transform: translateX(0%);
+  /* transition: all 1.95s ease-in;
+  transition: opacity 1.95s ease-in; */
+}
 .bg-image-speaking {
   background-size: cover !important;
   background-position-y: center !important;

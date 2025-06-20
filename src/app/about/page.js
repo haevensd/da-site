@@ -132,7 +132,7 @@ const AboutPage = () => {
         
         </p> */}
           <div className='hawaii-bg' style={{padding: '50px',paddingBottom: '250px',color: '#232323',backgroundPosition: 'center',backgroundImage: "url('/hawaii_cover.jpg')",minHeight: '1079px', width: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', marginTop: '0'}}>
-            <h1  style={{fontSize: '80px', fontFamily: 'Gotham Book Bold', fontWeight: '800', padding: '20px'}}>While at the University of Hawaii...</h1>
+            <h1 className='university-title' style={{fontSize: '80px', fontFamily: 'Gotham Book Bold', fontWeight: '800', padding: '20px'}}>While at the University of Hawaii...</h1>
 
             <Card className='da-about' style={{border: 'none',backgroundColor: '#23232399',boxShadow: '0 2px 5px #0000001a', padding: '50px',marginLeft: '25px',marginTop: '10vh',maxWidth: '1250px'}}>
               <CardContent>

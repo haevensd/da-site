@@ -41,10 +41,14 @@ div *, div * * {
     display: none;
   }
   .show-on-mobile {
-    display: initial;
+    display: initial !important;
   }
   .show-on-desktop {
-    display: none;
+    display: none !important;
+  }
+  .university-title {
+    font-size: 40px !important; 
+    margin-bottom: -70px;
   }
 } 
 @media (max-width: 768px) { 
@@ -67,7 +71,8 @@ div *, div * * {
   }
   .cover-t {
     margin-top: 300px !important;
-    font-size: 50px !important;
+    font-size: 40px !important;
+     margin-bottom:  0 !important;
   }
   .show-on-mobile {
     display: initial;
@@ -104,6 +109,7 @@ div *, div * * {
   }
   .income-sec-text {
     margin-top: 10px !important;
+    margin-bottom: -20px;
   }
   .scale-text {
     font-size: 40px !important;
@@ -131,6 +137,7 @@ div *, div * * {
   .purpose-section > p {
   padding-left: 0 !important;
   margin-top: 20px !important;
+  line-height: 65px !important;
   }
   .purpose-section {
     /* font-size: 40px !important; */
