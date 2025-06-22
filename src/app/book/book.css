@@ -257,10 +257,14 @@ padding: 50px;
 }
   /* Make hero section stack on mobile */
 @media (max-width: 768px) {
+
   .hero-container > div {
     display: flex !important;
     flex-direction: column !important;
     /* padding: 2rem 1rem !important; */
+  }
+  .vault-container .page-header {
+    margin-top: 20px !important;
   }
   /* Make the Vimeo iframe fluid */
   .hero-container iframe {

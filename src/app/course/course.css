@@ -9,7 +9,7 @@
     background-size: 20px 20px;
     background-position: 0 0,10px 10px;
     padding: 50px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .bg-style > .flex {
     max-width: 1170px !important;
@@ -180,7 +180,7 @@ strong.highlight {
     .page-header {
         text-align: center   !important;
         font-size: 1.75rem !important;
-        margin-top: 50px !important;
+        margin-top: 20px !important;
     }
     .show-on-mobile {
         display: initial;
