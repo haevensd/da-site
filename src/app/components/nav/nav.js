@@ -94,14 +94,14 @@ const setIsSidebarOpen = (val) => {
           {/* </Link> */}
           {showCompanies ?
           <>
-          <Link style={{cursor: 'pointer', fontSize: '16px', }} href="https://merchants.fixmyfees.com/"><li>Fix My Fees</li></Link>
-          <Link style={{cursor: 'pointer', fontSize: '16px', }} href="https://arcadiatechnologies.co"><li>Arcadia Technologies</li></Link>
+          <Link onClick={() => setIsSidebarOpen(false)} style={{cursor: 'pointer', fontSize: '16px', }} href="https://merchants.fixmyfees.com/"><li>Fix My Fees</li></Link>
+          <Link onClick={() => setIsSidebarOpen(false)} style={{cursor: 'pointer', fontSize: '16px', }} href="https://arcadiatechnologies.co"><li>Arcadia Technologies</li></Link>
           </>
           : null}
 
           
-          <Link style={{cursor: 'pointer'}} href="/blog"><li>Blog</li></Link>
-          <Link style={{cursor: 'pointer'}} href="/contact"><li>Contact</li></Link>
+          <Link onClick={() => setIsSidebarOpen(false)} style={{cursor: 'pointer'}} href="/blog"><li>Blog</li></Link>
+          <Link onClick={() => setIsSidebarOpen(false)} style={{cursor: 'pointer'}} href="/contact"><li>Contact</li></Link>
         </ul>
       </div>
 
