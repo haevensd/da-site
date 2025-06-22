@@ -19,8 +19,21 @@ a {
     color: #707070;
     
 }
-
-
 .blog-card {
-    max-width: 350px !important;
+    max-width: 550px !important;
+}
+.inner-card {
+    min-width: 100%;
+}
+@media (max-width: 1068px) {
+    .blog-card {
+        max-width: 350px !important
+    }
+    .blog-card > div  {
+        
+        padding-top: 0 !important;
+    }
+    .blog-card > div > div  {
+        padding-top: 0 !important;
+    }
 }
