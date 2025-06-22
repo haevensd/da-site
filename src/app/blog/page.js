@@ -61,7 +61,7 @@ const BlogPage = () => {
         <div style={{
             display: 'flex',
             flexDirection: 'column',
-            padding: '',
+            padding: '20px',
             paddingTop: '100px',
             paddingBottom: '750px',
             
