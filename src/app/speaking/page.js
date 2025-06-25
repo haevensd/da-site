@@ -73,9 +73,9 @@ const AboutPage = () => {
             <h1 className="title footer-title" style={{maxWidth: '860px',fontSize: '2.917vw', color: 'black', fontFamily: 'Gotham Book Bold', paddingTop: '75px'}}>SEND ME A SPEAKING INQUIRY</h1>
             <h3 className="subtitle" style={{maxWidth: '860px',fontSize: '20px',textAlign:'center', color: '',marginBottom: '50px', marginTop: '10px', }}>If you’ve got an aligned stage or speaking opportunity that you think I’m the right fit for, this is the place for you to make the request.</h3>
             <div style={{display: 'flex', width: '100%'}}>
-              <div style={{margin:'50px',border: 'solid 7px black',maxHeight: '700px',marginBottom: '-10px', backgroundImage: 'url("/speaking1_3.jpg")',backgroundSize: 'cover',backgroundPosition:'center',backgroundRepeat: 'no-repeat',flex:'1'}}></div>
+              <div style={{margin:'50px',border: 'solid 0px black',maxHeight: '700px',marginTop: '-7px', backgroundImage: 'url("/speaking1_3.jpg")',backgroundSize: 'cover',backgroundPosition:'center',backgroundRepeat: 'no-repeat',flex:'1'}}></div>
               <SpeakingForm showImage={false} style={{flex: '1' }}></SpeakingForm>
-              <div style={{margin:'50px',border: 'solid 7px black',maxHeight: '700px',marginBottom: '-10px', backgroundImage: 'url("/speaking1_2.jpg")',backgroundSize: 'cover',backgroundPosition:'center',backgroundRepeat: 'no-repeat', flex: '1'}}></div>
+              <div style={{margin:'50px',border: 'solid 0px black',maxHeight: '700px',marginTop: '-7px', backgroundImage: 'url("/speaking1_2.jpg")',backgroundSize: 'cover',backgroundPosition:'center',backgroundRepeat: 'no-repeat', flex: '1'}}></div>
             </div>
         </div>
     </div>
