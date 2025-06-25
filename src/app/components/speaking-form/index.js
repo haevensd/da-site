@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./index.css";
 
-const SpeakingForm = ({showImage=true}) => {
+const SpeakingForm = ({showImage=true, style}) => {
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState({
     email: '',
@@ -237,7 +237,7 @@ const SpeakingForm = ({showImage=true}) => {
   };
 
   return (
-    <div className="vault-content">
+    <div className="vault-content" style={style}>
       {renderStep()}
       {showImage && (
         <div className="vault-image">
