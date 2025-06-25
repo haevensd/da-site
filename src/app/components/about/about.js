@@ -43,34 +43,20 @@ const DarikStory = () => {
         </div>
         <div className="story-content">
           <p className="story-intro">
-            It’s Oct. 11, 2001 and I'm stting in my tiny college dorm, staring at
-            the mountain of bills on my desk. $50,000 in debt, while working
-            concession stands for $9 an hour, and running on nothing but coffee
-            and sheer determination. Life felt like an endless loop of struggle.
-            But it was one moment that I made a decision—a decision to rewrite
-            my story.
+          As a kid, I spent the first 10 years of my life being homeschooled, focusing on business principles to apply in the real world. My early years in public school were spent being bullied and doubted by my teachers who said I would be a failure.
           </p>
           <blockquote className="story-quote">
-            “The 80-cent raise after six months of being the top call center
-            producer hit me, hard. I realized if I didn’t make a change now, I’d
-            be trapped in this forever.”
+          I have failed more times than I can count but I own those mistakes and hope it can help others.
+
           </blockquote>
           <p className="story-paragraph">
-            That moment was the turning point. I poured everything I had
-            into learning the ropes of entrepreneurship. Days blurred into
-            nights as I taught myself marketing strategies, crafted offers,
-            and built connections.
+          While at college as a D1 athlete, I joined an affiliate marketing company part-time over the summer. In 10 months I had become the 30th income earner out of half a million people and built a team of 12,000 people in 6 different continents. After dropping out of college, I spent the next decade building multiple businesses, growing and managing teams of tens of thousands of people, and grossing 100 million dollars in revenue across multiple industries, allowing me to retire in my late 20s. 
           </p>
           <p className="story-paragraph">
-            Fast forward, I am now the CEO of Ignite Programs, a multiple
-            six-figure earner by the age of 20, and a sought-after trainer who’s
-            worked with world-renowned entrepreneurs like Gary Vaynerchuk,
-            Darren Hardy, and Les Brown. 
+          I have failed more times than I can count but I own those mistakes and hope it can help others.
           </p>
           <p className="story-paragraph">
-            From broke to thriving, proving that the right mindset, hard
-            work, and a heart-driven mission can spark a transformation for
-            anyone willing to take the leap.
+          This channel shares my life and take on the world. Culture, politics, and business with the hopes that it helps empower you to do more of what you love.
           </p>
           <a href="/about"><button className="story-button">Discover My Story</button></a>
         </div>
