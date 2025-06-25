@@ -201,7 +201,7 @@ const AutoplayCarousel = () => {
         })}
       </div>
 
-      <div className="carousel-track" style={{animationPlayState: hover ? 'paused' : ''}}>
+      <div className="carousel-track"  onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} style={{animationPlayState: hover ? 'paused' : ''}}>
         {Object.keys(cardDetails2).map((detailKey, index) => {
           return (
             <CarouselItem

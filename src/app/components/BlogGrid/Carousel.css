@@ -1,0 +1,11 @@
+
+.hide-on-hover:hover, .hide-on-hover:hover img {
+    display: none;
+    pointer-events: all;
+}
+.show-on-hover {
+    display: none !important;
+}
+.show-on-hover:hover {
+    display: initial !important;
+}

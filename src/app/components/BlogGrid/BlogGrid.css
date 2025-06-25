@@ -36,14 +36,18 @@ box-sizing: border-box;
     
 
 }
-.carousel-card:hover .overlay {
-  background-color: black;
-  height: 100%;
-  width: 100%;
-}
+/* .carousel-card:hover  {
+ ;
+} */
 .carousel-card:hover #play-icon {
   transition: all 0.3s ease-in-out;
   opacity: 100;
+  background-color: #1f1a1a99;
+  min-width: 100%;
+  top: 0 !important;
+  padding: 10px !important;
+  padding-right: 20px !important;
+  min-height: 100%;
 }
 .carousel-card #play-icon {
   transition: all 0.3s ease-in-out;
@@ -68,7 +72,7 @@ box-sizing: border-box;
   top:0;
   width: 200%;
 
-  animation: slide 20s linear infinite;
+  animation: slide 50s linear infinite;
   &:hover {
       animation-play-state: paused;
   }
