@@ -117,7 +117,8 @@ const cardDetails2 = {
  
 }
 const AutoplayCarousel = () => {
-  const [hover, setHover] = useState(false);
+  const [hover1, setHover1] = useState(false);
+  const [hover2, setHover2] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const elementRef = useRef(null);
 
@@ -167,8 +168,8 @@ const AutoplayCarousel = () => {
       </div>
       </div>
     <div style={{height: '465px', display: 'flex'}}>
-    <div className="carousel-container" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}> 
-      <div className="carousel-track" style={{animationPlayState: hover ? 'paused' : ''}}>
+    <div className="carousel-container" onMouseEnter={() => setHover1(true)} onMouseLeave={() => setHover1(false)}> 
+      <div className="carousel-track" style={{animationPlayState: hover1 ? 'paused' : ''}}>
         {Object.keys(cardDetails).map((detailKey, index) => {
           return (
             <CarouselItem
@@ -201,7 +202,7 @@ const AutoplayCarousel = () => {
         })}
       </div>
 
-      <div className="carousel-track"  onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} style={{animationPlayState: hover ? 'paused' : ''}}>
+      <div className="carousel-track"  onMouseEnter={() => setHover2(true)} onMouseLeave={() => setHover2(false)} style={{animationPlayState: hover2 ? 'paused' : ''}}>
         {Object.keys(cardDetails2).map((detailKey, index) => {
           return (
             <CarouselItem

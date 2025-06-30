@@ -54,18 +54,18 @@ const AboutPage = () => {
                 SPEAKING
                 </span><br className='break' />
                 OPPORTUNITIES</h1>
-            <h3 className="subtitle cover-subtitle" style={{textAlign: 'center',fontSize: '50px',marginTop: '30px',color: 'white', fontFamily: 'Gotham Book Bold  '}}>INSPIRING A GENERATION OF <span className='acheivers-text' style={{ fontStyle: 'italic', fontSize: '', color: '#fff', backgroundColor: '#266BF8', padding: '10px'  }}>ACHIEVERS</span> ON YOUR STAGE NEXT</h3>
+            <h3 className="subtitle cover-subtitle" style={{textAlign: 'center',fontSize: '50px',marginTop: '30px',color: 'white', fontFamily: 'Gotham Book Bold  '}}>INSPIRING A GENERATION OF <span className='acheivers-text' style={{ fontStyle: 'italic', fontSize: '', color: '#fff', backgroundColor: '#266BF8', padding: '10px'  }}>ACHIEVERS</span> ON YOUR STAGE</h3>
           
             </span>
         </div>
         <section className="arrow"></section>
         <div className="speaking" style={{paddingLeft: '30px',paddingRight: '30px',minHeight: '1000px',display: 'flex', flexDirection: 'column',alignItems: 'center',backgroundImage: '', backgroundRepeat: 'no-repeat', backgroundPositionY: '38%',backgroundSize: 'cover',paddingBottom: '100px'}}>
             <h1 className="title footer-title" style={{maxWidth: '860px',fontSize: '2.917vw', color: 'black', fontFamily: 'Gotham Book Bold', paddingTop: '75px'}}>SEND ME A SPEAKING INQUIRY</h1>
-            <h3 className="subtitle" style={{maxWidth: '860px',fontSize: '20px',textAlign:'center', color: '',marginBottom: '50px', marginTop: '10px', }}>If you’ve got an aligned stage or speaking opportunity that you think I’m the right fit for, this is the place for you to make the request.</h3>
+            <h3 className="subtitle" style={{maxWidth: '860px',fontSize: '20px',textAlign:'center', color: '',marginBottom: '50px', marginTop: '10px', }}>With over a decade of speaking experience around the world, I'd love to use my stories and experiences as a way of giving back on your stage.</h3>
             <div style={{display: 'flex', width: '100%'}}>
-              <div style={{margin:'50px',border: 'solid 0px black',maxHeight: '700px',marginBottom: '-10px',  borderRadius: '15px',backgroundImage: 'url("/speaking1_3.jpg")',backgroundSize: 'cover',backgroundPosition:'center',backgroundRepeat: 'no-repeat',flex:'1'}}></div>
-              <SpeakingForm showImage={false} style={{flex: '1.25' }}></SpeakingForm>
               <div style={{margin:'50px',border: 'solid 0px black',maxHeight: '700px',marginBottom: '-10px',  borderRadius: '15px',backgroundImage: 'url("/speaking1_2.jpg")',backgroundSize: 'cover',backgroundPosition:'center',backgroundRepeat: 'no-repeat', flex: '1'}}></div>
+              <SpeakingForm showImage={false} style={{flex: '1.25' }}></SpeakingForm>
+              <div style={{margin:'50px',border: 'solid 0px black',maxHeight: '700px',marginBottom: '-10px',  borderRadius: '15px',backgroundImage: 'url("/selfie.png")',backgroundSize: 'cover',backgroundPosition:'-0% 50%',backgroundRepeat: 'no-repeat',flex:'1'}}></div>
             </div>
         </div>
     </div>

@@ -15,26 +15,26 @@ const BlogPage = () => {
         },
 
         {
-            imgUrl: '/qualified.jpg',
+            imgUrl: '/yt/yt_thumbail_1.jpg',
             title: 'Are You Qualified for Success?',
             text: 'How do you know if you really deserve the success you aspire to have? In this episode we break down a simple concept that will help you answer that question…',
             id: 2
         },
 
         {
-            imgUrl: '/dominate.jpg',
+            imgUrl: '/yt/dominate.jpg',
             title: 'How to Dominate Your Competition',
             text: 'In this episode we are breaking down how to dominate the compeition in your space so you can really step out…',
             id: 1
         },
         {
-            imgUrl: '/relax.jpg',
+            imgUrl: '/yt/relax_your_body_yt_thumbnail.jpg',
             title: 'Relax Your Body in 30 Seconds',
             text: 'In this episode I guide you through a simple meditation to immediately relax your whole body…',
             id: 5
         },
         {
-            imgUrl: '/connected.jpg',
+            imgUrl: '/yt/billion.jpg',
             title: 'How to Stay Connected',
             text: 'In this episode I explain the best way to stay connected with me so I can help serve you…',
             id: 6
@@ -46,13 +46,13 @@ const BlogPage = () => {
             id: 4
         },
         {
-            imgUrl: '/money.jpg',
+            imgUrl: '/yt/truth.jpg',
             title: 'The Truth About Money',
             text: 'In this episode we dive into the truth regarding how we perceive money…',
             id: 7
         },
         {
-            imgUrl: '/networking.jpg',
+            imgUrl: '/yt/yt_16.jpg',
             title: 'The First Thing You Should Do in Network Marketing',
             text: 'In this module we learn...',
             id: 8

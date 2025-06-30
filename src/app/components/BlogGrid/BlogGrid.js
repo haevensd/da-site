@@ -11,84 +11,84 @@ const cardDetails =
         id: 8,
         text: 'In this module we learn...',
         title: 'The First Thing You Should Do in Network Marketing',
-        imgUrl: '/networking.jpg',
+        imgUrl: '/yt/yt_16.jpg',
   },
     
     {
         id: 4,
         text: 'In this episode we go through a brainstorming session to help you identify the problems you would like to solve in the world…',
         title: '3 Steps to Cure Negative Thinking',
-        imgUrl: '/negative.jpg',
+        imgUrl: '/yt/ng.jpg',
   },
     {
         id: 6,
         text: 'In this episode I explain the best way to stay connected with me so I can help serve you…',
         title: 'How to Stay Connected',
-        imgUrl: '/connected.jpg',
+        imgUrl: '/yt/billion.jpg',
   },
     {
         id: 5,
         text: 'In this episode I guide you through a simple meditation to immediately relax your whole body…',
         title: 'Relax Your Body in 30 Seconds',
-        imgUrl: '/relax.jpg',
+        imgUrl: '/yt/relax_your_body_yt_thumbnail.jpg',
   },
     {
         id: 1,
         text: 'In this episode we are breaking down how to dominate the compeition in your space so you can really step out…',
         title: 'How to Dominate Your Competition',
-        imgUrl: '/dominate.jpg',
+        imgUrl: '/yt/dominate.jpg',
   },
 
     {
         id: 2,
         text: 'How do you know if you really deserve the success you aspire to have? In this episode we break down…',
         title: 'Are You Qualified for Success?',
-        imgUrl: '/qualified.jpg',
+        imgUrl: '/yt/yt_thumbail_1.jpg',
   },
 
     {
         id: 3,
         text: 'In this episode I break down my story regarding how I was able to change my self image to get what I wanted…',
         title: 'My Story',
-        imgUrl: '/story.jpg',
+        imgUrl: '/yt/my_story_yt_thumbnail.jpg',
   },
 ]
  
 const cardDetails2 =
   [
     {
-      imgUrl: '/negative.jpg',
+      imgUrl: '/yt/ng.jpg',
       title: '3 Steps to Cure Negative Thinking',
       text: 'In this episode we go through a brainstorming session to help you identify the problems you would like to solve in the world…',
       id: 4
   },
   {
-    imgUrl: '/relax.jpg',
+    imgUrl: '/yt/relax_your_body_yt_thumbnail.jpg',
     title: 'Relax Your Body in 30 Seconds',
     text: 'In this episode I guide you through a simple meditation to immediately relax your whole body…',
     id: 5
   },
   {
-    imgUrl: '/connected.jpg',
+    imgUrl: '/yt/billion.jpg',
           title: 'How to Stay Connected',
           text: 'In this episode I explain the best way to stay connected with me so I can help serve you…',
           id: 6
       },
   {
-        imgUrl: '/money.jpg',
+        imgUrl: '/yt/truth.jpg',
         title: 'The Truth About Money',
         text: 'In this episode we dive into the truth regarding how we perceive money…',
         id: 7
       },
       {
-          imgUrl: '/story.jpg',
+          imgUrl: '/yt/my_story_yt_thumbnail.jpg',
           title: 'My Story',
           text: 'In this episode I break down my story regarding how I was able to change my self image to get what I wanted…',
           id: 3
       },
       
     {
-        imgUrl: '/networking.jpg',
+        imgUrl: '/yt/yt_16.jpg',
         title: 'The First Thing You Should Do in Network Marketing',
         text: 'In this module we learn...',
         id: 8
@@ -127,7 +127,7 @@ const AutoplayCarousel = () => {
 
 
   return (
-    <div  style={{}}>
+    <div  style={{}} className='Blog'>
      
     <div style={{height: '465px', display: 'flex'}}>
     <div className="carousel-container" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}> 
