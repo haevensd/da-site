@@ -7,91 +7,86 @@ import { redirect } from 'next/navigation';
 
 const cardDetails = 
   [
-    {
-        id: 8,
-        text: 'In this module we learn...',
-        title: 'The First Thing You Should Do in Network Marketing',
-        imgUrl: '/yt/yt_16.jpg',
-  },
     
     {
         id: 4,
-        text: 'In this episode we go through a brainstorming session to help you identify the problems you would like to solve in the world…',
-        title: '3 Steps to Cure Negative Thinking',
-        imgUrl: '/yt/ng.jpg',
+        text: '',
+        title: 'Paris Reunion—How We Built Wealth and Stayed Connected for 10 Years',
+        imgUrl: '/blog/paris.jpeg',
   },
     {
-        id: 6,
-        text: 'In this episode I explain the best way to stay connected with me so I can help serve you…',
-        title: 'How to Stay Connected',
-        imgUrl: '/yt/billion.jpg',
+        id: 11,
+        text: '',
+        title: 'Inside Our Ultimate French Riviera Family Getaway',
+        imgUrl: '/blog/french.jpeg',
   },
+        {
+          imgUrl: '/blog/cinque.jpeg',
+          title: 'Discovering What Cinque Terre Italy Is REALLY Like',
+          text: '',
+            id: 12
+      },
+      
     {
-        id: 5,
-        text: 'In this episode I guide you through a simple meditation to immediately relax your whole body…',
-        title: 'Relax Your Body in 30 Seconds',
-        imgUrl: '/yt/relax_your_body_yt_thumbnail.jpg',
+        id: 10,
+        text: '',
+        title: 'Discovering The REAL Monaco With My LOVED ONES',
+        imgUrl: '/blog/monaco.jpeg',
   },
     {
         id: 1,
-        text: 'In this episode we are breaking down how to dominate the compeition in your space so you can really step out…',
-        title: 'How to Dominate Your Competition',
-        imgUrl: '/yt/dominate.jpg',
+        text: '',
+        title: 'Maasai Mara-A Trip of a Lifetime',
+        imgUrl: '/blog/masa.jpeg',
   },
 
     {
         id: 2,
-        text: 'How do you know if you really deserve the success you aspire to have? In this episode we break down…',
-        title: 'Are You Qualified for Success?',
-        imgUrl: '/yt/yt_thumbail_1.jpg',
+        text: '',
+        title: 'Sun, Sand, and Smiles: Our Family Reunion in Santa Cruz, California',
+        imgUrl: '/blog/vacation.jpeg',
   },
 
     {
         id: 3,
-        text: 'In this episode I break down my story regarding how I was able to change my self image to get what I wanted…',
-        title: 'My Story',
-        imgUrl: '/yt/my_story_yt_thumbnail.jpg',
+        text: '',
+        title: 'Taking my Family to HI',
+        imgUrl: '/blog/hawaii.jpeg',
   },
 ]
  
 const cardDetails2 =
   [
     {
-      imgUrl: '/yt/ng.jpg',
-      title: '3 Steps to Cure Negative Thinking',
-      text: 'In this episode we go through a brainstorming session to help you identify the problems you would like to solve in the world…',
-      id: 4
+      imgUrl: '/blog/antibes.jpeg',
+      title: 'Antibes with a Toddler: Is It Worth It? (French Riviera Travel)',
+      text: '',
+        id: 9
   },
   {
-    imgUrl: '/yt/relax_your_body_yt_thumbnail.jpg',
-    title: 'Relax Your Body in 30 Seconds',
-    text: 'In this episode I guide you through a simple meditation to immediately relax your whole body…',
-    id: 5
+    imgUrl: '/blog/tropez.jpeg',
+    title: 'I\'m Taking My Toddler on a LUXURY Getaway to Saint-Tropez!',
+    text: '',
+      id: 5
   },
   {
-    imgUrl: '/yt/billion.jpg',
-          title: 'How to Stay Connected',
-          text: 'In this episode I explain the best way to stay connected with me so I can help serve you…',
-          id: 6
+    imgUrl: '/blog/eze.jpeg',
+          title: 'Discovering Éze: The Hidden Gem of the French Riviera 🌍✨',
+          text: '',
+            id: 6
       },
   {
-        imgUrl: '/yt/truth.jpg',
-        title: 'The Truth About Money',
-        text: 'In this episode we dive into the truth regarding how we perceive money…',
-        id: 7
+        imgUrl: '/blog/sur.jpeg',
+        title: 'An Unexpected Pit Stop in Villefranche-sur-Mer',
+        text: '',
+          id: 7
       },
-      {
-          imgUrl: '/yt/my_story_yt_thumbnail.jpg',
-          title: 'My Story',
-          text: 'In this episode I break down my story regarding how I was able to change my self image to get what I wanted…',
-          id: 3
-      },
-      
+
     {
-        imgUrl: '/yt/yt_16.jpg',
-        title: 'The First Thing You Should Do in Network Marketing',
-        text: 'In this module we learn...',
-        id: 8
+        imgUrl: '/blog/saint.jpeg',
+        title: 'Luxury Family Escape to Saint-Jean-Cap-Ferrat 🇫🇷 (With a 1-Year-Old!)',
+        text: '',
+          id: 8
       },
       
 ];
