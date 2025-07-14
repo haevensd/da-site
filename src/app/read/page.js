@@ -176,14 +176,14 @@ Identifying what to commit to first is really important when launching your netw
         
         video: <iframe className="blog-video" width="743" height="418" src="https://www.youtube.com/embed/x7824u9RVh0" title="What to Do Your First Day in Network Marketing" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
-    1:    {
+    9:    {
       text: '',
       title: 'Maasai Mara-A Trip of a Lifetime',
       imgUrl: '/blog/masa.jpg',
       video: <iframe width="791" height="445" src="https://www.youtube.com/embed/lmo14Bgs040" title="Maasai Mara-A Trip of a Lifetime" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     },
-    2:    {
+    10:    {
         imgUrl: '/blog/vacation.jpg',
       text: '',
       title: 'Sun, Sand, and Smiles: Our Family Reunion in Santa Cruz, California',
@@ -191,14 +191,14 @@ Identifying what to commit to first is really important when launching your netw
 
     }
     ,
-    3:    {
+    11:    {
         imgUrl: '/blog/hawaii.jpg',
       text: '',
       title: 'Taking my Family to HI',
         video: <iframe width="791" height="445" src="https://www.youtube.com/embed/718W0i2Ul2w" title="Taking my Family to HI | 4K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     }
     ,
-    4:    {
+    12:    {
         imgUrl: '/blog/paris.jpg',
       text: '',
       title: 'Paris Reunion—How We Built Wealth and Stayed Connected for 10 Years',
@@ -206,7 +206,7 @@ Identifying what to commit to first is really important when launching your netw
 
     }
     ,
-    5:    {
+    13:    {
       imgUrl: '/blog/tropez.jpg',
       text: '',
       title: 'I\'m Taking My Toddler on a LUXURY Getaway to Saint-Tropez!',
@@ -215,14 +215,14 @@ Identifying what to commit to first is really important when launching your netw
 
     }
     ,
-    6:    {
+    14:    {
       imgUrl: '/blog/eze.jpg',
       text: '',
       title: 'Discovering Éze: The Hidden Gem of the French Riviera 🌍✨',
         video: <iframe width="791" height="433" src="https://www.youtube.com/embed/ZqR2Z7CAlCk" title="Discovering Éze: The Hidden Gem of the French Riviera 🌍✨" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     }
     ,
-    7:    {
+    15:    {
       imgUrl: '/blog/sur.jpg',
       text: '',
       title: 'An Unexpected Pit Stop in Villefranche-sur-Mer',
@@ -230,14 +230,14 @@ Identifying what to commit to first is really important when launching your netw
 
     }
     ,
-    8:    {
+    16:    {
       imgUrl: '/blog/saint.jpg',
       text: '',
       title: 'Luxury Family Escape to Saint-Jean-Cap-Ferrat 🇫🇷 (With a 1-Year-Old!)',
         video: <iframe width="791" height="445" src="https://www.youtube.com/embed/aIrUEK1QB8I" title="Luxury Family Escape to Saint-Jean-Cap-Ferrat 🇫🇷 (With a 1-Year-Old!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     }
     ,
-    9:    {
+    17:    {
       imgUrl: '/blog/antibes.jpg',
       text: '',
       title: 'Antibes with a Toddler: Is It Worth It? (French Riviera Travel)',
@@ -246,7 +246,7 @@ Identifying what to commit to first is really important when launching your netw
 
     }
     ,
-    10:
+    18:
     {
         imgUrl: '/blog/monaco.jpg',
       text: '',
@@ -255,7 +255,7 @@ Identifying what to commit to first is really important when launching your netw
 
     }
     ,
-    11:
+    19:
     {
         imgUrl: '/blog/french.jpg',
       text: '',
@@ -264,7 +264,7 @@ Identifying what to commit to first is really important when launching your netw
 
     }
     ,
-    12:
+    20:
     {
       imgUrl: '/blog/cinque.jpg',
       text: '',
@@ -272,7 +272,7 @@ Identifying what to commit to first is really important when launching your netw
         video: <iframe width="791" height="445" src="https://www.youtube.com/embed/XQfMMw7x05g" title="Discovering What Cinque Terre Italy Is REALLY Like" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     },
-    13:
+    21:
     {
       imgUrl: '/blog/como.jpg',
       text: '',
