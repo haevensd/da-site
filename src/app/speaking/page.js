@@ -63,9 +63,9 @@ const AboutPage = () => {
             <h1 className="title footer-title" style={{maxWidth: '860px',fontSize: '2.917vw', color: 'black', fontFamily: 'Gotham Book Bold', paddingTop: '75px'}}>SEND ME A SPEAKING INQUIRY</h1>
             <h3 className="subtitle" style={{maxWidth: '860px',fontSize: '20px',textAlign:'center', color: '',marginBottom: '50px', marginTop: '10px', }}>With over a decade of global speaking experience, I'd be honored to give back by sharing my stories and insighs on your stage.</h3>
             <div style={{display: 'flex', width: '100%'}}>
-              <div style={{margin:'50px',border: 'solid 0px black',maxHeight: '700px',marginBottom: '-10px',  borderRadius: '15px',backgroundImage: 'url("/speaking1_2.jpg")',backgroundSize: 'cover',backgroundPosition:'center',backgroundRepeat: 'no-repeat', flex: '1'}}></div>
+              <div className="form-image" style={{margin:'50px',border: 'solid 0px black',maxHeight: '700px',marginBottom: '-10px',  borderRadius: '15px',backgroundImage: 'url("/speaking1_2.jpg")',backgroundSize: 'cover',backgroundPosition:'center',backgroundRepeat: 'no-repeat', flex: '1'}}></div>
               <SpeakingForm showImage={false} style={{flex: '1.25' }}></SpeakingForm>
-              <div style={{margin:'50px',border: 'solid 0px black',maxHeight: '700px',marginBottom: '-10px',  borderRadius: '15px',backgroundImage: 'url("/selfie.png")',backgroundSize: 'cover',backgroundPosition:'-0% 50%',backgroundRepeat: 'no-repeat',flex:'1'}}></div>
+              <div className="form-image" style={{margin:'50px',border: 'solid 0px black',maxHeight: '700px',marginBottom: '-10px',  borderRadius: '15px',backgroundImage: 'url("/selfie.png")',backgroundSize: 'cover',backgroundPosition:'-0% 50%',backgroundRepeat: 'no-repeat',flex:'1'}}></div>
             </div>
         </div>
     </div>
