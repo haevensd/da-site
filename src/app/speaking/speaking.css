@@ -70,9 +70,7 @@ div *, div * * {
 }
   
 @media (max-width: 768px) {
-    .form-image {
-        display: none;
-    }
+
     
   .subtitle{
   transform: translateX(0%);
@@ -121,6 +119,9 @@ div *, div * * {
   background-color: black !important;
 }
 @media (max-width: 1067px) {
+        .form-image {
+        display: none;
+    }
   .cover-title, .title--speaking {
     font-size: 34px !important;
     /* text-align: center !important; */
