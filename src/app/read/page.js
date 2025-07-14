@@ -176,60 +176,187 @@ Identifying what to commit to first is really important when launching your netw
         
         video: <iframe className="blog-video" width="743" height="418" src="https://www.youtube.com/embed/x7824u9RVh0" title="What to Do Your First Day in Network Marketing" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
+    1:    {
+      text: '',
+      title: 'Maasai Mara-A Trip of a Lifetime',
+      imgUrl: '/blog/masa.jpg',
+      video: <iframe width="791" height="445" src="https://www.youtube.com/embed/lmo14Bgs040" title="Maasai Mara-A Trip of a Lifetime" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    },
+    2:    {
+        imgUrl: '/blog/vacation.jpg',
+      text: '',
+      title: 'Sun, Sand, and Smiles: Our Family Reunion in Santa Cruz, California',
+        video: <iframe width="791" height="445" src="https://www.youtube.com/embed/6keREXPXgfc" title="Sun, Sand, and Smiles: Our Family Reunion in Santa Cruz, California" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    }
+    ,
+    3:    {
+        imgUrl: '/blog/hawaii.jpg',
+      text: '',
+      title: 'Taking my Family to HI',
+        video: <iframe width="791" height="445" src="https://www.youtube.com/embed/718W0i2Ul2w" title="Taking my Family to HI | 4K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    }
+    ,
+    4:    {
+        imgUrl: '/blog/paris.jpg',
+      text: '',
+      title: 'Paris Reunion—How We Built Wealth and Stayed Connected for 10 Years',
+        video: <iframe width="791" height="445" src="https://www.youtube.com/embed/aegd8PjmGjE" title="Paris Reunion—How We Built Wealth and Stayed Connected for 10 Years" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    }
+    ,
+    5:    {
+      imgUrl: '/blog/tropez.jpg',
+      text: '',
+      title: 'I\'m Taking My Toddler on a LUXURY Getaway to Saint-Tropez!',
+        video: <iframe width="791" height="445" src="https://www.youtube.com/embed/W9BfS7eh6W4" title="I&#39;m Taking My Toddler on a LUXURY Getaway to Saint-Tropez!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    }
+    ,
+    6:    {
+      imgUrl: '/blog/eze.jpg',
+      text: '',
+      title: 'Discovering Éze: The Hidden Gem of the French Riviera 🌍✨',
+        video: <iframe width="791" height="433" src="https://www.youtube.com/embed/ZqR2Z7CAlCk" title="Discovering Éze: The Hidden Gem of the French Riviera 🌍✨" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    }
+    ,
+    7:    {
+      imgUrl: '/blog/sur.jpg',
+      text: '',
+      title: 'An Unexpected Pit Stop in Villefranche-sur-Mer',
+        video: <iframe width="791" height="445" src="https://www.youtube.com/embed/dxtyBpIwxH4" title="An Unexpected Pit Stop in Villefranche-sur-Mer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    }
+    ,
+    8:    {
+      imgUrl: '/blog/saint.jpg',
+      text: '',
+      title: 'Luxury Family Escape to Saint-Jean-Cap-Ferrat 🇫🇷 (With a 1-Year-Old!)',
+        video: <iframe width="791" height="445" src="https://www.youtube.com/embed/aIrUEK1QB8I" title="Luxury Family Escape to Saint-Jean-Cap-Ferrat 🇫🇷 (With a 1-Year-Old!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    }
+    ,
+    9:    {
+      imgUrl: '/blog/antibes.jpg',
+      text: '',
+      title: 'Antibes with a Toddler: Is It Worth It? (French Riviera Travel)',
+        video: <iframe width="791" height="445" src="https://www.youtube.com/embed/gAK7CWJijJU" title="Antibes with a Toddler: Is It Worth It? (French Riviera Travel)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    }
+    ,
+    10:
+    {
+        imgUrl: '/blog/monaco.jpg',
+      text: '',
+      title: 'Discovering The REAL Monaco With My LOVED ONES',
+        video: <iframe width="791" height="445" src="https://www.youtube.com/embed/EJLE6Iumccc" title="Discovering The REAL Monaco With My LOVED ONES" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    }
+    ,
+    11:
+    {
+        imgUrl: '/blog/french.jpg',
+      text: '',
+      title: 'Inside Our Ultimate French Riviera Family Getaway',
+        video: <iframe width="791" height="445" src="https://www.youtube.com/embed/rgOBtT26Mo0" title="Inside Our Ultimate French Riviera Family Getaway" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    }
+    ,
+    12:
+    {
+      imgUrl: '/blog/cinque.jpg',
+      text: '',
+      title: 'Discovering What Cinque Terre Italy Is REALLY Like',
+        video: <iframe width="791" height="445" src="https://www.youtube.com/embed/XQfMMw7x05g" title="Discovering What Cinque Terre Italy Is REALLY Like" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    },
+    13:
+    {
+      imgUrl: '/blog/como.jpg',
+      text: '',
+      title: 'We Tried Every Ferry on Lake Como and This Happened!',
+        video: <iframe width="791" height="445" src="https://www.youtube.com/embed/XQfMMw7x05g" title="Discovering What Cinque Terre Italy Is REALLY Like" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    },
+
 
 }
 
 const suggestions = [
     {
-        imgUrl: '/yt/my_story_yt_thumbnail.jpg',
-        title: 'My Story',
-        text: 'In this episode I break down my story regarding how I was able to change my self image to get what I wanted…',
-        id: 3
-    },
-
-    {
-        imgUrl: '/yt/yt_thumbail_1.jpg',
-        title: 'Are You Qualified for Success?',
-        text: 'How do you know if you really deserve the success you aspire to have? In this episode we break down a simple concept that will help you answer that question…',
-        id: 2
-    },
-
-    {
-        imgUrl: '/yt/dominate.jpg',
-        title: 'How to Dominate Your Competition',
-        text: 'In this episode we are breaking down how to dominate the compeition in your space so you can really step out…',
-        id: 1
+      id: 1,
+      text: '',
+      title: 'Maasai Mara-A Trip of a Lifetime',
+      imgUrl: '/blog/masa.jpg'
     },
     {
-        imgUrl: '/yt/relax_your_body_yt_thumbnail.jpg',
-        title: 'Relax Your Body in 30 Seconds',
-        text: 'In this episode I guide you through a simple meditation to immediately relax your whole body…',
-        id: 5
+      id: 2,
+      text: '',
+      title: 'Sun, Sand, and Smiles: Our Family Reunion in Santa Cruz, California',
+      imgUrl: '/blog/vacation.jpg'
     },
     {
-        imgUrl: '/yt/billion.jpg',
-        title: 'How to Stay Connected',
-        text: 'In this episode I explain the best way to stay connected with me so I can help serve you…',
-        id: 6
+      id: 3,
+      text: '',
+      title: 'Taking my Family to HI',
+      imgUrl: '/blog/hawaii.jpg'
     },
     {
-        imgUrl: '/yt/ng.jpg',
-        title: '3 Steps to Cure Negative Thinking',
-        text: 'In this episode we go through a brainstorming session to help you identify the problems you would like to solve in the world…',
-        id: 4
+      id: 4,
+      text: '',
+      title: 'Paris Reunion—How We Built Wealth and Stayed Connected for 10 Years',
+      imgUrl: '/blog/paris.jpg'
     },
     {
-        imgUrl: '/yt/truth.jpg',
-        title: 'The Truth About Money',
-        text: 'In this episode we dive into the truth regarding how we perceive money…',
-        id: 7
+      imgUrl: '/blog/tropez.jpg',
+      title: 'I\'m Taking My Toddler on a LUXURY Getaway to Saint-Tropez!',
+      text: '',
+      id: 5
     },
     {
-        imgUrl: '/yt/yt_16.jpg',
-        title: 'The First Thing You Should Do in Network Marketing',
-        text: 'In this module we learn...',
-        id: 8
+      imgUrl: '/blog/eze.jpg',
+      title: 'Discovering Éze: The Hidden Gem of the French Riviera 🌍✨',
+      text: '',
+      id: 6
     },
+    {
+      imgUrl: '/blog/sur.jpg',
+      title: 'An Unexpected Pit Stop in Villefranche-sur-Mer',
+      text: '',
+      id: 7
+    },
+    {
+      imgUrl: '/blog/saint.jpg',
+      title: 'Luxury Family Escape to Saint-Jean-Cap-Ferrat 🇫🇷 (With a 1-Year-Old!)',
+      text: '',
+      id: 8
+    },
+    {
+      imgUrl: '/blog/antibes.jpg',
+      title: 'Antibes with a Toddler: Is It Worth It? (French Riviera Travel)',
+      text: '',
+      id: 9
+    },
+    {
+      id: 10,
+      text: '',
+      title: 'Discovering The REAL Monaco With My LOVED ONES',
+      imgUrl: '/blog/monaco.jpg'
+    },
+    {
+      id: 11,
+      text: '',
+      title: 'Inside Our Ultimate French Riviera Family Getaway',
+      imgUrl: '/blog/french.jpg'
+    },
+    {
+      imgUrl: '/blog/cinque.jpg',
+      title: 'Discovering What Cinque Terre Italy Is REALLY Like',
+      text: '',
+      id: 12
+    }
 ]
 function pickThreeRandom(list) {
     if (list.length < 3) {

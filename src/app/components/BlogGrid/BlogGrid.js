@@ -9,84 +9,104 @@ const cardDetails =
   [
     
     {
-        id: 4,
+      link: '',
+        id: 20,
         text: '',
         title: 'Paris Reunion—How We Built Wealth and Stayed Connected for 10 Years',
-        imgUrl: '/blog/paris.jpeg',
+        imgUrl: '/blog/paris.jpg',
   },
     {
+      link: '',
         id: 11,
         text: '',
         title: 'Inside Our Ultimate French Riviera Family Getaway',
-        imgUrl: '/blog/french.jpeg',
+        imgUrl: '/blog/french.jpg',
   },
         {
-          imgUrl: '/blog/cinque.jpeg',
+          link: '',
+          imgUrl: '/blog/cinque.jpg',
           title: 'Discovering What Cinque Terre Italy Is REALLY Like',
           text: '',
             id: 12
       },
       
     {
+      link: '',
         id: 10,
         text: '',
         title: 'Discovering The REAL Monaco With My LOVED ONES',
-        imgUrl: '/blog/monaco.jpeg',
+        imgUrl: '/blog/monaco.jpg',
   },
     {
-        id: 1,
+      link: '',
+        id: 9,
         text: '',
         title: 'Maasai Mara-A Trip of a Lifetime',
-        imgUrl: '/blog/masa.jpeg',
+        imgUrl: '/blog/masa.jpg',
   },
 
     {
-        id: 2,
+      link: '',
+        id: 18,
         text: '',
         title: 'Sun, Sand, and Smiles: Our Family Reunion in Santa Cruz, California',
-        imgUrl: '/blog/vacation.jpeg',
+        imgUrl: '/blog/vacation.jpg',
   },
 
     {
-        id: 3,
+      link: '',
+        id:19,
         text: '',
         title: 'Taking my Family to HI',
-        imgUrl: '/blog/hawaii.jpeg',
+        imgUrl: '/blog/hawaii.jpg',
   },
 ]
  
 const cardDetails2 =
   [
+    
     {
-      imgUrl: '/blog/antibes.jpeg',
+      link: '',
+      imgUrl: '/blog/antibes.jpg',
       title: 'Antibes with a Toddler: Is It Worth It? (French Riviera Travel)',
       text: '',
-        id: 9
+        id: 17
   },
   {
-    imgUrl: '/blog/tropez.jpeg',
+    link: '',
+    imgUrl: '/blog/tropez.jpg',
     title: 'I\'m Taking My Toddler on a LUXURY Getaway to Saint-Tropez!',
     text: '',
-      id: 5
+      id: 13
   },
   {
-    imgUrl: '/blog/eze.jpeg',
+    link: '',
+    imgUrl: '/blog/eze.jpg',
           title: 'Discovering Éze: The Hidden Gem of the French Riviera 🌍✨',
           text: '',
-            id: 6
+            id: 14
+      },
+      {
+        link: '',
+    imgUrl: '/blog/como.jpg',
+          title: 'We Tried Every Ferry on Lake Como and This Happened!',
+          text: '',
+            id: 21
       },
   {
-        imgUrl: '/blog/sur.jpeg',
+    link: '',
+        imgUrl: '/blog/sur.jpg',
         title: 'An Unexpected Pit Stop in Villefranche-sur-Mer',
         text: '',
-          id: 7
+          id: 15
       },
 
     {
-        imgUrl: '/blog/saint.jpeg',
+      link: '',
+        imgUrl: '/blog/saint.jpg',
         title: 'Luxury Family Escape to Saint-Jean-Cap-Ferrat 🇫🇷 (With a 1-Year-Old!)',
         text: '',
-          id: 8
+          id: 16
       },
       
 ];
