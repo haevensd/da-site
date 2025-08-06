@@ -10,60 +10,7 @@
     "zipCode": "61032",
     "orderDate": "2025-06-05T20:54:49.183Z",
     "status": "pending",
+    "isCourse": true,
     "fulfilled": true
   },
-  {
-    "id": "1749157083141",
-    "email": "haevendickerson@gmail.com",
-    "firstName": "Haeven",
-    "lastName": "Dickerson",
-    "address": "835 West Homer Street",
-    "city": "Freeport",
-    "state": "Illinois",
-    "zipCode": "61032",
-    "orderDate": "2025-06-05T20:58:02.765Z",
-    "status": "pending"
-  },
-  {
-    "0": {
-      "id": "1749156889526",
-      "email": "haevendickerson@gmail.com",
-      "firstName": "Haeven",
-      "lastName": "Dickerson",
-      "address": "835 West Homer Street",
-      "city": "Freeport",
-      "state": "Illinois",
-      "zipCode": "61032",
-      "orderDate": "2025-06-05T20:54:49.183Z",
-      "status": "pending",
-      "fulfilled": true
-    },
-    "1": {
-      "id": "1749157083141",
-      "email": "haevendickerson@gmail.com",
-      "firstName": "Haeven",
-      "lastName": "Dickerson",
-      "address": "835 West Homer Street",
-      "city": "Freeport",
-      "state": "Illinois",
-      "zipCode": "61032",
-      "orderDate": "2025-06-05T20:58:02.765Z",
-      "status": "pending",
-      "fulfilled": true
-    },
-    "id": "1749157103664",
-    "status": "pending"
-  },
-  {
-    "id": "1749157113672",
-    "email": "haevendickerson@gmail.com",
-    "firstName": "Haeven",
-    "lastName": "Dickerson",
-    "address": "835 West Homer Street",
-    "city": "Freeport",
-    "state": "Illinois",
-    "zipCode": "61032",
-    "orderDate": "2025-06-05T20:58:33.298Z",
-    "status": "pending"
-  }
 ]
