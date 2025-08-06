@@ -104,10 +104,10 @@ const FreeCourseForm = (showImage) => {
       
       const paymentJson = await paymentRes.json();
       
-      if (!paymentRes.ok || !paymentJson.success) {
-        alert('Payment failed: ' + paymentJson.error);
-        return;
-      }
+      //if (!paymentRes.ok || !paymentJson.success) {
+        //alert('Payment failed: ' + paymentJson.error);
+        //return;
+     // }
       
 
       if (response.ok) {
