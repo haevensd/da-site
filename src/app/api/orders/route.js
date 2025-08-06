@@ -77,7 +77,7 @@ export async function GET() {
 
 export async function POST(req) {
   try {
-    let newOrder = await req.json();
+   // let newOrder = await req.json();
 
     // Handle nested newOrder like: { "0": { ...actualOrder } }
    // if (typeof newOrder === 'object' && Object.keys(newOrder).length === 1 && newOrder["0"]) {
@@ -85,26 +85,26 @@ export async function POST(req) {
     //}
 
     // Read existing orders
-    let orders = [];
-    try {
-      const data = fs.readFileSync(ordersFilePath, "utf8");
-      orders = JSON.parse(data);
-    } catch (_) {
+   // let orders = [];
+   // try {
+    //  const data = fs.readFileSync(ordersFilePath, "utf8");
+   //   orders = JSON.parse(data);
+    //} catch (_) {
       // If file doesn't exist or is unreadable, start with empty array
-    }
+   // }
 
     // Remove any existing order with the same id (or matching content)
-    orders = orders.filter(order => order.id !== newOrder.id);
+   // orders = orders.filter(order => order.id !== newOrder.id);
 
     // Add the new order
-    orders.push({
-      id: Date.now().toString(),
-      ...newOrder,
-      status: 'pending'
-    });
+   // orders.push({
+    //  id: Date.now().toString(),
+    //  ...newOrder,
+    //  status: 'pending'
+   // });
 
     // Save updated orders
-    fs.writeFileSync(ordersFilePath, JSON.stringify(orders, null, 2));
+   // fs.writeFileSync(ordersFilePath, JSON.stringify(orders, null, 2));
 
     return NextResponse.json({ message: "Order saved successfully" });
   } catch (error) {
