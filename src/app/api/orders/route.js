@@ -80,9 +80,9 @@ export async function POST(req) {
     let newOrder = await req.json();
 
     // Handle nested newOrder like: { "0": { ...actualOrder } }
-    if (typeof newOrder === 'object' && Object.keys(newOrder).length === 1 && newOrder["0"]) {
-      newOrder = newOrder["0"];
-    }
+   // if (typeof newOrder === 'object' && Object.keys(newOrder).length === 1 && newOrder["0"]) {
+      //newOrder = newOrder["0"];
+    //}
 
     // Read existing orders
     let orders = [];
