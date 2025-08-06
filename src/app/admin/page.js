@@ -104,6 +104,10 @@ const OrdersDashboard = () => {
       selector: (row) => row.orderDate,
     },
     {
+      name: "Course or Book",
+      selector: (row) => row.isCourse ? 'Course' : 'Book',
+    },
+    {
       name: "Actions",
       cell: (row) => (
         <button
