@@ -82,6 +82,7 @@ const FreeCourseForm = (showImage) => {
         city: formData.city,
         state: formData.state,
         zipCode: formData.zipCode,
+        isCourse: true,
         orderDate: new Date().toISOString()
       };
 
