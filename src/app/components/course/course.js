@@ -85,7 +85,7 @@ const FreeCourseForm = (showImage) => {
         isCourse: true,
         orderDate: new Date().toISOString()
       };
-
+console.log(orderData);
       const response = await fetch('/api/orders', {
         method: 'POST',
         headers: {
