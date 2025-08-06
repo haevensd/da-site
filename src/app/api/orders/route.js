@@ -18,7 +18,7 @@ const transporter = nodemailer.createTransport({
 
 export async function PUT(req) {
   try {
-    const { email, firstName, lastName } = await req.json();
+    const { email, firstName, lastName, isCourse } = await req.json();
     
     // Generate temporary password
     const password = crypto.randomBytes(8).toString('hex');
