@@ -77,7 +77,7 @@ export async function GET() {
 
 export async function POST(req) {
   try {
-   // let newOrder = await req.json();
+    let newOrder = await req.json();
 
     // Handle nested newOrder like: { "0": { ...actualOrder } }
    // if (typeof newOrder === 'object' && Object.keys(newOrder).length === 1 && newOrder["0"]) {
