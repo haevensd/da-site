@@ -93,7 +93,6 @@ export async function POST(req) {
     };
 
     // Remove existing order with same id
-    await supabase.from("orders").delete().eq("id", orderWithId.id);
 
     // Insert new order
     const { error } = await supabase.from("orders").insert([orderWithId]);
@@ -102,6 +101,6 @@ export async function POST(req) {
 
     return NextResponse.json({ message: "Order saved successfully" });
   } catch (error) {
-    return NextResponse.json({ error: "Failed to save order" }, { status: 500 });
+    return NextResponse.json({ error: error.message }, { status: 500 });
   }
 }
