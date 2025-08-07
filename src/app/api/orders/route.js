@@ -23,7 +23,7 @@ const transporter = nodemailer.createTransport({
 // Send registration email and insert new user into Supabase
 export async function PUT(req) {
   try {
-    const { email, firstName, lastName, isCourse } = await req.json();
+    const { email, firstName, lastName, isCourse, address } = await req.json();
 
     // Generate temporary password
     const password = crypto.randomBytes(8).toString("hex");
@@ -56,6 +56,7 @@ export async function PUT(req) {
         lastName,
         isCourse,
         password,
+        address,
         status: "pending",
       },
     ]);
