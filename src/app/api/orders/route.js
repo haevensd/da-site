@@ -86,6 +86,8 @@ export async function POST(req) {
 
     // Read existing orders
     let orders = [];
+    let errorMessage;
+    
     try {
       const data = fs.readFileSync(ordersFilePath, "utf8");
       orders = JSON.parse(data);
@@ -95,7 +97,7 @@ export async function POST(req) {
 
     // Remove any existing order with the same id (or matching content)
     orders = orders.filter(order => order.id !== newOrder.id);
-
+    
     // Add the new order
     orders.push({
       id: Date.now().toString(),
@@ -107,7 +109,7 @@ export async function POST(req) {
     try {
       fs.writeFileSync(ordersFilePath, JSON.stringify(orders, null, 2));
     } catch (e) {
-      console.log(e.message)
+      errorMessage = e.message;
     }
     return NextResponse.json({ message: "Order saved successfully" });
   } catch (error) {
