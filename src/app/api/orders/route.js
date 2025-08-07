@@ -1,13 +1,17 @@
-import fs from "fs";
-import path from "path";
 import { NextResponse } from "next/server";
+import { createClient } from "@supabase/supabase-js";
 import nodemailer from "nodemailer";
 import crypto from "crypto";
 
-// Configure email transporter
+// Supabase client
+const supabase = createClient(
+  'https://ddxxlackdubmlmzefsde.supabase.co',
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRkeHhsYWNrZHVibWxtemVmc2RlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ2MDMwMjEsImV4cCI6MjA3MDE3OTAyMX0.PGQT8DklBSkZHIcjdT2LesxWUSBX9c6vMCsi43NwS4U'
+);
+
+// Email transporter
 const transporter = nodemailer.createTransport({
-  // Add your email service configuration here
-  host: "smtp.example.com",
+  host: "smtp.example.com", // Replace with your SMTP host
   port: 587,
   secure: false,
   auth: {
@@ -16,14 +20,15 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+// Send registration email and insert new user into Supabase
 export async function PUT(req) {
   try {
     const { email, firstName, lastName, isCourse } = await req.json();
-    
+
     // Generate temporary password
-    const password = crypto.randomBytes(8).toString('hex');
-    
-    // Email content
+    const password = crypto.randomBytes(8).toString("hex");
+
+    // Send welcome email
     const mailOptions = {
       from: process.env.EMAIL_USER,
       to: email,
@@ -41,77 +46,61 @@ export async function PUT(req) {
       `,
     };
 
-    // Send email
     await transporter.sendMail(mailOptions);
-    
-    // Save user data (implement your database logic here)
-    
-    return NextResponse.json({ 
-      message: "Registration successful",
-      status: 200 
-    });
+
+    // Save user record in Supabase
+    const { error } = await supabase.from("orders").insert([
+      {
+        email,
+        firstName,
+        lastName,
+        isCourse,
+        password,
+        status: "pending",
+      },
+    ]);
+
+    if (error) throw new Error(error.message);
+
+    return NextResponse.json({ message: "Registration successful" }, { status: 200 });
   } catch (error) {
-    console.error("Registration error:", error);
-    return NextResponse.json({ 
-      error: "Registration failed", 
-      status: 500 
-    });
+    console.error("PUT error:", error);
+    return NextResponse.json({ error: "Registration failed" }, { status: 500 });
   }
 }
 
-const ordersFilePath = path.join(process.cwd(), "orders.json");
-
-// Initialize orders file if it doesn't exist
-if (!fs.existsSync(ordersFilePath)) {
-  fs.writeFileSync(ordersFilePath, JSON.stringify([], null, 2));
-}
-
+// Fetch all orders from Supabase
 export async function GET() {
   try {
-    const data = fs.readFileSync(ordersFilePath, "utf8");
-    return NextResponse.json(JSON.parse(data));
+    const { data, error } = await supabase.from("orders").select("*");
+
+    if (error) throw new Error(error.message);
+
+    return NextResponse.json(data, { status: 200 });
   } catch (error) {
-    return NextResponse.json({ error: "Failed to read orders file" }, { status: 500 });
+    return NextResponse.json({ error: "Failed to fetch orders" }, { status: 500 });
   }
 }
 
+// Create or update an order in Supabase
 export async function POST(req) {
   try {
-    let newOrder = await req.json();
-
-    // Handle nested newOrder like: { "0": { ...actualOrder } }
-   // if (typeof newOrder === 'object' && Object.keys(newOrder).length === 1 && newOrder["0"]) {
-      //newOrder = newOrder["0"];
-    //}
-
-    // Read existing orders
-    let orders = [];
-    let errorMessage;
-    
-    try {
-      const data = fs.readFileSync(ordersFilePath, "utf8");
-      orders = JSON.parse(data);
-    } catch (_) {
-      // If file doesn't exist or is unreadable, start with empty array
-    }
-
-    // Remove any existing order with the same id (or matching content)
-    orders = orders.filter(order => order.id !== newOrder.id);
-    
-    // Add the new order
-    orders.push({
-      id: Date.now().toString(),
+    const newOrder = await req.json();
+    const orderWithId = {
       ...newOrder,
-      status: 'pending'
-    });
+      id: newOrder.id || Date.now().toString(),
+      status: newOrder.status || "pending",
+    };
 
-    // Save updated orders
-    try {
-      fs.writeFileSync(ordersFilePath, JSON.stringify(orders, null, 2));
-    } catch (e) {
-      errorMessage = e.message;
-    }
-    return NextResponse.json({ message: errorMessage ? errorMessage : "Order saved successfully" });
+    // Remove existing order with same id
+    await supabase.from("orders").delete().eq("id", orderWithId.id);
+
+    // Insert new order
+    const { error } = await supabase.from("orders").insert([orderWithId]);
+
+    if (error) throw new Error(error.message);
+
+    return NextResponse.json({ message: "Order saved successfully" });
   } catch (error) {
     return NextResponse.json({ error: "Failed to save order" }, { status: 500 });
   }
