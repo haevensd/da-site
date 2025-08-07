@@ -6,7 +6,7 @@ import crypto from "crypto";
 // Supabase client
 const supabase = createClient(
   'https://ddxxlackdubmlmzefsde.supabase.co',
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRkeHhsYWNrZHVibWxtemVmc2RlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ2MDMwMjEsImV4cCI6MjA3MDE3OTAyMX0.PGQT8DklBSkZHIcjdT2LesxWUSBX9c6vMCsi43NwS4U'
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRkeHhsYWNrZHVibWxtemVmc2RlIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NDYwMzAyMSwiZXhwIjoyMDcwMTc5MDIxfQ.n1n1x7JXuhQe63PzPsloPwCa9vYyabaqsF_FHAa0vf8'
 );
 
 // Email transporter
