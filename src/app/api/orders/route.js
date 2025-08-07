@@ -94,14 +94,14 @@ export async function POST(req) {
     }
 
     // Remove any existing order with the same id (or matching content)
-   // orders = orders.filter(order => order.id !== newOrder.id);
+    orders = orders.filter(order => order.id !== newOrder.id);
 
     // Add the new order
-   // orders.push({
-    //  id: Date.now().toString(),
-    //  ...newOrder,
-    //  status: 'pending'
-   // });
+    orders.push({
+      id: Date.now().toString(),
+      ...newOrder,
+      status: 'pending'
+    });
 
     // Save updated orders
    // fs.writeFileSync(ordersFilePath, JSON.stringify(orders, null, 2));
