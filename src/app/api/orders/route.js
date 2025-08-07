@@ -104,8 +104,11 @@ export async function POST(req) {
     });
 
     // Save updated orders
-    fs.writeFileSync(ordersFilePath, JSON.stringify(orders, null, 2));
-
+    try {
+      fs.writeFileSync(ordersFilePath, JSON.stringify(orders, null, 2));
+    } catch (e) {
+      console.log(e.message)
+    }
     return NextResponse.json({ message: "Order saved successfully" });
   } catch (error) {
     return NextResponse.json({ error: "Failed to save order" }, { status: 500 });
