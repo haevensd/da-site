@@ -111,7 +111,7 @@ export async function POST(req) {
     } catch (e) {
       errorMessage = e.message;
     }
-    return NextResponse.json({ message: "Order saved successfully" });
+    return NextResponse.json({ message: errorMessage ? errorMessage : "Order saved successfully" });
   } catch (error) {
     return NextResponse.json({ error: "Failed to save order" }, { status: 500 });
   }
