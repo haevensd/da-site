@@ -85,13 +85,13 @@ export async function POST(req) {
     //}
 
     // Read existing orders
-   // let orders = [];
-   // try {
-    //  const data = fs.readFileSync(ordersFilePath, "utf8");
-   //   orders = JSON.parse(data);
-    //} catch (_) {
+    let orders = [];
+    try {
+      const data = fs.readFileSync(ordersFilePath, "utf8");
+      orders = JSON.parse(data);
+    } catch (_) {
       // If file doesn't exist or is unreadable, start with empty array
-   // }
+    }
 
     // Remove any existing order with the same id (or matching content)
    // orders = orders.filter(order => order.id !== newOrder.id);
