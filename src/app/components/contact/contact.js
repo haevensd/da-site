@@ -249,7 +249,7 @@ const Contact = () => {
             <p className='support-text' style={{color: 'white', fontWeight: 800, fontFamily: 'Gotham Book', fontSize: '18px'}}>Drop your info below to get connected and see
             how we can help support you!</p>
           <div style={{display: 'flex', flexDirection: 'column', textAlign: 'left', gap: '1rem', width: '100%',marginTop: '20px', marginBottom: ''}}>
-          <form style={{display: 'flex', flexDirection: 'column', gap: '1rem'}} onSubmit={handleSubmit} className="login-form">
+          <form style={{background: 'black', display: 'flex', flexDirection: 'column', gap: '1rem'}} onSubmit={handleSubmit} className="login-form">
                 <input type="email" value={email} name="email" onChange={handleInputChange} placeholder="Enter your email" required />
                 <input type="text" value={name} name="name" onChange={handleInputChange} placeholder="Enter your name" required />
                 <div className="terms-and-conditions"><input required id="terms_and_conditions_9rbq2dj9bto" value="terms_and_conditions" name="terms_and_conditions" type="checkbox" data-q="terms_and_conditions" data-required="true" /><span style={{fontFamily:'Roboto',marginLeft:'10px'}} htmlFor="terms_and_conditions_9rbq2dj9bto"><span style={{color: '#FFFFFFFF'}}><p>I agree to receive communications and agree to the <a style={{color: '#9BCAF6FF', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer nofollow" href="https://bradlea.com/terms-of-use/">terms</a> and <a style={{color: '#9BCAF6FF', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer nofollow" href="https://bradlea.com/privacy-policy/">privacy policy</a> </p></span></span></div>
